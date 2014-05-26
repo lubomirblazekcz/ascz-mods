@@ -1,12 +1,12 @@
 class CfgPatches
 {
-	class smd_sahrani_A2
+	class sahrani_fix
 	{
 		units[] = {"smd_sahrani_A2"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"smd_sahrani_artif_obj","smd_sahrani_rocks","smd_sahrani_veg","smd_roads","smd_sahrani_a2_Scenes"};
-		author[] = {"SMDa"};
+		author[] = {"SMD"};
 		version = "1.0";
 	};
 };
@@ -73,7 +73,7 @@ class CfgWorlds
 		access = 3;
 		author = "$STR_a3_bohemia_interactive";
 		cutscenes[] = {"smd_sahrani_a2Intro1"};
-		description = "Sahranis";
+		description = "Sahrani";
 		icon = "";
 		worldName = "SMD\SMD_Sahrani_A2\smd_sahrani_a2.wrp";
 		pictureMap = "\sahrani_fix\Data\Sahrani_ca.paa";
@@ -3239,7 +3239,7 @@ class CfgMissions
 	{
 		class smd_sahrani_a2Intro1
 		{
-			directory = "smd_sahrani_a2_Scenes\intro.smd_sahrani_a2";
+			directory = "sahrani_fix\Scenes\intro.smd_sahrani_A2";
 		};
 	};
 };

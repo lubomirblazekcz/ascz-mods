@@ -3,8 +3,7 @@ class Mission
 {
 	addOns[]=
 	{
-		"a3_map_stratis",
-		"ibr_panthera2"
+		"a3_map_stratis"
 	};
 	randomSeed=12180750;
 	class Intel
@@ -32,8 +31,7 @@ class Intro
 		"A3_Characters_F_BLUFOR",
 		"A3_Characters_F_OPFOR",
 		"a3_map_stratis",
-		"a3_characters_f_beta",
-		"ibr_panthera2"
+		"a3_characters_f_beta"
 	};
 	addOnsAuto[]=
 	{
@@ -466,8 +464,7 @@ class OutroWin
 {
 	addOns[]=
 	{
-		"a3_map_stratis",
-		"ibr_panthera2"
+		"a3_map_stratis"
 	};
 	randomSeed=11936415;
 	class Intel
@@ -493,8 +490,7 @@ class OutroLoose
 {
 	addOns[]=
 	{
-		"a3_map_stratis",
-		"ibr_panthera2"
+		"a3_map_stratis"
 	};
 	randomSeed=8195869;
 	class Intel

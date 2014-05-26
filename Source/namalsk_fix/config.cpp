@@ -701,15 +701,15 @@ class CfgMissions
 	{
 		class full_intro
 		{
-			directory = "namalsk_fix\Scenes\full_intro.namalsk";
+			directory = "namalsk_fix\CutScenes\full_intro.namalsk";
 		};
 		class full_intro2
 		{
-			directory = "namalsk_fix\Scenes\full_intro2.namalsk";
+			directory = "namalsk_fix\CutScenes\full_intro2.namalsk";
 		};
 		class full_intro3
 		{
-			directory = "namalsk_fix\Scenes\full_intro3.namalsk";
+			directory = "namalsk_fix\CutScenes\full_intro3.namalsk";
 		};
 	};
 };
