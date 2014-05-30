@@ -15,7 +15,6 @@ class CfgPatches
 };
 class CfgVehicles
 {
-	class U_Marshal_F;
 	class C_Kart_01_F;
 	class SoldierWB;
 	class SoldierEB;
