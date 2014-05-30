@@ -15,6 +15,8 @@ class CfgPatches
 };
 class CfgVehicles
 {
+	class U_Marshal_F;
+	class C_Kart_01_F;
 	class SoldierWB;
 	class SoldierEB;
 	class SoldierGB;
@@ -216,4 +218,24 @@ class CfgVehicles
 	{
 		modelsides[] = {3,2,1,0};
 	};
+	class C_Driver_2_F: C_Kart_01_F
+	{	
+		modelsides[] = {3,2,1,0};
+	};	
+	class C_Driver_1_F: C_Kart_01_F
+	{	
+		modelsides[] = {3,2,1,0};
+	};	
+	class C_Driver_3_F: C_Kart_01_F
+	{	
+		modelsides[] = {3,2,1,0};
+	};	
+	class C_Driver_4_F: C_Kart_01_F
+	{	
+		modelsides[] = {3,2,1,0};
+	};		
+	class C_Driver_1_random_base_F: C_Kart_01_F
+	{	
+		modelsides[] = {3,2,1,0};
+	};	
 };
