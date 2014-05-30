@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="BoSA Hats">
+	<Package name="BoSA3 hat">
+		<Key ID="STR_BoSA_Hat_3">
+			<Original>Cap (BoSA3, Headset)</Original>
+			<Czech>Čapka (BoSA3, náhlavní souprava)</Czech>
+			<French>Chapeau (BoSA3, casque à écouteurs)</French>
+			<German>Kappe (BoSA3, Kopfhörer)</German>
+			<Italian>Cappuccio (BoSA3, Cuffia)</Italian>
+			<Polish>Czapka (BoSA3, zestaw słuchawkowy)</Polish>
+			<Portuguese>Boné (BoSA3, Fone)</Portuguese>
+			<Russian>крышка (BoSA3, наушники)</Russian>
+			<Spanish>Tapa (BoSA3, Auriculares)</Spanish>
+		</Key>
+		<Key ID="STR_BoSA_Hat_2">
+			<Original>Cap (BoSA2, Headset)</Original>
+			<Czech>Čapka (BoSA2, náhlavní souprava)</Czech>
+			<French>Chapeau (BoSA2, casque à écouteurs)</French>
+			<German>Kappe (BoSA2, Kopfhörer)</German>
+			<Italian>Cappuccio (BoSA2, Cuffia)</Italian>
+			<Polish>Czapka (BoSA2, zestaw słuchawkowy)</Polish>
+			<Portuguese>Boné (BoSA2, Fone)</Portuguese>
+			<Russian>крышка (BoSA2, наушники)</Russian>
+			<Spanish>Tapa (BoSA2, Auriculares)</Spanish>
+		</Key>
+		<Key ID="STR_BoSA_Hat_1">
+			<Original>Cap (BoSA1, Headset)</Original>
+			<Czech>Čapka (BoSA1, náhlavní souprava)</Czech>
+			<French>Chapeau (BoSA1, casque à écouteurs)</French>
+			<German>Kappe (BoSA1, Kopfhörer)</German>
+			<Italian>Cappuccio (BoSA1, Cuffia)</Italian>
+			<Polish>Czapka (BoSA1, zestaw słuchawkowy)</Polish>
+			<Portuguese>Boné (BoSA1, Fone)</Portuguese>
+			<Russian>крышка (BoSA1, наушники)</Russian>
+			<Spanish>Tapa (BoSA1, Auriculares)</Spanish>
+		</Key>
+	</Package>
+</Project>
