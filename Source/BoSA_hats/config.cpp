@@ -1,50 +1,42 @@
-	class THM_Beanie
+class CfgPatches
+{
+	class BOSA_BASEBALL_HEADSET
 	{
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"A3_Characters_F","A3_Weapons_F","A3_Weapons_F_Ammoboxes"};
+		requiredAddons[] = {"A3_Characters_F_Common"};
 	};
 };
 class cfgWeapons
 {
-	class ItemCore;
-	class InventoryItem_Base_F;
-	class HeadgearItem;
-	class THM_Beanie_black: ItemCore
+	class H_Cap_oli_hs;
+	class ItemInfo;
+	class H_Cap_bosa3_hs: H_Cap_oli_hs
 	{
-		scope = 2;
-		displayName = "Tactical Beanie (Black)";
-		picture = "\BoSA_Hats\data\gui.paa";
-		model = "\BoSA_Hats\CowboyHat_g.p3d";
-		hiddenSelections[] = {"Color"};
-		hiddenSelectionsTextures[] = {"BoSA_Hats\data\cowboyhat_brown_co.paa"};
-		class ItemInfo: HeadgearItem
-		{
-			mass = 2;
-			uniformModel = "\BoSA_Hats\CowboyHat_g.p3d";
-			modelSides[] = {3,1};
-			armor = "3*0.5";
-			passThrough = 0.9;
-			hiddenSelections[] = {"Color"};
-		};
+		displayname = "$STR_BoSA_Hat_3";
+		hiddenselectionstextures[] = {"BoSA_Hats\data\bosa_cap_texture3.paa"};
+		model = "\A3\Characters_F_epb\Common\capb_hs";
+		picture = "\BoSA_Hats\data\bosa_cap_icon3.paa";
+		UiPicture = "\BoSA_Hats\data\bosa_cap_icon3.paa";
+		class ItemInfo: ItemInfo{};
 	};
-	class THM_Beanie_grey: ItemCore
+	class H_Cap_bosa2_hs: H_Cap_oli_hs
 	{
-		scope = 2;
-		displayName = "Tactical Beanie (Grey)";
-		picture = "\BoSA_Hats\data\gui.paa";
-		hiddenSelections[] = {"Color"};
-		hiddenSelectionsTextures[] = {"BoSA_Hats\data\cowboyhat_brown_co.paa"};
-		class ItemInfo: HeadgearItem
-		{
-			mass = 2;
-			uniformModel = "\BoSA_Hats\THM_Beanie.p3d";
-			allowedSlots[] = {"UNIFORM_SLOT","BACKPACK_SLOT","VEST_SLOT","HEADGEAR_SLOT"};
-			modelSides[] = {6};
-			armor = "3*0.5";
-			passThrough = 0.9;
-			hiddenSelections[] = {"Color"};
-		};
+		displayname = "$STR_BoSA_Hat_2";
+		hiddenselectionstextures[] = {"BoSA_Hats\data\bosa_cap_texture2.paa"};
+		model = "\A3\Characters_F_epb\Common\capb_hs";
+		picture = "\BoSA_Hats\data\bosa_cap_icon2.paa";
+		UiPicture = "\BoSA_Hats\data\bosa_cap_icon2.paa";
+		class ItemInfo: ItemInfo{};
+	};
+	class H_Cap_bosa1_hs: H_Cap_oli_hs
+	{
+		displayname = "$STR_BoSA_Hat_1";
+		hiddenselectionstextures[] = {"BoSA_Hats\data\bosa_cap_texture1.paa"};
+		model = "\A3\Characters_F_epb\Common\capb_hs";
+		picture = "\BoSA_Hats\data\bosa_cap_icon1.paa";
+		UiPicture = "\BoSA_Hats\data\bosa_cap_icon1.paa";
+		class ItemInfo: ItemInfo{};
 	};
 };
