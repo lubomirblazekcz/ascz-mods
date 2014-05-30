@@ -44,87 +44,87 @@ class CfgVehicles
 			class _xx_hlc_30Rnd_545x39_B_AK
 			{
 				magazine = "hlc_30Rnd_545x39_B_AK";
-				count = 60;
+				count = 25;
 			};
 			class _xx_hlc_30Rnd_545x39_t_ak
 			{
 				magazine = "hlc_30Rnd_545x39_t_ak";
-				count = 60;
+				count = 30;
 			};
 			class _xx_hlc_45Rnd_545x39_t_rpk
 			{
 				magazine = "hlc_45Rnd_545x39_t_rpk";
-				count = 60;
+				count = 20;
 			};
 			class _xx_hlc_30Rnd_545x39_EP_ak
 			{
 				magazine = "hlc_30Rnd_545x39_EP_ak";
-				count = 60;
+				count = 20;
 			};
 			class _xx_hlc_30Rnd_762x39_b_ak
 			{
 				magazine = "hlc_30Rnd_762x39_b_ak";
-				count = 60;
+				count = 30;
 			};
 			class _xx_hlc_hlc_30Rnd_762x39_t_ak
 			{
 				magazine = "hlc_30Rnd_762x39_t_ak";
-				count = 60;
+				count = 20;
 			};
 			class _xx_hlc_45Rnd_762x39_t_rpk
 			{
 				magazine = "hlc_45Rnd_762x39_t_rpk";
-				count = 60;
+				count = 30;
 			};
 			class _xx_hlc_45Rnd_762x39_m_rpk
 			{
 				magazine = "hlc_45Rnd_762x39_m_rpk";
-				count = 60;
+				count = 25;
 			};
 			class _xx_hlc_10rnd_12g_buck_S12
 			{
 				magazine = "hlc_10rnd_12g_buck_S12";
-				count = 60;
+				count = 30;
 			};
 			class _xx_hlc_10rnd_12g_slug_S12
 			{
 				magazine = "hlc_10rnd_12g_slug_S12";
-				count = 60;
+				count = 25;
 			};
 			class _xx_hlc_hlc_VOG25_AK
 			{
 				magazine = "hlc_VOG25_AK";
-				count = 60;
+				count = 20;
 			};
 			class _xx_hlc_GRD_White
 			{
 				magazine = "hlc_GRD_White";
-				count = 60;
+				count = 20;
 			};
 			class _xx_hlc_GRD_red
 			{
 				magazine = "hlc_GRD_red";
-				count = 60;
+				count = 20;
 			};
 			class _xx_hlc_GRD_green
 			{
 				magazine = "hlc_GRD_green";
-				count = 60;
+				count = 20;
 			};
 			class _xx_hlc_GRD_blue
 			{
 				magazine = "hlc_GRD_blue";
-				count = 60;
+				count = 20;
 			};
 			class _xx_hlc_GRD_orange
 			{
 				magazine = "hlc_GRD_orange";
-				count = 60;
+				count = 20;
 			};
 			class _xx_hlc_GRD_purple
 			{
 				magazine = "hlc_GRD_purple";
-				count = 60;
+				count = 20;
 			};
 		};
 		class TransportWeapons
@@ -132,57 +132,57 @@ class CfgVehicles
 			class _xx_hlc_rifle_ak74
 			{
 				weapon = "hlc_rifle_ak74";
-				count = 30;
+				count = 10;
 			};
 			class _xx_hlc_rifle_aks74
 			{
 				weapon = "hlc_rifle_aks74";
-				count = 30;
+				count = 10;
 			};
 			class _xx_hlc_rifle_aks74u
 			{
 				weapon = "hlc_rifle_aks74u";
-				count = 30;
+				count = 10;
 			};
 			class _xx_hlc_rifle_ak47
 			{
 				weapon = "hlc_rifle_ak47";
-				count = 30;
+				count = 10;
 			};
 			class _xx_hlc_rifle_akm
 			{
 				weapon = "hlc_rifle_akm";
-				count = 30;
+				count = 10;
 			};
 			class _xx_hlc_rifle_rpk
 			{
 				weapon = "hlc_rifle_rpk";
-				count = 30;
+				count = 10;
 			};
 			class _xx_hlc_rifle_ak12
 			{
 				weapon = "hlc_rifle_ak12";
-				count = 30;
+				count = 10;
 			};
 			class _xx_hlc_rifle_akmgl
 			{
 				weapon = "hlc_rifle_akmgl";
-				count = 30;
+				count = 10;
 			};
 			class _xx_hhlc_rifle_aks74_GL
 			{
 				weapon = "hlc_rifle_aks74_GL";
-				count = 30;
+				count = 10;
 			};
 			class _xx_hhlc_rifle_aek
 			{
 				weapon = "hlc_rifle_aek971";
-				count = 30;
+				count = 10;
 			};
 			class _xx_hhlc_rifle_s12jk
 			{
 				weapon = "hlc_rifle_saiga12k";
-				count = 30;
+				count = 10;
 			};
 		};
 		class TransportItems
