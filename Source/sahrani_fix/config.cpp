@@ -3,9 +3,11 @@ class CfgPatches
 	class sahrani_fix
 	{
 		units[] = {"smd_sahrani_A2"};
+		worlds[] = {"smd_sahrani_A2"};
 		weapons[] = {};
-		requiredVersion = 0.1;
-		requiredAddons[] = {"smd_sahrani_artif_obj","smd_sahrani_rocks","smd_sahrani_veg","smd_roads","smd_sahrani_a2_Scenes"};
+		requiredVersion = 1.0;
+		requiredAddons[] = {"smd_sahrani_A2","smd_sahrani_artif_obj","smd_sahrani_rocks","smd_sahrani_veg","smd_roads","smd_sahrani_a2_Scenes"};
+		fileName = "smd_sahrani_a2.pbo";
 		author[] = {"SMD"};
 		version = "1.0";
 	};

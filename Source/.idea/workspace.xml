@@ -24,36 +24,45 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="config.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sahrani_fix/config.cpp">
+        <entry file="file://$PROJECT_DIR$/namalsk_fix/config.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="115" selection-end="237" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="58106">
+            <state line="2" column="21" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="13753">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="config.cpp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CAF_replacement/CAF_AK47_renamed/config.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="14" selection-start="30" selection-end="45" vertical-scroll-proportion="0.0378198" vertical-offset="0" max-vertical-offset="2771">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clafghan_fix/config.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="76" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="62492">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sahrani_fix/config.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="23" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="58140">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.cpp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fallujah_fix/config.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="185929">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/namalsk_fix/config.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="104" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13719">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/panthera_fix/config.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="31" selection-start="113" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="36346">
+            <state line="10830" column="25" selection-start="218064" selection-end="218083" vertical-scroll-proportion="0.0" vertical-offset="184110" max-vertical-offset="185929">
               <folding />
             </state>
           </provider>
@@ -62,7 +71,7 @@
       <file leaf-file-name="config.cpp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vostok_fix/config.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="102" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="37536">
+            <state line="6" column="30" selection-start="102" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="37536">
               <folding />
             </state>
           </provider>
@@ -71,7 +80,7 @@
       <file leaf-file-name="config.cpp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vostok_w_fix/config.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="106" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="37893">
+            <state line="6" column="30" selection-start="106" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="37893">
               <folding />
             </state>
           </provider>
@@ -93,12 +102,19 @@
         <option value="$PROJECT_DIR$/namalsk_fix/CutScenes/full_intro.namalsk/mission.sqm" />
         <option value="$PROJECT_DIR$/namalsk_fix/CutScenes/full_intro2.namalsk/mission.sqm" />
         <option value="$PROJECT_DIR$/namalsk_fix/CutScenes/full_intro3.namalsk/mission.sqm" />
-        <option value="$PROJECT_DIR$/panthera_fix/config.cpp" />
         <option value="$PROJECT_DIR$/fallujah_fix/config.cpp" />
-        <option value="$PROJECT_DIR$/namalsk_fix/config.cpp" />
         <option value="$PROJECT_DIR$/vostok_fix/config.cpp" />
         <option value="$PROJECT_DIR$/vostok_w_fix/config.cpp" />
+        <option value="$PROJECT_DIR$/AGM-master/AGM_Medical/functions/fn_handleDamage.sqf" />
+        <option value="$PROJECT_DIR$/AGM-master/AGM_Resting/config.cpp" />
+        <option value="$PROJECT_DIR$/at4/config.cpp" />
+        <option value="$PROJECT_DIR$/m110_arma3/config.cpp" />
+        <option value="$PROJECT_DIR$/maaws/config.cpp" />
+        <option value="$PROJECT_DIR$/clafghan_fix/config.cpp" />
+        <option value="$PROJECT_DIR$/panthera_fix/config.cpp" />
         <option value="$PROJECT_DIR$/sahrani_fix/config.cpp" />
+        <option value="$PROJECT_DIR$/namalsk_fix/config.cpp" />
+        <option value="$PROJECT_DIR$/CAF_replacement/CAF_AK47_renamed/config.cpp" />
       </list>
     </option>
   </component>
@@ -163,57 +179,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vostok_w_fix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vostok_fix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="sahrani_fix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sahrani_fix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Scenes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intro.smd_sahrani_A2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -255,7 +221,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fallujah_fix" />
+              <option name="myItemId" value="clafghan_fix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clafghan_fix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scenes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intro.Clafghan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clafghan_fix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CAF_replacement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CAF_replacement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CAF_AK47_renamed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -272,14 +310,18 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="dir.diff.last.used.directory" value="$USER_HOME$/Desktop/agm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\Steam\SteamApps\common\Arma 3\repo\asmods\ASCZ-Mods\Source\" />
+      <recent name="C:\Program Files (x86)\Steam\SteamApps\common\Arma 3\repo\asmods\ASCZ-Mods\Source\fallujah_fix" />
       <recent name="C:\Program Files (x86)\Steam\SteamApps\common\Arma 3\repo\asmods\ASCZ-Mods\Source\sahrani_fix\Data" />
       <recent name="C:\Program Files (x86)\Steam\SteamApps\common\Arma 3\repo\asmods\ASCZ-Mods\Source\sahrani_fix" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\Steam\SteamApps\common\Arma 3\repo\asmods\ASCZ-Mods\Source\clafghan_fix\Scenes" />
       <recent name="C:\Program Files (x86)\Steam\SteamApps\common\Arma 3\repo\asmods\ASCZ-Mods\Source\sahrani_fix\Scenes\intro.smd_sahrani_A2" />
       <recent name="C:\Program Files (x86)\Steam\SteamApps\common\Arma 3\repo\asmods\ASCZ-Mods\Source\sahrani_fix" />
     </key>
@@ -336,7 +378,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25239617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27635783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -345,7 +387,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -368,74 +410,272 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/namalsk_fix/CutScenes/full_intro.namalsk/mission.sqm">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/namalsk_fix/config.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="492" column="24" selection-start="8654" selection-end="8654" vertical-scroll-proportion="0.46335965" vertical-offset="7953" max-vertical-offset="8840">
+        <state line="2" column="21" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13753">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clafghan_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="76" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="62492">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sahrani_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="23" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="58140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fallujah_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10830" column="25" selection-start="218064" selection-end="218083" vertical-scroll-proportion="0.0" vertical-offset="184110" max-vertical-offset="185929">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vostok_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="102" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="37536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vostok_w_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="106" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="37893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namalsk_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="104" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="13719">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panthera_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="113" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="36346" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vostok_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="102" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="37536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vostok_w_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="106" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="37893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sahrani_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="115" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="58106" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fallujah_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="185929" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namalsk_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="104" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="13719">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panthera_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="113" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="36346" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vostok_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="102" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="37536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vostok_w_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="106" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="37893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sahrani_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="115" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="58106" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fallujah_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="185929" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namalsk_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="104" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="13719">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panthera_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="113" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="36346" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vostok_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="102" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="37536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vostok_w_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="106" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="37893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sahrani_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="115" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="58106" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fallujah_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="185929" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namalsk_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="104" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="13719">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panthera_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="113" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="36346" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vostok_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="102" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="37536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vostok_w_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="106" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="37893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sahrani_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="115" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="58106" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fallujah_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="185929" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namalsk_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="104" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="13719">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panthera_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="113" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="36346" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vostok_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="102" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="37536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vostok_w_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="106" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="37893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namalsk_fix/CutScenes/full_intro.namalsk/mission.sqm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="492" column="24" selection-start="8654" selection-end="8654" vertical-scroll-proportion="0.46335965" vertical-offset="7953" max-vertical-offset="8840" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/namalsk_fix/CutScenes/full_intro2.namalsk/mission.sqm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="492" column="24" selection-start="8654" selection-end="8654" vertical-scroll-proportion="0.46335965" vertical-offset="7953" max-vertical-offset="8840" />
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="492" column="24" selection-start="8654" selection-end="8654" vertical-scroll-proportion="0.46335965" vertical-offset="7953" max-vertical-offset="8840">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/namalsk_fix/CutScenes/full_intro3.namalsk/mission.sqm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="24" selection-start="60" selection-end="60" vertical-scroll-proportion="0.09582864" vertical-offset="0" max-vertical-offset="8840" />
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="24" selection-start="60" selection-end="60" vertical-scroll-proportion="0.09582864" vertical-offset="0" max-vertical-offset="8840">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fallujah_fix/Scenes/intro.Fallujah/mission.sqm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="492" column="24" selection-start="8659" selection-end="8659" vertical-scroll-proportion="0.44715446" vertical-offset="7979" max-vertical-offset="8840" />
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="492" column="24" selection-start="8659" selection-end="8659" vertical-scroll-proportion="0.44715446" vertical-offset="7979" max-vertical-offset="8840">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/panthera_fix/Scenes/intro.Panthera2/mission.sqm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9129" />
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9129">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vostok_w_fix/Scenes/intro.Vostok_w/mission.sqm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8840" />
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8840">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vostok_fix/Scenes/intro.Vostok/mission.sqm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8840" />
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8840">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vostok_fix/config.cpp">
@@ -452,30 +692,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sahrani_fix/config.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="115" selection-end="237" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="58106">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/panthera_fix/config.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="113" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="36346">
+        <state line="6" column="31" selection-start="113" selection-end="113" vertical-scroll-proportion="0.1118421" vertical-offset="0" max-vertical-offset="36329" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clafghan_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="76" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="62492">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/namalsk_fix/config.cpp">
+    <entry file="file://$PROJECT_DIR$/sahrani_fix/config.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="104" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13719">
+        <state line="6" column="23" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="58140">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fallujah_fix/config.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="185929">
+        <state line="10830" column="25" selection-start="218064" selection-end="218083" vertical-scroll-proportion="0.0" vertical-offset="184110" max-vertical-offset="185929">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/namalsk_fix/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="21" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="13753">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CAF_replacement/CAF_AK47_renamed/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="14" selection-start="30" selection-end="45" vertical-scroll-proportion="0.0378198" vertical-offset="0" max-vertical-offset="2771">
           <folding />
         </state>
       </provider>

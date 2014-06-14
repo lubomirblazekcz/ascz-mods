@@ -1,11 +1,13 @@
 class CfgPatches
 {
-	class namalsk
+	class namalsk_fix
 	{
 		units[] = {"namalsk"};
+		worlds[] = {"namalsk"};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"Utes","NS","NS2","NS_plants","NS_rocks","ns_sounds"};
+		requiredAddons[] = {"namalsk","Utes","NS","NS2","NS_plants","NS_rocks","ns_sounds"};
+		fileName = "namalsk.pbo";
 		author[] = {"Sumrak"};
 	};
 };
