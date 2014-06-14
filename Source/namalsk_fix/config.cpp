@@ -50,7 +50,7 @@ class CfgWorlds
 	class namalsk: Utes
 	{
 		author = "Sumrak";
-		cutscenes[] = {"full_intro","full_intro2","full_intro3"};
+		cutscenes[] = {"intro"};
 		description = "Namalsk";
 		worldName = "\nst\namalsk\namalsk.wrp";
 		pictureMap = "\namalsk_fix\Data\namalsk_ca.paa";
@@ -701,17 +701,9 @@ class CfgMissions
 {
 	class Cutscenes
 	{
-		class full_intro
+		class intro
 		{
-			directory = "namalsk_fix\CutScenes\full_intro.namalsk";
-		};
-		class full_intro2
-		{
-			directory = "namalsk_fix\CutScenes\full_intro2.namalsk";
-		};
-		class full_intro3
-		{
-			directory = "namalsk_fix\CutScenes\full_intro3.namalsk";
+			directory = "namalsk_fix\Scenes\intro.namalsk";
 		};
 	};
 };

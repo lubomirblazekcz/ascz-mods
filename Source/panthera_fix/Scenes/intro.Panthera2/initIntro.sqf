@@ -16,7 +16,7 @@ switch true do {
 		0 setfog [0.05,0.07,50];
 		"Mediterranean" call BIS_fnc_setPPeffectTemplate;
 
-		_pos = [5004.963,5909.859,0.000];
+		_pos = [6070.33,3729.23,0.000];
 
 		//--- Move groups to the new position
 		{

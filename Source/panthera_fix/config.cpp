@@ -5,6 +5,7 @@ class CfgPatches
 		units[] = {"panthera2"};
 		weapons[] = {};
 		requiredVersion = 1.03;
+		requiredAddons[] = {"Chernarus","CAData","CABuildings","CAMisc","CABuildings2","CARoads2","CARocks2","CAStructures","ibr_plants","ibr_rn"};
 		fileName = "Panthera2.pbo";
 		author = "IceBreakr";
 		mail = "ice@icebreakr.info";
