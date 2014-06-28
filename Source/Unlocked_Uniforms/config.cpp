@@ -8,14 +8,13 @@ class CfgPatches
 		author[] = {"Haleks"};
 		versionDesc = "Unlocked Uniforms";
 		versionAct = "";
-		version = "1.0.4";
-		versionStr = "1.0.4";
-		versionAr[] = {1,0,4};
+		version = "1.0.5";
+		versionStr = "1.0.5";
+		versionAr[] = {1,0,5};
 	};
 };
 class CfgVehicles
 {
-	class C_Kart_01_F;
 	class SoldierWB;
 	class SoldierEB;
 	class SoldierGB;
@@ -217,24 +216,63 @@ class CfgVehicles
 	{
 		modelsides[] = {3,2,1,0};
 	};
-	class C_Driver_2_F: C_Kart_01_F
-	{	
+	class C_Driver_1_F: C_man_1
+	{
 		modelsides[] = {3,2,1,0};
-	};	
-	class C_Driver_1_F: C_Kart_01_F
-	{	
+	};
+	class C_Driver_2_F: C_Driver_1_F
+	{
 		modelsides[] = {3,2,1,0};
-	};	
-	class C_Driver_3_F: C_Kart_01_F
-	{	
+	};
+	class C_Driver_3_F: C_Driver_1_F
+	{
 		modelsides[] = {3,2,1,0};
-	};	
-	class C_Driver_4_F: C_Kart_01_F
-	{	
+	};
+	class C_Driver_4_F: C_Driver_1_F
+	{
 		modelsides[] = {3,2,1,0};
-	};		
-	class C_Driver_1_random_base_F: C_Kart_01_F
-	{	
+	};
+	class C_Driver_1_random_base_F;
+	class C_Driver_1_black_F: C_Driver_1_random_base_F
+	{
+		displayName = "Driver (black)";
 		modelsides[] = {3,2,1,0};
-	};	
+		scope = 2;
+	};
+	class C_Driver_1_blue_F: C_Driver_1_random_base_F
+	{
+		displayName = "Driver (blue)";
+		modelsides[] = {3,2,1,0};
+		scope = 2;
+	};
+	class C_Driver_1_green_F: C_Driver_1_random_base_F
+	{
+		displayName = "Driver (green)";
+		modelsides[] = {3,2,1,0};
+		scope = 2;
+	};
+	class C_Driver_1_red_F: C_Driver_1_random_base_F
+	{
+		displayName = "Driver (red)";
+		modelsides[] = {3,2,1,0};
+		scope = 2;
+	};
+	class C_Driver_1_white_F: C_Driver_1_random_base_F
+	{
+		displayName = "Driver (white)";
+		modelsides[] = {3,2,1,0};
+		scope = 2;
+	};
+	class C_Driver_1_yellow_F: C_Driver_1_random_base_F
+	{
+		displayName = "Driver (yellow)";
+		modelsides[] = {3,2,1,0};
+		scope = 2;
+	};
+	class C_Driver_1_orange_F: C_Driver_1_random_base_F
+	{
+		displayName = "Driver (orange)";
+		modelsides[] = {3,2,1,0};
+		scope = 2;
+	};
 };
