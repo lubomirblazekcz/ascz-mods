@@ -9,7 +9,7 @@
 //Class C:/Users/EvroMalarkey/Desktop/config.bin{
 class CfgPatches
 {
-	class ascz_nsfix
+	class namalsk_fix_misc
 	{
 		units[] = {"land_hut_old01","land_dum_ras","land_vetrani","land_terain_velke_panely","land_terain_panely_kratke","land_terain_panely_slope","land_terain_dlazice_kratke","land_seb_bouda3","land_seb_bouda1","Land_seb_bouda_plech","Land_budova1_winter","Land_budova2_winter","Land_budova3_winter","Land_budova4_winter","Land_budova5_winter","land_mala_rovinka_nelepi","land_most_betonovy_hajzlik","land_vag_zbozi1","land_vag_polozeny","land_vag_masina","land_seb_mine_near_bordel","land_seb_rozvodna","land_seb_nadrze","land_seb_mine_maringotka","land_seb_nasypka","land_seb_panely","land_seb_spadly_stozar","land_seb_trubice_beton","land_tanl_entrance_n","land_tanl_entrance","Land_AII_vrsek","Land_seb_residental","Land_fuelstation_w","Land_hlaska","Land_most_blok","Land_nadrazi_nastupiste","Land_nam_container","Land_posed_ns","Land_seb_main_fac","Land_seb_mine_main_opt","Land_seb_mine_near","Land_seb_near_fac","Land_seb_vod_vez","Land_Tovarna1","Land_vys_antena","Land_vys_budova_p1","Land_vys_budova_p2","Land_x_nadrz","Land_x_skladiste_low_tex","Land_x_vetraci_komin","Land_x_vez_tex","Land_AII_middle_floor","sad_target","land_terain_base_a"};
 		weapons[] = {};

@@ -15,7 +15,7 @@ class CfgFactionClasses
 	class caf_ag_me_t
 	{
 		displayName = "Middle East - Tribal";
-		icon = "\CAF_replacement\Middle_East_Tribal\cfgfaction_ME_Tribal.paa";
+		icon = "\ASCZ_CAF_replacement\Middle_East_Tribal\cfgfaction_ME_Tribal.paa";
 		author = "CAF MOD TEAM";
 		priority = 2;
 		side = 0;

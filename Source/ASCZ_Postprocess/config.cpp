@@ -80,18 +80,36 @@ class CfgVehicles
 						value = "Mediterranean";
 						default = 0;
 					};
-          class ASCZ_MiddleEast
+                    class ASCZ_MiddleEast
 					{
-						name = "Takistan";
+						name = "Middle East";
 						value = "ASCZ_Takistan";
 						default = 0;
 					};
-          class ASCZ_RealIsBrownLight
-          {
-            name = "Real Is Brown 2";
-            value = "ASCZ_RealIsBrownLight"
-            default = 0;
-          };
+                    class ASCZ_RealIsBrownLight
+                    {
+                        name = "Real Is Brown 2";
+                        value = "ASCZ_RealIsBrownLight"
+                        default = 0;
+                    };
+                    class ASCZ_Nightstalkers
+                    {
+                        name = "Nightstalkers";
+                        value = "ASCZ_Nightstalkers"
+                        default = 0;
+                    };
+                    class ASCZ_GrayTone
+                    {
+                        name = "Gray Tone";
+                        value = "ASCZ_GrayTone"
+                        default = 0;
+                    };
+                    class ASCZ_ColdTone
+                    {
+                        name = "Cold Tone";
+                        value = "ASCZ_ColdTone"
+                        default = 0;
+                    };
 				};
 			};
 		};
@@ -110,13 +128,28 @@ class CfgPostProcessTemplates
 	};
   class ASCZ_MiddleEast
 	{
-    displayName = "Middle East";
+        displayName = "Middle East";
 		colorCorrections[] = {0.9, 1, 0, {0.1, 0.1, 0.1, -0.1}, {1, 1, 0.8, 0.528},  {1, 0.2, 0, 0}};
 	};
-  class ASCZ_RealIsBrownLight
-  { 
-    displayName = "Real Is Brown 2";
-    colorCorrections[] = {1,1,0,{0.1,0.2,0.3,-0.3},{1,1,1,0.5},{0.5,0.2,0,1}};
-  };
+    class ASCZ_RealIsBrownLight
+    {
+        displayName = "Real Is Brown 2";
+        colorCorrections[] = {1,1,0,{0.1,0.2,0.3,-0.3},{1,1,1,0.5},{0.5,0.2,0,1}};
+    };
+    class ASCZ_Nightstalkers
+    {
+        displayName = "Nightstalkers";
+        colorCorrections[] = {1, 1.1, 0.0, {0.0, 0.0, 0.0, 0.0}, {1.0,0.7, 0.6, 0.60}, {0.200, 0.600, 0.100, 0.0}};
+    };
+    class ASCZ_GrayTone
+    {
+        displayName = "Gray Tone";
+        colorCorrections[] = {1.0, 1.0, 0.0,{1.0, 1.0, 1.0, 0.0},{1.0, 1.0, 0.9, 0.35},{0.3,0.3,0.3,-0.1}};
+    };
+    class ASCZ_ColdTone
+    {
+        displayName = "Cold Tone";
+        colorCorrections[] = {1.0, 1.0, 0.0,{0.2, 0.2, 1.0, 0.0},{0.4, 0.75, 1.0, 0.60},{0.5,0.3,1.0,-0.1}};
+    };
 };
 //};

@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class namalsk_fix
+	class namalsk_fix_main
 	{
 		units[] = {"namalsk"};
 		worlds[] = {"namalsk"};
@@ -53,8 +53,8 @@ class CfgWorlds
 		cutscenes[] = {"intro"};
 		description = "Namalsk";
 		worldName = "\nst\namalsk\namalsk.wrp";
-		pictureMap = "\namalsk_fix\Data\namalsk_ca.paa";
-		pictureShot = "\namalsk_fix\Data\ui_namalsk_ca.paa";
+		pictureMap = "\namalsk_fix\Main\Data\namalsk_ca.paa";
+		pictureShot = "\namalsk_fix\Main\Data\ui_namalsk_ca.paa";
 		midDetailTexture = "nst\namalsk\data\midTex_mco.paa";
 		latitude = 40;
 		longitude = 20;
@@ -703,7 +703,7 @@ class CfgMissions
 	{
 		class intro
 		{
-			directory = "namalsk_fix\Scenes\intro.namalsk";
+			directory = "namalsk_fix\Main\Scenes\intro.namalsk";
 		};
 	};
 };
