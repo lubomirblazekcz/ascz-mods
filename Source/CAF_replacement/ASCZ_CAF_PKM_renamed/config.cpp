@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class caf_wp_weapons_pkm
+	class ascz_caf_wp_weapons_pkm_renamed
 	{
 		units[] = {};
 		weapons[] = {};
@@ -32,7 +32,7 @@ class cfgWeapons
 	class AK_BASE;
 	class caf_pkm: AK_BASE
 	{
-		scope = 0;
+		scope = 1;
 		model = "";
 		picture = "";
 		magazines[] = {""};

@@ -1,12 +1,12 @@
 class DefaultEventhandlers;
 class CfgPatches
 {
-	class caf_ag_faction_me_t
+	class ascz_caf_ag_faction_me_t
 	{
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		requiredAddons[] = {"caf_ag_faction_me_t"};
 	};
 };
 class CfgFactionClasses

@@ -1,11 +1,11 @@
 class CfgPatches
 {
-	class caf_wp_weapons_ak74
+	class ascz_caf_wp_weapons_ak74_renamed
 	{
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		requiredAddons[] = {"caf_wp_weapons_ak74"};
 	};
 };
 class Mode_SemiAuto;
@@ -29,7 +29,7 @@ class cfgMagazines
 	class CAF_30Rnd_545x39_AK: 20Rnd_762x51_Mag
 	{
 		ammo = "";
-		scope = 0;
+		scope = 1;
 		count = 30;
 		displayname = "DO NOT USE (AK-74 mag)";
 		picture = "";
@@ -49,7 +49,7 @@ class cfgWeapons
 	class AK_BASE;
 	class caf_AK74: AK_BASE
 	{
-		scope = 0;
+		scope = 1;
 		model = "";
 		displayName = "DO NOT USE (AK-74)";
 		picture = "";
@@ -117,7 +117,7 @@ class cfgWeapons
 	};
 	class caf_ak74gl: caf_AK74
 	{
-		scope = 0;
+		scope = 1;
 		model = "";
 		displayName = "DO NOT USE (AK-74 GL)";
 		picture = "";
@@ -185,7 +185,7 @@ class cfgWeapons
 		class GP25Muzzle: UGL_F
 		{
 			displayName = "$STR_DN_GP25";
-			scope = 0;
+			scope = 1;
 			drysound[] = {"A3\sounds_f\Weapons\other\sfx5",1,1,30};
 			magazinereloadtime = 0;
 			magazines[] = {"1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareGreen_F","UGL_FlareRed_F","UGL_FlareYellow_F","UGL_FlareCIR_F","1Rnd_Smoke_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeYellow_Grenade_shell","1Rnd_SmokePurple_Grenade_shell","1Rnd_SmokeBlue_Grenade_shell","1Rnd_SmokeOrange_Grenade_shell"};

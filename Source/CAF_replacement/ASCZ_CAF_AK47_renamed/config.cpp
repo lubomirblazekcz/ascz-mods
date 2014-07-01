@@ -1,11 +1,11 @@
 class CfgPatches
 {
-	class caf_wp_weapons_ak47
+	class ascz_caf_wp_weapons_ak47_renamed
 	{
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		requiredAddons[] = {"caf_wp_weapons_ak47"};
 	};
 };
 class Mode_SemiAuto;
@@ -21,7 +21,7 @@ class cfgAmmo
 	{
 		model = "";
 		hit = 9;
-		scope = 0;
+		scope = 1;
 	};
 };
 class cfgMagazines
@@ -31,7 +31,7 @@ class cfgMagazines
 	class CAF_30Rnd_762x39_AK: CA_Magazine
 	{
 		ammo = "";
-		scope = 0;
+		scope = 1;
 		count = 30;
 		displayname = "DO NOT USE (AK-47 Mag)";
 		picture = "";
@@ -50,7 +50,7 @@ class cfgWeapons
 	};
 	class AK_BASE: EBR_base_F
 	{
-		scope = 0;
+		scope = 1;
 		value = 0;
 		model = "";
 		displayName = "DO NOT USE";
@@ -89,7 +89,7 @@ class cfgWeapons
 	};
 	class caf_AK47: AK_BASE
 	{
-		scope = 0;
+		scope = 1;
 		model = "";
 		picture = "";
 		magazines[] = {"CAF_30Rnd_762x39_AK"};

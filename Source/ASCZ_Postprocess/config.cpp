@@ -1,29 +1,3 @@
-////////////////////////////////////////////////////////////////////
-//DeRap: Produced from mikero's Dos Tools Dll version 4.53
-//Mon Jun 30 20:12:13 2014 : Source 'file' date Mon Jun 30 20:12:13 2014
-//http://dev-heaven.net/projects/list_files/mikero-pbodll
-////////////////////////////////////////////////////////////////////
-
-#define _ARMA_
-
-//ndefs=13
-enum {
-	destructengine = 2,
-	destructdefault = 6,
-	destructwreck = 7,
-	destructtree = 3,
-	destructtent = 4,
-	stabilizedinaxisx = 1,
-	stabilizedinaxesxyz = 4,
-	stabilizedinaxisy = 2,
-	stabilizedinaxesboth = 3,
-	destructno = 0,
-	stabilizedinaxesnone = 0,
-	destructman = 5,
-	destructbuilding = 1
-};
-
-//Class C:/Users/EvroMalarkey/Desktop/Effects/config.bin{
 class CfgPatches
 {
 	class ASCZ_Postprocess
@@ -42,13 +16,6 @@ class CfgFunctions
 		{
 			file = "a3\modules_f_curator\effects\functions";
 			class modulePostprocess{};
-		};
-	};
-	class A3_Modules
-	{
-		class Effects
-		{
-			delete moduleTracers;
 		};
 	};
 };
@@ -113,25 +80,20 @@ class CfgVehicles
 						value = "Mediterranean";
 						default = 0;
 					};
-          class ASCZ_Takistan
+          class ASCZ_MiddleEast
 					{
 						name = "Takistan";
 						value = "ASCZ_Takistan";
 						default = 0;
 					};
+          class ASCZ_RealIsBrownLight
+          {
+            name = "Real Is Brown 2";
+            value = "ASCZ_RealIsBrownLight"
+            default = 0;
+          };
 				};
 			};
-			class CommitTime
-			{
-				displayName = "$STR_A3_CfgVehicles_ModulePostprocess_F_Arguments_CommitTime";
-				description = "";
-				typeName = "NUMBER";
-				defaultValue = 0;
-			};
-		};
-		class ModuleDescription: ModuleDescription
-		{
-			description = "$STR_A3_CfgVehicles_ModulePostprocess_F_ModuleDescription";
 		};
 	};	
 };
@@ -146,10 +108,15 @@ class CfgPostProcessTemplates
 	{
 		colorCorrections[] = {1,1.08,-0.06,{ 0.5,0.5,0.5,0 },{ 1.0,1.0,1.0,1.21 },{ 0.09,0.09,0.09,0.0 }};
 	};
-  class ASCZ_Takistan
+  class ASCZ_MiddleEast
 	{
-    displayName = "Takistan";
+    displayName = "Middle East";
 		colorCorrections[] = {0.9, 1, 0, {0.1, 0.1, 0.1, -0.1}, {1, 1, 0.8, 0.528},  {1, 0.2, 0, 0}};
 	};
+  class ASCZ_RealIsBrownLight
+  { 
+    displayName = "Real Is Brown 2";
+    colorCorrections[] = {1,1,0,{0.1,0.2,0.3,-0.3},{1,1,1,0.5},{0.5,0.2,0,1}};
+  };
 };
 //};

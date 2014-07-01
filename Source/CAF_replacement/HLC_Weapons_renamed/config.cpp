@@ -1,8 +1,8 @@
 class CfgPatches
 {
-	class hlcweapons_aks
+	class ascz_hlcweapons_aks
 	{
-		requiredaddons[] = {"A3_Data_F","A3_UI_F","A3_Anims_F","A3_Anims_F_Config_Sdr","A3_Weapons_F","asdg_jointrails","hlcweapons_core"};
+		requiredaddons[] = {"A3_Data_F","A3_UI_F","A3_Anims_F","A3_Anims_F_Config_Sdr","A3_Weapons_F","asdg_jointrails","hlcweapons_core","hlcweapons_aks"};
 		units[] = {};
 		weapons[] = {};
 		magazines[] = {};
