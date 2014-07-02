@@ -16,7 +16,7 @@ class CfgFactionClasses
 	class caf_ag_eeur_r
 	{
 		displayName = "East Europe - Rebels";
-		icon = "\CAF_replacement\East_Europe_Rebels\cfgfaction_EE_Rebels.paa";
+		icon = "\ASCZ_CAF_replacement\East_Europe_Rebels\cfgfaction_EE_Rebels.paa";
 		author = "CAF MOD TEAM";
 		priority = 2;
 		side = 0;
@@ -131,12 +131,12 @@ class CfgVehicles
 		backpack = "B_ME_RPG_BAG";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_EEUR_FATIGUES_02a";
-		weapons[] = {"hlc_rifle_ak74","RPG7V","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_ak74","RPG7V","Throw","Put"};
+		weapons[] = {"hlc_rifle_ak74","caf_rpg7","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_ak74","caf_rpg7","Throw","Put"};
 		Items[] = {"FirstAidKit","FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit","FirstAidKit"};
-		magazines[] = {"MiniGrenade","MiniGrenade","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","OG7"};
-		respawnMagazines[] = {"MiniGrenade","MiniGrenade","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","OG7"};
+		magazines[] = {"MiniGrenade","MiniGrenade","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","caf_OG7"};
+		respawnMagazines[] = {"MiniGrenade","MiniGrenade","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","caf_OG7"};
 		linkedItems[] = {"V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};

@@ -130,12 +130,12 @@ class CfgVehicles
 		backpack = "B_ME_RPG_BAG";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_ME_robes_02a";
-		weapons[] = {"hlc_rifle_ak74","RPG7V","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_ak74","RPG7V","Throw","Put"};
+		weapons[] = {"hlc_rifle_ak74","caf_rpg7","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_ak74","caf_rpg7","Throw","Put"};
 		Items[] = {"FirstAidKit","FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit","FirstAidKit"};
-		magazines[] = {"MiniGrenade","MiniGrenade","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","OG7"};
-		respawnMagazines[] = {"MiniGrenade","MiniGrenade","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","OG7"};
+		magazines[] = {"MiniGrenade","MiniGrenade","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","caf_OG7"};
+		respawnMagazines[] = {"MiniGrenade","MiniGrenade","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","caf_OG7"};
 		linkedItems[] = {"V_BandollierB_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_BandollierB_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
