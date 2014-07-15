@@ -3,7 +3,7 @@ class CfgPatches
 {
 	class ascz_caf_ag_faction_afr_p
 	{
-		units[] = {};
+		units[] = {"CAF_AG_AFR_P_BASE","CAF_AG_AFR_P_AK47","CAF_AG_AFR_P_AK74","CAF_AG_AFR_P_RPK74","CAF_AG_AFR_P_PKM","CAF_AG_AFR_P_SVD","CAF_AG_AFR_P_RPG","CAF_AG_AFR_P_GL"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"caf_ag_faction_afr_p"};
@@ -51,6 +51,7 @@ class CfgVehicles
 	class CAF_AG_AFR_P_AK47: CAF_AG_AFR_P_BASE
 	{
 		scope = 2;
+		scopeCurator = 2;
 		displayName = "Pirate (AK47)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_AFR_CLOTHES_01";
@@ -66,6 +67,7 @@ class CfgVehicles
 	class CAF_AG_AFR_P_AK74: CAF_AG_AFR_P_BASE
 	{
 		scope = 2;
+		scopeCurator = 2;
 		displayName = "Pirate (AK74)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_AFR_CLOTHES_02";
@@ -81,6 +83,7 @@ class CfgVehicles
 	class CAF_AG_AFR_P_RPK74: CAF_AG_AFR_P_BASE
 	{
 		scope = 2;
+		scopeCurator = 2;
 		displayName = "Pirate (RPK 75rounds)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_AFR_CLOTHES_01a";
@@ -96,6 +99,7 @@ class CfgVehicles
 	class CAF_AG_AFR_P_PKM: CAF_AG_AFR_P_BASE
 	{
 		scope = 2;
+		scopeCurator = 2;
 		displayName = "Pirate (RPK 45rounds)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_AFR_CLOTHES_02a";
@@ -111,6 +115,7 @@ class CfgVehicles
 	class CAF_AG_AFR_P_SVD: CAF_AG_AFR_P_BASE
 	{
 		scope = 2;
+		scopeCurator = 2;
 		displayName = "Pirate (SVD)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_AFR_CLOTHES_01b";
@@ -126,6 +131,7 @@ class CfgVehicles
 	class CAF_AG_AFR_P_RPG: CAF_AG_AFR_P_BASE
 	{
 		scope = 2;
+		scopeCurator = 2;
 		displayName = "Pirate (RPG)";
 		backpack = "B_ME_RPG_BAG";
 		uniformAccessories[] = {};
@@ -142,6 +148,7 @@ class CfgVehicles
 	class CAF_AG_AFR_P_GL: CAF_AG_AFR_P_BASE
 	{
 		scope = 2;
+		scopeCurator = 2;
 		displayName = "Pirate (AKS74+GP30)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_AFR_CLOTHES_01c";

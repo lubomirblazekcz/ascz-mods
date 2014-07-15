@@ -83,7 +83,7 @@ class CfgVehicles
                     class ASCZ_MiddleEast
 					{
 						name = "Middle East";
-						value = "ASCZ_Takistan";
+						value = "ASCZ_MiddleEast";
 						default = 0;
 					};
                     class ASCZ_RealIsBrownLight

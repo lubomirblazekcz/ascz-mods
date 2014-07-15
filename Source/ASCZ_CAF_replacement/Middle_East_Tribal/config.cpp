@@ -3,7 +3,7 @@ class CfgPatches
 {
 	class ascz_caf_ag_faction_me_t
 	{
-		units[] = {};
+		units[] = {"CAF_AG_ME_T_AK47","CAF_AG_ME_T_AK74","CAF_AG_ME_T_RPK74","CAF_AG_ME_T_PKM","CAF_AG_ME_T_SVD","CAF_AG_ME_T_RPG","CAF_AG_ME_T_GL"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"caf_ag_faction_me_t"};
@@ -51,6 +51,7 @@ class CfgVehicles
 	class CAF_AG_ME_T_AK47: CAF_AG_ME_T_BASE
 	{
 		scope = 2;
+		curatorScope = 2;
 		displayName = "Tribal (AK47)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_ME_robes_01";
@@ -66,6 +67,7 @@ class CfgVehicles
 	class CAF_AG_ME_T_AK74: CAF_AG_ME_T_BASE
 	{
 		scope = 2;
+		curatorScope = 2;
 		displayName = "Tribal (AK74)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_ME_robes_02";
@@ -81,6 +83,7 @@ class CfgVehicles
 	class CAF_AG_ME_T_RPK74: CAF_AG_ME_T_BASE
 	{
 		scope = 2;
+		curatorScope = 2;
 		displayName = "Tribal (RPK 75rounds)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_ME_robes_03";
@@ -96,6 +99,7 @@ class CfgVehicles
 	class CAF_AG_ME_T_PKM: CAF_AG_ME_T_BASE
 	{
 		scope = 2;
+		curatorScope = 2;
 		displayName = "Tribal (RPK 45rounds)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_ME_robes_04";
@@ -111,6 +115,7 @@ class CfgVehicles
 	class CAF_AG_ME_T_SVD: CAF_AG_ME_T_BASE
 	{
 		scope = 2;
+		curatorScope = 2;
 		displayName = "Tribal (SVD)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_ME_ROBES_mil_01a";
@@ -126,6 +131,7 @@ class CfgVehicles
 	class CAF_AG_ME_T_RPG: CAF_AG_ME_T_BASE
 	{
 		scope = 2;
+		curatorScope = 2;
 		displayName = "Tribal (RPG)";
 		backpack = "B_ME_RPG_BAG";
 		uniformAccessories[] = {};
@@ -142,6 +148,7 @@ class CfgVehicles
 	class CAF_AG_ME_T_GL: CAF_AG_ME_T_BASE
 	{
 		scope = 2;
+		curatorScope = 2;
 		displayName = "Tribal (AKS74+GP30)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_ME_robes_03a";

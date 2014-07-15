@@ -4,7 +4,7 @@ class CfgPatches
 {
 	class ascz_caf_ag_faction_eeur_r
 	{
-		units[] = {};
+		units[] = {"CAF_AG_EEUR_R_AK47","CAF_AG_EEUR_R_AK74","CAF_AG_EEUR_R_RPK74","CAF_AG_EEUR_R_PKM","CAF_AG_EEUR_R_SVD","CAF_AG_EEUR_R_RPG","CAF_AG_EEUR_R_GL"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"caf_ag_faction_eeur_r"};
@@ -38,6 +38,7 @@ class CfgVehicles
 	class CAF_AG_EEUR_R_BASE: O_Soldier_F
 	{
 		scope = 0;
+		scopeCurator = 2;
 		author = "CAF MOD TEAM";
 		side = 0;
 		armor = 0.5;
@@ -52,6 +53,7 @@ class CfgVehicles
 	class CAF_AG_EEUR_R_AK47: CAF_AG_EEUR_R_BASE
 	{
 		scope = 2;
+		scopeCurator = 2;
 		displayName = "Rebel (AK47)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_EEUR_FATIGUES_03";
@@ -67,6 +69,7 @@ class CfgVehicles
 	class CAF_AG_EEUR_R_AK74: CAF_AG_EEUR_R_BASE
 	{
 		scope = 2;
+		scopeCurator = 2;
 		displayName = "Rebel (AK74)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_EEUR_FATIGUES_01";
@@ -82,6 +85,7 @@ class CfgVehicles
 	class CAF_AG_EEUR_R_RPK74: CAF_AG_EEUR_R_BASE
 	{
 		scope = 2;
+		scopeCurator = 2;
 		displayName = "Rebel (RPK 75rounds)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_EEUR_FATIGUES_03a";
@@ -97,6 +101,7 @@ class CfgVehicles
 	class CAF_AG_EEUR_R_PKM: CAF_AG_EEUR_R_BASE
 	{
 		scope = 2;
+		scopeCurator = 2;
 		displayName = "Rebel (RPK 45rounds)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_EEUR_FATIGUES_02";
@@ -112,6 +117,7 @@ class CfgVehicles
 	class CAF_AG_EEUR_R_SVD: CAF_AG_EEUR_R_BASE
 	{
 		scope = 2;
+		scopeCurator = 2;
 		displayName = "Rebel (SVD)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_EEUR_FATIGUES_01a";
@@ -127,6 +133,7 @@ class CfgVehicles
 	class CAF_AG_EEUR_R_RPG: CAF_AG_EEUR_R_BASE
 	{
 		scope = 2;
+		scopeCurator = 2;
 		displayName = "Rebel (RPG)";
 		backpack = "B_ME_RPG_BAG";
 		uniformAccessories[] = {};
@@ -143,6 +150,7 @@ class CfgVehicles
 	class CAF_AG_EEUR_R_GL: CAF_AG_EEUR_R_BASE
 	{
 		scope = 2;
+		scopeCurator = 2;
 		displayName = "Rebel (AKS74+GP30)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_EEUR_FATIGUES_02a";
