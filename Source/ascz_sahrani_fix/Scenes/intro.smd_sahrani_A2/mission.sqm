@@ -4,11 +4,11 @@ class Mission
 	addOns[]=
 	{
 		"a3_map_stratis",
-		"sahrani_fix"
+		"ascz_sahrani_fix"
 	};
 	addOnsAuto[]=
 	{
-		"sahrani_fix"
+		"ascz_sahrani_fix"
 	};
 	randomSeed=12180750;
 	class Intel
@@ -37,14 +37,14 @@ class Intro
 		"A3_Characters_F_OPFOR",
 		"a3_map_stratis",
 		"a3_characters_f_beta",
-		"sahrani_fix"
+		"ascz_sahrani_fix"
 	};
 	addOnsAuto[]=
 	{
 		"A3_Characters_F_BLUFOR",
 		"A3_Characters_F_OPFOR",
 		"a3_characters_f_beta",
-		"sahrani_fix"
+		"ascz_sahrani_fix"
 	};
 	randomSeed=12707767;
 	class Intel
