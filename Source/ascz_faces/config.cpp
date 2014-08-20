@@ -52,6 +52,19 @@ class CfgFaces {
 			materialHL2 = "ascz_faces\data\taurus_rucenohy.rvmat";
 		};
 		
+		class ArmaSeriesHead_sokolov : Default {
+			displayname = "Sokolov";
+			head = "NATOHead_A3";
+			material = "ascz_faces\data\Sokolov.rvmat";
+			identityTypes[] = {"Head_Euro","Head_NATO"};
+			material = "ascz_faces\data\Sokolov_ksicht.paa";
+			textureHL = "\A3\Characters_F\Heads\Data\hl_white_bald_co.paa";
+			materialHL = "\A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat";
+			textureHL2 = "\A3\Characters_F\Heads\Data\hl_white_bald_co.paa";
+			materialHL2 = "\A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat";
+			disabled = 0;
+		};
+		
 		class ArmaSeriesHead_price : Default {
 			displayname = "Price";
 			texture = "ascz_faces\data\price_ksicht.paa";
