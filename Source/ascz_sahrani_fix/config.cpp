@@ -3,12 +3,11 @@ class CfgPatches
 	class ascz_sahrani_fix
 	{
 		units[] = {};
-		worlds[] = {"smd_sahrani_A2_fix"};
+		worlds[] = {"smd_sahrani_A2"};
 		weapons[] = {};
 		requiredVersion = 1.0;
 		requiredAddons[] = {"smd_sahrani_A2","smd_sahrani_artif_obj","smd_sahrani_rocks","smd_sahrani_veg","smd_roads","smd_sahrani_a2_Scenes"};
-		fileName = "smd_sahrani_a2.pbo";
-		author[] = {"SMD"};
+		author[] = {"EvroMalarkey"};
 		version = "1.0";
 	};
 };
