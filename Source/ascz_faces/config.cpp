@@ -13,30 +13,17 @@ class CfgFaces {
 	};
 	
 	class Man_A3 : Default {
-		class Default {
-			displayname = "$STR_CFG_FACES_Default";
-			texture = "\A3\Characters_F\Heads\Data\m_White_15_co.paa";
-			head = "DefaultHead_A3";
-			identityTypes[] = {};
-			material = "\A3\Characters_F\Heads\Data\m_White_01.rvmat";
-			textureHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
-			materialHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
-			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
-			materialHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat"
-		};
-		
 		class Custom : Custom {
 			displayname = "$STR_CFG_FACES_CUSTOM";
 			texture = "\A3\Characters_F_epb\Heads\Data\m_White_17_co.paa";
 			head = "DefaultHead_A3";
 			identityTypes[] = {"Custom"};
+			author = "Taurus";
 			material = "\A3\Characters_F_epb\Heads\Data\m_White_17.rvmat";
 			textureHL = "\A3\Characters_F\Heads\Data\hl_white_bald_co.paa";
 			materialHL = "\A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat";
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_white_bald_co.paa";
 			materialHL2 = "\A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat";
-			
-		
 		};
 		
 		class ArmaSeriesHead_taurus : Default {
@@ -44,6 +31,7 @@ class CfgFaces {
 			texture = "ascz_faces\data\taurus_ksicht.paa";
 			head = "NATOHead_A3";
 			identityTypes[] = {"Head_Euro","Head_NATO"};
+			author = "Taurus";
 			material = "ascz_faces\data\taurus.rvmat";
 			disabled = 0;
 			textureHL = "ascz_faces\data\taurus_rucenohy.paa";
@@ -57,11 +45,12 @@ class CfgFaces {
 			head = "NATOHead_A3";
 			material = "ascz_faces\data\Sokolov.rvmat";
 			identityTypes[] = {"Head_Euro","Head_NATO"};
-			material = "ascz_faces\data\Sokolov_ksicht.paa";
-			textureHL = "\A3\Characters_F\Heads\Data\hl_white_bald_co.paa";
-			materialHL = "\A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat";
-			textureHL2 = "\A3\Characters_F\Heads\Data\hl_white_bald_co.paa";
-			materialHL2 = "\A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat";
+			author = "Taurus";
+			texture = "ascz_faces\data\Sokolov_ksicht.paa";
+			textureHL = "\A3\Characters_F\Heads\Data\hl_white_hairy_2_co.paa";
+			materialHL = "\A3\Characters_F_epb\Heads\Data\hl_white_20.rvmat";
+			textureHL2 = "\A3\Characters_F\Heads\Data\hl_white_hairy_2_co.paa";
+			materialHL2 = "\A3\Characters_F_epb\Heads\Data\hl_white_20.rvmat";
 			disabled = 0;
 		};
 		
@@ -70,6 +59,7 @@ class CfgFaces {
 			texture = "ascz_faces\data\price_ksicht.paa";
 			head = "NATOHead_A3";
 			identityTypes[] = {"Head_Euro","Head_NATO"};
+			author = "Taurus";
 			material = "\A3\Characters_F\Heads\Data\m_greek_03.rvmat";
 			disabled = 0;
 			textureHL = "\A3\Characters_F\Heads\Data\hl_white_hairy_1_co.paa";
@@ -83,6 +73,7 @@ class CfgFaces {
 			texture = "ascz_faces\data\mactavish_ksicht.paa";
 			head = "DefaultHead_A3";
 			identityTypes[] = {"Head_Euro","Head_NATO"};
+			author = "Taurus";
 			material = "\A3\Characters_F_epb\Heads\Data\m_White_17.rvmat";
 			disabled = 0;
 			textureHL = "\A3\Characters_F\Heads\Data\hl_white_bald_co.paa";
@@ -96,6 +87,7 @@ class CfgFaces {
 			texture = "ascz_faces\data\spanel_ksicht.paa";
 			head = "DefaultHead_A3";
 			identityTypes[] = {"Head_Euro","Head_NATO"};
+			author = "Taurus";
 			material = "\A3\Characters_F_epb\Heads\Data\m_white_20.rvmat";
 			disabled = 0;
 			textureHL = "\A3\Characters_F\Heads\Data\hl_white_hairy_2_co.paa";
@@ -109,6 +101,7 @@ class CfgFaces {
 			head = "DefaultHead_A3";
 			texture = "ascz_faces\data\voodoo_ksicht.paa";
 			identityTypes[] = {"Head_Euro","Head_NATO"};
+			author = "Taurus";
 			material = "\A3\Characters_F_epa\Heads\Data\m_kerry_b2.rvmat";
 			textureHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
 			materialHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
@@ -122,6 +115,7 @@ class CfgFaces {
 			head = "NATOHead_A3";
 			texture = "ascz_faces\data\Beardy_ksicht.paa";
 			identityTypes[] = {"Head_Euro","Head_NATO"};
+			author = "Taurus";
 			material = "\A3\Characters_F_epb\Heads\Data\m_White_17.rvmat";
 			textureHL = "\A3\Characters_F\Heads\Data\hl_white_hairy_1_co.paa";
 			materialHL = "\A3\Characters_F\Heads\Data\hl_white_old.rvmat";
@@ -135,6 +129,7 @@ class CfgFaces {
 			head = "NATOHead_A3";
 			texture = "ascz_faces\data\filipsons_ksicht.paa";
 			identityTypes[] = {"Head_Euro","Head_NATO"};
+			author = "Taurus";
 			material = "\A3\Characters_F\Heads\Data\m_White_15.rvmat";
 			textureHL = "\A3\Characters_F_epb\Heads\Data\hl_white_17_co.paa";
 			materialHL = "\A3\Characters_F_epb\Heads\Data\hl_white_17.rvmat";
@@ -149,6 +144,7 @@ class CfgFaces {
 			material = "ascz_faces\data\Foley.rvmat";
 			head = "BlackHead_A3";
 			identityTypes[] = {"Head_NATO","Head_African"};
+			author = "Taurus";
 			textureHL = "\A3\Characters_F\Heads\Data\hl_black_bald_co.paa";
 			materialHL = "\A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat";
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_black_bald_co.paa";
@@ -162,6 +158,7 @@ class CfgFaces {
 			material = "ascz_faces\data\Murphy.rvmat";
 			head = "BlackHead_A3";
 			identityTypes[] = {"Head_NATO","Head_African"};
+			author = "Taurus";
 			textureHL = "\A3\Characters_F\Heads\Data\hl_black_bald_co.paa";
 			materialHL = "\A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat";
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_black_bald_co.paa";
@@ -175,6 +172,7 @@ class CfgFaces {
 			material = "ascz_faces\data\Josephe.rvmat";
 			head = "BlackHead_A3";
 			identityTypes[] = {"Head_NATO","Head_African"};
+			author = "Taurus";
 			textureHL = "\A3\Characters_F\Heads\Data\hl_black_bald_co.paa";
 			materialHL = "\A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat";
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_black_bald_co.paa";
@@ -188,6 +186,7 @@ class CfgFaces {
 			material = "ascz_faces\data\Pernet.rvmat";
 		    head = "DefaultHead_A3";
 			identityTypes[] = {"Head_NATO","Head_Euro"};
+			author = "Taurus";
 			textureHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
 			materialHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
@@ -201,6 +200,7 @@ class CfgFaces {
 			material = "ascz_faces\data\Nevim.rvmat";
 		    head = "DefaultHead_A3";
 			identityTypes[] = {"Head_NATO","Head_Euro"};
+			author = "Taurus";
 			textureHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
 			materialHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
@@ -214,6 +214,7 @@ class CfgFaces {
 			material = "ascz_faces\data\Novotny.rvmat";
 		    head = "DefaultHead_A3";
 			identityTypes[] = {"Head_NATO","Head_Euro"};
+			author = "Taurus";
 			textureHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
 			materialHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
@@ -227,6 +228,7 @@ class CfgFaces {
 			material = "ascz_faces\data\Brown.rvmat";
 		    head = "DefaultHead_A3";
 			identityTypes[] = {"Head_NATO","Head_Euro"};
+			author = "Taurus";
 			textureHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
 			materialHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
@@ -240,6 +242,7 @@ class CfgFaces {
 			material = "ascz_faces\data\Picleson.rvmat";
 		    head = "DefaultHead_A3";
 			identityTypes[] = {"Head_NATO","Head_Euro"};
+			author = "Taurus";
 			textureHL = "\A3\Characters_F\Heads\Data\hl_white_hairy_nikos_co.paa";
 			materialHL = "\A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat";
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_white_hairy_nikos_co.paa";
@@ -253,6 +256,7 @@ class CfgFaces {
 			material = "ascz_faces\data\Olson.rvmat";
 		    head = "DefaultHead_A3";
 			identityTypes[] = {"Head_NATO","Head_Euro"};
+			author = "Taurus";
 			textureHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
 			materialHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
@@ -260,11 +264,26 @@ class CfgFaces {
 			disabled = 0;
 		};
 		
+		class Miller_2 : Default {
+			displayname = "Mailer";
+			head = "DefaultHead_A3";
+			texture = "\A3\Characters_F\Heads\Data\m_Miller_co.paa";
+			identityTypes[] = {"Head_NATO","Head_Euro"};
+			author = "$STR_a3_bohemia_interactive";
+			material = "\A3\Characters_F\Heads\Data\m_Miller.rvmat";
+			disabled = 0;
+			textureHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
+			materialHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
+			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
+			materialHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
+		};
+		
 		class Stavrou : Default {
 			displayname = "Stavrou";
 			head = "IG_Leader";
 			texture = "\A3\Characters_F_EPB\Heads\Data\m_IG_leader_co.paa";
 			identityTypes[] = {"IG_Leader"};
+			author = "$STR_a3_bohemia_interactive";
 			material = "\A3\Characters_F_EPB\Heads\Data\m_IG_leader.rvmat";
 			textureHL = "\A3\Characters_F_EPB\Heads\Data\hl_Stavrou_dirty_co.paa";
 			materialHL = "\A3\Characters_F_EPB\Heads\Data\hl_stavrou_dirty.rvmat";
@@ -278,6 +297,7 @@ class CfgFaces {
 			texture = "\A3\Characters_F\Heads\Data\m_nikos_co.paa";
 			head = "Nikos";
 			identityTypes[] = {"Nikos"};
+			author = "$STR_a3_bohemia_interactive";
 			material = "\A3\Characters_F\Heads\Data\m_nikos.rvmat";
 			disabled = 0;
 			textureHL = "\A3\Characters_F\Heads\Data\hl_white_hairy_nikos_co.paa";
@@ -286,24 +306,12 @@ class CfgFaces {
 			materialHL2 = "\A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat";
 		};
 		
-		class Kerry : Default {
-			displayname = "Kerry";
-			head = "DefaultHead_A3";
-			texture = "\A3\Characters_F_epa\Heads\Data\m_kerry_b2_co.paa";
-			identityTypes[] = {"Kerry"};
-			material = "\A3\Characters_F_epa\Heads\Data\m_kerry_b2.rvmat";
-			textureHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
-			materialHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
-			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
-			materialHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
-			disabled = 0;
-		};
-		
 		class Miller : Default {
 			displayname = "Miller";
 			head = "Miller";
 			texture = "\A3\Characters_F\Heads\Data\m_Miller_co.paa";
 			identityTypes[] = {"Miller"};
+			author = "$STR_a3_bohemia_interactive";
 			material = "\A3\Characters_F\Heads\Data\m_Miller.rvmat";
 			disabled = 0;
 			textureHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
