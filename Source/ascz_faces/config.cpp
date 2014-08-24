@@ -18,7 +18,6 @@ class CfgFaces {
 			texture = "\A3\Characters_F_epb\Heads\Data\m_White_17_co.paa";
 			head = "DefaultHead_A3";
 			identityTypes[] = {"Custom"};
-			author = "Taurus";
 			material = "\A3\Characters_F_epb\Heads\Data\m_White_17.rvmat";
 			textureHL = "\A3\Characters_F\Heads\Data\hl_white_bald_co.paa";
 			materialHL = "\A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat";
@@ -39,6 +38,20 @@ class CfgFaces {
 			textureHL2 = "ascz_faces\data\taurus_rucenohy.paa";
 			materialHL2 = "ascz_faces\data\taurus_rucenohy.rvmat";
 		};
+
+		class ArmaSeriesHead_obacki : Default {
+			displayname = "O'Backi";
+			texture = "ascz_faces\data\obacki_ksicht.paa";
+			head = "NATOHead_A3";
+			identityTypes[] = {"Head_Euro","Head_NATO"};
+			author = "Taurus";
+			material = "ascz_faces\data\obacki.rvmat";
+			disabled = 0;
+			textureHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
+			materialHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
+			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
+			materialHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
+		};	
 		
 		class ArmaSeriesHead_sokolov : Default {
 			displayname = "Sokolov";
