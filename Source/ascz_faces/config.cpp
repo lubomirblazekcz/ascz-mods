@@ -74,7 +74,7 @@ class CfgFaces {
 			head = "DefaultHead_A3";
 			identityTypes[] = {"Head_Euro","Head_NATO"};
 			author = "Taurus";
-			material = "\A3\Characters_F_epb\Heads\Data\m_White_17.rvmat";
+			material = "ascz_faces\data\mactavish.rvmat";
 			disabled = 0;
 			textureHL = "\A3\Characters_F\Heads\Data\hl_white_bald_co.paa";
 			materialHL = "\A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat";
@@ -85,10 +85,10 @@ class CfgFaces {
 		class ArmaSeriesHead_spanel : Default {
 			displayname = "Spanel";
 			texture = "ascz_faces\data\spanel_ksicht.paa";
-			head = "DefaultHead_A3";
+			head = "NATOHead_A3";
 			identityTypes[] = {"Head_Euro","Head_NATO"};
 			author = "Taurus";
-			material = "\A3\Characters_F_epb\Heads\Data\m_white_20.rvmat";
+			material = "ascz_faces\data\spanel.rvmat";
 			disabled = 0;
 			textureHL = "\A3\Characters_F\Heads\Data\hl_white_hairy_2_co.paa";
 			materialHL = "\A3\Characters_F_epb\Heads\Data\hl_white_20.rvmat";
@@ -116,7 +116,7 @@ class CfgFaces {
 			texture = "ascz_faces\data\Beardy_ksicht.paa";
 			identityTypes[] = {"Head_Euro","Head_NATO"};
 			author = "Taurus";
-			material = "\A3\Characters_F_epb\Heads\Data\m_White_17.rvmat";
+			material = "ascz_faces\data\beardy.rvmat";
 			textureHL = "\A3\Characters_F\Heads\Data\hl_white_hairy_1_co.paa";
 			materialHL = "\A3\Characters_F\Heads\Data\hl_white_old.rvmat";
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_white_hairy_1_co.paa";
