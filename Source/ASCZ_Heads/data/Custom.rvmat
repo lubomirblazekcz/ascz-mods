@@ -2,12 +2,12 @@ class StageTI
 {
 	texture="a3\characters_f\heads\data\m_ti_ca.paa";
 };
-ambient[]={0.5,0.5,0.5,0.5};
-diffuse[]={1,1,1,1};
-forcedDiffuse[]={1,1,1,1};
-emmisive[]={0,0,0,0};
-specular[]={0,0,0,1};
-specularPower=1;
+ambient[]={2,2,2,1};
+diffuse[]={0.44999999,0.41999999,0.40000001,1};
+forcedDiffuse[]={0.2,0.40000001,0.40000001,0.1};
+emmisive[]={0.80000001,0.30000001,0.64999998,0.69999999};
+specular[]={0.80000001,0.80000001,0.80000001,1};
+specularPower=40;
 PixelShaderID="Skin";
 VertexShaderID="Skin";
 class Stage1
@@ -60,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="a3\characters_f\heads\data\m_white_15_smdi.paa";
+	texture="a3\characters_f_epb\heads\data\m_white_20_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{
