@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class ascz_vts_box
 	{
-		units[] = {"Land_PaperBox_open_full_F"};
+		units[] = {"ascz_arsenal_box"};
 		weapons[] = {};
 		requiredVersion = 1.0;
 		requiredAddons[] = {};
@@ -17,6 +17,7 @@ class cfgVehicles {
         maximumLoad = 999999;
         transportMaxWeapons = 50000;
         transportMaxMagazines = 200000;
+        transportMaxItems = 200000;
         transportMaxBackpacks = 2000;
         class TransportMagazines {};
         class TransportWeapons {};
@@ -24,22 +25,22 @@ class cfgVehicles {
             class _xx_AGM_Bandage
             {
                 name = "AGM_Bandage";
-                count = 200;
+                count = 1000;
             };
             class _xx_AGM_Morphine
             {
                 name = "AGM_Morphine";
-                count = 200;
+                count = 1000;
             };
             class _xx_AGM_Epipen
             {
                 name = "AGM_Epipen";
-                count = 150;
+                count = 1000;
             };
             class _xx_AGM_Bloodbag
             {
                 name = "AGM_Bloodbag";
-                count = 150;
+                count = 500;
             };
             class _xx_AGM_SpareBarrel
             {
@@ -87,5 +88,15 @@ class cfgVehicles {
                 count = 50;
             };
         };
+    };
+
+    class ascz_arsenal_box: Land_PaperBox_open_full_F
+    {
+            displayName = "[AGM] Arsenal";
+            vehicleClass = "Ammo";
+            class eventHandlers
+            {
+                init = "_this select 0 addAction [""<img image='\A3\Ui_f\data\Logos\arsenal_1024_ca.paa' size='1.8' shadow=0.1 />"", { [""Open"", true] call BIS_fnc_arsenal; }, """", 6];";
+            };
     };
 };
