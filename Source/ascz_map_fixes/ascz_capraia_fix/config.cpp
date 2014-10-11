@@ -46,7 +46,7 @@ class CfgWorlds
     		};
     	};
     class DefaultLighting;
-	class IsolaDiCapraia:CAWorld
+	class IsolaDiCapraia: CAWorld
 	{
 	    icon = "";
 		worldName = "NGS\IsolaDiCapraia\IsolaDiCapraia.wrp";

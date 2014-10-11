@@ -46,7 +46,8 @@ class CfgWorlds
     		};
     	};
     class DefaultLighting;
-	class FDF_Isle1_a:CAWorld
+    class Chernarus: CAWorld{};
+	class FDF_Isle1_a: Chernarus
 	{
 	    icon = "";
 		worldName = "\ca\FDF_Isle1_a\FDF_Isle1_a.wrp";

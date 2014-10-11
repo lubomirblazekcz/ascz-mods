@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class ascz_vostok_fix
+	class ascz_thirsk_fix
 	{
 		units[] = {};
 		worlds[] = {};

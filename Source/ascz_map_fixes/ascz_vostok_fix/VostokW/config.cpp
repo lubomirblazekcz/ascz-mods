@@ -46,15 +46,16 @@ class CfgWorlds
     		};
     	};
     class DefaultLighting;
-	class Vostok_w:CAWorld
+    class Utes: CAWorld{};
+    class Vostok_w: Utes
 	{
 	    icon = "";
 		worldName = "\OLDBR\Vostok_w\Vostok_w.wrp";
 		author = "Old Bear";
 		cutscenes[] = {"VostokWIntro"};
 		description = "Vostok Winter";
-		pictureMap = "\ascz_vostok_w_fix\Data\Vostok_w_ca.paa";
-		pictureShot = "\ascz_vostok_w_fix\Data\ui_vostok_w_ca.paa";
+		pictureMap = "\ascz_vostok_fix\VostokW\Data\Vostok_w_ca.paa";
+		pictureShot = "\ascz_vostok_fix\VostokW\Data\ui_vostok_w_ca.paa";
 
         dynLightMinBrightnessAmbientCoef = 0.5;
         dynLightMinBrightnessAbsolute = 0.05;
@@ -152,7 +153,7 @@ class CfgMissions
 	{
 		class VostokWIntro
 		{
-			directory = "ascz_vostok_w_fix\Scenes\intro.Vostok_w";
+			directory = "ascz_vostok_fix\VostokW\Scenes\intro.Vostok_w";
 		};
 	};
 };

@@ -1,12 +1,12 @@
 class CfgPatches
 {
-	class ascz_clafghan_fix
+	class ascz_reshmaan_fix
 	{
-		units[] = {"Clafghan"};
-		worlds[] = {"Clafghan"};
+		units[] = {"reshmaan"};
+		worlds[] = {"reshmaan"};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"clafghan"};
+		requiredAddons[] = {"reshmaan"};
 		author[] = {"EvroMalarkey"};
 		version = "1.0";
 	};
@@ -14,7 +14,7 @@ class CfgPatches
 
 class CfgWorldList
 {
-	class clafghan{};
+	class fata{};
 };
 class CfgWorlds
 {
@@ -47,17 +47,56 @@ class CfgWorlds
     	};
     class DefaultLighting;
     class Takistan: CAWorld{};
-	class clafghan: Takistan
+	class reshmaan: Takistan
 	{
-	    worldName = "cla\clafghan\clafghan.wrp";
-		author = "Minimalaco + Robster";
-		cutscenes[] = {"clafghanIntro"};
-		description = "Clafghan";
-		pictureMap = "\ascz_clafghan_fix\Data\Clafghan_ca.paa";
-		pictureShot = "\ascz_clafghan_fix\Data\ui_clafghan_ca.paa";
+	    icon = "";
+		worldName = "fogu\reshmaan\reshmaan.wrp";
+		author = "VesMen & Fogu";
+		cutscenes[] = {"ReshmaanIntro"};
+		description = "Reshmaan Province";
+		pictureMap = "\ascz_reshmaan_fix\Data\Reshmaan_ca.paa";
+		pictureShot = "\ascz_reshmaan_fix\Data\ui_reshmaan_ca.paa";
 
         dynLightMinBrightnessAmbientCoef = 0.5;
         dynLightMinBrightnessAbsolute = 0.05;
+        class Sea
+        {
+            seaTexture = "a3\data_f\seatexture_co.paa";
+            seaMaterial = "#water";
+            shoreMaterial = "#shore";
+            shoreFoamMaterial = "#shorefoam";
+            shoreWetMaterial = "#shorewet";
+            WaterMapScale = 20;
+            WaterGrid = 50;
+            MaxTide = 0;
+            MaxWave = 0.25;
+            SeaWaveXScale = "2.0/50";
+            SeaWaveZScale = "1.0/50";
+            SeaWaveHScale = 1.0;
+            SeaWaveXDuration = 5000;
+            SeaWaveZDuration = 10000;
+        };
+        class Underwater
+        {
+            noWaterFog = -0.001;
+            fullWaterFog = 0.001;
+            deepWaterFog = 200;
+            waterFogDistanceNear = 10;
+            waterFogDistance = 40;
+            waterColor[] = {0.04,0.16,0.22};
+            deepWaterColor[] = {0.0,0.001,0.009};
+            surfaceColor[] = {0.04,0.16,0.22};
+            deepSurfaceColor[] = {0.0,0.001,0.009};
+        };
+        class SeaWaterShaderPars
+        {
+            refractionMoveCoef = 0.03;
+            minWaterOpacity = 0.0;
+            waterOpacityDistCoef = 0.4;
+            underwaterOpacity = 0.5;
+            waterOpacityFadeStart = 60;
+            waterOpacityFadeLength = 120;
+        };
 		class Weather: Weather
             {
                 class Overcast: Overcast
@@ -112,9 +151,9 @@ class CfgMissions
 {
 	class Cutscenes
 	{
-		class clafghanIntro
+		class ReshmaanIntro
 		{
-			directory = "ascz_clafghan_fix\Scenes\intro.Clafghan";
+			directory = "ascz_reshmaan_fix\Scenes\intro.reshmaan";
 		};
 	};
 };

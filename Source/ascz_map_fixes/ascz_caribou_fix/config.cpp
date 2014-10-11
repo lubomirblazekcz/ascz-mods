@@ -46,7 +46,7 @@ class CfgWorlds
     		};
     	};
     class DefaultLighting;
-	class Caribou:CAWorld
+	class Caribou: CAWorld
 	{
 	    icon = "";
 		worldName = "\RHNET\caribou_summer_conf\Caribou.wrp";

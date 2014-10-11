@@ -46,7 +46,8 @@ class CfgWorlds
     		};
     	};
     class DefaultLighting;
-	class MCN_Aliabad:CAWorld
+    class Takistan: CAWorld{};
+	class MCN_Aliabad: Takistan
 	{
 	    icon = "";
 		worldName = "\MCN\MCN_Aliabad\MCN_Aliabad.wrp";

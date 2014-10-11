@@ -46,7 +46,8 @@ class CfgWorlds
     		};
     	};
     class DefaultLighting;
-	class namalsk:CAWorld
+    class Utes: CAWorld{};
+	class namalsk: Utes
 	{
 		worldName = "\nst\namalsk\namalsk.wrp";
 		author = "Sumrak";
