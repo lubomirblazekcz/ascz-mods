@@ -1,12 +1,12 @@
 class CfgPatches
 {
-	class ascz_clafghan_fix
+	class ascz_torabora_fix
 	{
-		units[] = {"Clafghan"};
-		worlds[] = {"Clafghan"};
+		units[] = {"torabora"};
+		worlds[] = {"torabora"};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"clafghan"};
+		requiredAddons[] = {"torabora"};
 		author[] = {"EvroMalarkey"};
 		version = "1.0";
 	};
@@ -14,7 +14,7 @@ class CfgPatches
 
 class CfgWorldList
 {
-	class clafghan{};
+	class torabora{};
 };
 class CfgWorlds
 {
@@ -47,14 +47,14 @@ class CfgWorlds
     	};
     class DefaultLighting;
     class Takistan: CAWorld{};
-	class clafghan: Takistan
+	class torabora: Takistan
 	{
-	    worldName = "cla\clafghan\clafghan.wrp";
-		author = "Minimalaco + Robster";
-		cutscenes[] = {"clafghanIntro"};
-		description = "Clafghan";
-		pictureMap = "\ascz_clafghan_fix\Data\Clafghan_ca.paa";
-		pictureShot = "\ascz_clafghan_fix\Data\ui_clafghan_ca.paa";
+	    worldName = "\torabora\torabora\torabora.wrp";
+		author = "Chill xl";
+		cutscenes[] = {"ToraBoraIntro"};
+		description = "ToraBora";
+		pictureMap = "\ascz_torabora_fix\Data\ToraBora_Ca.paa";
+		pictureShot = "\ascz_torabora_fix\Data\ui_torabora_ca.paa";
 
         dynLightMinBrightnessAmbientCoef = 0.5;
         dynLightMinBrightnessAbsolute = 0.05;
@@ -112,9 +112,9 @@ class CfgMissions
 {
 	class Cutscenes
 	{
-		class clafghanIntro
+		class ToraBoraIntro
 		{
-			directory = "ascz_clafghan_fix\Scenes\intro.Clafghan";
+			directory = "ascz_torabora_fix\Scenes\intro.torabora";
 		};
 	};
 };

@@ -1,12 +1,12 @@
 class CfgPatches
 {
-	class ascz_clafghan_fix
+	class ascz_hazarkot_fix
 	{
-		units[] = {"Clafghan"};
-		worlds[] = {"Clafghan"};
+		units[] = {"MCN_HazarKot"};
+		worlds[] = {"MCN_HazarKot"};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"clafghan"};
+		requiredAddons[] = {"MCN_HazarKot"};
 		author[] = {"EvroMalarkey"};
 		version = "1.0";
 	};
@@ -14,7 +14,7 @@ class CfgPatches
 
 class CfgWorldList
 {
-	class clafghan{};
+	class MCN_HazarKot{};
 };
 class CfgWorlds
 {
@@ -47,14 +47,15 @@ class CfgWorlds
     	};
     class DefaultLighting;
     class Takistan: CAWorld{};
-	class clafghan: Takistan
+	class MCN_HazarKot: Takistan
 	{
-	    worldName = "cla\clafghan\clafghan.wrp";
-		author = "Minimalaco + Robster";
-		cutscenes[] = {"clafghanIntro"};
-		description = "Clafghan";
-		pictureMap = "\ascz_clafghan_fix\Data\Clafghan_ca.paa";
-		pictureShot = "\ascz_clafghan_fix\Data\ui_clafghan_ca.paa";
+	    icon = "";
+		worldName = "\MCN\MCN_HazarKot\MCN_HazarKot.wrp";
+		author = "McNools";
+		cutscenes[] = {"HazarKotIntro"};
+		description = "Hazar-Kot Valley";
+		pictureMap = "\ascz_hazarkot_fix\Data\HazarKot_Ca.paa";
+		pictureShot = "\ascz_hazarkot_fix\Data\ui_hazarkot_ca.paa";
 
         dynLightMinBrightnessAmbientCoef = 0.5;
         dynLightMinBrightnessAbsolute = 0.05;
@@ -112,9 +113,9 @@ class CfgMissions
 {
 	class Cutscenes
 	{
-		class clafghanIntro
+		class HazarKotIntro
 		{
-			directory = "ascz_clafghan_fix\Scenes\intro.Clafghan";
+			directory = "ascz_hazarkot_fix\Scenes\intro.MCN_HazarKot";
 		};
 	};
 };

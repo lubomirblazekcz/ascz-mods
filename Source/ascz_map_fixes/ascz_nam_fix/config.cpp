@@ -1,12 +1,12 @@
 class CfgPatches
 {
-	class ascz_clafghan_fix
+	class ascz_nam_fix
 	{
-		units[] = {"Clafghan"};
-		worlds[] = {"Clafghan"};
+		units[] = {"MBG_Nam"};
+		worlds[] = {"MBG_Nam"};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"clafghan"};
+		requiredAddons[] = {"MBG_Nam_C"};
 		author[] = {"EvroMalarkey"};
 		version = "1.0";
 	};
@@ -14,7 +14,7 @@ class CfgPatches
 
 class CfgWorldList
 {
-	class clafghan{};
+	class MBG_Nam{};
 };
 class CfgWorlds
 {
@@ -46,18 +46,56 @@ class CfgWorlds
     		};
     	};
     class DefaultLighting;
-    class Takistan: CAWorld{};
-	class clafghan: Takistan
+	class MBG_Nam:CAWorld
 	{
-	    worldName = "cla\clafghan\clafghan.wrp";
-		author = "Minimalaco + Robster";
-		cutscenes[] = {"clafghanIntro"};
-		description = "Clafghan";
-		pictureMap = "\ascz_clafghan_fix\Data\Clafghan_ca.paa";
-		pictureShot = "\ascz_clafghan_fix\Data\ui_clafghan_ca.paa";
+        icon = "";
+        worldName = "\CA\MBG_Nam\MBG_Nam.wrp";
+		author = "Mondkalb";
+		cutscenes[] = {"NamIntro"};
+		description = "Vietnam";
+		pictureMap = "\ascz_nam_fix\Data\Nam_ca.paa";
+		pictureShot = "\ascz_nam_fix\Data\ui_nam_ca.paa";
 
         dynLightMinBrightnessAmbientCoef = 0.5;
         dynLightMinBrightnessAbsolute = 0.05;
+        class Sea
+        {
+            seaTexture = "a3\data_f\seatexture_co.paa";
+            seaMaterial = "#water";
+            shoreMaterial = "#shore";
+            shoreFoamMaterial = "#shorefoam";
+            shoreWetMaterial = "#shorewet";
+            WaterMapScale = 20;
+            WaterGrid = 50;
+            MaxTide = 0;
+            MaxWave = 0.25;
+            SeaWaveXScale = "2.0/50";
+            SeaWaveZScale = "1.0/50";
+            SeaWaveHScale = 1.0;
+            SeaWaveXDuration = 5000;
+            SeaWaveZDuration = 10000;
+        };
+        class Underwater
+        {
+            noWaterFog = -0.001;
+            fullWaterFog = 0.001;
+            deepWaterFog = 200;
+            waterFogDistanceNear = 10;
+            waterFogDistance = 40;
+            waterColor[] = {0.04,0.16,0.22};
+            deepWaterColor[] = {0.0,0.001,0.009};
+            surfaceColor[] = {0.04,0.16,0.22};
+            deepSurfaceColor[] = {0.0,0.001,0.009};
+        };
+        class SeaWaterShaderPars
+        {
+            refractionMoveCoef = 0.03;
+            minWaterOpacity = 0.0;
+            waterOpacityDistCoef = 0.4;
+            underwaterOpacity = 0.5;
+            waterOpacityFadeStart = 60;
+            waterOpacityFadeLength = 120;
+        };
 		class Weather: Weather
             {
                 class Overcast: Overcast
@@ -112,9 +150,9 @@ class CfgMissions
 {
 	class Cutscenes
 	{
-		class clafghanIntro
+		class NamIntro
 		{
-			directory = "ascz_clafghan_fix\Scenes\intro.Clafghan";
+			directory = "ascz_nam_fix\Scenes\intro.MBG_Nam";
 		};
 	};
 };

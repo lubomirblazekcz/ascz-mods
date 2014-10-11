@@ -46,7 +46,8 @@ class CfgWorlds
     		};
     	};
     class DefaultLighting;
-	class fata:CAWorld
+    class Takistan: CAWorld{};
+	class fata: Takistan
 	{
 	    icon = "";
 		worldName = "praa\fata\fata.wrp";
