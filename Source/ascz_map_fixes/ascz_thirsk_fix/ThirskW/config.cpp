@@ -50,7 +50,7 @@ class CfgWorlds
 	class ThirskW: Utes
 	{
 	    icon = "";
-		worldName = "\RHNET\Thirsk2\Thirsk.wrp";
+		worldName = "\RHNET\Thirsk4\ThirskW.wrp";
 		author = "Raunhofer";
 		cutscenes[] = {"ThriskWIntro"};
 		description = "Thirsk Winter";

@@ -11,7 +11,13 @@ class CfgPatches
 		version = "1.0";
 	};
 };
-
+class CfgLocationTypes
+{
+	class MBG_celle2_icon_A7
+	{
+		font = "puristaLight";
+	};
+};
 class CfgWorldList
 {
 	class mbg_celle2{};
@@ -46,6 +52,7 @@ class CfgWorlds
     		};
     	};
     class DefaultLighting;
+    class DefaultClutter;
     class Chernarus: CAWorld{};
 	class mbg_celle2: Chernarus
 	{
@@ -59,32 +66,21 @@ class CfgWorlds
 
         dynLightMinBrightnessAmbientCoef = 0.5;
         dynLightMinBrightnessAbsolute = 0.05;
-        class clutter
+        class Clutter
         {
-            class GrassCrooked: DefaultClutter
+            class mbg_celle2_grass_green_long: DefaultClutter
             {
-                model = "AiA\Worlds\Clutter\c_GrassCrooked.p3d";
-                scaleMin = 0.5;
-                scaleMax = 1.2;
-            };
-            class GrassCrookedGreen: DefaultClutter
-            {
+                affectedByWind = 0.7;
                 model = "AiA\Worlds\Clutter\c_GrassCrookedGreen.p3d";
                 scaleMin = 0.7;
-                scaleMax = 1.3;
+                scaleMax = 1.05;
             };
-            class GrassCrookedForest: DefaultClutter
-            {
-                model = "AiA\Worlds\Clutter\c_GrassCrookedForest.p3d";
-                scaleMin = 0.8;
-                scaleMax = 1.2;
-            };
-            class FernAutumn: DefaultClutter
+            class MBG_FernAutumn: DefaultClutter
             {
                 scaleMin = 0.6;
                 scaleMax = 1.3;
             };
-            class FernAutumnTall: DefaultClutter
+            class MBG_FernAutumnTall: DefaultClutter
             {
                 scaleMin = 0.7;
                 scaleMax = 1.2;

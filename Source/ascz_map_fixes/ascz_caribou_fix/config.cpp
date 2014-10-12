@@ -58,6 +58,31 @@ class CfgWorlds
 
         dynLightMinBrightnessAmbientCoef = 0.5;
         dynLightMinBrightnessAbsolute = 0.05;
+        class clutter
+        {
+            class Caribou_GrassCrookedGreen: DefaultClutter
+            {
+                model = "AiA\Worlds\Clutter\c_GrassCrookedGreen.p3d";
+                scaleMin = 0.7;
+                scaleMax = 1.05;
+            };
+            class Caribou_GrassCrookedForest: DefaultClutter
+            {
+                model = "AiA\Worlds\Clutter\c_GrassCrookedForest.p3d";
+                scaleMin = 0.8;
+                scaleMax = 1.2;
+            };
+            class Caribou_FernAutumn: DefaultClutter
+            {
+                scaleMin = 0.6;
+                scaleMax = 1.3;
+            };
+            class Caribou_FernAutumnTall: DefaultClutter
+            {
+                scaleMin = 0.7;
+                scaleMax = 1.2;
+            };
+        };
         class Sea
         {
             seaTexture = "a3\data_f\seatexture_co.paa";

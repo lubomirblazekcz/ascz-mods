@@ -59,6 +59,21 @@ class CfgWorlds
 
         dynLightMinBrightnessAmbientCoef = 0.5;
         dynLightMinBrightnessAbsolute = 0.05;
+        class Clutter
+        {
+            class sm_GrassCrooked: DefaultClutter
+            {
+                model = "AiA\Worlds\Clutter\c_GrassCrooked.p3d";
+                scaleMin = 0.9;
+                scaleMax = 1.05;
+            };
+            class sm_GrassCrookedGreen: DefaultClutter
+            {
+                model = "AiA\Worlds\Clutter\c_GrassCrookedGreen.p3d";
+                scaleMin = 0.7;
+                scaleMax = 1.05;
+            };
+        };
 		class Weather: Weather
             {
                 class Overcast: Overcast
