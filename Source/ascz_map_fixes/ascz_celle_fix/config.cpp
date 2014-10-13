@@ -52,7 +52,6 @@ class CfgWorlds
     		};
     	};
     class DefaultLighting;
-    class DefaultClutter;
     class Chernarus: CAWorld{};
 	class mbg_celle2: Chernarus
 	{

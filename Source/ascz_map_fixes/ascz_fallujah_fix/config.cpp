@@ -6,7 +6,7 @@ class CfgPatches
 		worlds[] = {"fallujah"};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"fallujah_v1_0"};
+		requiredAddons[] = {"fallujah_v1_0", "AiA_Worlds"};
 		author[] = {"EvroMalarkey"};
 		version = "1.0";
 	};

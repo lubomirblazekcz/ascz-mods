@@ -6,7 +6,7 @@ class CfgPatches
 		worlds[] = {"namalsk"};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"namalsk"};
+		requiredAddons[] = {"namalsk", "AiA_Worlds"};
 		author[] = {"EvroMalarkey"};
 		version = "1.0";
 	};

@@ -6,7 +6,7 @@ class CfgPatches
 		worlds[] = {"Caribou"};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"Caribou"};
+		requiredAddons[] = {"Caribou", "AiA_Worlds"};
 		author[] = {"EvroMalarkey"};
 		version = "1.0";
 	};

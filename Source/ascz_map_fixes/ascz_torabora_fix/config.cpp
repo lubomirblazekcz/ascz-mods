@@ -6,7 +6,7 @@ class CfgPatches
 		worlds[] = {"torabora"};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"torabora"};
+		requiredAddons[] = {"torabora", "AiA_Worlds"};
 		author[] = {"EvroMalarkey"};
 		version = "1.0";
 	};

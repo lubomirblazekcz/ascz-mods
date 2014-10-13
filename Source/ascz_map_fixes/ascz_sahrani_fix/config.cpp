@@ -6,7 +6,7 @@ class CfgPatches
 		worlds[] = {"smd_sahrani_A2"};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"smd_sahrani_A2"};
+		requiredAddons[] = {"smd_sahrani_A2", "AiA_Worlds"};
 		author[] = {"EvroMalarkey"};
 		version = "1.0";
 	};

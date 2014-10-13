@@ -6,7 +6,7 @@ class CfgPatches
 		worlds[] = {"FDF_Isle1_a"};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"FDF_Isle1_a"};
+		requiredAddons[] = {"FDF_Isle1_a", "AiA_Worlds"};
 		author[] = {"EvroMalarkey"};
 		version = "1.0";
 	};

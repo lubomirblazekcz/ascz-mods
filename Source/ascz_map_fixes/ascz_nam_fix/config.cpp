@@ -6,7 +6,7 @@ class CfgPatches
 		worlds[] = {"MBG_Nam"};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"MBG_Nam_C"};
+		requiredAddons[] = {"MBG_Nam_C", "AiA_Worlds"};
 		author[] = {"EvroMalarkey"};
 		version = "1.0";
 	};

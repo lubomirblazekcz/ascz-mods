@@ -6,7 +6,7 @@ class CfgPatches
 		worlds[] = {"Panthera2"};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"ibr_panthera2"};
+		requiredAddons[] = {"ibr_panthera2", "AiA_Worlds"};
 		author[] = {"EvroMalarkey"};
 		version = "1.0";
 	};

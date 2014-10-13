@@ -6,7 +6,7 @@ class CfgPatches
 		worlds[] = {"MCN_HazarKot"};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"MCN_HazarKot"};
+		requiredAddons[] = {"MCN_HazarKot", "AiA_Worlds"};
 		author[] = {"EvroMalarkey"};
 		version = "1.0";
 	};

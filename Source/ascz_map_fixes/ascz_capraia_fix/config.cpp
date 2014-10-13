@@ -6,7 +6,7 @@ class CfgPatches
 		worlds[] = {"IsolaDiCapraia"};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"IsolaDiCapraia"};
+		requiredAddons[] = {"IsolaDiCapraia", "AiA_Worlds"};
 		author[] = {"EvroMalarkey"};
 		version = "1.0";
 	};
