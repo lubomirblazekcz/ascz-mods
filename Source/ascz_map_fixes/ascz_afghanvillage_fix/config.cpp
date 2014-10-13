@@ -2,19 +2,14 @@ class CfgPatches
 {
 	class ascz_afghanvillage_fix
 	{
-		units[] = {"praa_av"};
-		worlds[] = {"praa_av"};
-		weapons[] = {};
-		requiredVersion = 1.0;
-		requiredAddons[] = {"praa_av", "AiA_Worlds"};
+	    units[] = {};
+        worlds[] = {};
+        weapons[] = {};
+		requiredVersion = 1.2;
+		requiredAddons[] = {"AiA_Worlds"};
 		author[] = {"EvroMalarkey"};
-		version = "1.0";
+		version = "1.2";
 	};
-};
-
-class CfgWorldList
-{
-	class praa_av{};
 };
 class CfgWorlds
 {
