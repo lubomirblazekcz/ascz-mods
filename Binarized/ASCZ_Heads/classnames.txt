@@ -1,5 +1,6 @@
 - Heads:
 asczHead_taurus_A3 - Taurusky
+asczHead_troska_A3 - Troska
 asczHead_obacki_A3 - O'Backi
 asczHead_sokolov_A3 - Sokolov
 asczHead_price_A3 - Price
@@ -19,7 +20,7 @@ asczHead_picleson_A3 - Picleson
 asczHead_olson_A3 - Olson
 BI_Miller2_A3 - Mailer (Miller without 3D hair)
 BI_Miller_A3 - Miller
-BI_Kerry_A3 - Kerry (Beard edition)
+BI_Kerry_A3 - Kerry (From Adapt scars, beard etc...)
 BI_Stavrou_A3 - Stravou
 BI_Nikos_A3 - Nikos
 BI_Nikos2_A3 - Dikos (Nikos with different head model)
