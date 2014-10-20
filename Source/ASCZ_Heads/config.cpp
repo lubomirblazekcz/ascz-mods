@@ -54,6 +54,20 @@ class CfgFaces
 			textureHL2 = "ASCZ_Heads\data\Taurus_rucenohy.paa";
 			materialHL2 = "ASCZ_Heads\data\Taurus_rucenohy.rvmat";
 		};
+		
+		class asczHead_troska_A3 : Default {
+			displayname = "Troska";
+			texture = "ASCZ_Heads\data\Troska_ksicht.paa";
+			head = "NATOHead_A3";
+			identityTypes[] = {"Head_Euro","Head_NATO"};
+			author = "Taurus";
+			material = "ASCZ_Heads\data\Troska.rvmat";
+			disabled = 0;
+			textureHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
+			materialHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
+			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
+			materialHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
+		};
 
 		class asczHead_obacki_A3 : Default {
 			displayname = "O'Backi";
@@ -160,9 +174,9 @@ class CfgFaces
 			identityTypes[] = {"Head_Euro","Head_NATO"};
 			author = "Taurus";
 			material = "ASCZ_Heads\data\Redfield.rvmat";
-			textureHL = "\A3\Characters_F_epb\Heads\Data\hl_white_17_co.paa";
+			textureHL = "ASCZ_Heads\data\Redfield_rucenohy.paa";
 			materialHL = "\A3\Characters_F_epb\Heads\Data\hl_white_17.rvmat";
-			textureHL2 = "\A3\Characters_F_epb\Heads\Data\hl_white_17_co.paa";
+			textureHL2 = "ASCZ_Heads\data\Redfield_rucenohy.paa";
 			materialHL2 = "\A3\Characters_F_epb\Heads\Data\hl_white_17.rvmat";
 			disabled = 0;
 		};
