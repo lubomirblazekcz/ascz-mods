@@ -29,9 +29,10 @@ class CfgFaces
 			disabled = 0;
 		};
 		
-		class Custom : Custom {
+		class Custom: Custom {
 			displayname = "$STR_CFG_FACES_CUSTOM";
 			texture = "";
+			author = "You";
 			head = "DefaultHead_A3";
 			identityTypes[] = {"Custom"};
 			material = "ASCZ_Heads\data\Custom.rvmat";
@@ -40,22 +41,8 @@ class CfgFaces
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_white_bald_co.paa";
 			materialHL2 = "\A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat";
 		};
-		
-		class asczHead_taurus_A3 : Default {
-			displayname = "Taurusky";
-			texture = "ASCZ_Heads\data\Taurus_ksicht.paa";
-			head = "NATOHead_A3";
-			identityTypes[] = {"Head_Euro","Head_NATO"};
-			author = "Taurus";
-			material = "ASCZ_Heads\data\Taurus.rvmat";
-			disabled = 0;
-			textureHL = "ASCZ_Heads\data\Taurus_rucenohy.paa";
-			materialHL = "ASCZ_Heads\data\Taurus_rucenohy.rvmat";
-			textureHL2 = "ASCZ_Heads\data\Taurus_rucenohy.paa";
-			materialHL2 = "ASCZ_Heads\data\Taurus_rucenohy.rvmat";
-		};
-		
-		class asczHead_troska_A3 : Default {
+
+		class asczHead_troska_A3: WhiteHead_01 {
 			displayname = "Troska";
 			texture = "ASCZ_Heads\data\Troska_ksicht.paa";
 			head = "NATOHead_A3";
@@ -68,8 +55,22 @@ class CfgFaces
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
 			materialHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
 		};
+		
+		class asczHead_austin_A3: WhiteHead_01 {
+			displayname = "Austin";
+			texture = "ASCZ_Heads\data\Austin_ksicht.paa";
+			head = "NATOHead_A3";
+			identityTypes[] = {"Head_Euro","Head_NATO"};
+			author = "Taurus";
+			material = "ASCZ_Heads\data\Austin.rvmat";
+			disabled = 0;
+			textureHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
+			materialHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
+			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
+			materialHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
+		};
 
-		class asczHead_obacki_A3 : Default {
+		class asczHead_obacki_A3: Default {
 			displayname = "O'Backi";
 			texture = "ASCZ_Heads\data\OBacki_ksicht.paa";
 			head = "NATOHead_A3";
@@ -83,7 +84,7 @@ class CfgFaces
 			materialHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
 		};	
 		
-		class asczHead_sokolov_A3 : Default {
+		class asczHead_sokolov_A3: WhiteHead_01 {
 			displayname = "Sokolov";
 			head = "NATOHead_A3";
 			material = "ASCZ_Heads\data\Sokolov.rvmat";
@@ -97,7 +98,7 @@ class CfgFaces
 			disabled = 0;
 		};
 		
-		class asczHead_price_A3 : Default {
+		class asczHead_price_A3: WhiteHead_01 {
 			displayname = "Price";
 			texture = "ASCZ_Heads\data\Price_ksicht.paa";
 			head = "NATOHead_A3";
@@ -111,7 +112,7 @@ class CfgFaces
 			materialHL2 = "\A3\Characters_F\Heads\Data\hl_white_old.rvmat";
 		};
 		
-		class asczHead_mctavish_A3 : Default {
+		class asczHead_mctavish_A3: WhiteHead_01 {
 			displayname = "MacTavish";
 			texture = "ASCZ_Heads\data\MacTavish_ksicht.paa";
 			head = "DefaultHead_A3";
@@ -125,7 +126,7 @@ class CfgFaces
 			materialHL2 = "\A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat";
 		};
 		
-		class asczHead_spanel_A3 : Default {
+		class asczHead_spanel_A3: WhiteHead_01 {
 			displayname = "Spanel";
 			texture = "ASCZ_Heads\data\Spanel_ksicht.paa";
 			head = "NATOHead_A3";
@@ -139,7 +140,7 @@ class CfgFaces
 			materialHL2 = "\A3\Characters_F_epb\Heads\Data\hl_white_20.rvmat";
 		};
 		
-		class asczHead_voodoo_A3 : Default {
+		class asczHead_voodoo_A3: Kerry {
 			displayname = "Voodoo";
 			head = "KerryHead_A3";
 			texture = "ASCZ_Heads\data\Voodoo_ksicht.paa";
@@ -153,7 +154,7 @@ class CfgFaces
 			disabled = 0;
 		};
 		
-		class asczHead_beardy_A3 : Default {
+		class asczHead_beardy_A3: WhiteHead_01 {
 			displayname = "Beardy";
 			head = "NATOHead_A3";
 			texture = "ASCZ_Heads\data\Beardy_ksicht.paa";
@@ -167,7 +168,7 @@ class CfgFaces
 			disabled = 0;
 		};
 		
-		class asczHead_redfield_A3 : Default {
+		class asczHead_redfield_A3: WhiteHead_01 {
 			displayname = "Redfield";
 			head = "NATOHead_A3";
 			texture = "ASCZ_Heads\data\Redfield_ksicht.paa";
@@ -181,7 +182,7 @@ class CfgFaces
 			disabled = 0;
 		};
 		
-		class asczHead_foley_A3 : Default {
+		class asczHead_foley_A3: AfricanHead_01 {
 			displayname = "Foley";
 			texture = "ASCZ_Heads\data\Foley_ksicht.paa";
 			material = "ASCZ_Heads\data\Foley.rvmat";
@@ -195,7 +196,7 @@ class CfgFaces
 			disabled = 0;
 		};
 		
-		class asczHead_murphy_A3: Default {
+		class asczHead_murphy_A3: AfricanHead_01 {
 			displayname = "Murphy";
 			texture = "ASCZ_Heads\data\Murphy_ksicht.paa";
 			material = "ASCZ_Heads\data\Murphy.rvmat";
@@ -209,7 +210,7 @@ class CfgFaces
 			disabled = 0;
 		};
 		
-		class asczHead_josephe_A3: Default {
+		class asczHead_josephe_A3: AfricanHead_01 {
 			displayname = "Josephe";
 			texture = "ASCZ_Heads\data\Josephe_ksicht.paa";
 			material = "ASCZ_Heads\data\Josephe.rvmat";
@@ -223,7 +224,7 @@ class CfgFaces
 			disabled = 0;
 		};
 		
-		class asczHead_pernet_A3: Default {
+		class asczHead_pernet_A3: WhiteHead_01 {
 			displayname = "Pernet";
 			texture = "ASCZ_Heads\data\Pernet_ksicht.paa";
 			material = "ASCZ_Heads\data\Pernet.rvmat";
@@ -237,7 +238,7 @@ class CfgFaces
 			disabled = 0;
 		};
 		
-		class asczHead_nevim_A3: Default {
+		class asczHead_nevim_A3: WhiteHead_01 {
 			displayname = "Nevim";
 			texture = "ASCZ_Heads\data\Nevim_ksicht.paa";
 			material = "ASCZ_Heads\data\Nevim.rvmat";
@@ -251,7 +252,7 @@ class CfgFaces
 			disabled = 0;
 		};
 		
-		class asczHead_novotny_A3: Default {
+		class asczHead_novotny_A3: WhiteHead_01 {
 			displayname = "Novotny";
 			texture = "ASCZ_Heads\data\Novotny_ksicht.paa";
 			material = "ASCZ_Heads\data\Novotny.rvmat";
@@ -265,7 +266,7 @@ class CfgFaces
 			disabled = 0;
 		};
 		
-		class asczHead_brown_A3: Default {
+		class asczHead_brown_A3: WhiteHead_01 {
 			displayname = "Brown";
 			texture = "ASCZ_Heads\data\Brown_ksicht.paa";
 			material = "ASCZ_Heads\data\Brown.rvmat";
@@ -279,7 +280,7 @@ class CfgFaces
 			disabled = 0;
 		};
 		
-		class asczHead_picleson_A3: Default {
+		class asczHead_picleson_A3: WhiteHead_01 {
 			displayname = "Picleson";
 			texture = "ASCZ_Heads\data\Picleson_ksicht.paa";
 			material = "ASCZ_Heads\data\Picleson.rvmat";
@@ -293,7 +294,7 @@ class CfgFaces
 			disabled = 0;
 		};
 		
-		class asczHead_olson_A3: Default {
+		class asczHead_olson_A3: WhiteHead_01 {
 			displayname = "Olson";
 			texture = "ASCZ_Heads\data\Olson_ksicht.paa";
 			material = "ASCZ_Heads\data\Olson.rvmat";
@@ -307,7 +308,21 @@ class CfgFaces
 			disabled = 0;
 		};
 		
-		class BIHead_Miller2_A3 : Default {
+		class asczHead_taurus_A3: WhiteHead_01 {
+			displayname = "Taurusky";
+			texture = "ASCZ_Heads\data\Taurus_ksicht.paa";
+			head = "NATOHead_A3";
+			identityTypes[] = {"Head_Euro","Head_NATO"};
+			author = "Taurus";
+			material = "ASCZ_Heads\data\Taurus.rvmat";
+			disabled = 0;
+			textureHL = "ASCZ_Heads\data\Taurus_rucenohy.paa";
+			materialHL = "ASCZ_Heads\data\Taurus_rucenohy.rvmat";
+			textureHL2 = "ASCZ_Heads\data\Taurus_rucenohy.paa";
+			materialHL2 = "ASCZ_Heads\data\Taurus_rucenohy.rvmat";
+		};
+		
+		class BIHead_Miller2_A3: Default {
 			displayname = "Mailer";
 			head = "DefaultHead_A3";
 			texture = "\A3\Characters_F\Heads\Data\m_Miller_co.paa";
@@ -321,7 +336,7 @@ class CfgFaces
 			materialHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
 		};
 		
-		class BIHead_Kerry_A3 : Default {
+		class BIHead_Kerry_A3: Kerry {
 			displayname = "Kerry";
 			head = "KerryHead_A3";
 			texture = "\A3\Characters_F_EPA\Heads\Data\m_kerry_B2_co.paa";
@@ -334,7 +349,7 @@ class CfgFaces
 			materialHL2 = "\A3\Characters_F_EPB\Heads\Data\hl_hairy_dirty.rvmat";
 		};
 		
-		class BIHead_Stavrou_A3 : Default {
+		class BIHead_Stavrou_A3: Default {
 			displayname = "Stavrou";
 			head = "IG_Leader";
 			texture = "\A3\Characters_F_EPB\Heads\Data\m_IG_leader_co.paa";
@@ -348,7 +363,7 @@ class CfgFaces
 			disabled = 0;
 		};
 		
-		class BIHead_Nikos_A3 : Default {
+		class BIHead_Nikos_A3: GreekHead_A3_01 {
 			displayname = "Nikos";
 			texture = "\A3\Characters_F\Heads\Data\m_nikos_co.paa";
 			head = "Nikos";
@@ -362,7 +377,7 @@ class CfgFaces
 			materialHL2 = "\A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat";
 		};
 		
-		class BIHead_Nikos2_A3 : Default {
+		class BIHead_Nikos2_A3: GreekHead_A3_01 {
 			displayname = "Dikos";
 			texture = "\A3\Characters_F\Heads\Data\m_nikos_co.paa";
 			head = "DefaultHead_A3";
@@ -376,7 +391,7 @@ class CfgFaces
 			materialHL2 = "\A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat";
 		};
 		
-		class BIHead_Miller_A3 : Default {
+		class BIHead_Miller_A3: Default {
 			author = "$STR_A3_Bohemia_Interactive";
 			displayname = "$STR_A3_CfgFaces_Man_A3_Miller0";
 			head = "Miller";
