@@ -80,6 +80,11 @@ class cfgVehicles {
                     name = "AGM_DefusalKit";
                     count = 50;
                 };
+                class _xx_AGM_AGM_M26_Clacker
+                {
+                    name = "AGM_M26_Clacker";
+                    count = 50;
+                };
                 class _xx_AGM_CableTie
                 {
                     name = "AGM_CableTie";
