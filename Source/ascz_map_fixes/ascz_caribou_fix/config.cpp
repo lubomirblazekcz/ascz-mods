@@ -13,9 +13,9 @@ class CfgPatches
 };
 class CfgWorlds
 {
-    class CAWorld;
+    class Stratis;
     class DefaultClutter;
-	class Caribou: CAWorld
+	class Caribou: Stratis
 	{
 	    icon = "";
 		author = "Raunhofer";
@@ -26,6 +26,18 @@ class CfgWorlds
 
         class clutter
         {
+            class Caribou_GrassCrooked: DefaultClutter
+            {
+                model = "AiA\Worlds\Clutter\c_GrassCrooked.p3d";
+                scaleMin = 0.7;
+                scaleMax = 1.05;
+            };
+            class Caribou_smGrassCrooked: DefaultClutter
+            {
+                model = "AiA\Worlds\Clutter\c_GrassCrooked.p3d";
+                scaleMin = 0.7;
+                scaleMax = 1.05;
+            };
             class Caribou_GrassCrookedGreen: DefaultClutter
             {
                 model = "AiA\Worlds\Clutter\c_GrassCrookedGreen.p3d";
