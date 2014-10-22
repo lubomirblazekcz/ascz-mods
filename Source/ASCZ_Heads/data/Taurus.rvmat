@@ -1,13 +1,13 @@
 class StageTI
 {
-	texture = "a3\characters_f\heads\data\hl_ti_ca.paa";
+	texture = "a3\characters_f\heads\data\m_ti_ca.paa";
 };
-ambient[] = {1.4,2.1,2.4,1.0};
-diffuse[] = {0.8,0.7,0.6,1.0};
-forcedDiffuse[] = {1.3,0.8,0.85,0.1};
-emmisive[] = {0.22,0.09,0.99,0.2};
-specular[] = {0.385,0.355,0.35,1.0};
-specularPower = 65;
+ambient[] = {2,2,2,1};
+diffuse[] = {0.45,0.42,0.4,1};
+forcedDiffuse[] = {0.2,0.4,0.4,0.1};
+emmisive[] = {0.8,0.3,0.65,0.7};
+specular[] = {0.8,0.8,0.8,1};
+specularPower = 40;
 PixelShaderID = "Skin";
 VertexShaderID = "Skin";
 class Stage1
@@ -36,7 +36,7 @@ class Stage2
 };
 class Stage3
 {
-	texture = "ascz_heads\data\taurus_sdm.paa";
+	texture = "ascz_heads\data\taurus_ksicht.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -48,7 +48,7 @@ class Stage3
 };
 class Stage4
 {
-	texture = "a3\characters_f_epb\heads\data\m_ig_leader_as.paa";
+	texture = "a3\characters_f\heads\data\m_as.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
