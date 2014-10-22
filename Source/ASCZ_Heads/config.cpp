@@ -292,6 +292,12 @@ class CfgFaces
 			displayname = "Miller";
 			author = "$STR_A3_Bohemia_Interactive";
 		};
+		class asczHead_Mailer: Miller {
+			disabled = 0;
+			displayname = "Mailer";
+			head = "NATOHead_A3";
+			author = "$STR_A3_Bohemia_Interactive";
+		};
         class kerry_B2_F: Kerry {
 			disabled = 0;
 			displayname = "Kerry";
