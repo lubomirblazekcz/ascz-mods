@@ -22,6 +22,16 @@ class CfgWorlds
 		description = "Namalsk";
 		pictureMap = "\ascz_namalsk_fix\Data\namalsk_ca.paa";
 		pictureShot = "\ascz_namalsk_fix\Data\ui_namalsk_ca.paa";
+		class CfgEnvSounds;
+		class EnvSounds: CfgEnvSounds
+        {
+            class Rain
+            {
+                name = "$STR_DN_RAIN";
+                sound[] = {"A3\sounds_f\ambient\rain\rain_new_1",0.35481337,1,200};
+                soundNight[] = {"A3\sounds_f\ambient\rain\rain_new_2",0.31622776,1,200};
+            };
+        };
 	};
 };
 class CfgMissions

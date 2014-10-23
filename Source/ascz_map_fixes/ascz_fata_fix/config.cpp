@@ -22,6 +22,7 @@ class CfgWorlds
 		description = "Fata";
 		pictureMap = "\ascz_fata_fix\Data\Fata_ca.paa";
 		pictureShot = "\ascz_fata_fix\Data\ui_fata_ca.paa";
+		delete EnvSounds;
 	};
 };
 class CfgMissions
