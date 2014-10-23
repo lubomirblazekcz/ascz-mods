@@ -40,6 +40,19 @@ class CfgFaces
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
 			materialHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
 		};
+		class asczHead_logan_A3: WhiteHead_01 {
+			displayname = "Logan";
+			texture = "ASCZ_Heads\data\Logan_ksicht.paa";
+			head = "NATOHead_A3";
+			identityTypes[] = {"Head_Euro","Head_NATO"};
+			author = "Taurus";
+			material = "ASCZ_Heads\data\Logan.rvmat";
+			disabled = 0;
+			textureHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
+			materialHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
+			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
+			materialHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
+		};
 		class asczHead_austin_A3: WhiteHead_01 {
 			displayname = "Austin";
 			texture = "ASCZ_Heads\data\Austin_ksicht.paa";
@@ -57,7 +70,7 @@ class CfgFaces
 			displayname = "O'Backi";
 			texture = "ASCZ_Heads\data\OBacki_ksicht.paa";
 			head = "PersianHead_A3";
-			identityTypes[] = {"Head_Euro","Head_NATO"};
+			identityTypes[] = {"Head_Euro","Head_TK"};
 			author = "Taurus";
 			material = "ASCZ_Heads\data\OBacki.rvmat";
 			disabled = 0;
@@ -96,7 +109,7 @@ class CfgFaces
 			displayname = "MacTavish";
 			texture = "ASCZ_Heads\data\MacTavish_ksicht.paa";
 			head = "DefaultHead_A3";
-			identityTypes[] = {"Head_Euro","Head_NATO"};
+			identityTypes[] = {"Head_NATO"};
 			author = "Taurus";
 			material = "ASCZ_Heads\data\MacTavish.rvmat";
 			disabled = 0;
