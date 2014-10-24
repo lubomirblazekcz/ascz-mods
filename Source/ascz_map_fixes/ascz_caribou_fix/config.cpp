@@ -13,9 +13,9 @@ class CfgPatches
 };
 class CfgWorlds
 {
-    class Stratis;
+    class Utes;
     class DefaultClutter;
-	class Caribou: Stratis
+	class Caribou: Utes
 	{
 	    icon = "";
 		author = "Raunhofer";

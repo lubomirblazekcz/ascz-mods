@@ -149,28 +149,33 @@ class CfgVehicles
 	{
 		transportRepair = 0;
 		supplyRadius = 0;
+		scope = 2;
 	};
     class Land_cwr2_hangar_2: Land_SS_hangar
     {
         transportAmmo = 0;
         transportRepair = 0;
 		supplyRadius = 0;
+		scope = 2;
     };
     class Land_Cwr2_Hangar: Land_SS_hangar
     {
         transportAmmo = 0;
         transportRepair = 0;
 		supplyRadius = 0;
+		scope = 2;
     };
     class _fuelstation: fuelstation
     {
         transportFuel = 0;
 		supplyRadius = 0;
+		scope = 1;
     };
     class Land_cwr2_garaz_bez_tanku: _cwr2House
     {
         transportAmmo = 0;
 		supplyRadius = 0;
+		scope = 2;
     };
     class C130J_wreck_EP1;
     class C130JWreck: C130J_wreck_EP1{};
