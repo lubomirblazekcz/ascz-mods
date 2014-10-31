@@ -4,7 +4,7 @@
         <Key ID="str_a3_v_platecarrier1_oli0">
             <Original>Carrier Lite (Olive)</Original>
             <English>Carrier Lite (Olive)</English>
-            <Czech>Lehká taktická vesta (olivová)</Czech>
+            <Czech>Lehká taktická vesta (olivový)</Czech>
             <French>Gilet léger (olive)</French>
             <German>Leichter Tragegurt (Oliv)</German>
             <Italian>Gilet leggero (oliva)</Italian>
@@ -16,7 +16,7 @@
         <Key ID="str_a3_v_platecarrier2_oli0">
             <Original>Carrier Rig (Olive)</Original>
             <English>Carrier Rig (Olive)</English>
-            <Czech>Nosič plátů (olivová)</Czech>
+            <Czech>Nosič plátů (olivový)</Czech>
             <French>Gilet modulable léger (olive)</French>
             <German>Tragegurt (Oliv)</German>
             <Italian>Gilet (oliva)</Italian>
@@ -28,7 +28,7 @@
         <Key ID="str_v_rangemaster_belt_oli0">
             <Original>Rangemaster Belt (Olive)</Original>
             <English>Rangemaster Belt (Olive)</English>
-            <Czech>Opasek vedoucího střelby (olivová)</Czech>
+            <Czech>Opasek vedoucího střelby (olivový)</Czech>
             <French>Ceinture d'intendant (olive)</French>
             <German>Schießplatzverwalter-Gürtel (Oliv)</German>
             <Italian>Cintura responsabile poligono (oliva)</Italian>
@@ -40,7 +40,7 @@
         <Key ID="str_a3_v_platecarrieria1_olil0">
             <Original>GA Carrier Lite (Olive)</Original>
             <English>GA Carrier Lite (Olive)</English>
-            <Czech>GA nosič plátů - lehký (olivová)</Czech>
+            <Czech>GA nosič plátů - lehký (olivový)</Czech>
             <French>Gilet léger AV (olive)</French>
             <German>Leichter Boden-Luft-Tragegurt (Oliv)</German>
             <Italian>Gilet leggero aviazione (oliva)</Italian>
@@ -204,6 +204,78 @@
             <Portuguese>Suporte de transportador de GA (digi)</Portuguese>
             <Russian>GA жилет (цифровой)</Russian>
             <Spanish>Cartuchera de FAA (digital)</Spanish>
+        </Key>
+        <Key ID="str_a3_combat_fatigues_wdl">
+            <Original>Combat Fatigues (Woodland)</Original>
+            <English>Combat Fatigues (Woodland)</English>
+            <Czech>Uniforma (lesní kamufláž)</Czech>
+            <French>Treillis (Woodland)</French>
+            <German>Kampfanzug (Woodland)</German>
+            <Italian>Uniforme da combattimento (mimetico woodland)</Italian>
+            <Polish>Mundur bojowy (Woodland)</Polish>
+            <Portuguese>Uniforme de combate (Woodland)</Portuguese>
+            <Russian>Боевая форма (Woodland)</Russian>
+            <Spanish>Traje de combate (Woodland)</Spanish>
+        </Key>
+        <Key ID="str_a3_combat_fatigues_wdl_tee">
+            <Original>Combat Fatigues (Woodland) (Tee)</Original>
+            <English>Combat Fatigues (Woodland) (Tee)</English>
+            <Czech>Uniforma (lesní kamufláž) (triko)</Czech>
+            <French>Treillis (Woodland) (T-shirt)</French>
+            <German>Kampfanzug (Woodland) (T-Shirt)</German>
+            <Italian>Uniforme da combattimento (woodland MTP) (T-shirt)</Italian>
+            <Polish>Mundur bojowy (Woodland) (Tee)</Polish>
+            <Portuguese>Uniforme de combate (Woodland) (camisa)</Portuguese>
+            <Russian>Боевая форма (Woodland) (Tee)</Russian>
+            <Spanish>Traje de combate (Woodland) (camiseta)</Spanish>
+        </Key>
+        <Key ID="str_a3_recon_fatigues_wdl">
+            <Original>Recon Fatigues (Woodland)</Original>
+            <English>Recon Fatigues (Woodland)</English>
+            <Czech>Průzkumnický stejnokroj (lesní kamufláž)</Czech>
+            <French>Treillis de reco (Woodland)</French>
+            <German>Pionieranzug (Woodland)</German>
+            <Italian>Uniforme da ricognizione (mimetico woodland)</Italian>
+            <Polish>Mundur zwiadowcy (Woodland)</Polish>
+            <Portuguese>Uniforme de reconhecimento (Woodland)</Portuguese>
+            <Russian>Форма разведчика (Woodland)</Russian>
+            <Spanish>Traje de reconocimiento (Woodland)</Spanish>
+        </Key>
+        <Key ID="str_a3_combat_fatigues_sgg">
+            <Original>Combat Fatigues (Sage)</Original>
+            <English>Combat Fatigues (Sage)</English>
+            <Czech>Uniforma (šedozelená kamufláž)</Czech>
+            <French>Treillis (Sage)</French>
+            <German>Kampfanzug (Sage)</German>
+            <Italian>Uniforme da combattimento (mimetico sage)</Italian>
+            <Polish>Mundur bojowy (Sage)</Polish>
+            <Portuguese>Uniforme de combate (Sage)</Portuguese>
+            <Russian>Боевая форма (Sage)</Russian>
+            <Spanish>Traje de combate (Sage)</Spanish>
+        </Key>
+        <Key ID="str_a3_combat_fatigues_sgg_tee">
+            <Original>Combat Fatigues (Sage) (Tee)</Original>
+            <English>Combat Fatigues (Sage) (Tee)</English>
+            <Czech>Uniforma (šedozelená kamufláž) (triko)</Czech>
+            <French>Treillis (Sage) (T-shirt)</French>
+            <German>Kampfanzug (Sage) (T-Shirt)</German>
+            <Italian>Uniforme da combattimento (sage MTP) (T-shirt)</Italian>
+            <Polish>Mundur bojowy (Sage) (Tee)</Polish>
+            <Portuguese>Uniforme de combate (Sage) (camisa)</Portuguese>
+            <Russian>Боевая форма (Sage) (Tee)</Russian>
+            <Spanish>Traje de combate (Sage) (camiseta)</Spanish>
+        </Key>
+        <Key ID="str_a3_recon_fatigues_sgg">
+            <Original>Recon Fatigues (Sage)</Original>
+            <English>Recon Fatigues (Sage)</English>
+            <Czech>Průzkumnický stejnokroj (šedozelená kamufláž)</Czech>
+            <French>Treillis de reco (Sage)</French>
+            <German>Pionieranzug (Sage)</German>
+            <Italian>Uniforme da ricognizione (mimetico sage)</Italian>
+            <Polish>Mundur zwiadowcy (Sage)</Polish>
+            <Portuguese>Uniforme de reconhecimento (Sage)</Portuguese>
+            <Russian>Форма разведчика (Sage)</Russian>
+            <Spanish>Traje de reconocimiento (Sage)</Spanish>
         </Key>
     </Package>
 </Project>
