@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Arma3">
+    <Package name="Language_Hidden">
+        <Key ID="str_a3_v_platecarrier1_oli0">
+            <Original>Carrier Lite (Olive)</Original>
+            <English>Carrier Lite (Olive)</English>
+            <Czech>Lehká taktická vesta (olivová)</Czech>
+            <French>Gilet léger (olive)</French>
+            <German>Leichter Tragegurt (Oliv)</German>
+            <Italian>Gilet leggero (oliva)</Italian>
+            <Polish>Kamizelka Lite (oliwkowy)</Polish>
+            <Portuguese>Transportador leve (verde-oliva)</Portuguese>
+            <Russian>Легкий жилет (оливковый)</Russian>
+            <Spanish>Cartuchera ligera (oliva)</Spanish>
+        </Key>
+        <Key ID="str_a3_v_platecarrier2_oli0">
+            <Original>Carrier Rig (Olive)</Original>
+            <English>Carrier Rig (Olive)</English>
+            <Czech>Nosič plátů (olivová)</Czech>
+            <French>Gilet modulable léger (olive)</French>
+            <German>Tragegurt (Oliv)</German>
+            <Italian>Gilet (oliva)</Italian>
+            <Polish>Kamizelka Platecarrier (oliwkowy)</Polish>
+            <Portuguese>Traje transportador (verde-oliva)</Portuguese>
+            <Russian>Разгрузочный жилет (оливковый)</Russian>
+            <Spanish>Cartuchera (oliva)</Spanish>
+        </Key>
+        <Key ID="str_v_rangemaster_belt_oli0">
+            <Original>Rangemaster Belt (Olive)</Original>
+            <English>Rangemaster Belt (Olive)</English>
+            <Czech>Opasek vedoucího střelby (olivová)</Czech>
+            <French>Ceinture d'intendant (olive)</French>
+            <German>Schießplatzverwalter-Gürtel (Oliv)</German>
+            <Italian>Cintura responsabile poligono (oliva)</Italian>
+            <Polish>Pas instruktora (oliwkowy)</Polish>
+            <Portuguese>Cinto de líder de combate a distância (verde-oliva)</Portuguese>
+            <Russian>Пояс инструктора (оливковый)</Russian>
+            <Spanish>Cinto de responsable de galería de tiro (oliva)</Spanish>
+        </Key>
+        <Key ID="str_a3_v_platecarrieria1_olil0">
+            <Original>GA Carrier Lite (Olive)</Original>
+            <English>GA Carrier Lite (Olive)</English>
+            <Czech>GA nosič plátů - lehký (olivová)</Czech>
+            <French>Gilet léger AV (olive)</French>
+            <German>Leichter Boden-Luft-Tragegurt (Oliv)</German>
+            <Italian>Gilet leggero aviazione (oliva)</Italian>
+            <Polish>Kabura GA (oliwkowy)</Polish>
+            <Portuguese>Transportador leve de GA (verde-oliva)</Portuguese>
+            <Russian>GA облегченный жилет (оливковый)</Russian>
+            <Spanish>Cartuchera de FAA ligera (oliva)</Spanish>
+        </Key>
+        <Key ID="str_a3_v_platecarrieria2_olil0">
+            <Original>GA Carrier Rig (Olive)</Original>
+            <English>GA Carrier Rig (Olive)</English>
+            <Czech>GA nosič plátů (olivová)</Czech>
+            <French>Gilet modulable léger AV (kaki)</French>
+            <German>Boden-Luft-Tragegurt (Khaki)</German>
+            <Italian>Gilet Rig aviazione (oliva)</Italian>
+            <Polish>Kamizelka GA (oliwkowy)</Polish>
+            <Portuguese>Suporte de transportador de GA (verde-oliva)</Portuguese>
+            <Russian>GA жилет (оливковый)</Russian>
+            <Spanish>Cartuchera de FAA (oliva)</Spanish>
+        </Key>
+        <Key ID="str_a3_v_platecarrier1_khk0">
+            <Original>Carrier Lite (Khaki)</Original>
+            <English>Carrier Lite (Khaki)</English>
+            <Czech>Lehká taktická vesta (khaki)</Czech>
+            <French>Gilet léger (kaki)</French>
+            <German>Leichter Tragegurt (Khaki)</German>
+            <Italian>Gilet leggero (kaki)</Italian>
+            <Polish>Kamizelka Lite (khaki)</Polish>
+            <Portuguese>Transportador leve (cáqui)</Portuguese>
+            <Russian>Легкий жилет (хаки)</Russian>
+            <Spanish>Cartuchera ligera (caqui)</Spanish>
+        </Key>
+        <Key ID="str_a3_v_platecarrier2_khk0">
+            <Original>Carrier Rig (Khaki)</Original>
+            <English>Carrier Rig (Khaki)</English>
+            <Czech>Nosič plátů (khaki)</Czech>
+            <French>Gilet modulable léger (kaki)</French>
+            <German>Tragegurt (Khaki)</German>
+            <Italian>Gilet (kaki)</Italian>
+            <Polish>Kamizelka Platecarrier (khaki)</Polish>
+            <Portuguese>Traje transportador (cáqui)</Portuguese>
+            <Russian>Разгрузочный жилет (хаки)</Russian>
+            <Spanish>Cartuchera (caqui)</Spanish>
+        </Key>
+        <Key ID="str_v_rangemaster_belt_khk0">
+            <Original>Rangemaster Belt (Khaki)</Original>
+            <English>Rangemaster Belt (Khaki)</English>
+            <Czech>Opasek vedoucího střelby (khaki)</Czech>
+            <French>Ceinture d'intendant (kaki)</French>
+            <German>Schießplatzverwalter-Gürtel (Khaki)</German>
+            <Italian>Cintura responsabile poligono (kaki)</Italian>
+            <Polish>Pas instruktora (khaki)</Polish>
+            <Portuguese>Cinto de líder de combate a distância (cáqui)</Portuguese>
+            <Russian>Пояс инструктора (хаки)</Russian>
+            <Spanish>Cinto de responsable de galería de tiro (caqui)</Spanish>
+        </Key>
+        <Key ID="str_a3_v_platecarrieria1_khkl0">
+            <Original>GA Carrier Lite (Khaki)</Original>
+            <English>GA Carrier Lite (Khaki)</English>
+            <Czech>GA nosič plátů - lehký (khaki)</Czech>
+            <French>Gilet léger AV (kaki)</French>
+            <German>Leichter Boden-Luft-Tragegurt (Khaki)</German>
+            <Italian>Gilet leggero aviazione (kaki)</Italian>
+            <Polish>Kabura GA (khaki)</Polish>
+            <Portuguese>Transportador leve de GA (cáqui)</Portuguese>
+            <Russian>GA облегченный жилет (хаки)</Russian>
+            <Spanish>Cartuchera de FAA ligera (caqui)</Spanish>
+        </Key>
+        <Key ID="str_a3_v_platecarrieria2_khkl0">
+            <Original>GA Carrier Rig (Khaki)</Original>
+            <English>GA Carrier Rig (Khaki)</English>
+            <Czech>GA nosič plátů (khaki)</Czech>
+            <French>Gilet modulable léger AV (kaki)</French>
+            <German>Boden-Luft-Tragegurt (Khaki)</German>
+            <Italian>Gilet Rig aviazione (kaki)</Italian>
+            <Polish>Kamizelka GA (khaki)</Polish>
+            <Portuguese>Suporte de transportador de GA (cáqui)</Portuguese>
+            <Russian>GA жилет (хаки)</Russian>
+            <Spanish>Cartuchera de FAA (caqui)</Spanish>
+        </Key>
+        <Key ID="str_v_rangemaster_belt_cbr0">
+            <Original>Rangemaster Belt (Coyote)</Original>
+            <English>Rangemaster Belt (Coyote)</English>
+            <Czech>Opasek vedoucího střelby (žlutohnědý)</Czech>
+            <French>Ceinture d'intendant (coyote)</French>
+            <German>Schießplatzverwalter-Gürtel (Coyote)</German>
+            <Italian>Cintura responsabile poligono (beige)</Italian>
+            <Polish>Pas instruktora (kojot)</Polish>
+            <Portuguese>Cinto de líder de combate a distância (coiote)</Portuguese>
+            <Russian>Пояс инструктора (койот)</Russian>
+            <Spanish>Cinto de responsable de galería de tiro (coyote)</Spanish>
+        </Key>
+        <Key ID="str_a3_v_platecarrieria1_cbrl0">
+            <Original>GA Carrier Lite (Coyote)</Original>
+            <English>GA Carrier Lite (Coyote)</English>
+            <Czech>GA nosič plátů - lehký (žlutohnědý)</Czech>
+            <French>Gilet léger AV (coyote)</French>
+            <German>Leichter Boden-Luft-Tragegurt (Coyote)</German>
+            <Italian>Gilet leggero aviazione (beige)</Italian>
+            <Polish>Kabura GA (kojot)</Polish>
+            <Portuguese>Transportador leve de GA (coiote)</Portuguese>
+            <Russian>GA облегченный жилет (койот)</Russian>
+            <Spanish>Cartuchera de FAA ligera (coyote)</Spanish>
+        </Key>
+        <Key ID="str_a3_v_platecarrieria2_cbrl0">
+            <Original>GA Carrier Rig (Coyote)</Original>
+            <English>GA Carrier Rig (Coyote)</English>
+            <Czech>GA nosič plátů (žlutohnědý)</Czech>
+            <French>Gilet modulable léger AV (coyote)</French>
+            <German>Boden-Luft-Tragegurt (Coyote)</German>
+            <Italian>Gilet Rig aviazione (beige)</Italian>
+            <Polish>Kamizelka GA (kojot)</Polish>
+            <Portuguese>Suporte de transportador de GA (coiote)</Portuguese>
+            <Russian>GA жилет (койот)</Russian>
+            <Spanish>Cartuchera de FAA (coyote)</Spanish>
+        </Key>
+        <Key ID="str_v_rangemaster_belt_blk0">
+            <Original>Rangemaster Belt (Black)</Original>
+            <English>Rangemaster Belt (Black)</English>
+            <Czech>Opasek vedoucího střelby (černý)</Czech>
+            <French>Ceinture d'intendant (noir)</French>
+            <German>Schießplatzverwalter-Gürtel (schwarz)</German>
+            <Italian>Cintura responsabile poligono (nero)</Italian>
+            <Polish>Pas instruktora (czarna)</Polish>
+            <Portuguese>Cinto de líder de combate a distância (preto)</Portuguese>
+            <Russian>Пояс инструктора (черный)</Russian>
+            <Spanish>Cinto de responsable de galería de tiro (negra)</Spanish>
+        </Key>
+        <Key ID="str_a3_v_platecarrieria1_blkl0">
+            <Original>GA Carrier Lite (Black)</Original>
+            <English>GA Carrier Lite (Black)</English>
+            <Czech>GA nosič plátů - lehký (černý)</Czech>
+            <French>Gilet léger AV (noir)</French>
+            <German>Leichter Boden-Luft-Tragegurt (schwarz)</German>
+            <Italian>Gilet leggero aviazione (nero)</Italian>
+            <Polish>Kabura GA (czarna)</Polish>
+            <Portuguese>Transportador leve de GA (preto)</Portuguese>
+            <Russian>GA облегченный жилет (черный)</Russian>
+            <Spanish>Cartuchera de FAA ligera (negra)</Spanish>
+        </Key>
+        <Key ID="str_a3_v_platecarrieria2_blkl0">
+            <Original>GA Carrier Rig (Black)</Original>
+            <English>GA Carrier Rig (Black)</English>
+            <Czech>GA nosič plátů (černý)</Czech>
+            <French>Gilet modulable léger AV (noir)</French>
+            <German>Boden-Luft-Tragegurt (schwarz)</German>
+            <Italian>Gilet Rig aviazione (nero)</Italian>
+            <Polish>Kamizelka GA (czarna)</Polish>
+            <Portuguese>Suporte de transportador de GA (preto)</Portuguese>
+            <Russian>GA жилет (черный)</Russian>
+            <Spanish>Cartuchera de FAA (negra)</Spanish>
+        </Key>
+        <Key ID="str_a3_v_platecarrieria2_dgtl0_fix">
+            <Original>GA Carrier Rig (Digi)</Original>
+            <English>GA Carrier Rig (Digi)</English>
+            <Czech>GA nosič plátů (digitální kamufláž)</Czech>
+            <French>Gilet modulable léger AV (digi)</French>
+            <German>Boden-Luft-Tragegurt (Tarnfarbe)</German>
+            <Italian>Gilet Rig aviazione (mimetico digi)</Italian>
+            <Polish>Kamizelka GA (digi)</Polish>
+            <Portuguese>Suporte de transportador de GA (digi)</Portuguese>
+            <Russian>GA жилет (цифровой)</Russian>
+            <Spanish>Cartuchera de FAA (digital)</Spanish>
+        </Key>
+    </Package>
+</Project>
