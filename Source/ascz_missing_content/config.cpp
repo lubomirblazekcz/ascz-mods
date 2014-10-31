@@ -395,26 +395,32 @@ class cfgWeapons {
  	class U_B_CombatUniform_wdl: Uniform_Base {
  	    scope = 2;
  	    displayName = "$STR_a3_combat_fatigues_wdl";
+		picture = "\ascz_missing_content\data\UI\icon_u_b_combatuniform_wdl_vest_ca";
  	};
  	class U_B_CombatUniform_wdl_tshirt: Uniform_Base {
  	    scope = 2;
  	    displayName = "$STR_a3_combat_fatigues_wdl_tee";
+		picture = "\ascz_missing_content\data\UI\icon_u_b_combatuniform_wdl_tshirt_ca";
  	};
  	class U_B_CombatUniform_wdl_vest: Uniform_Base {
  	    scope = 2;
  	    displayName = "$STR_a3_recon_fatigues_wdl";
+		picture = "\ascz_missing_content\data\UI\icon_u_b_combatuniform_wdl_vest_ca";
  	};
  	class U_B_CombatUniform_sgg: Uniform_Base {
  	    scope = 2;
  	    displayName = "$STR_a3_combat_fatigues_sgg";
+		picture = "\ascz_missing_content\data\UI\icon_u_b_combatuniform_sgg_vest_ca";
  	};
     class U_B_CombatUniform_sgg_tshirt: Uniform_Base {
         scope = 2;
  	    displayName = "$STR_a3_combat_fatigues_sgg_tee";
+		picture = "\ascz_missing_content\data\UI\icon_u_b_combatuniform_sgg_shirt_ca";
     };
     class U_B_CombatUniform_sgg_vest: Uniform_Base {
         scope = 2;
  	    displayName = "$STR_a3_recon_fatigues_sgg";
+		picture = "\ascz_missing_content\data\UI\icon_u_b_combatuniform_sgg_vest_ca";
     };
 // -- Unknown model and texture
 //    class U_IG_Menelaos: Uniform_Base {
