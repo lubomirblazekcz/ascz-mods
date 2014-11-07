@@ -26,8 +26,36 @@ class CfgFaces
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_white_bald_co.paa";
 			materialHL2 = "\A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat";
 		};
-
-		class asczHead_troska_A3: WhiteHead_01 {
+		class Miller: Default {
+			disabled = 0;
+			displayname = "Miller";
+			author = "$STR_A3_Bohemia_Interactive";
+		};
+		class asczHead_Mailer: Miller {
+			disabled = 0;
+			displayname = "Mailer";
+			head = "NATOHead_A3";
+			author = "$STR_A3_Bohemia_Interactive";
+		};
+        class kerry_B2_F: Kerry {
+			disabled = 0;
+			displayname = "Kerry";
+			author = "$STR_A3_Bohemia_Interactive";
+		};
+		class IG_Leader: Default {
+			disabled = 0;
+			displayname = "Stavrou";
+			author = "$STR_A3_Bohemia_Interactive";
+		};
+		class O_Colonel: Default {
+			disabled = 0;
+			author = "$STR_A3_Bohemia_Interactive";
+		};
+		class Nikos: GreekHead_A3_01 {
+			disabled = 0;
+			author = "$STR_A3_Bohemia_Interactive";
+		};
+        class asczHead_troska_A3: WhiteHead_01 {
 			displayname = "Troska";
 			texture = "ASCZ_Heads\data\Troska_ksicht.paa";
 			head = "NATOHead_A3";
@@ -312,35 +340,6 @@ class CfgFaces
 			materialHL = "ASCZ_Heads\data\Taurus_rucenohy.rvmat";
 			textureHL2 = "ASCZ_Heads\data\Taurus_rucenohy.paa";
 			materialHL2 = "ASCZ_Heads\data\Taurus_rucenohy.rvmat";
-		};
-		class Miller: Default {
-			disabled = 0;
-			displayname = "Miller";
-			author = "$STR_A3_Bohemia_Interactive";
-		};
-		class asczHead_Mailer: Miller {
-			disabled = 0;
-			displayname = "Mailer";
-			head = "NATOHead_A3";
-			author = "$STR_A3_Bohemia_Interactive";
-		};
-        class kerry_B2_F: Kerry {
-			disabled = 0;
-			displayname = "Kerry";
-			author = "$STR_A3_Bohemia_Interactive";
-		};
-		class IG_Leader: Default {
-			disabled = 0;
-			displayname = "Stavrou";
-			author = "$STR_A3_Bohemia_Interactive";
-		};
-		class O_Colonel: Default {
-			disabled = 0;
-			author = "$STR_A3_Bohemia_Interactive";
-		};
-		class Nikos: GreekHead_A3_01 {
-			disabled = 0;
-			author = "$STR_A3_Bohemia_Interactive";
 		};
 	};
 };

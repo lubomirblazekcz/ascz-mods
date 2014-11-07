@@ -19,3 +19,5 @@ asczHead_novotny_A3 - Novotny
 asczHead_brown_A3 - Brown
 asczHead_picleson_A3 - Picleson
 asczHead_olson_A3 - Olson
+asczHead_dick_A3 - Dick
+asczHead_logan_A3 - Logan
