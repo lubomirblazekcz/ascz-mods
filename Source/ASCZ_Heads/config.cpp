@@ -40,6 +40,19 @@ class CfgFaces
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
 			materialHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
 		};
+		class asczHead_Dick_A3: WhiteHead_01 {
+			displayname = "Dick";
+			head = "DefaultHead_A3";
+			texture = "ASCZ_Heads\data\Dick_ksicht.paa";
+			identityTypes[] = {"Head_Euro","Head_NATO"};
+			author = "Taurus";
+			material = "ASCZ_Heads\data\Dick.rvmat";
+			textureHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
+			materialHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
+			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
+			materialHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
+			disabled = 0;
+		};
 		class asczHead_logan_A3: WhiteHead_01 {
 			displayname = "Logan";
 			texture = "ASCZ_Heads\data\Logan_ksicht.paa";
@@ -69,8 +82,8 @@ class CfgFaces
 		class asczHead_obacki_A3: Default {
 			displayname = "O'Backi";
 			texture = "ASCZ_Heads\data\OBacki_ksicht.paa";
-			head = "PersianHead_A3";
-			identityTypes[] = {"Head_Euro","Head_TK"};
+			head = "GreekHead_A3";
+			identityTypes[] = {"Head_TK"};
 			author = "Taurus";
 			material = "ASCZ_Heads\data\OBacki.rvmat";
 			disabled = 0;
@@ -157,19 +170,19 @@ class CfgFaces
 			materialHL2 = "\A3\Characters_F\Heads\Data\hl_white_old.rvmat";
 			disabled = 0;
 		};
-		class asczHead_redfield_A3: WhiteHead_01 {
-			displayname = "Redfield";
-			head = "NATOHead_A3";
-			texture = "ASCZ_Heads\data\Redfield_ksicht.paa";
-			identityTypes[] = {"Head_Euro","Head_NATO"};
-			author = "Taurus";
-			material = "ASCZ_Heads\data\Redfield.rvmat";
-			textureHL = "ASCZ_Heads\data\Redfield_rucenohy.paa";
-			materialHL = "\A3\Characters_F_epb\Heads\Data\hl_white_17.rvmat";
-			textureHL2 = "ASCZ_Heads\data\Redfield_rucenohy.paa";
-			materialHL2 = "\A3\Characters_F_epb\Heads\Data\hl_white_17.rvmat";
-			disabled = 0;
-		};
+	    class asczHead_redfield_A3: WhiteHead_01 {
+           displayname = "Redfield";
+           head = "NATOHead_A3";
+           texture = "ASCZ_Heads\data\Redfield_ksicht.paa";
+           identityTypes[] = {"Head_Euro","Head_NATO"};
+           author = "Taurus";
+           material = "ASCZ_Heads\data\Redfield.rvmat";
+           textureHL = "\A3\Characters_F\Heads\Data\hl_white_hairy_1_co.paa";
+           materialHL = "\A3\Characters_F_epb\Heads\Data\hl_white_17.rvmat";
+           textureHL2 = "ASCZ_Heads\data\Redfield_rucenohy.paa";
+           materialHL2 = "\A3\Characters_F_epb\Heads\Data\hl_white_17.rvmat";
+           disabled = 0;
+        };
 		class asczHead_foley_A3: AfricanHead_01 {
 			displayname = "Foley";
 			texture = "ASCZ_Heads\data\Foley_ksicht.paa";

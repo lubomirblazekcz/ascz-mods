@@ -1,0 +1,77 @@
+class StageTI
+{
+	texture="a3\characters_f\heads\data\m_ti_ca.paa";
+};
+ambient[]={2,2,2,1};
+diffuse[]={0.44999999,0.41999999,0.40000001,1};
+forcedDiffuse[]={0.2,0.40000001,0.40000001,0.1};
+emmisive[]={0.80000001,0.30000001,0.64999998,0.69999999};
+specular[]={0.80000001,0.80000001,0.80000001,1};
+specularPower=40;
+PixelShaderID="Skin";
+VertexShaderID="Skin";
+class Stage1
+{
+	texture="ascz_heads\data\Dick_nohq.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage2
+{
+	texture="#(argb,8,8,3)color(0,0,0,0,MC)";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage3
+{
+	texture="ascz_heads\data\Dickl_ksicht.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage4
+{
+	texture="a3\characters_f\heads\data\m_as.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage5
+{
+	texture="a3\characters_f_epb\heads\data\m_white_20_smdi.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage6
+{
+	texture="#(ai,64,64,1)fresnel(0.5,0.3)";
+	uvSource="none";
+};
