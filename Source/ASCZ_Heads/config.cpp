@@ -68,7 +68,7 @@ class CfgFaces
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
 			materialHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
 		};
-		class asczHead_Dick_A3: WhiteHead_01 {
+		class asczHead_dick_A3: WhiteHead_01 {
 			displayname = "Dick";
 			head = "DefaultHead_A3";
 			texture = "ASCZ_Heads\data\Dick_ksicht.paa";
