@@ -4,7 +4,7 @@ class CfgPatches
 {
 	class ascz_caf_ag_faction_eeur_r
 	{
-		units[] = {"CAF_AG_EEUR_R_AK47","CAF_AG_EEUR_R_AK74","CAF_AG_EEUR_R_RPK74","CAF_AG_EEUR_R_PKM","CAF_AG_EEUR_R_SVD","CAF_AG_EEUR_R_RPG","CAF_AG_EEUR_R_GL", "CAF_AG_EEUR_UAZ_469", "CAF_AG_EEUR_UAZ_469_Open", "CAF_AG_EEUR_Mi_Mi8", "CAF_AG_EEUR_Mi_Mi8_rockets"};
+		units[] = {"CAF_AG_EEUR_R_AK47","CAF_AG_EEUR_R_AK74","CAF_AG_EEUR_R_RPK74","CAF_AG_EEUR_R_PKM","CAF_AG_EEUR_R_SVD","CAF_AG_EEUR_R_RPG","CAF_AG_EEUR_R_GL", "CAF_AG_EEUR_UAZ_469", "CAF_AG_EEUR_UAZ_469_Open", "CAF_AG_EEUR_Mi_Mi8", "CAF_AG_EEUR_Mi_Mi8_rockets","CAF_AG_afr_p_Offroad", "CAF_AG_afr_p_Offroad_armed_01", "caf_ag_me_t_Offroad", "caf_ag_me_t_Offroad_armed_01", "caf_ag_eeur_r_Offroad", "caf_ag_eeur_r_Offroad_armed_01"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"caf_ag_faction_eeur_r"};
@@ -172,7 +172,7 @@ class CfgVehicles
         vehicleClass = "Car";
         displayName = "UAZ-469";
         scope = 2;
-        side = 1;
+        side = 0;
         crew = "CAF_AG_EEUR_R_AK47";
         faction = "caf_ag_eeur_r";
         hiddenSelections[]=
@@ -211,7 +211,7 @@ class CfgVehicles
         vehicleClass = "Car";
         displayName = "UAZ-469 (Open)";
         scope = 2;
-        side = 1;
+        side = 0;
         crew = "CAF_AG_EEUR_R_AK47";
         faction = "caf_ag_eeur_r";
         hiddenSelections[]=
@@ -231,7 +231,7 @@ class CfgVehicles
 
         hiddenSelectionsTextures[] =
         {
-            "\kae_SZ_vehicles\data\textures\uaz_main_ChDKZ_co.paa",
+            "\ASCZ_CAF_replacement\East_Europe_Rebels\uaz_main_ChDKZ_co.paa",
             "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
             "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
             "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
@@ -253,7 +253,7 @@ class CfgVehicles
         crew = "CAF_AG_EEUR_R_AK47";
         scope = 2;
         displayName = "Mi-8";
-        side = 1;
+        side = 0;
         vehicleclass = "Air";
         hiddenselectionstextures[] =
         {
@@ -272,7 +272,7 @@ class CfgVehicles
         author = "CAF MOD TEAM";
         crew = "CAF_AG_EEUR_R_AK47";
         faction = "caf_ag_eeur_r";
-        side = 1;
+        side = 0;
         vehicleclass = "Air";
         hiddenselectionstextures[] =
         {
@@ -318,4 +318,79 @@ class CfgVehicles
             };
         };
     };
+    class B_G_Offroad_01_F;
+    class B_G_Offroad_01_armed_F;
+    class CAF_AG_afr_p_Offroad: B_G_Offroad_01_F
+    {
+        scope = 2;
+        side = 0;
+        faction = "caf_ag_afr_p";
+        crew = "CAF_AG_afr_p_AK74";
+        typicalCargo[] = {"CAF_AG_afr_p_AK74","CAF_AG_afr_p_AK74"};
+        author = "CAF DEV TEAM";
+    };
+    class CAF_AG_afr_p_Offroad_armed_01: B_G_Offroad_01_armed_F
+    {
+        scope = 2;
+        side = 0;
+        faction = "caf_ag_afr_p";
+        crew = "CAF_AG_afr_p_AK74";
+        typicalCargo[] = {"CAF_AG_afr_p_AK74"};
+        author = "CAF DEV TEAM";
+    };
+    class caf_ag_me_t_Offroad: B_G_Offroad_01_F
+    {
+        scope = 2;
+        side = 0;
+        faction = "caf_ag_me_t";
+        crew = "caf_ag_me_t_AK74";
+        typicalCargo[] = {"caf_ag_me_t_AK74","caf_ag_me_t_AK74"};
+        author = "CAF DEV TEAM";
+    };
+    class caf_ag_me_t_Offroad_armed_01: B_G_Offroad_01_armed_F
+    {
+        scope = 2;
+        side = 0;
+        faction = "caf_ag_me_t";
+        crew = "caf_ag_me_t_AK74";
+        typicalCargo[] = {"caf_ag_me_t_AK74"};
+        author = "CAF DEV TEAM";
+    };
+    class caf_ag_eeur_r_Offroad: B_G_Offroad_01_F
+    {
+        scope = 2;
+        side = 0;
+        faction = "caf_ag_eeur_r";
+        crew = "caf_ag_eeur_r_AK74";
+        typicalCargo[] = {"caf_ag_eeur_r_AK74","caf_ag_eeur_r_AK74"};
+        author = "CAF DEV TEAM";
+    };
+    class caf_ag_eeur_r_Offroad_armed_01: B_G_Offroad_01_armed_F
+    {
+        scope = 2;
+        side = 0;
+        faction = "caf_ag_eeur_r";
+        crew = "caf_ag_eeur_r_AK74";
+        typicalCargo[] = {"caf_ag_eeur_r_AK74"};
+        author = "CAF DEV TEAM";
+    };
+};
+
+class CfgGroups
+{
+	class EAST
+	{
+		class caf_ag_eeur_r
+		{
+			name = "ChDKZ";
+	    };
+		class caf_ag_afr_p
+		{
+			name = "Pirates";
+	    };
+		class caf_ag_me_t
+		{
+			name = "Takistani Militia";
+	    };
+	};
 };

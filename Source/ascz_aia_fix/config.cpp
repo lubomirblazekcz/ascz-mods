@@ -90,26 +90,34 @@ class CfgWorlds
             class GrassCrookedSmall: DefaultClutter
             {
                 model = "AiA\Worlds\Clutter\c_GrassCrooked.p3d";
-                scaleMin = 0.5;
-                scaleMax = 1;
+				affectedByWind = 0.3;
+				swLighting = 1;
+				scaleMin = 0.5;
+				scaleMax = 1;
             };
             class GrassCrookedGreen: DefaultClutter
             {
                 model = "AiA\Worlds\Clutter\c_GrassCrookedGreen.p3d";
-                scaleMin = 0.7;
-                scaleMax = 1.3;
+				affectedByWind = 0.3;
+				swLighting = 1;
+				scaleMin = 0.7;
+				scaleMax = 1.05;
             };
             class GrassCrookedGreenSmall: DefaultClutter
             {
                 model = "AiA\Worlds\Clutter\c_GrassCrookedGreen.p3d";
-                scaleMin = 0.5;
-                scaleMax = 0.9;
+				affectedByWind = 0.3;
+				swLighting = 1;
+				scaleMin = 0.5;
+				scaleMax = 1;
             };
             class GrassCrookedForest: DefaultClutter
             {
                 model = "AiA\Worlds\Clutter\c_GrassCrookedForest.p3d";
-                scaleMin = 1.1;
-                scaleMax = 2.3;
+				affectedByWind = 0.3;
+				swLighting = 1;
+				scaleMin = 0.8;
+				scaleMax = 1.2;
             };
             class FernAutumn: DefaultClutter
             {
@@ -162,61 +170,55 @@ class CfgWorlds
     {
 		author = "$STR_a3_bohemia_interactive";
 		cutscenes[] = {"UtesIntro"};
-        class clutter
-        {
-            class GrassCrooked: DefaultClutter
-            {
-                model = "AiA\Worlds\Clutter\c_GrassCrooked.p3d";
-                scaleMin = 0.5;
-                scaleMax = 1.2;
-            };
-            class GrassCrookedGreen: DefaultClutter
-            {
-                model = "AiA\Worlds\Clutter\c_GrassCrookedGreen.p3d";
-                scaleMin = 0.7;
-                scaleMax = 1.3;
-            };
-            class GrassCrookedForest: DefaultClutter
-            {
-                model = "AiA\Worlds\Clutter\c_GrassCrookedForest.p3d";
-                scaleMin = 0.8;
-                scaleMax = 1.2;
-            };
-            class FernAutumn: DefaultClutter
-            {
-                scaleMin = 0.6;
-                scaleMax = 1.3;
-            };
-            class FernAutumnTall: DefaultClutter
-            {
-                scaleMin = 0.7;
-                scaleMax = 1.2;
-            };
-        };
+		class Clutter
+		{
+			class UTFernAutumn: DefaultClutter
+			{
+				scaleMin = 0.6;
+				scaleMax = 1.3;
+			};
+			class UTFernAutumnTall: DefaultClutter
+			{
+				scaleMin = 0.7;
+				scaleMax = 1.2;
+			};
+			class GrassCrookedForest: DefaultClutter
+			{
+				model = "AiA\Worlds\Clutter\c_GrassCrookedForest.p3d";
+				scaleMin = 0.8;
+				scaleMax = 1.2;
+			};
+		};
     };
     class Woodland_ACR: CAWorld
     {
 		author = "$STR_a3_bohemia_interactive";
 		cutscenes[] = {"Woodland_ACRIntro"};
-		class clutter
+        class clutter
         {
             class GrassCrooked: DefaultClutter
             {
                 model = "AiA\Worlds\Clutter\c_GrassCrooked.p3d";
-                scaleMin = 0.5;
-                scaleMax = 1.2;
+				affectedByWind = 0.3;
+				swLighting = 1;
+				scaleMin = 0.9;
+				scaleMax = 1.05;
             };
             class GrassCrookedGreen: DefaultClutter
             {
                 model = "AiA\Worlds\Clutter\c_GrassCrookedGreen.p3d";
-                scaleMin = 0.7;
-                scaleMax = 1.3;
+				affectedByWind = 0.3;
+				swLighting = 1;
+				scaleMin = 0.7;
+				scaleMax = 1.05;
             };
             class GrassCrookedForest: DefaultClutter
             {
                 model = "AiA\Worlds\Clutter\c_GrassCrookedForest.p3d";
-                scaleMin = 0.8;
-                scaleMax = 1.2;
+				affectedByWind = 0.3;
+				swLighting = 1;
+				scaleMin = 0.8;
+				scaleMax = 1.2;
             };
             class FernAutumn: DefaultClutter
             {
