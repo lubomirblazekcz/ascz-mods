@@ -16,6 +16,11 @@ class CfgPatches
 class CfgWeapons
 {
 	class hlc_ak_base;
+	class hlc_M14_base;
+	class hlc_g3_base;
+	class hlc_fal_base;
+	class hlc_Mp5_base;
+	class NATO_Box_Base;
 	class hlc_rifle_ak74: hlc_ak_base
 	{
 		displayName = "AK-74";
@@ -64,10 +69,6 @@ class CfgWeapons
 	{
 	    displayName = "AK Supply Box";
 	};
-	class hlc_rifle_aek971: hlc_rifle_ak74
-	{
-	    displayName = "AEK971S";
-	};
 	class hlc_rifle_ak74_dirty: hlc_rifle_ak74
 	{
 	    displayName = "AK-74";
@@ -78,7 +79,11 @@ class CfgWeapons
 	};
 	class hlc_rifle_M14: hlc_M14_base
 	{
-	   displayName = "M14"
+	   displayName = "M14";
+	};
+	class hlc_rifle_m14sopmod: hlc_rifle_M14
+	{
+	    displayName = "M14 SOPMOD";
 	};
 	class hlc_rifle_M21: hlc_M14_base
 	{
@@ -87,10 +92,6 @@ class CfgWeapons
 	class hlc_rifle_m14dmr: hlc_rifle_M21
 	{
 		displayName = "M14 DMR";
-	};
-	class hlc_rifle_m14sopmod: hlc_rifle_M14
-	{
-	    displayName = "M14 SOPMOD";
 	};
 	class HLC_AR_ammobox: NATO_Box_Base
 	{
@@ -148,6 +149,10 @@ class CfgWeapons
 	{
 		displayName = "L1A1 SLR";
 	};
+    class hlc_rifle_FAL5061: hlc_fal_base
+    {
+        displayName = "FAL 'Para'";
+	};
 	class hlc_rifle_SLRchopmod: hlc_rifle_FAL5061
 	{
 		displayName = "SLR Chopmod";
@@ -183,7 +188,7 @@ class CfgWeapons
 	class hlc_smg_mp510: hlc_smg_MP5N
 	{
 		displayName = "MP5/10";
-    {;
+    };
 	class hlc_smg_mp5sd5: hlc_Mp5_base
 	{
 		displayName = "MP5SD5";

@@ -14,8 +14,8 @@ class CfgFactionClasses
 	access = 1;
 	class caf_ag_me_t
 	{
-		displayName = "Middle East - Tribal";
-		icon = "\ASCZ_CAF_replacement\Middle_East_Tribal\cfgfaction_ME_Tribal.paa";
+		displayName = "Takistani Militia";
+		icon = "\ASCZ_CAF_replacement\Middle_East_Tribal\icon_tkm_co.paa";
 		author = "CAF MOD TEAM";
 		priority = 2;
 		side = 0;
@@ -103,12 +103,12 @@ class CfgVehicles
 		displayName = "Tribal (RPK 45rounds)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_ME_robes_04";
-		weapons[] = {"hlc_rifle_rpk","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_rpk","Throw","Put"};
+		weapons[] = {"rhs_weap_pkp","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_pkp","Throw","Put"};
 		Items[] = {"FirstAidKit","FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit","FirstAidKit"};
-		magazines[] = {"MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","hlc_45Rnd_762x39_m_rpk","hlc_45Rnd_762x39_m_rpk","hlc_45Rnd_762x39_m_rpk","hlc_45Rnd_762x39_m_rpk","hlc_45Rnd_762x39_m_rpk","hlc_45Rnd_762x39_m_rpk","hlc_45Rnd_762x39_m_rpk"};
-		respawnMagazines[] = {"MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","hlc_45Rnd_762x39_m_rpk","hlc_45Rnd_762x39_m_rpk","hlc_45Rnd_762x39_m_rpk","hlc_45Rnd_762x39_m_rpk","hlc_45Rnd_762x39_m_rpk","hlc_45Rnd_762x39_m_rpk","hlc_45Rnd_762x39_m_rpk"};
+		magazines[] = {"MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR"};
+		respawnMagazines[] = {"MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR"};
 		linkedItems[] = {"V_BandollierB_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_BandollierB_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
@@ -119,12 +119,12 @@ class CfgVehicles
 		displayName = "Tribal (SVD)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_ME_ROBES_mil_01a";
-		weapons[] = {"caf_svd","Throw","Put"};
-		respawnWeapons[] = {"caf_svd","Throw","Put"};
+		weapons[] = {"rhs_weap_svds_pso1","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_svds_pso1","Throw","Put"};
 		Items[] = {"FirstAidKit","FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit","FirstAidKit"};
-		magazines[] = {"MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","caf_10Rnd_762x54_SVD","caf_10Rnd_762x54_SVD","caf_10Rnd_762x54_SVD","caf_10Rnd_762x54_SVD","caf_10Rnd_762x54_SVD","caf_10Rnd_762x54_SVD"};
-		respawnMagazines[] = {"MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","caf_10Rnd_762x54_SVD","caf_10Rnd_762x54_SVD","caf_10Rnd_762x54_SVD","caf_10Rnd_762x54_SVD","caf_10Rnd_762x54_SVD","caf_10Rnd_762x54_SVD"};
+		magazines[] = {"MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1"};
+		respawnMagazines[] = {"MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1"};
 		linkedItems[] = {"V_BandollierB_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_BandollierB_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
@@ -136,12 +136,12 @@ class CfgVehicles
 		backpack = "B_ME_RPG_BAG";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_ME_robes_02a";
-		weapons[] = {"hlc_rifle_ak74","caf_rpg7","Throw","Put"};
-		respawnWeapons[] = {"hlc_rifle_ak74","caf_rpg7","Throw","Put"};
-		Items[] = {"FirstAidKit","FirstAidKit"};
-		RespawnItems[] = {"FirstAidKit","FirstAidKit"};
-		magazines[] = {"MiniGrenade","MiniGrenade","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","caf_OG7"};
-		respawnMagazines[] = {"MiniGrenade","MiniGrenade","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","caf_OG7"};
+        weapons[] = {"hlc_rifle_ak74","rhs_weap_rpg7","Throw","Put"};
+        respawnWeapons[] = {"hlc_rifle_ak74","rhs_weap_rpg7","Throw","Put"};
+        Items[] = {"FirstAidKit","FirstAidKit"};
+        RespawnItems[] = {"FirstAidKit","FirstAidKit"};
+        magazines[] = {"MiniGrenade","MiniGrenade","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","rhs_rpg7_PG7VL_mag"};
+        respawnMagazines[] = {"MiniGrenade","MiniGrenade","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","rhs_rpg7_PG7VL_mag"};
 		linkedItems[] = {"V_BandollierB_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_BandollierB_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
