@@ -29,6 +29,7 @@ class CfgWorlds
 				class Weather5;
 			};
 		};
+		class DefaultClutter;
 	};
 	class CAWorld: DefaultWorld
 	{
@@ -84,6 +85,51 @@ class CfgWorlds
     {
 		author = "$STR_a3_bohemia_interactive";
 		cutscenes[] = {"Bootcamp_ACRIntro"};
+        class clutter
+        {
+            class GrassCrookedSmall: DefaultClutter
+            {
+                model = "AiA\Worlds\Clutter\c_GrassCrooked.p3d";
+				affectedByWind = 0.3;
+				swLighting = 1;
+				scaleMin = 0.5;
+				scaleMax = 1;
+            };
+            class GrassCrookedGreen: DefaultClutter
+            {
+                model = "AiA\Worlds\Clutter\c_GrassCrookedGreen.p3d";
+				affectedByWind = 0.3;
+				swLighting = 1;
+				scaleMin = 0.7;
+				scaleMax = 1.05;
+            };
+            class GrassCrookedGreenSmall: DefaultClutter
+            {
+                model = "AiA\Worlds\Clutter\c_GrassCrookedGreen.p3d";
+				affectedByWind = 0.3;
+				swLighting = 1;
+				scaleMin = 0.5;
+				scaleMax = 1;
+            };
+            class GrassCrookedForest: DefaultClutter
+            {
+                model = "AiA\Worlds\Clutter\c_GrassCrookedForest.p3d";
+				affectedByWind = 0.3;
+				swLighting = 1;
+				scaleMin = 0.8;
+				scaleMax = 1.2;
+            };
+            class FernAutumn: DefaultClutter
+            {
+                scaleMin = 0.6;
+                scaleMax = 1.3;
+            };
+            class FernAutumnTall: DefaultClutter
+            {
+                scaleMin = 0.7;
+                scaleMax = 1.2;
+            };
+        };
     };
     class Desert_E: CAWorld
     {
@@ -124,11 +170,67 @@ class CfgWorlds
     {
 		author = "$STR_a3_bohemia_interactive";
 		cutscenes[] = {"UtesIntro"};
+		class Clutter
+		{
+			class UTFernAutumn: DefaultClutter
+			{
+				scaleMin = 0.6;
+				scaleMax = 1.3;
+			};
+			class UTFernAutumnTall: DefaultClutter
+			{
+				scaleMin = 0.7;
+				scaleMax = 1.2;
+			};
+			class GrassCrookedForest: DefaultClutter
+			{
+				model = "AiA\Worlds\Clutter\c_GrassCrookedForest.p3d";
+				scaleMin = 0.8;
+				scaleMax = 1.2;
+			};
+		};
     };
     class Woodland_ACR: CAWorld
     {
 		author = "$STR_a3_bohemia_interactive";
 		cutscenes[] = {"Woodland_ACRIntro"};
+        class clutter
+        {
+            class GrassCrooked: DefaultClutter
+            {
+                model = "AiA\Worlds\Clutter\c_GrassCrooked.p3d";
+				affectedByWind = 0.3;
+				swLighting = 1;
+				scaleMin = 0.9;
+				scaleMax = 1.05;
+            };
+            class GrassCrookedGreen: DefaultClutter
+            {
+                model = "AiA\Worlds\Clutter\c_GrassCrookedGreen.p3d";
+				affectedByWind = 0.3;
+				swLighting = 1;
+				scaleMin = 0.7;
+				scaleMax = 1.05;
+            };
+            class GrassCrookedForest: DefaultClutter
+            {
+                model = "AiA\Worlds\Clutter\c_GrassCrookedForest.p3d";
+				affectedByWind = 0.3;
+				swLighting = 1;
+				scaleMin = 0.8;
+				scaleMax = 1.2;
+            };
+            class FernAutumn: DefaultClutter
+            {
+                scaleMin = 0.6;
+                scaleMax = 1.3;
+            };
+            class FernAutumnTall: DefaultClutter
+            {
+                scaleMin = 0.7;
+                scaleMax = 1.2;
+            };
+        };
     };
     class Zargabad: CAWorld
     {
