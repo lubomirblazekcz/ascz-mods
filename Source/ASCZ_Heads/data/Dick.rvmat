@@ -36,7 +36,7 @@ class Stage2
 };
 class Stage3
 {
-	texture="ascz_heads\data\Dickl_ksicht.paa";
+	texture="ascz_heads\data\Dick_ksicht.paa";
 	uvSource="tex";
 	class uvTransform
 	{
