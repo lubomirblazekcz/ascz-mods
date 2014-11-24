@@ -2,6 +2,8 @@ class CfgPatches
 {
 	class ASCZ_Heads
 	{
+        author = "Taurus";
+        hideName=0;
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
@@ -19,6 +21,7 @@ class CfgFaces
 		class Default;
 		class WhiteHead_01;
 		class AfricanHead_01;
+		class AsianHead_A3_01;
 		class GreekHead_A3_01;
 		class Kerry;
 		class Custom
@@ -35,10 +38,10 @@ class CfgFaces
 			displayname = "Miller";
 			author = "$STR_A3_Bohemia_Interactive";
 		};
-		class asczHead_Mailer: Miller
+		class asczHead_Mailler: Miller
 		{
 			disabled = 0;
-			displayname = "Mailer";
+			displayname = "Mailler";
 			head = "NATOHead_A3";
 			author = "$STR_A3_Bohemia_Interactive";
 		};
@@ -357,6 +360,30 @@ class CfgFaces
 			textureHL2 = "\A3\Characters_F\Heads\Data\hl_white_hairy_nikos_co.paa";
 			materialHL2 = "\A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat";
 			disabled = 0;
+		};
+		class asczHead_vlk_A3: WhiteHead_01
+		{
+			displayname = "Vlk";
+			texture = "ASCZ_Heads\data\Vlk_ksicht.paa";
+			material = "ASCZ_Heads\data\Vlk.rvmat";
+			head = "GreekHead_A3";
+			identityTypes[] = {"Head_NATO","Head_Euro"};
+			author = "Taurus";
+			textureHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
+			materialHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
+			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
+			materialHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
+			disabled = 0;
+		};
+		class asczHead_xong_A3: AsianHead_A3_01
+		{
+			author = "Taurus";
+			displayname = "Xong";
+			head = "AsianHead_A3";
+			texture = "ASCZ_Heads\data\Xong_ksicht.paa";
+			material = "ASCZ_Heads\data\Xong.rvmat";
+			materialWounded1 = "A3\Characters_F\Heads\Data\m_Asian_03_injury.rvmat";
+			materialWounded2 = "A3\Characters_F\Heads\Data\m_Asian_03_injury.rvmat";
 		};
 		class asczHead_olson_A3: WhiteHead_01
 		{

@@ -1,4 +1,4 @@
-- Heads:
+- Heads: (26 heads added)
 asczHead_taurus_A3 - Taurusky
 asczHead_troska_A3 - Troska
 asczHead_austin_A3 - Austin
@@ -13,7 +13,7 @@ asczHead_redfield_A3 - Redfield
 asczHead_foley_A3 - Foley
 asczHead_murphy_A3 - Murphy
 asczHead_josephe_A3 - Josephe
-asczHead_pernet_A3 - Pernet
+asczHead_neumann_A3 - Neumann
 asczHead_nevim_A3 - Nevim
 asczHead_novotny_A3 - Novotny
 asczHead_brown_A3 - Brown
@@ -21,3 +21,7 @@ asczHead_picleson_A3 - Picleson
 asczHead_olson_A3 - Olson
 asczHead_dick_A3 - Dick
 asczHead_logan_A3 - Logan
+asczHead_vlk_A3 - Vlk
+asczHead_woods_A3 - Woods
+asczHead_xong_A3 - Xong
+asczHead_Mailler (It's just Miller with different 3D model)
