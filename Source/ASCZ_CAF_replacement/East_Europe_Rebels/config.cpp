@@ -18,6 +18,7 @@ class CfgFactionClasses
 		displayName = "ChDKZ";
 		icon = "\ASCZ_CAF_replacement\East_Europe_Rebels\icon_chdkz_co.paa";
 		author = "CAF MOD TEAM";
+		primarylanguage = "RUS";
 		priority = 2;
 		side = 0;
 	};

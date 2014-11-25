@@ -17,6 +17,7 @@ class CfgFactionClasses
 		displayName = "Takistani Militia";
 		icon = "\ASCZ_CAF_replacement\Middle_East_Tribal\icon_tkm_co.paa";
 		author = "CAF MOD TEAM";
+		primarylanguage = "TK";
 		priority = 2;
 		side = 0;
 	};
