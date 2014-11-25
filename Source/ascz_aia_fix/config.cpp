@@ -75,6 +75,7 @@ class CfgWorlds
                 };
             };
         };
+        class Grid;
     };
     class Chernarus: CAWorld
     {
@@ -140,11 +141,75 @@ class CfgWorlds
     {
 		author = "$STR_a3_bohemia_interactive";
 		cutscenes[] = {"IntroIntro"};
+        class Grid: Grid
+        {
+            offsetX = 0;
+            offsetY = 0;
+            class Zoom1
+            {
+                zoomMax = 0.15;
+                format = "XY";
+                formatX = "000";
+                formatY = "000";
+                stepX = 100;
+                stepY = 100;
+            };
+            class Zoom2
+            {
+                zoomMax = 0.85;
+                format = "XY";
+                formatX = "00";
+                formatY = "00";
+                stepX = 1000;
+                stepY = 1000;
+            };
+            class Zoom3
+            {
+                zoomMax = 1e+030;
+                format = "XY";
+                formatX = "0";
+                formatY = "0";
+                stepX = 10000;
+                stepY = 10000;
+            };
+        };
     };
     class Porto: CAWorld
     {
 		author = "$STR_a3_bohemia_interactive";
 		cutscenes[] = {"PortoIntro"};
+        class Grid: Grid
+        {
+            offsetX = 0;
+            offsetY = 0;
+            class Zoom1
+            {
+                zoomMax = 0.15;
+                format = "XY";
+                formatX = "000";
+                formatY = "000";
+                stepX = 100;
+                stepY = 100;
+            };
+            class Zoom2
+            {
+                zoomMax = 0.85;
+                format = "XY";
+                formatX = "00";
+                formatY = "00";
+                stepX = 1000;
+                stepY = 1000;
+            };
+            class Zoom3
+            {
+                zoomMax = 1e+030;
+                format = "XY";
+                formatX = "0";
+                formatY = "0";
+                stepX = 10000;
+                stepY = 10000;
+            };
+        };
     };
     class ProvingGrounds_PMC: CAWorld
     {
@@ -155,6 +220,38 @@ class CfgWorlds
     {
 		author = "$STR_a3_bohemia_interactive";
 		cutscenes[] = {"SaraIntro"};
+        class Grid: Grid
+        {
+            offsetX = 0;
+            offsetY = 0;
+            class Zoom1
+            {
+                zoomMax = 0.15;
+                format = "XY";
+                formatX = "000";
+                formatY = "000";
+                stepX = 100;
+                stepY = 100;
+            };
+            class Zoom2
+            {
+                zoomMax = 0.85;
+                format = "XY";
+                formatX = "00";
+                formatY = "00";
+                stepX = 1000;
+                stepY = 1000;
+            };
+            class Zoom3
+            {
+                zoomMax = 1e+030;
+                format = "XY";
+                formatX = "0";
+                formatY = "0";
+                stepX = 10000;
+                stepY = 10000;
+            };
+        };
     };
     class Shapur_BAF: CAWorld
     {
@@ -249,12 +346,76 @@ class CfgWorlds
 		description = "$STR_UNITED_SAHRANI";
 		author = "$STR_a3_bohemia_interactive";
 		cutscenes[] = {"Sara_dbe1Intro"};
+        class Grid: Grid
+        {
+            offsetX = 0;
+            offsetY = 0;
+            class Zoom1
+            {
+                zoomMax = 0.15;
+                format = "XY";
+                formatX = "000";
+                formatY = "000";
+                stepX = 100;
+                stepY = 100;
+            };
+            class Zoom2
+            {
+                zoomMax = 0.85;
+                format = "XY";
+                formatX = "00";
+                formatY = "00";
+                stepX = 1000;
+                stepY = 1000;
+            };
+            class Zoom3
+            {
+                zoomMax = 1e+030;
+                format = "XY";
+                formatX = "0";
+                formatY = "0";
+                stepX = 10000;
+                stepY = 10000;
+            };
+        };
 	};
 	class SaraLite: CAWorld
 	{
 		description = "$STR_SOUTHERN_SAHRANI";
 		author = "$STR_a3_bohemia_interactive";
 		cutscenes[] = {"SaraLiteIntro"};
+        class Grid: Grid
+        {
+            offsetX = 0;
+            offsetY = 0;
+            class Zoom1
+            {
+                zoomMax = 0.15;
+                format = "XY";
+                formatX = "000";
+                formatY = "000";
+                stepX = 100;
+                stepY = 100;
+            };
+            class Zoom2
+            {
+                zoomMax = 0.85;
+                format = "XY";
+                formatX = "00";
+                formatY = "00";
+                stepX = 1000;
+                stepY = 1000;
+            };
+            class Zoom3
+            {
+                zoomMax = 1e+030;
+                format = "XY";
+                formatX = "0";
+                formatY = "0";
+                stepX = 10000;
+                stepY = 10000;
+            };
+        };
 	};
 	class Mountains_ACR: CAWorld
 	{
