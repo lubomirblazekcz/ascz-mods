@@ -314,7 +314,7 @@ class cfgWeapons {
             armor = 20;
             passThrough = 0.5;
             hiddenSelections[] = {"camo"};
-            hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\vests_cbr_co.paa"};
+		    hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\vests_blk_co.paa"};
         };
     };
 	class V_PlateCarrier2_blk: V_PlateCarrier2_rgr
