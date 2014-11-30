@@ -413,5 +413,13 @@ class CfgFaces
 			textureHL2 = "ASCZ_Heads\data\Taurus_rucenohy.paa";
 			materialHL2 = "ASCZ_Heads\data\Taurus_rucenohy.rvmat";
 		};
+		class asczHead_taurus_c1_A3: asczHead_taurus_A3 //Camo1
+		{
+		displayname = "Taurusky (Camo1)";
+		texture = "ASCZ_Heads\data\Taurus_ksicht.paa";
+		material = "ASCZ_Heads\data\Camos\Camo1.rvmat";
+		identityTypes[] = {"Head_Euro_C1","Head_NATO_C1"};
+		author = "Taurus";
+		};
 	};
 };
