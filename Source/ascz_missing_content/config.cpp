@@ -305,6 +305,7 @@ class cfgWeapons {
 		scope = 2;
 		picture = "\A3\Characters_F\data\ui\icon_V_plate_carrier_2_blk_CA.paa";
 		displayName = "$STR_A3_V_PlateCarrier1_blk0";
+		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\vests_blk_co.paa"};
         class ItemInfo: ItemInfo
         {
