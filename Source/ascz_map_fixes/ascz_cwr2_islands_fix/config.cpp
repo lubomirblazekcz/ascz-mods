@@ -295,7 +295,15 @@ class CfgVehicleClasses
 		DisplayName = "CWR² Wrecks";
 	};
 };
-delete cfgModels;
+class cfgModels {
+    delete cwr2_christmas_sign;
+    class Default
+    {
+        sectionsInherit="";
+        sections[] = {};
+        skeletonName = "";
+    };
+};
 class CfgWeapons
 {
     class Binocular;

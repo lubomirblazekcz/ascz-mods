@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="RHS Alternative Names">
+	<Package name="ASCZ_RHS">
+        <Key ID="STR_ASCZ_RHS_FACTION">
+            <English>Russia</English>
+            <Czech>Rusko</Czech>
+        </Key>
+        <Key ID="STR_ASCZ_RHS_FACTION_US">
+            <English>US Army</English>
+            <Czech>US Army</Czech>
+        </Key>
+        <Key ID="STR_ASCZ_RHS_FACTION_USMC">
+            <English>USMC</English>
+            <Czech>USMC</Czech>
+        </Key>
+        <Key ID="STR_ASCZ_RHS_FACTION_MEN">
+            <English>Men</English>
+            <Czech>Muži</Czech>
+        </Key>
+        <Key ID="STR_ASCZ_RHS_FACTION_MSV">
+            <English>Men (MSV)</English>
+            <Czech>Muži (MSV)</Czech>
+        </Key>
+        <Key ID="STR_ASCZ_RHS_FACTION_VDV">
+            <English>Men (VDV)</English>
+            <Czech>Muži (VDV)</Czech>
+        </Key>
+        <Key ID="STR_ASCZ_RHS_FACTION_UCP">
+            <English>Men (UCP)</English>
+            <Czech>Muži (UCP)</Czech>
+        </Key>
+        <Key ID="STR_ASCZ_RHS_FACTION_OCP">
+            <English>Men (OCP)</English>
+            <Czech>Muži (OCP)</Czech>
+        </Key>
+    </Package>
+</Project>
