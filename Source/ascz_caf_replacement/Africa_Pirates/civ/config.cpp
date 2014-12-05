@@ -14,8 +14,8 @@ class CfgFactionClasses
 	access = 1;
 	class caf_ag_afr_civ
 	{
-		displayName = "African";
-		icon = "";
+		displayName = "Africans";
+		icon = "\ASCZ_CAF_replacement\Africa_Pirates\cfgfaction_AFRICA_PIRATES.paa";
 		author = "CAF MOD TEAM";
 		priority = 2;
 		side = 3;

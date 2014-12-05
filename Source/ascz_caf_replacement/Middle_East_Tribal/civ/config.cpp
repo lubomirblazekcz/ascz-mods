@@ -14,8 +14,8 @@ class CfgFactionClasses
 	access = 1;
 	class caf_ag_me_civ
 	{
-		displayName = "Middle Eastern";
-		icon = "";
+		displayName = "Takistani";
+		icon = "\ASCZ_CAF_replacement\Middle_East_Tribal\icon_tkg_co.paa";
 		author = "CAF MOD TEAM";
 		priority = 2;
 		side = 3;

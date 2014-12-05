@@ -3,7 +3,7 @@ class CfgPatches
 {
 	class ascz_caf_ag_faction_me_t
 	{
-		units[] = {"CAF_AG_ME_T_AK47","CAF_AG_ME_T_AK74","CAF_AG_ME_T_RPK74","CAF_AG_ME_T_PKM","CAF_AG_ME_T_SVD","CAF_AG_ME_T_RPG","CAF_AG_ME_T_GL"};
+		units[] = {"CAF_AG_ME_T_AK47","CAF_AG_ME_T_AK74","CAF_AG_ME_T_RPK74","CAF_AG_ME_T_PKM","CAF_AG_ME_T_SVD","CAF_AG_ME_T_RPG","CAF_AG_ME_T_GL","CAF_AG_ME_T_AK47_IND","CAF_AG_ME_T_AK74_IND","CAF_AG_ME_T_RPK74_IND","CAF_AG_ME_T_PKM_IND","CAF_AG_ME_T_SVD_IND","CAF_AG_ME_T_RPG_IND","CAF_AG_ME_T_GL_IND"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"caf_ag_faction_me_t"};
@@ -18,8 +18,21 @@ class CfgFactionClasses
 		icon = "\ASCZ_CAF_replacement\Middle_East_Tribal\icon_tkm_co.paa";
 		author = "CAF MOD TEAM";
 		primarylanguage = "TK";
+		priority = 101;
+		side = 0;
+	};
+	class caf_ag_me_t_ind
+	{
+		displayName = "Takistani Locals";
+		icon = "\ASCZ_CAF_replacement\Middle_East_Tribal\icon_tkg_co.paa";
+		author = "CAF MOD TEAM";
+		primarylanguage = "TK";
 		priority = 2;
 		side = 0;
+	};
+	class GUE {
+	    side = 2;
+	    displayName = "GUE";
 	};
 };
 class CfgVehicles
@@ -40,7 +53,6 @@ class CfgVehicles
 		scope = 0;
 		author = "CAF MOD TEAM";
 		side = 0;
-		armor = 0.5;
 		faction = "caf_ag_me_t";
 		genericnames = "TakistaniMen";
 		identitytypes[] = {"LanguagePER_F","Head_TK","G_IRAN_default"};
@@ -117,15 +129,15 @@ class CfgVehicles
 	{
 		scope = 2;
 		curatorScope = 2;
-		displayName = "Tribal (SVD)";
+		displayName = "Tribal (Enfield)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_ME_ROBES_mil_01a";
-		weapons[] = {"rhs_weap_svds_pso1","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_svds_pso1","Throw","Put"};
+		weapons[] = {"CUP_srifle_LeeEnfield","Throw","Put"};
+		respawnWeapons[] = {"CUP_srifle_LeeEnfield","Throw","Put"};
 		Items[] = {"FirstAidKit","FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit","FirstAidKit"};
-		magazines[] = {"MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1"};
-		respawnMagazines[] = {"MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1"};
+		magazines[] = {"MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M"};
+		respawnMagazines[] = {"MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M"};
 		linkedItems[] = {"V_BandollierB_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_BandollierB_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
@@ -162,4 +174,90 @@ class CfgVehicles
 		linkedItems[] = {"V_BandollierB_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_BandollierB_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
+
+	// IND
+    class CAF_AG_ME_T_AK47_IND: CAF_AG_ME_T_AK47
+    {
+		author = "CAF MOD TEAM";
+		side = 2;
+		faction = "caf_ag_me_t_ind";
+		genericnames = "TakistaniMen";
+		identitytypes[] = {"LanguagePER_F","Head_TK","G_IRAN_default"};
+		class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) execVM ""\caf_ag_factions\middleeast\tribal\Random.sqf""";
+		};
+    };
+    class CAF_AG_ME_T_AK74_IND: CAF_AG_ME_T_AK74
+    {
+		author = "CAF MOD TEAM";
+		side = 2;
+		faction = "caf_ag_me_t_ind";
+		genericnames = "TakistaniMen";
+		identitytypes[] = {"LanguagePER_F","Head_TK","G_IRAN_default"};
+		class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) execVM ""\caf_ag_factions\middleeast\tribal\Random.sqf""";
+		};
+    };
+    class CAF_AG_ME_T_RPK74_IND: CAF_AG_ME_T_RPK74
+    {
+		author = "CAF MOD TEAM";
+		side = 2;
+		faction = "caf_ag_me_t_ind";
+		genericnames = "TakistaniMen";
+		identitytypes[] = {"LanguagePER_F","Head_TK","G_IRAN_default"};
+		class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) execVM ""\caf_ag_factions\middleeast\tribal\Random.sqf""";
+		};
+    };
+    class CAF_AG_ME_T_PKM_IND: CAF_AG_ME_T_PKM
+    {
+		author = "CAF MOD TEAM";
+		side = 2;
+		faction = "caf_ag_me_t_ind";
+		genericnames = "TakistaniMen";
+		identitytypes[] = {"LanguagePER_F","Head_TK","G_IRAN_default"};
+		class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) execVM ""\caf_ag_factions\middleeast\tribal\Random.sqf""";
+		};
+    };
+    class CAF_AG_ME_T_SVD_IND: CAF_AG_ME_T_SVD
+    {
+		author = "CAF MOD TEAM";
+		side = 2;
+		faction = "caf_ag_me_t_ind";
+		genericnames = "TakistaniMen";
+		identitytypes[] = {"LanguagePER_F","Head_TK","G_IRAN_default"};
+		class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) execVM ""\caf_ag_factions\middleeast\tribal\Random.sqf""";
+		};
+    };
+    class CAF_AG_ME_T_RPG_IND: CAF_AG_ME_T_RPG
+    {
+		author = "CAF MOD TEAM";
+		side = 2;
+		faction = "caf_ag_me_t_ind";
+		genericnames = "TakistaniMen";
+		identitytypes[] = {"LanguagePER_F","Head_TK","G_IRAN_default"};
+		class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) execVM ""\caf_ag_factions\middleeast\tribal\Random.sqf""";
+		};
+    };
+    class CAF_AG_ME_T_GL_IND: CAF_AG_ME_T_GL
+    {
+		author = "CAF MOD TEAM";
+		side = 2;
+		faction = "caf_ag_me_t_ind";
+		genericnames = "TakistaniMen";
+		identitytypes[] = {"LanguagePER_F","Head_TK","G_IRAN_default"};
+		class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) execVM ""\caf_ag_factions\middleeast\tribal\Random.sqf""";
+		};
+    };
 };

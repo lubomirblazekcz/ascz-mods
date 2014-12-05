@@ -4,7 +4,7 @@ class CfgPatches
 {
 	class ascz_caf_ag_faction_eeur_r
 	{
-		units[] = {"CAF_AG_EEUR_R_AK47","CAF_AG_EEUR_R_AK74","CAF_AG_EEUR_R_RPK74","CAF_AG_EEUR_R_PKM","CAF_AG_EEUR_R_SVD","CAF_AG_EEUR_R_RPG","CAF_AG_EEUR_R_GL", "CAF_AG_EEUR_UAZ_469", "CAF_AG_EEUR_UAZ_469_Open", "CAF_AG_EEUR_Mi_Mi8", "CAF_AG_EEUR_Mi_Mi8_rockets","CAF_AG_afr_p_Offroad", "CAF_AG_afr_p_Offroad_armed_01", "caf_ag_me_t_Offroad", "caf_ag_me_t_Offroad_armed_01", "caf_ag_eeur_r_Offroad", "caf_ag_eeur_r_Offroad_armed_01"};
+		units[] = {"CAF_AG_EEUR_R_AK47","CAF_AG_EEUR_R_AK74","CAF_AG_EEUR_R_RPK74","CAF_AG_EEUR_R_PKM","CAF_AG_EEUR_R_SVD","CAF_AG_EEUR_R_RPG","CAF_AG_EEUR_R_GL", "CAF_AG_EEUR_UAZ_469", "CAF_AG_EEUR_UAZ_469_Open", "CAF_AG_EEUR_Mi_Mi8", "CAF_AG_EEUR_Mi_Mi8_rockets","CAF_AG_afr_p_Offroad", "CAF_AG_afr_p_Offroad_armed_01", "caf_ag_me_t_Offroad", "caf_ag_me_t_Offroad_armed_01", "caf_ag_eeur_r_Offroad", "caf_ag_eeur_r_Offroad_armed_01","CAF_AG_EEUR_R_AK47_IND","CAF_AG_EEUR_R_AK74_IND","CAF_AG_EEUR_R_RPK74_IND","CAF_AG_EEUR_R_PKM_IND","CAF_AG_EEUR_R_SVD_IND","CAF_AG_EEUR_R_RPG_IND","CAF_AG_EEUR_R_GL_IND", "caf_ag_me_t_Offroad_IND", "caf_ag_me_t_Offroad_armed_01_IND", "caf_ag_eeur_r_Offroad_IND", "caf_ag_eeur_r_Offroad_armed_01_IND"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"caf_ag_faction_eeur_r"};
@@ -19,6 +19,15 @@ class CfgFactionClasses
 		icon = "\ASCZ_CAF_replacement\East_Europe_Rebels\icon_chdkz_co.paa";
 		author = "CAF MOD TEAM";
 		primarylanguage = "RUS";
+		priority = 2;
+		side = 0;
+	};
+	class caf_ag_eeur_r_ind
+	{
+		displayName = "NAPA";
+		icon = "\ASCZ_CAF_replacement\East_Europe_Rebels\icon_napa_co.paa";
+		author = "CAF MOD TEAM";
+		primarylanguage = "ACR_CZ";
 		priority = 2;
 		side = 0;
 	};
@@ -39,18 +48,18 @@ class CfgVehicles
 	class CAF_AG_EEUR_R_BASE: O_Soldier_F
 	{
 		scope = 0;
-		scopeCurator = 2;
+		scopeCurator = 0;
 		author = "CAF MOD TEAM";
 		side = 0;
-		armor = 0.5;
 		faction = "caf_ag_eeur_r";
 		genericnames = "TakistaniMen";
-		identitytypes[] = {"LanguageGRE_F","Head_Euro","G_GUERIL_default"};
+		identitytypes[] = {"LanguageRUS","Head_Euro","G_GUERIL_default"};
 		class EventHandlers: EventHandlers
 		{
 			init = "(_this select 0) execVM ""\caf_ag_factions\easteurope\rebels\Random.sqf""";
 		};
 	};
+
 	class CAF_AG_EEUR_R_AK47: CAF_AG_EEUR_R_BASE
 	{
 		scope = 2;
@@ -122,12 +131,12 @@ class CfgVehicles
 		displayName = "Rebel (SVD)";
 		uniformAccessories[] = {};
 		uniformClass = "U_CAF_AG_EEUR_FATIGUES_01a";
-		weapons[] = {"rhs_weap_svds_pso1","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_svds_pso1","Throw","Put"};
+		weapons[] = {"CUP_srifle_SVD_pso","Throw","Put"};
+		respawnWeapons[] = {"CUP_srifle_SVD_pso","Throw","Put"};
 		Items[] = {"FirstAidKit","FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit","FirstAidKit"};
-		magazines[] = {"MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1"};
-		respawnMagazines[] = {"MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1"};
+		magazines[] = {"MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M"};
+		respawnMagazines[] = {"MiniGrenade","MiniGrenade","SmokeShell","SmokeShell","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M"};
 		linkedItems[] = {"V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
@@ -375,6 +384,130 @@ class CfgVehicles
         typicalCargo[] = {"caf_ag_eeur_r_AK74"};
         author = "CAF DEV TEAM";
     };
+
+
+    //IND
+    class CAF_AG_EEUR_R_AK47_IND: CAF_AG_EEUR_R_AK47
+    {
+		author = "CAF MOD TEAM";
+		side = 2;
+		faction = "caf_ag_eeur_r_ind";
+		genericnames = "CzechMen";
+		identitytypes[] = {"Language_ACR_CZ","Head_Euro","G_GUERIL_default"};
+		class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) execVM ""\caf_ag_factions\easteurope\rebels\Random.sqf""";
+		};
+    };
+    class CAF_AG_EEUR_R_AK74_IND: CAF_AG_EEUR_R_AK74
+    {
+		author = "CAF MOD TEAM";
+		side = 2;
+		faction = "caf_ag_eeur_r_ind";
+		genericnames = "CzechMen";
+		identitytypes[] = {"Language_ACR_CZ","Head_Euro","G_GUERIL_default"};
+		class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) execVM ""\caf_ag_factions\easteurope\rebels\Random.sqf""";
+		};
+    };
+    class CAF_AG_EEUR_R_RPK74_IND: CAF_AG_EEUR_R_RPK74
+    {
+		author = "CAF MOD TEAM";
+		side = 2;
+		faction = "caf_ag_eeur_r_ind";
+		genericnames = "CzechMen";
+		identitytypes[] = {"Language_ACR_CZ","Head_Euro","G_GUERIL_default"};
+		class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) execVM ""\caf_ag_factions\easteurope\rebels\Random.sqf""";
+		};
+    };
+    class CAF_AG_EEUR_R_PKM_IND: CAF_AG_EEUR_R_PKM
+    {
+		author = "CAF MOD TEAM";
+		side = 2;
+		faction = "caf_ag_eeur_r_ind";
+		genericnames = "CzechMen";
+		identitytypes[] = {"Language_ACR_CZ","Head_Euro","G_GUERIL_default"};
+		class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) execVM ""\caf_ag_factions\easteurope\rebels\Random.sqf""";
+		};
+    };
+    class CAF_AG_EEUR_R_SVD_IND: CAF_AG_EEUR_R_SVD
+    {
+		author = "CAF MOD TEAM";
+		side = 2;
+		faction = "caf_ag_eeur_r_ind";
+		genericnames = "CzechMen";
+		identitytypes[] = {"Language_ACR_CZ","Head_Euro","G_GUERIL_default"};
+		class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) execVM ""\caf_ag_factions\easteurope\rebels\Random.sqf""";
+		};
+    };
+    class CAF_AG_EEUR_R_RPG_IND: CAF_AG_EEUR_R_RPG
+    {
+		author = "CAF MOD TEAM";
+		side = 2;
+		faction = "caf_ag_eeur_r_ind";
+		genericnames = "CzechMen";
+		identitytypes[] = {"Language_ACR_CZ","Head_Euro","G_GUERIL_default"};
+		class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) execVM ""\caf_ag_factions\easteurope\rebels\Random.sqf""";
+		};
+    };
+    class CAF_AG_EEUR_R_GL_IND: CAF_AG_EEUR_R_GL
+    {
+		author = "CAF MOD TEAM";
+		side = 2;
+		faction = "caf_ag_eeur_r_ind";
+		genericnames = "CzechMen";
+		identitytypes[] = {"Language_ACR_CZ","Head_Euro","G_GUERIL_default"};
+		class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) execVM ""\caf_ag_factions\easteurope\rebels\Random.sqf""";
+		};
+    };
+
+    class caf_ag_me_t_Offroad_IND: B_G_Offroad_01_F
+    {
+        scope = 2;
+        side = 2;
+        faction = "caf_ag_me_t_ind";
+        crew = "caf_ag_me_t_AK74_IND";
+        typicalCargo[] = {"caf_ag_me_t_AK74_IND","caf_ag_me_t_AK74_IND"};
+        author = "CAF DEV TEAM";
+    };
+    class caf_ag_me_t_Offroad_armed_01_IND: B_G_Offroad_01_armed_F
+    {
+        scope = 2;
+        side = 2;
+        faction = "caf_ag_me_t_ind";
+        crew = "caf_ag_me_t_AK74_IND";
+        typicalCargo[] = {"caf_ag_me_t_AK74_IND"};
+        author = "CAF DEV TEAM";
+    };
+    class caf_ag_eeur_r_Offroad_IND: B_G_Offroad_01_F
+    {
+        scope = 2;
+        side = 2;
+        faction = "caf_ag_eeur_r_ind";
+        crew = "caf_ag_eeur_r_AK74_IND";
+        typicalCargo[] = {"caf_ag_eeur_r_AK74_IND","caf_ag_eeur_r_AK74_IND"};
+        author = "CAF DEV TEAM";
+    };
+    class caf_ag_eeur_r_Offroad_armed_01_IND: B_G_Offroad_01_armed_F
+    {
+        scope = 2;
+        side = 2;
+        faction = "caf_ag_eeur_r_ind";
+        crew = "caf_ag_eeur_r_AK74_IND";
+        typicalCargo[] = {"caf_ag_eeur_r_AK74_IND"};
+        author = "CAF DEV TEAM";
+    };
 };
 
 class CfgGroups
@@ -394,4 +527,620 @@ class CfgGroups
 			name = "Takistani Militia";
 	    };
 	};
+    class INDEP
+    {
+        class caf_ag_eeur_r_ind
+        {
+            name = "NAPA";
+            class Infantry
+            {
+                name = "Infantry";
+                class 10_men_eeur_r
+                {
+                    name = "10 Man Group";
+                    faction = "caf_ag_eeur_r_ind";
+                    rarityGroup = 0.5;
+                    side = 2;
+                    class Unit0
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK47_IND";
+                        rank = "LIEUTENANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK47_IND";
+                        rank = "PRIVATE";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK74_IND";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK47_IND";
+                        rank = "CORPORAL";
+                        position[] = {11,0,0};
+                    };
+                    class Unit4
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK74_IND";
+                        rank = "CORPORAL";
+                        position[] = {9,0,0};
+                    };
+                    class Unit5
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_RPK74_IND";
+                        rank = "SERGEANT";
+                        position[] = {14,0,0};
+                    };
+                    class Unit6
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_PKM_IND";
+                        rank = "CORPORAL";
+                        position[] = {19,0,0};
+                    };
+                    class Unit7
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK47_IND";
+                        rank = "CORPORAL";
+                        position[] = {17,0,0};
+                    };
+                    class Unit8
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_RPG_IND";
+                        rank = "CORPORAL";
+                        position[] = {7,0,0};
+                    };
+                    class Unit9
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK47_IND";
+                        rank = "CORPORAL";
+                        position[] = {21,0,0};
+                    };
+                };
+                class 8_men_eeur_r
+                {
+                    name = "8 Man Group";
+                    faction = "caf_ag_eeur_r_ind";
+                    rarityGroup = 0.5;
+                    side = 2;
+                    class Unit0
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK47_IND";
+                        rank = "LIEUTENANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK47_IND";
+                        rank = "PRIVATE";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK74_IND";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK47_IND";
+                        rank = "CORPORAL";
+                        position[] = {11,0,0};
+                    };
+                    class Unit4
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_PKM_IND";
+                        rank = "CORPORAL";
+                        position[] = {9,0,0};
+                    };
+                    class Unit5
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_RPK74_IND";
+                        rank = "SERGEANT";
+                        position[] = {14,0,0};
+                    };
+                    class Unit6
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_RPG_IND";
+                        rank = "CORPORAL";
+                        position[] = {19,0,0};
+                    };
+                    class Unit7
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK74_IND";
+                        rank = "CORPORAL";
+                        position[] = {17,0,0};
+                    };
+                };
+                class 6_men_eeur_r
+                {
+                    name = "6 Man Group";
+                    faction = "caf_ag_eeur_r_ind";
+                    rarityGroup = 0.5;
+                    side = 2;
+                    class Unit0
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK47_IND";
+                        rank = "LIEUTENANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK47_IND";
+                        rank = "PRIVATE";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK47_IND";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK47_IND";
+                        rank = "CORPORAL";
+                        position[] = {11,0,0};
+                    };
+                    class Unit4
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK74_IND";
+                        rank = "CORPORAL";
+                        position[] = {9,0,0};
+                    };
+                    class Unit5
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_RPK74_IND";
+                        rank = "SERGEANT";
+                        position[] = {14,0,0};
+                    };
+                };
+                class 4_men_eeur_r
+                {
+                    name = "4 Man Group";
+                    faction = "caf_ag_eeur_r_ind";
+                    rarityGroup = 0.5;
+                    side = 2;
+                    class Unit0
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK47_IND";
+                        rank = "LIEUTENANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK47_IND";
+                        rank = "PRIVATE";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_AK74_IND";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_eeur_r_PKM_IND";
+                        rank = "CORPORAL";
+                        position[] = {11,0,0};
+                    };
+                };
+
+            };
+            class Motorized_MTP
+            {
+                name = "Motorized";
+                class Technicals_eeur_r
+                {
+                    name = "Technicals";
+                    faction = "caf_ag_eeur_r_ind";
+                    rarityGroup = 0.5;
+                    side = 2;
+                    class Unit0
+                    {
+                        side = 2;
+                        vehicle = "caf_ag_eeur_r_Offroad_armed_01_IND";
+                        rank = "PRIVATE";
+                        position[] = {3,0,0};
+                    };
+                    class Unit1
+                    {
+                        side = 2;
+                        vehicle = "caf_ag_eeur_r_Offroad_armed_01_IND";
+                        rank = "CORPORAL";
+                        position[] = {9,0,0};
+                    };
+                };
+                class Technicals2_EEUR_r
+                {
+                    name = "Motorized Patrol";
+                    faction = "caf_ag_eeur_r_ind";
+                    rarityGroup = 0.5;
+                    side = 2;
+                    class Unit0
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_EEUR_R_AK47_IND";
+                        rank = "LIEUTENANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_EEUR_R_AK47_IND";
+                        rank = "PRIVATE";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_EEUR_R_AK74_IND";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_EEUR_R_RPG_IND";
+                        rank = "CORPORAL";
+                        position[] = {11,0,0};
+                    };
+                    class Unit4
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_EEUR_R_PKM_IND";
+                        rank = "CORPORAL";
+                        position[] = {0,9,0};
+                    };
+                    class Unit5
+                    {
+                        side = 2;
+                        vehicle = "caf_ag_EEUR_R_Offroad_IND";
+                        rank = "CORPORAL";
+                        position[] = {0,11,0};
+                    };
+                };
+            };
+        };
+        class caf_ag_me_t_ind
+        {
+            name = "Takistani Locals";
+            class Infantry
+            {
+                name = "Infantry";
+                class 10_men_me_t
+                {
+                    name = "10 Man Group";
+                    faction = "caf_ag_me_t_ind";
+                    rarityGroup = 0.5;
+                    side = 2;
+                    class Unit0
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK47_IND";
+                        rank = "LIEUTENANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK47_IND";
+                        rank = "PRIVATE";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK74_IND";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK47_IND";
+                        rank = "CORPORAL";
+                        position[] = {11,0,0};
+                    };
+                    class Unit4
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK74_IND";
+                        rank = "CORPORAL";
+                        position[] = {9,0,0};
+                    };
+                    class Unit5
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_RPK74_IND";
+                        rank = "SERGEANT";
+                        position[] = {14,0,0};
+                    };
+                    class Unit6
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_PKM_IND";
+                        rank = "CORPORAL";
+                        position[] = {19,0,0};
+                    };
+                    class Unit7
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK47_IND";
+                        rank = "CORPORAL";
+                        position[] = {17,0,0};
+                    };
+                    class Unit8
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_RPG_IND";
+                        rank = "CORPORAL";
+                        position[] = {7,0,0};
+                    };
+                    class Unit9
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK47_IND";
+                        rank = "CORPORAL";
+                        position[] = {21,0,0};
+                    };
+                };
+                class 8_men_me_t
+                {
+                    name = "8 Man Group";
+                    faction = "caf_ag_me_t_ind";
+                    rarityGroup = 0.5;
+                    side = 2;
+                    class Unit0
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK47_IND";
+                        rank = "LIEUTENANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK47_IND";
+                        rank = "PRIVATE";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK74_IND";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK47_IND";
+                        rank = "CORPORAL";
+                        position[] = {11,0,0};
+                    };
+                    class Unit4
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_PKM_IND";
+                        rank = "CORPORAL";
+                        position[] = {9,0,0};
+                    };
+                    class Unit5
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_RPK74_IND";
+                        rank = "SERGEANT";
+                        position[] = {14,0,0};
+                    };
+                    class Unit6
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_RPG_IND";
+                        rank = "CORPORAL";
+                        position[] = {19,0,0};
+                    };
+                    class Unit7
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK74_IND";
+                        rank = "CORPORAL";
+                        position[] = {17,0,0};
+                    };
+                };
+                class 6_men_me_t
+                {
+                    name = "6 Man Group";
+                    faction = "caf_ag_me_t_ind";
+                    rarityGroup = 0.5;
+                    side = 2;
+                    class Unit0
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK47_IND";
+                        rank = "LIEUTENANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK47_IND";
+                        rank = "PRIVATE";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK47_IND";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK47_IND";
+                        rank = "CORPORAL";
+                        position[] = {11,0,0};
+                    };
+                    class Unit4
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK74_IND";
+                        rank = "CORPORAL";
+                        position[] = {9,0,0};
+                    };
+                    class Unit5
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_RPK74_IND";
+                        rank = "SERGEANT";
+                        position[] = {14,0,0};
+                    };
+                };
+                class 4_men_me_t
+                {
+                    name = "4 Man Group";
+                    faction = "caf_ag_me_t_ind";
+                    rarityGroup = 0.5;
+                    side = 2;
+                    class Unit0
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK47_IND";
+                        rank = "LIEUTENANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK47_IND";
+                        rank = "PRIVATE";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_AK74_IND";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_me_t_PKM_IND";
+                        rank = "CORPORAL";
+                        position[] = {11,0,0};
+                    };
+                };
+            };
+            class Motorized_MTP
+            {
+                name = "Motorized";
+                class Technicals_me_t
+                {
+                    name = "Technicals";
+                    faction = "caf_ag_me_t_ind";
+                    rarityGroup = 0.5;
+                    side = 2;
+                    class Unit0
+                    {
+                        side = 2;
+                        vehicle = "caf_ag_me_t_Offroad_armed_01_IND";
+                        rank = "PRIVATE";
+                        position[] = {3,0,0};
+                    };
+                    class Unit1
+                    {
+                        side = 2;
+                        vehicle = "caf_ag_me_t_Offroad_armed_01_IND";
+                        rank = "CORPORAL";
+                        position[] = {9,0,0};
+                    };
+                };
+                class Technicals2_ME_T
+                {
+                    name = "Motorized Patrol";
+                    faction = "caf_ag_me_t_ind";
+                    rarityGroup = 0.5;
+                    side = 2;
+                    class Unit0
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_ME_T_AK47_IND";
+                        rank = "LIEUTENANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_ME_T_AK47_IND";
+                        rank = "PRIVATE";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_ME_T_AK74_IND";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_ME_T_RPG_IND";
+                        rank = "CORPORAL";
+                        position[] = {11,0,0};
+                    };
+                    class Unit4
+                    {
+                        side = 2;
+                        vehicle = "CAF_AG_ME_T_PKM_IND";
+                        rank = "CORPORAL";
+                        position[] = {0,9,0};
+                    };
+                    class Unit5
+                    {
+                        side = 2;
+                        vehicle = "caf_ag_ME_T_Offroad_IND";
+                        rank = "CORPORAL";
+                        position[] = {0,11,0};
+                    };
+                };
+            };
+        };
+    };
 };
