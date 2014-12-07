@@ -109,14 +109,6 @@ class CfgWeapons
 	{
 		scope = 1;
 	};
-	class CUP_optic_LeupoldMk4_10x40_LRT_Desert: ItemCore
-	{
-		scope = 1;
-	};
-	class CUP_optic_LeupoldMk4_10x40_LRT_Woodland: CUP_optic_LeupoldMk4_10x40_LRT_Desert
-	{
-		scope = 1;
-	};
 	class CUP_optic_ElcanM145: ItemCore
 	{
 		scope = 1;
@@ -212,6 +204,14 @@ class CfgWeapons
 		scope = 2;
 	};
 	class CUP_optic_ACOG: ItemCore
+	{
+		scope = 2;
+	};
+	class CUP_optic_LeupoldMk4_10x40_LRT_Desert: ItemCore
+	{
+		scope = 2;
+	};
+	class CUP_optic_LeupoldMk4_10x40_LRT_Woodland: CUP_optic_LeupoldMk4_10x40_LRT_Desert
 	{
 		scope = 2;
 	};
@@ -624,4 +624,30 @@ class CfgMagazines
 	class CUP_20Rnd_B_765x17_Ball_M: RH_20Rnd_32cal_vz61 {
 	    scope = 1;
 	};
+};
+
+class cfgVehicles {
+    class Bag_Base;
+    class CUP_B_ACRPara_Base: Bag_Base {
+        model = "\CUP_Weapons_HLC_RHS_RH_FHQ_Compability\CUP_Backpack_ACR.p3d";
+        hiddenSelectionsTextures[] = {"\CUP_Weapons_HLC_RHS_RH_FHQ_Compability\data\backpack_acr_co.paa"};
+    };
+    class CUP_B_ACRPara_m95: CUP_B_ACRPara_Base
+    {
+        displayName = "ACR Paratrooper Backpack (vz. 95)";
+        descriptionShort = "Czech Paratrooper Backpack (vz. 95)";
+        hiddenSelectionsTextures[] = {"\CUP_Weapons_HLC_RHS_RH_FHQ_Compability\data\backpack_acr_co.paa"};
+    };
+
+    class CUP_B_ACRScout_Base: Bag_Base
+    {
+		model = "\CUP_Weapons_HLC_RHS_RH_FHQ_Compability\CUP_Scoutpack_ACR.p3d";
+		hiddenSelectionsTextures[] = {"\CUP_Weapons_HLC_RHS_RH_FHQ_Compability\data\acr_equip2_co.paa"};
+    };
+    class CUP_B_ACRScout_m95: CUP_B_ACRScout_Base
+    {
+        displayName = "ACR Scout Pack (vz. 95)";
+        descriptionShort = "Czech Scout Pack (vz. 95)";
+        hiddenSelectionsTextures[] = {"\CUP_Weapons_HLC_RHS_RH_FHQ_Compability\data\acr_equip2_co.paa"};
+    };
 };
