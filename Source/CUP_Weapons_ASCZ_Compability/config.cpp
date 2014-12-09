@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class CUP_Weapons_HLC_RHS_RH_FHQ_Compability
+	class CUP_Weapons_ASCZ_Compability
 	{
 		units[] = {};
 		weapons[] = {};
@@ -8,7 +8,6 @@ class CfgPatches
 		requiredAddons[] = {"CUP_Weapons_West_Attachments", "CUP_Weapons_Ammunition"};
 	};
 };
-
 class CfgWeapons
 {
     class Rifle_Base_F;
@@ -107,7 +106,7 @@ class CfgWeapons
 	};
 	class CUP_optic_LeupoldM3LR: ItemCore
 	{
-		scope = 1;
+		scope = 2;
 	};
 	class CUP_optic_ElcanM145: ItemCore
 	{
@@ -115,11 +114,11 @@ class CfgWeapons
 	};
 	class CUP_optic_LeupoldMk4_MRT_tan: ItemCore
 	{
-		scope = 1;
+		scope = 2;
 	};
 	class CUP_optic_Leupold_VX3: ItemCore
 	{
-		scope = 1;
+		scope = 2;
 	};
 	class CUP_acc_Flashlight: ItemCore
 	{
@@ -629,7 +628,7 @@ class CfgMagazines
 class cfgVehicles {
     class Bag_Base;
     class CUP_B_ACRPara_Base: Bag_Base {
-        model = "\CUP_Weapons_HLC_RHS_RH_FHQ_Compability\CUP_Backpack_ACR.p3d";
+        model = "\CUP_Weapons_HLC_RHS_RH_FHQ_Compability\data\CUP_Backpack_ACR.p3d";
         hiddenSelectionsTextures[] = {"\CUP_Weapons_HLC_RHS_RH_FHQ_Compability\data\backpack_acr_co.paa"};
     };
     class CUP_B_ACRPara_m95: CUP_B_ACRPara_Base
@@ -641,7 +640,7 @@ class cfgVehicles {
 
     class CUP_B_ACRScout_Base: Bag_Base
     {
-		model = "\CUP_Weapons_HLC_RHS_RH_FHQ_Compability\CUP_Scoutpack_ACR.p3d";
+		model = "\CUP_Weapons_HLC_RHS_RH_FHQ_Compability\data\CUP_Scoutpack_ACR.p3d";
 		hiddenSelectionsTextures[] = {"\CUP_Weapons_HLC_RHS_RH_FHQ_Compability\data\acr_equip2_co.paa"};
     };
     class CUP_B_ACRScout_m95: CUP_B_ACRScout_Base
