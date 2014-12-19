@@ -33,6 +33,14 @@ class CfgWeapons
 	{
 		displayName = "AK-12";
 	};
+	class hlc_rifle_aku12: hlc_rifle_ak12
+	{
+		displayName = "AKU-12";
+	};
+	class hlc_rifle_RPK12: hlc_rifle_ak12
+	{
+		displayName = "RPK-12";
+	};
 	class hlc_rifle_aks74u: hlc_rifle_ak74
 	{
 		displayName = "AKS-74U";
@@ -99,7 +107,7 @@ class CfgWeapons
 	};
 	class hlc_rifle_g3sg1: hlc_g3_base
 	{
-	    displayName = "G3/SG1";
+	    displayName = "G3SG1";
 	};
 	class hlc_rifle_psg1: hlc_rifle_g3sg1
 	{
@@ -119,7 +127,7 @@ class CfgWeapons
 	};
 	class hlc_rifle_hk51: hlc_rifle_g3sg1
 	{
-		displayName = "MC51";
+		displayName = "HK51";
 	};
 	class hlc_rifle_hk53: hlc_rifle_g3sg1
 	{
@@ -205,4 +213,53 @@ class CfgWeapons
 	{
 		displayName = "M60E4 Supply Box";
 	};
+	class hlc_ar15_base;
+	class hlc_rifle_RU556: hlc_ar15_base
+    {
+		displayName = "AR-15 Sanitised Carbine";
+    };
+	class hlc_rifle_RU5562: hlc_rifle_RU556
+	{
+		displayName = "AR-15 Magpul Carbine";
+	};
+    class hlc_rifle_CQBR: hlc_rifle_RU556
+    {
+        displayName = "M4 CQB-R";
+    };
+    class hlc_rifle_M4: hlc_rifle_RU556
+    {
+        displayName = "M4 (Handgrip)";
+    };
+    class hlc_rifle_bcmjack: hlc_ar15_base
+    {
+        displayName = "AR-15 BCM 'Jack' Carbine";
+    };
+    class hlc_rifle_Colt727: hlc_ar15_base
+    {
+        displayName = "M16A2";
+    };
+    class hlc_rifle_Colt727_GL: hlc_rifle_Colt727
+    {
+        displayName = "M16A2 M203";
+    };
+    class hlc_rifle_Bushmaster300: hlc_rifle_Colt727
+    {
+        displayName = "M4A3";
+    };
+    class hlc_rifle_vendimus: hlc_rifle_Bushmaster300
+    {
+        displayName = "AR-15 .300 Dissipator";
+    };
+    class hlc_rifle_SAMR: hlc_rifle_RU556
+    {
+        displayName = "SAM-R";
+    };
+    class hlc_rifle_samr2: hlc_rifle_SAMR
+    {
+        displayName = "SAM-R";
+    };
+    class hlc_rifle_honeybase: hlc_rifle_RU556
+    {
+        displayName = "AR-15 .300 Honey-Badger";
+    };
 };

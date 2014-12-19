@@ -106,19 +106,15 @@ class CfgWeapons
 	};
 	class CUP_optic_LeupoldM3LR: ItemCore
 	{
-		scope = 2;
+		scope = 1;
 	};
 	class CUP_optic_ElcanM145: ItemCore
 	{
 		scope = 1;
 	};
-	class CUP_optic_LeupoldMk4_MRT_tan: ItemCore
-	{
-		scope = 2;
-	};
 	class CUP_optic_Leupold_VX3: ItemCore
 	{
-		scope = 2;
+		scope = 1;
 	};
 	class CUP_acc_Flashlight: ItemCore
 	{
@@ -211,6 +207,10 @@ class CfgWeapons
 		scope = 2;
 	};
 	class CUP_optic_LeupoldMk4_10x40_LRT_Woodland: CUP_optic_LeupoldMk4_10x40_LRT_Desert
+	{
+		scope = 2;
+	};
+	class CUP_optic_LeupoldMk4_MRT_tan: ItemCore
 	{
 		scope = 2;
 	};
@@ -597,7 +597,7 @@ class CfgMagazines
 	};
     class CUP_MAAWS_HEDP_M: CA_LauncherMagazine
     {
-        picture = "\CUP_Weapons_HLC_RHS_RH_FHQ_Compability\data\m_maaws_co.paa";
+        picture = "\CUP_Weapons_ASCZ_Compability\data\m_maaws_co.paa";
     };
 	class CUP_64Rnd_9x19_Bizon_M: CA_Magazine
 	{
@@ -628,25 +628,25 @@ class CfgMagazines
 class cfgVehicles {
     class Bag_Base;
     class CUP_B_ACRPara_Base: Bag_Base {
-        model = "\CUP_Weapons_HLC_RHS_RH_FHQ_Compability\data\CUP_Backpack_ACR.p3d";
-        hiddenSelectionsTextures[] = {"\CUP_Weapons_HLC_RHS_RH_FHQ_Compability\data\backpack_acr_co.paa"};
+        model = "\CUP_Weapons_ASCZ_Compability\data\CUP_Backpack_ACR.p3d";
+        hiddenSelectionsTextures[] = {"\CUP_Weapons_ASCZ_Compability\data\backpack_acr_co.paa"};
     };
     class CUP_B_ACRPara_m95: CUP_B_ACRPara_Base
     {
         displayName = "ACR Paratrooper Backpack (vz. 95)";
         descriptionShort = "Czech Paratrooper Backpack (vz. 95)";
-        hiddenSelectionsTextures[] = {"\CUP_Weapons_HLC_RHS_RH_FHQ_Compability\data\backpack_acr_co.paa"};
+        hiddenSelectionsTextures[] = {"\CUP_Weapons_ASCZ_Compability\data\backpack_acr_co.paa"};
     };
 
     class CUP_B_ACRScout_Base: Bag_Base
     {
-		model = "\CUP_Weapons_HLC_RHS_RH_FHQ_Compability\data\CUP_Scoutpack_ACR.p3d";
-		hiddenSelectionsTextures[] = {"\CUP_Weapons_HLC_RHS_RH_FHQ_Compability\data\acr_equip2_co.paa"};
+		model = "\CUP_Weapons_ASCZ_Compability\data\CUP_Scoutpack_ACR.p3d";
+		hiddenSelectionsTextures[] = {"\CUP_Weapons_ASCZ_Compability\data\acr_equip2_co.paa"};
     };
     class CUP_B_ACRScout_m95: CUP_B_ACRScout_Base
     {
         displayName = "ACR Scout Pack (vz. 95)";
         descriptionShort = "Czech Scout Pack (vz. 95)";
-        hiddenSelectionsTextures[] = {"\CUP_Weapons_HLC_RHS_RH_FHQ_Compability\data\acr_equip2_co.paa"};
+        hiddenSelectionsTextures[] = {"\CUP_Weapons_ASCZ_Compability\data\acr_equip2_co.paa"};
     };
 };

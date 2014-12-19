@@ -29,7 +29,7 @@ class CfgFactionClasses
 		author = "CAF MOD TEAM";
 		primarylanguage = "ACR_CZ";
 		priority = 2;
-		side = 0;
+		side = 2;
 	};
 };
 class CfgVehicles

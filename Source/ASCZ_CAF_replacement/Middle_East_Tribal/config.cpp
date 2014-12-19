@@ -28,7 +28,7 @@ class CfgFactionClasses
 		author = "CAF MOD TEAM";
 		primarylanguage = "TK";
 		priority = 2;
-		side = 0;
+		side = 2;
 	};
 	class GUE {
 	    side = 2;
