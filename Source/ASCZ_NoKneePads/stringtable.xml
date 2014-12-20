@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Arma3">
+    <Package name="Project_NKP">
+        <Key ID="str_Recon_NKP_olive">
+            <Original>Recon Fatigues (Olive)</Original>
+            <English>Recon Fatigues (Olive)</English>
+            <Czech>Pr�zkumnick� stejnokroj (olivov�)</Czech>
+            <French>Treillis de reco (Olive)</French>
+            <German>Pionieranzug (Olive)</German>
+            <Italian>Uniforme da ricognizione (Olive)</Italian>
+            <Polish>Mundur zwiadowcy (Olive)</Polish>
+            <Portuguese>Uniforme de reconhecimento (Olive)</Portuguese>
+            <Russian>????? ?????????? (Olive)</Russian>
+            <Spanish>Traje de reconocimiento (Olive)</Spanish>
+        </Key>
+        <Key ID="str_NKP_olive">
+            <Original>Combat Fatigues (Olive)</Original>
+            <English>Combat Fatigues (Olive)</English>
+            <Czech>Uniforma (olivová)</Czech>
+            <French>Treillis (Olive)</French>
+            <German>Kampfanzug (Olive)</German>
+            <Italian>Uniforme da combattimento (mimetico Olive)</Italian>
+            <Polish>Mundur bojowy (Olive)</Polish>
+            <Portuguese>Uniforme de combate (Olive)</Portuguese>
+            <Russian>Боевая форма (Olive)</Russian>
+            <Spanish>Traje de combate (Olive)</Spanish>
+        </Key>
+        <Key ID="str_NKP_olive_tee">
+            <Original>Combat Fatigues (Olive) (Tee)</Original>
+            <English>Combat Fatigues (Olive) (Tee)</English>
+            <Czech>Uniforma (olivová) (triko)</Czech>
+            <French>Treillis (Olive) (T-shirt)</French>
+            <German>Kampfanzug (Olive) (T-Shirt)</German>
+            <Italian>Uniforme da combattimento (Olive MTP) (T-shirt)</Italian>
+            <Polish>Mundur bojowy (Olive) (Tee)</Polish>
+            <Portuguese>Uniforme de combate (Olive) (camisa)</Portuguese>
+            <Russian>Боевая форма (Olive) (Tee)</Russian>
+            <Spanish>Traje de combate (Olive) (camiseta)</Spanish>
+        </Key>
+    </Package>
+</Project>
