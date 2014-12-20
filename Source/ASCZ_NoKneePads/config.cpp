@@ -10,6 +10,7 @@ class CfgPatches
 };
 // --- UNIFORMS --- //
     class Uniform_Base;
+	class UniformItem;
  	class U_B_CombatUniform_NKPOlive: Uniform_Base {
  	    scope = 2;
  	    displayName = "$STR_NKP_olive";
@@ -18,7 +19,14 @@ class CfgPatches
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\Suitpacks\suitpack_NKPOlive.paa"};
- 	};
+        class ItemInfo: UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "B_SoldierOlive_F";
+            containerClass = "Supply20";
+            mass = 30;
+        };
+    };
  	class U_B_CombatUniform_NKPOlive_tshirt: Uniform_Base {
  	    scope = 2;
  	    displayName = "$STR_NKP_olive_tee";
@@ -27,7 +35,14 @@ class CfgPatches
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\Suitpacks\suitpack_NKPOlive.paa"};
- 	};
+ 	    class ItemInfo: UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "B_SoldierOlive_02_F";
+            containerClass = "Supply20";
+            mass = 30;
+        };
+	};
  	class U_B_CombatUniform_NKPOlive_vest: Uniform_Base {
  	    scope = 2;
  	    displayName = "$STR_Recon_NKP_olive";
@@ -36,7 +51,14 @@ class CfgPatches
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\Suitpacks\suitpack_NKPOlive.paa"};
- 	};
+ 	    class ItemInfo: UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "B_SoldierOlive_03_F";
+            containerClass = "Supply20";
+            mass = 30;
+        };
+	};
 // --- UNIFORM BASE --- //
 
 class UniformSlotInfo;
