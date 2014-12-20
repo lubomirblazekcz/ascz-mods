@@ -4,13 +4,13 @@
         <Key ID="str_Recon_NKP_olive">
             <Original>Recon Fatigues (Olive)</Original>
             <English>Recon Fatigues (Olive)</English>
-            <Czech>Pr�zkumnick� stejnokroj (olivov�)</Czech>
+            <Czech>Průzkumnický stejnokroj (olivová)</Czech>
             <French>Treillis de reco (Olive)</French>
             <German>Pionieranzug (Olive)</German>
             <Italian>Uniforme da ricognizione (Olive)</Italian>
             <Polish>Mundur zwiadowcy (Olive)</Polish>
             <Portuguese>Uniforme de reconhecimento (Olive)</Portuguese>
-            <Russian>????? ?????????? (Olive)</Russian>
+            <Russian>Боевая форма (Olive)</Russian>
             <Spanish>Traje de reconocimiento (Olive)</Spanish>
         </Key>
         <Key ID="str_NKP_olive">
@@ -19,7 +19,7 @@
             <Czech>Uniforma (olivová)</Czech>
             <French>Treillis (Olive)</French>
             <German>Kampfanzug (Olive)</German>
-            <Italian>Uniforme da combattimento (mimetico Olive)</Italian>
+            <Italian>Uniforme da combattimento (Olive)</Italian>
             <Polish>Mundur bojowy (Olive)</Polish>
             <Portuguese>Uniforme de combate (Olive)</Portuguese>
             <Russian>Боевая форма (Olive)</Russian>
@@ -31,7 +31,7 @@
             <Czech>Uniforma (olivová) (triko)</Czech>
             <French>Treillis (Olive) (T-shirt)</French>
             <German>Kampfanzug (Olive) (T-Shirt)</German>
-            <Italian>Uniforme da combattimento (Olive MTP) (T-shirt)</Italian>
+            <Italian>Uniforme da combattimento (Olive) (T-shirt)</Italian>
             <Polish>Mundur bojowy (Olive) (Tee)</Polish>
             <Portuguese>Uniforme de combate (Olive) (camisa)</Portuguese>
             <Russian>Боевая форма (Olive) (Tee)</Russian>

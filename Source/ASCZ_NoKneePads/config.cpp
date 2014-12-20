@@ -24,8 +24,8 @@ class cfgWeapons {
         {
             uniformModel = "-";
             uniformClass = "B_SoldierOlive_F";
-            containerClass = "Supply20";
-            mass = 30;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
  	class U_B_CombatUniform_NKPOlive_tshirt: Uniform_Base {
@@ -40,14 +40,14 @@ class cfgWeapons {
         {
             uniformModel = "-";
             uniformClass = "B_SoldierOlive_02_F";
-            containerClass = "Supply20";
-            mass = 30;
+            containerClass = "Supply40";
+            mass = 20;
         };
 	};
  	class U_B_CombatUniform_NKPOlive_vest: Uniform_Base {
  	    scope = 2;
  	    displayName = "$STR_Recon_NKP_olive";
-		picture = "\ASCZ_NoKneePads\data\UI\icon_olive_uniform.paa";
+		picture = "\ASCZ_NoKneePads\data\UI\icon_olive_vest.paa";
 		author = "Taurus";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -56,8 +56,8 @@ class cfgWeapons {
         {
             uniformModel = "-";
             uniformClass = "B_SoldierOlive_03_F";
-            containerClass = "Supply20";
-            mass = 30;
+            containerClass = "Supply40";
+            mass = 40;
         };
 	};
 };
