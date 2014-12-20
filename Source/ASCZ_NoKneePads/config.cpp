@@ -8,7 +8,8 @@ class CfgPatches
 		requiredAddons[] = {"A3_Weapons_F", "A3_Characters_F_BLUFOR"};
 	};
 };
-// --- UNIFORMS --- //
+class cfgWeapons {
+    // --- UNIFORMS --- //
     class Uniform_Base;
 	class UniformItem;
  	class U_B_CombatUniform_NKPOlive: Uniform_Base {
@@ -59,6 +60,7 @@ class CfgPatches
             mass = 30;
         };
 	};
+};
 // --- UNIFORM BASE --- //
 
 class UniformSlotInfo;
