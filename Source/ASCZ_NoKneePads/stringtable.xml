@@ -37,5 +37,17 @@
             <Russian>Боевая форма (Olive) (Tee)</Russian>
             <Spanish>Traje de combate (Olive) (camiseta)</Spanish>
         </Key>
+        <Key ID="str_NKP_olive_rollup">
+            <Original>Worn Combat Fatigues (Olive)</Original>
+            <English>Worn Combat Fatigues (Olive)</English>
+            <Czech>Obnošená Uniforma (olivová)</Czech>
+            <French>Usé Treillis (Olive)</French>
+            <German>Abgenutzt Kampfanzug (Olive)</German>
+            <Italian>Uniforme da combattimento (Olive)</Italian>
+            <Polish>Mundur bojowy (Olive)</Polish>
+            <Portuguese>Uniforme de combate (Olive)</Portuguese>
+            <Russian>Боевая форма (Olive)</Russian>
+            <Spanish>Traje de combate (Olive)</Spanish>
+        </Key>
     </Package>
 </Project>

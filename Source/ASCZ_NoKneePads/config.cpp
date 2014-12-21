@@ -60,6 +60,22 @@ class cfgWeapons {
             mass = 40;
         };
 	};
+ 	class U_B_CombatUniform_NKPOlive_rollup: Uniform_Base {
+ 	    scope = 2;
+ 	    displayName = "$STR_NKP_olive_rollup";
+		picture = "\ASCZ_NoKneePads\data\UI\icon_olive_rollup.paa";
+		author = "Taurus";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\Suitpacks\suitpack_NKPOlive.paa"};
+ 	    class ItemInfo: UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "B_SoldierOlive_04_F";
+            containerClass = "Supply40";
+            mass = 40;
+        };
+	};
 };
 // --- UNIFORM BASE --- //
 
@@ -128,6 +144,21 @@ class cfgVehicles {
         hiddenSelections[] = {"Camo","insignia"};
 		hiddenSelectionsMaterials[] = {"\ASCZ_NoKneePads\data\NKP.rvmat"};
         hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\NKP_olive.paa"};
+        weapons[] = {"arifle_MX_Black_Hamr_pointer_F","hgun_P07_F","Throw","Put"};
+        respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F","hgun_P07_F","Throw","Put"};
+    };
+    class B_SoldierOlive_04_f: B_Soldier_03_f
+    {
+        author = "$STR_A3_Bohemia_Interactive";
+        _generalMacro = "B_Soldier_03_f";
+        scope = 2;
+        displayName = "Rifleman 4 Olive";
+        model = "\A3\Characters_F_EPB\Guerrilla\ig_guerrilla5_1.p3d";
+        modelSides[] = {3,1};
+        uniformClass = "U_B_CombatUniform_NKPOlive_rollup";
+        hiddenSelections[] = {"camo1","camo2","insignia"};
+		hiddenSelectionsMaterials[] = {"","\ASCZ_NoKneePads\data\NKP.rvmat"};
+        hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\NKP_shirt.paa","\ASCZ_NoKneePads\data\NKP_olive.paa"};
         weapons[] = {"arifle_MX_Black_Hamr_pointer_F","hgun_P07_F","Throw","Put"};
         respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F","hgun_P07_F","Throw","Put"};
     };
