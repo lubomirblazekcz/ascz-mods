@@ -49,5 +49,53 @@
             <Russian>Боевая форма (Olive)</Russian>
             <Spanish>Traje de combate (Olive)</Spanish>
         </Key>
+        <Key ID="str_Recon_NKP_Tan">
+            <Original>Recon Fatigues (Tan)</Original>
+            <English>Recon Fatigues (Tan)</English>
+            <Czech>Průzkumnický stejnokroj (tan)</Czech>
+            <French>Treillis de reco (Tan)</French>
+            <German>Pionieranzug (Tan)</German>
+            <Italian>Uniforme da ricognizione (Tan)</Italian>
+            <Polish>Mundur zwiadowcy (Tan)</Polish>
+            <Portuguese>Uniforme de reconhecimento (Tan)</Portuguese>
+            <Russian>Боевая форма (Tan)</Russian>
+            <Spanish>Traje de reconocimiento (Tan)</Spanish>
+        </Key>
+        <Key ID="str_NKP_Tan">
+            <Original>Combat Fatigues (Tan)</Original>
+            <English>Combat Fatigues (Tan)</English>
+            <Czech>Uniforma (tan)</Czech>
+            <French>Treillis (Tan)</French>
+            <German>Kampfanzug (Tan)</German>
+            <Italian>Uniforme da combattimento (Tan)</Italian>
+            <Polish>Mundur bojowy (Tan)</Polish>
+            <Portuguese>Uniforme de combate (Tan)</Portuguese>
+            <Russian>Боевая форма (Tan)</Russian>
+            <Spanish>Traje de combate (Tan)</Spanish>
+        </Key>
+        <Key ID="str_NKP_Tan_tee">
+            <Original>Combat Fatigues (Tan) (Tee)</Original>
+            <English>Combat Fatigues (Tan) (Tee)</English>
+            <Czech>Uniforma (tan) (triko)</Czech>
+            <French>Treillis (Tan) (T-shirt)</French>
+            <German>Kampfanzug (Tan) (T-Shirt)</German>
+            <Italian>Uniforme da combattimento (Tan) (T-shirt)</Italian>
+            <Polish>Mundur bojowy (Tan) (Tee)</Polish>
+            <Portuguese>Uniforme de combate (Tan) (camisa)</Portuguese>
+            <Russian>Боевая форма (Tan) (Tee)</Russian>
+            <Spanish>Traje de combate (Tan) (camiseta)</Spanish>
+        </Key>
+        <Key ID="str_NKP_Tan_rollup">
+            <Original>Worn Combat Fatigues (Tan)</Original>
+            <English>Worn Combat Fatigues (Tan)</English>
+            <Czech>Obnošená Uniforma (tan)</Czech>
+            <French>Usé Treillis (Tan)</French>
+            <German>Abgenutzt Kampfanzug (Tan)</German>
+            <Italian>Uniforme da combattimento (Tan)</Italian>
+            <Polish>Mundur bojowy (Tan)</Polish>
+            <Portuguese>Uniforme de combate (Tan)</Portuguese>
+            <Russian>Боевая форма (Tan)</Russian>
+            <Spanish>Traje de combate (Tan)</Spanish>
+        </Key>
     </Package>
 </Project>
