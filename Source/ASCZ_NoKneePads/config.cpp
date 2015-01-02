@@ -12,6 +12,10 @@ class cfgWeapons {
 // --- UNIFORMS --- //Olive
     class Uniform_Base;
 	class UniformItem;
+	class ItemInfo;
+    class VestItem;
+    class V_PlateCarrier1_rgr;
+    class V_PlateCarrier2_rgr;
  	class U_B_CombatUniform_NKPOlive: Uniform_Base {
  	    scope = 2;
  	    displayName = "$STR_NKP_olive";
@@ -450,16 +454,6 @@ class cfgVehicles {
         respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F","hgun_P07_F","Throw","Put"};
     };
 };
-class UniformSlotInfo;
-class cfgWeapons {
-    class ItemInfo;
-    class VestItem;
-    class V_Rangemaster_belt;
-    class V_PlateCarrier1_rgr;
-    class V_PlateCarrier2_rgr;
-	{
-};
-
 // --- VESTS --- //Green
 	class V_PlateCarrier1_NKP_grn: V_PlateCarrier1_rgr
 	{
