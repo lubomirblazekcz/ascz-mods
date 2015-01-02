@@ -9,13 +9,50 @@ class CfgPatches
 	};
 };
 class cfgWeapons {
-// --- UNIFORMS --- //Olive
     class Uniform_Base;
 	class UniformItem;
 	class ItemInfo;
     class VestItem;
     class V_PlateCarrier1_rgr;
     class V_PlateCarrier2_rgr;
+// --- VESTS --- //Green
+	class V_PlateCarrier1_NKP_grn: V_PlateCarrier1_rgr
+	{
+	    picture = "\ASCZ_NoKneePads\data\UI\icon_green_realvest.paa";
+		displayName = "$str_NKP_platecarrier1_grn";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\NKP_vest_green.paa"};
+		author = "Taurus";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
+			containerClass = "Supply140";
+			mass = 80;
+			armor = 20;
+			passThrough = 0.5;
+            hiddenSelections[] = {"camo"};
+            hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\NKP_vest_green.paa"};
+		};
+	};
+	class V_PlateCarrier2_NKP_grn: V_PlateCarrier2_rgr
+	{
+	    picture = "\ASCZ_NoKneePads\data\UI\icon_green_realvest.paa";
+		displayName = "$str_NKP_platecarrier2_grn";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\NKP_vest_green.paa"};
+		author = "Taurus";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
+			containerClass = "Supply140";
+			mass = 100;
+			armor = 30;
+			passThrough = 0.5;
+            hiddenSelections[] = {"camo"};
+            hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\NKP_vest_green.paa"};
+		};
+	};
+// --- UNIFORMS --- //Olive
  	class U_B_CombatUniform_NKPOlive: Uniform_Base {
  	    scope = 2;
  	    displayName = "$STR_NKP_olive";
@@ -454,40 +491,3 @@ class cfgVehicles {
         respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F","hgun_P07_F","Throw","Put"};
     };
 };
-// --- VESTS --- //Green
-	class V_PlateCarrier1_NKP_grn: V_PlateCarrier1_rgr
-	{
-	    picture = "\ASCZ_NoKneePads\data\UI\icon_green_realvest.paa";
-		displayName = "$str_NKP_platecarrier1_grn";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\NKP_vest_green.paa"};
-		author = "Taurus";
-		class ItemInfo: ItemInfo
-		{
-			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
-			containerClass = "Supply140";
-			mass = 80;
-			armor = 20;
-			passThrough = 0.5;
-            hiddenSelections[] = {"camo"};
-            hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\NKP_vest_green.paa"};
-		};
-	};
-	class V_PlateCarrier2_NKP_grn: V_PlateCarrier2_rgr
-	{
-	    picture = "\ASCZ_NoKneePads\data\UI\icon_green_realvest.paa";
-		displayName = "$str_NKP_platecarrier2_grn";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\NKP_vest_green.paa"};
-		author = "Taurus";
-		class ItemInfo: ItemInfo
-		{
-			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
-			containerClass = "Supply140";
-			mass = 100;
-			armor = 30;
-			passThrough = 0.5;
-            hiddenSelections[] = {"camo"};
-            hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\NKP_vest_green.paa"};
-		};
-	};
