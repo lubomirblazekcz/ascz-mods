@@ -141,6 +141,71 @@ class cfgWeapons {
             mass = 40;
         };
 	};
+// --- UNIFORMS --- //Blue
+ 	class U_B_CombatUniform_NKPBlue: Uniform_Base {
+ 	    scope = 2;
+ 	    displayName = "$STR_NKP_Blue";
+		picture = "\ASCZ_NoKneePads\data\UI\icon_blue_uniform.paa";
+		author = "Taurus";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\Suitpacks\suitpack_NKPBlue.paa"};
+        class ItemInfo: UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "B_SoldierBlue_F";
+            containerClass = "Supply40";
+            mass = 40;
+        };
+    };
+ 	class U_B_CombatUniform_NKPBlue_tshirt: Uniform_Base {
+ 	    scope = 2;
+ 	    displayName = "$STR_NKP_blue_tee";
+		picture = "\ASCZ_NoKneePads\data\UI\icon_blue_tshirt.paa";
+		author = "Taurus";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\Suitpacks\suitpack_NKPBlue.paa"};
+ 	    class ItemInfo: UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "B_SoldierBlue_02_F";
+            containerClass = "Supply40";
+            mass = 20;
+        };
+	};
+ 	class U_B_CombatUniform_NKPBlue_vest: Uniform_Base {
+ 	    scope = 2;
+ 	    displayName = "$STR_Recon_NKP_blue";
+		picture = "\ASCZ_NoKneePads\data\UI\icon_blue_vest.paa";
+		author = "Taurus";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\Suitpacks\suitpack_NKPBlue.paa"};
+ 	    class ItemInfo: UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "B_SoldierBlue_03_F";
+            containerClass = "Supply40";
+            mass = 40;
+        };
+	};
+ 	class U_B_CombatUniform_NKPBlue_rollup: Uniform_Base {
+ 	    scope = 2;
+ 	    displayName = "$STR_NKP_Blue_rollup";
+		picture = "\ASCZ_NoKneePads\data\UI\icon_blue_rollup.paa";
+		author = "Taurus";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\Suitpacks\suitpack_NKPBlue.paa"};
+ 	    class ItemInfo: UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "B_SoldierBlue_04_F";
+            containerClass = "Supply40";
+            mass = 40;
+        };
+	};	
 };
 // --- UNIFORM BASE --- //Olive
 class UniformSlotInfo;
@@ -305,4 +370,130 @@ class cfgVehicles {
         weapons[] = {"arifle_MX_Black_Hamr_pointer_F","hgun_P07_F","Throw","Put"};
         respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F","hgun_P07_F","Throw","Put"};
     };
+// --- UNIFORM BASE --- //Blue
+	class B_SoldierBlue_F: B_Soldier_base_F
+    {
+        author = "$STR_A3_Bohemia_Interactive";
+        _generalMacro = "B_Soldier_F";
+        scope = 2;
+        displayName = "Rifleman 1 Blue";
+        uniformAccessories[] = {};
+        nakedUniform = "U_BasicBody";
+        uniformClass = "U_B_CombatUniform_NKPBlue";
+        hiddenSelections[] = {"Camo","insignia"};
+		hiddenSelectionsMaterials[] = {"\ASCZ_NoKneePads\data\NKP.rvmat"};
+        hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\NKP_Blue.paa"};
+        weapons[] = {"arifle_MX_Black_Hamr_pointer_F","hgun_P07_F","Throw","Put"};
+        respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F","hgun_P07_F","Throw","Put"};
+        class UniformInfo
+        {
+            class SlotsInfo
+            {
+                class NVG: UniformSlotInfo
+                {
+                    slotType = 602;
+                };
+                class Scuba: UniformSlotInfo
+                {
+                    slotType = 604;
+                };
+                class Headgear: UniformSlotInfo
+                {
+                    slotType = 605;
+                };
+            };
+        };
+    };
+    class B_SoldierBlue_02_f: B_Soldier_02_f
+    {
+        author = "$STR_A3_Bohemia_Interactive";
+        _generalMacro = "B_Soldier_02_f";
+        scope = 2;
+        displayName = "Rifleman 2 Blue";
+        model = "\A3\characters_F\BLUFOR\b_soldier_02.p3d";
+        modelSides[] = {3,1};
+        uniformClass = "U_B_CombatUniform_NKPBlue_tshirt";
+        hiddenSelections[] = {"Camo", "camo2", "insignia"};
+		hiddenSelectionsMaterials[] = {"\ASCZ_NoKneePads\data\NKP.rvmat"};
+        hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\NKP_Blue.paa", "\a3\characters_f\common\data\basicbody_black_co.paa"};
+        weapons[] = {"arifle_MX_Black_Hamr_pointer_F","hgun_P07_F","Throw","Put"};
+        respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F","hgun_P07_F","Throw","Put"};
+    };
+    class B_SoldierBlue_03_f: B_Soldier_03_f
+    {
+        author = "$STR_A3_Bohemia_Interactive";
+        _generalMacro = "B_Soldier_03_f";
+        scope = 2;
+        displayName = "Rifleman 3 Blue";
+        model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+        modelSides[] = {3,1};
+        uniformClass = "U_B_CombatUniform_NKPBlue_vest";
+        hiddenSelections[] = {"Camo","insignia"};
+		hiddenSelectionsMaterials[] = {"\ASCZ_NoKneePads\data\NKP.rvmat"};
+        hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\NKP_Blue.paa"};
+        weapons[] = {"arifle_MX_Black_Hamr_pointer_F","hgun_P07_F","Throw","Put"};
+        respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F","hgun_P07_F","Throw","Put"};
+    };
+    class B_SoldierBlue_04_f: B_Soldier_03_f
+    {
+        author = "$STR_A3_Bohemia_Interactive";
+        _generalMacro = "B_Soldier_03_f";
+        scope = 2;
+        displayName = "Rifleman 4 Blue";
+        model = "\A3\Characters_F_EPB\Guerrilla\ig_guerrilla5_1.p3d";
+        modelSides[] = {3,1};
+        uniformClass = "U_B_CombatUniform_NKPBlue_rollup";
+        hiddenSelections[] = {"camo1","camo2","insignia"};
+		hiddenSelectionsMaterials[] = {"","\ASCZ_NoKneePads\data\NKP.rvmat"};
+        hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\NKP_shirt.paa","\ASCZ_NoKneePads\data\NKP_Blue.paa"};
+        weapons[] = {"arifle_MX_Black_Hamr_pointer_F","hgun_P07_F","Throw","Put"};
+        respawnWeapons[] = {"arifle_MX_Black_Hamr_pointer_F","hgun_P07_F","Throw","Put"};
+    };
 };
+class UniformSlotInfo;
+class cfgWeapons {
+    class ItemInfo;
+    class VestItem;
+    class V_Rangemaster_belt;
+    class V_PlateCarrier1_rgr;
+    class V_PlateCarrier2_rgr;
+	{
+};
+
+// --- VESTS --- //Green
+	class V_PlateCarrier1_NKP_grn: V_PlateCarrier1_rgr
+	{
+	    picture = "\ASCZ_NoKneePads\data\UI\icon_green_realvest.paa";
+		displayName = "$str_NKP_platecarrier1_grn";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\NKP_vest_green.paa"};
+		author = "Taurus";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
+			containerClass = "Supply140";
+			mass = 80;
+			armor = 20;
+			passThrough = 0.5;
+            hiddenSelections[] = {"camo"};
+            hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\NKP_vest_green.paa"};
+		};
+	};
+	class V_PlateCarrier2_NKP_grn: V_PlateCarrier2_rgr
+	{
+	    picture = "\ASCZ_NoKneePads\data\UI\icon_green_realvest.paa";
+		displayName = "$str_NKP_platecarrier2_grn";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\NKP_vest_green.paa"};
+		author = "Taurus";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
+			containerClass = "Supply140";
+			mass = 100;
+			armor = 30;
+			passThrough = 0.5;
+            hiddenSelections[] = {"camo"};
+            hiddenSelectionsTextures[] = {"\ASCZ_NoKneePads\data\NKP_vest_green.paa"};
+		};
+	};

@@ -97,5 +97,78 @@
             <Russian>Боевая форма (Tan)</Russian>
             <Spanish>Traje de combate (Tan)</Spanish>
         </Key>
+        </Key>
+        <Key ID="str_Recon_NKP_Blue">
+            <Original>Recon Fatigues (Blue)</Original>
+            <English>Recon Fatigues (Blue)</English>
+            <Czech>Průzkumnický stejnokroj (modrá)</Czech>
+            <French>Treillis de reco (Blue)</French>
+            <German>Pionieranzug (Blue)</German>
+            <Italian>Uniforme da ricognizione (Blue)</Italian>
+            <Polish>Mundur zwiadowcy (Blue)</Polish>
+            <Portuguese>Uniforme de reconhecimento (Blue)</Portuguese>
+            <Russian>Боевая форма (Blue)</Russian>
+            <Spanish>Traje de reconocimiento (Blue)</Spanish>
+        </Key>
+        <Key ID="str_NKP_Blue">
+            <Original>Combat Fatigues (Blue)</Original>
+            <English>Combat Fatigues (Blue)</English>
+            <Czech>Uniforma (modrá)</Czech>
+            <French>Treillis (Blue)</French>
+            <German>Kampfanzug (Blue)</German>
+            <Italian>Uniforme da combattimento (Blue)</Italian>
+            <Polish>Mundur bojowy (Blue)</Polish>
+            <Portuguese>Uniforme de combate (Blue)</Portuguese>
+            <Russian>Боевая форма (Blue)</Russian>
+            <Spanish>Traje de combate (Blue)</Spanish>
+        </Key>
+        <Key ID="str_NKP_Blue_tee">
+            <Original>Combat Fatigues (Blue) (Tee)</Original>
+            <English>Combat Fatigues (Blue) (Tee)</English>
+            <Czech>Uniforma (modrá) (triko)</Czech>
+            <French>Treillis (Blue) (T-shirt)</French>
+            <German>Kampfanzug (Blue) (T-Shirt)</German>
+            <Italian>Uniforme da combattimento (Blue) (T-shirt)</Italian>
+            <Polish>Mundur bojowy (Blue) (Tee)</Polish>
+            <Portuguese>Uniforme de combate (Blue) (camisa)</Portuguese>
+            <Russian>Боевая форма (Blue) (Tee)</Russian>
+            <Spanish>Traje de combate (Blue) (camiseta)</Spanish>
+        </Key>
+        <Key ID="str_NKP_Blue_rollup">
+            <Original>Worn Combat Fatigues (Blue)</Original>
+            <English>Worn Combat Fatigues (Blue)</English>
+            <Czech>Obnošená Uniforma (modrá)</Czech>
+            <French>Usé Treillis (Blue)</French>
+            <German>Abgenutzt Kampfanzug (Blue)</German>
+            <Italian>Uniforme da combattimento (Blue)</Italian>
+            <Polish>Mundur bojowy (Blue)</Polish>
+            <Portuguese>Uniforme de combate (Blue)</Portuguese>
+            <Russian>Боевая форма (Blue)</Russian>
+            <Spanish>Traje de combate (Blue)</Spanish>
+        </Key>
+        <Key ID="str_NKP_platecarrier1_grn">
+            <Original>Carrier Lite (Green)</Original>
+            <English>Carrier Lite (Green)</English>
+            <Czech>Lehká taktická vesta (zelená)</Czech>
+            <French>Gilet léger (Green)</French>
+            <German>Leichter Tragegurt (Oliv)</German>
+            <Italian>Gilet leggero (green)</Italian>
+            <Polish>Kamizelka Lite (green)</Polish>
+            <Portuguese>Transportador leve (green)</Portuguese>
+            <Russian>Легкий жилет (green)</Russian>
+            <Spanish>Cartuchera ligera (green)</Spanish>
+        </Key>
+        <Key ID="str_NKP_platecarrier2_grn">
+            <Original>Carrier Rig (Green)</Original>
+            <English>Carrier Rig (Green)</English>
+            <Czech>Nosič plátů (zelená)</Czech>
+            <French>Gilet modulable léger (Green)</French>
+            <German>Tragegurt (green)</German>
+            <Italian>Gilet (green)</Italian>
+            <Polish>Kamizelka Platecarrier (green)</Polish>
+            <Portuguese>Traje transportador (green)</Portuguese>
+            <Russian>Разгрузочный жилет (green)</Russian>
+            <Spanish>Cartuchera (green)</Spanish>
+        </Key>
     </Package>
 </Project>
