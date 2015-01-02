@@ -79,6 +79,11 @@ class CfgWorlds
             };
         };
 	};
+	class IslaDuala3: CAWorld
+    {
+        description = "Isla Duala";
+        icon = "";
+    };
 };
 class CfgMissions
 {
