@@ -16,6 +16,7 @@ class asdg_FrontSideRail: asdg_SlotInfo
 	{
         rhsusf_acc_anpeq15 = 1;
         rhsusf_acc_anpeq15A = 1;
+        rhsusf_acc_anpeq15_light = 1;
 	};
 };
 
@@ -25,7 +26,6 @@ class asdg_OpticRail1913: asdg_OpticRail
 	class compatibleItems
 	{
 		rhsusf_acc_EOTECH = 1;
-		rhsusf_acc_HAMR = 1;
 		rhsusf_acc_LEUPOLDMK4 = 1;
 		rhsusf_acc_LEUPOLDMK4_2 = 1;
 		rhsusf_acc_ELCAN = 1;

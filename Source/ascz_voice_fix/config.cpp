@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"RHS_RU_Radio"};
+		requiredAddons[] = {"rhs_c_radio"};
 		version = "1.0";
 		author[] = {"EvroMalarkey"};
 	};
