@@ -97,7 +97,6 @@
             <Russian>Боевая форма (Tan)</Russian>
             <Spanish>Traje de combate (Tan)</Spanish>
         </Key>
-        </Key>
         <Key ID="str_Recon_NKP_Blue">
             <Original>Recon Fatigues (Blue)</Original>
             <English>Recon Fatigues (Blue)</English>
@@ -146,29 +145,54 @@
             <Russian>Боевая форма (Blue)</Russian>
             <Spanish>Traje de combate (Blue)</Spanish>
         </Key>
-        <Key ID="str_NKP_platecarrier1_grn">
-            <Original>Carrier Lite (Green)</Original>
-            <English>Carrier Lite (Green)</English>
-            <Czech>Lehká taktická vesta (zelená)</Czech>
-            <French>Gilet léger (Green)</French>
-            <German>Leichter Tragegurt (Oliv)</German>
-            <Italian>Gilet leggero (green)</Italian>
-            <Polish>Kamizelka Lite (green)</Polish>
-            <Portuguese>Transportador leve (green)</Portuguese>
-            <Russian>Легкий жилет (green)</Russian>
-            <Spanish>Cartuchera ligera (green)</Spanish>
         </Key>
-        <Key ID="str_NKP_platecarrier2_grn">
-            <Original>Carrier Rig (Green)</Original>
-            <English>Carrier Rig (Green)</English>
-            <Czech>Nosič plátů (zelená)</Czech>
-            <French>Gilet modulable léger (Green)</French>
-            <German>Tragegurt (green)</German>
-            <Italian>Gilet (green)</Italian>
-            <Polish>Kamizelka Platecarrier (green)</Polish>
-            <Portuguese>Traje transportador (green)</Portuguese>
-            <Russian>Разгрузочный жилет (green)</Russian>
-            <Spanish>Cartuchera (green)</Spanish>
+        <Key ID="str_Recon_NKP_Black">
+            <Original>Recon Fatigues (Black)</Original>
+            <English>Recon Fatigues (Black)</English>
+            <Czech>Průzkumnický stejnokroj (černá)</Czech>
+            <French>Treillis de reco (Black)</French>
+            <German>Pionieranzug (Black)</German>
+            <Italian>Uniforme da ricognizione (Black)</Italian>
+            <Polish>Mundur zwiadowcy (Black)</Polish>
+            <Portuguese>Uniforme de reconhecimento (Black)</Portuguese>
+            <Russian>Боевая форма (Black)</Russian>
+            <Spanish>Traje de reconocimiento (Black)</Spanish>
+        </Key>
+        <Key ID="str_NKP_Black">
+            <Original>Combat Fatigues (Black)</Original>
+            <English>Combat Fatigues (Black)</English>
+            <Czech>Uniforma (černá)</Czech>
+            <French>Treillis (Black)</French>
+            <German>Kampfanzug (Black)</German>
+            <Italian>Uniforme da combattimento (Black)</Italian>
+            <Polish>Mundur bojowy (Black)</Polish>
+            <Portuguese>Uniforme de combate (Black)</Portuguese>
+            <Russian>Боевая форма (Black)</Russian>
+            <Spanish>Traje de combate (Black)</Spanish>
+        </Key>
+        <Key ID="str_NKP_Black_tee">
+            <Original>Combat Fatigues (Black) (Tee)</Original>
+            <English>Combat Fatigues (Black) (Tee)</English>
+            <Czech>Uniforma (černá) (triko)</Czech>
+            <French>Treillis (Black) (T-shirt)</French>
+            <German>Kampfanzug (Black) (T-Shirt)</German>
+            <Italian>Uniforme da combattimento (Black) (T-shirt)</Italian>
+            <Polish>Mundur bojowy (Black) (Tee)</Polish>
+            <Portuguese>Uniforme de combate (Black) (camisa)</Portuguese>
+            <Russian>Боевая форма (Black) (Tee)</Russian>
+            <Spanish>Traje de combate (Black) (camiseta)</Spanish>
+        </Key>
+        <Key ID="str_NKP_Black_rollup">
+            <Original>Worn Combat Fatigues (Black)</Original>
+            <English>Worn Combat Fatigues (Black)</English>
+            <Czech>Obnošená Uniforma (černá)</Czech>
+            <French>Usé Treillis (Black)</French>
+            <German>Abgenutzt Kampfanzug (Black)</German>
+            <Italian>Uniforme da combattimento (Black)</Italian>
+            <Polish>Mundur bojowy (Black)</Polish>
+            <Portuguese>Uniforme de combate (Black)</Portuguese>
+            <Russian>Боевая форма (Black)</Russian>
+            <Spanish>Traje de combate (Black)</Spanish>
         </Key>
     </Package>
 </Project>
