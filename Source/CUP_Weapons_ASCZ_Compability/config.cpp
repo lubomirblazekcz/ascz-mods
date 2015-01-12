@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"CUP_Weapons_West_Attachments", "CUP_Weapons_Ammunition"};
+		requiredAddons[] = {"acr_a3_weapons_pbo","CUP_Weapons_West_Attachments", "CUP_Weapons_Ammunition"};
 	};
 };
 class CfgWeapons
