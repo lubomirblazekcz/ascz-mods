@@ -1606,4 +1606,233 @@ class CfgVehicles
         faction = "ascz_rhs_faction_usarmy";
 	};
 
+
+    class RDS_ZU23_AAF;
+    class RDS_DSHKM_AAF;
+    class RDS_DSHkM_Mini_TriPod;
+    class RDS_KORD_AAF;
+    class RDS_KORD_high_AAF;
+    class RDS_AGS_AAF;
+    class RDS_Metis_AAF;
+    class RDS_SPG9_AAF;
+    class RDS_Igla_AA_pod_AAF;
+    class RDS_2b14_82mm_AAF;
+    class RDS_D30_AAF;
+    class RDS_D30_AT_AAF;
+    class RDS_ZU23_RHS_MSV: RDS_ZU23_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_msv_rifleman";
+        typicalCargo[] = {"rhs_msv_rifleman"};
+    };
+    class RDS_KORD_RHS_MSV: RDS_KORD_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_msv_rifleman";
+        typicalCargo[] = {"rhs_msv_rifleman"};
+    };
+    class RDS_KORD_high_RHS_MSV: RDS_KORD_high_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_msv_rifleman";
+        typicalCargo[] = {"rhs_msv_rifleman"};
+    };
+    class RDS_AGS_RHS_MSV: RDS_AGS_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_msv_rifleman";
+        typicalCargo[] = {"rhs_msv_rifleman"};
+    };
+    class RDS_Metis_RHS_MSV: RDS_Metis_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_msv_rifleman";
+        typicalCargo[] = {"rhs_msv_rifleman"};
+    };
+    class RDS_SPG9_RHS_MSV: RDS_SPG9_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_msv_rifleman";
+        typicalCargo[] = {"rhs_msv_rifleman"};
+    };
+    class RDS_Igla_AA_pod_RHS_MSV: RDS_Igla_AA_pod_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_msv_rifleman";
+        typicalCargo[] = {"rhs_msv_rifleman"};
+    };
+    class RDS_2b14_82mm_RHS_MSV: RDS_2b14_82mm_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_msv_rifleman";
+        typicalCargo[] = {"rhs_msv_rifleman","rhs_msv_rifleman"};
+    };
+    class RDS_D30_RHS_MSV: RDS_D30_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_msv_rifleman";
+        typicalCargo[] = {"rhs_msv_rifleman","rhs_msv_rifleman","rhs_msv_rifleman"};
+    };
+    class RDS_D30_AT_RHS_MSV: RDS_D30_AT_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_msv_rifleman";
+        typicalCargo[] = {"rhs_msv_rifleman","rhs_msv_rifleman","rhs_msv_rifleman"};
+    };
+
+    class RDS_ZU23_RHS_VDV: RDS_ZU23_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_VDV_rifleman";
+        typicalCargo[] = {"rhs_VDV_rifleman"};
+    };
+    class RDS_KORD_RHS_VDV: RDS_KORD_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_VDV_rifleman";
+        typicalCargo[] = {"rhs_VDV_rifleman"};
+    };
+    class RDS_KORD_high_RHS_VDV: RDS_KORD_high_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_VDV_rifleman";
+        typicalCargo[] = {"rhs_VDV_rifleman"};
+    };
+    class RDS_AGS_RHS_VDV: RDS_AGS_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_VDV_rifleman";
+        typicalCargo[] = {"rhs_VDV_rifleman"};
+    };
+    class RDS_Metis_RHS_VDV: RDS_Metis_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_VDV_rifleman";
+        typicalCargo[] = {"rhs_VDV_rifleman"};
+    };
+    class RDS_SPG9_RHS_VDV: RDS_SPG9_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_VDV_rifleman";
+        typicalCargo[] = {"rhs_VDV_rifleman"};
+    };
+    class RDS_Igla_AA_pod_RHS_VDV: RDS_Igla_AA_pod_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_VDV_rifleman";
+        typicalCargo[] = {"rhs_VDV_rifleman"};
+    };
+    class RDS_2b14_82mm_RHS_VDV: RDS_2b14_82mm_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_VDV_rifleman";
+        typicalCargo[] = {"rhs_VDV_rifleman","rhs_VDV_rifleman"};
+    };
+    class RDS_D30_RHS_VDV: RDS_D30_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_VDV_rifleman";
+        typicalCargo[] = {"rhs_VDV_rifleman","rhs_VDV_rifleman","rhs_VDV_rifleman"};
+    };
+    class RDS_D30_AT_RHS_VDV: RDS_D30_AT_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 0;
+        faction = "ascz_rhs_faction_ru";
+        crew = "rhs_VDV_rifleman";
+        typicalCargo[] = {"rhs_VDV_rifleman","rhs_VDV_rifleman","rhs_VDV_rifleman"};
+    };
+
+    class RDS_M119_AAF;
+    class RDS_M252_AAF;
+    class RDS_TOW_TriPod_AAF;
+    class RDS_MK19_TriPod_AAF;
+    class RDS_M2StaticMG_AAF;
+    class RDS_M2StaticMG_MiniTripod_AAF;
+    class RDS_M119_RHS_OCP: RDS_M119_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 1;
+        faction = "ascz_rhs_faction_usarmy";
+        crew = "rhsusf_army_ocp_riflemanl";
+        typicalCargo[] = {"rhsusf_army_ocp_riflemanl"};
+    };
+    class RDS_TOW_TriPod_RHS_OCP: RDS_TOW_TriPod_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 1;
+        faction = "ascz_rhs_faction_usarmy";
+        crew = "rhsusf_army_ocp_riflemanl";
+        typicalCargo[] = {"rhsusf_army_ocp_riflemanl"};
+    };
+    class RDS_M252_RHS_OCP: RDS_M252_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 1;
+        faction = "ascz_rhs_faction_usarmy";
+        crew = "rhsusf_army_ocp_riflemanl";
+        typicalCargo[] = {"rhsusf_army_ocp_riflemanl","rhsusf_army_ocp_riflemanl"};
+    };
+    class RDS_M119_RHS_UCP: RDS_M119_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 1;
+        faction = "ascz_rhs_faction_usarmy";
+        crew = "rhsusf_army_ucp_riflemanl";
+        typicalCargo[] = {"rhsusf_army_ucp_riflemanl"};
+    };
+    class RDS_TOW_TriPod_RHS_UCP: RDS_TOW_TriPod_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 1;
+        faction = "ascz_rhs_faction_usarmy";
+        crew = "rhsusf_army_ucp_riflemanl";
+        typicalCargo[] = {"rhsusf_army_ucp_riflemanl"};
+    };
+    class RDS_M252_RHS_UCP: RDS_M252_AAF
+    {
+        author = "reyhard (BIS port)";
+        side = 1;
+        faction = "ascz_rhs_faction_usarmy";
+        crew = "rhsusf_army_ucp_riflemanl";
+        typicalCargo[] = {"rhsusf_army_ucp_riflemanl","rhsusf_army_ucp_riflemanl"};
+    };
 };
