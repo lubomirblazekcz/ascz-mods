@@ -36,3 +36,4 @@ class CfgVehicleClasses
 #include "CfgFactionClasses.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgGroups.hpp"
+#include "CfgWeapons.hpp"

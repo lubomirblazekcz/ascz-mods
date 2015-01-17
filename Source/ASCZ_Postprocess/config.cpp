@@ -110,6 +110,12 @@ class CfgVehicles
                         value = "ASCZ_ColdTone"
                         default = 0;
                     };
+                    class ASCZ_Arma2Tone
+                    {
+                        name = "Arma 2 Tone";
+                        value = "ASCZ_Arma2Tone"
+                        default = 0;
+                    };
 				};
 			};
 		};
@@ -126,7 +132,7 @@ class CfgPostProcessTemplates
 	{
 		colorCorrections[] = {1,1.08,-0.06,{ 0.5,0.5,0.5,0 },{ 1.0,1.0,1.0,1.21 },{ 0.09,0.09,0.09,0.0 }};
 	};
-  class ASCZ_MiddleEast
+    class ASCZ_MiddleEast
 	{
         displayName = "Middle East";
 		colorCorrections[] = {0.9, 1, 0, {0.1, 0.1, 0.1, -0.1}, {1, 1, 0.8, 0.528},  {1, 0.2, 0, 0}};
@@ -151,5 +157,9 @@ class CfgPostProcessTemplates
         displayName = "Cold Tone";
         colorCorrections[] = {1.0, 1.0, 0.0,{0.2, 0.2, 1.0, 0.0},{0.4, 0.75, 1.0, 0.60},{0.5,0.3,1.0,-0.1}};
     };
+    class ASCZ_Arma2Tone
+    {
+        displayName = "Arma 2 Tone";
+        colorCorrections[] = {1, 0.4, 0, {0.8,0.9,1,-0.1}, {1,1,1,1.66}, {-0.5,0,-1,5}};
+    };
 };
-//};
