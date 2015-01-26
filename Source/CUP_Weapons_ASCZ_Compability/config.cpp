@@ -517,6 +517,7 @@ class CfgMagazines
 	class CUP_10Rnd_127x99_M107: CA_Magazine
 	{
         scope = 2;
+		count = 10;
 	};
 	class 1Rnd_HE_Grenade_shell;
 	class CUP_1Rnd_HE_M203: 1Rnd_HE_Grenade_shell
