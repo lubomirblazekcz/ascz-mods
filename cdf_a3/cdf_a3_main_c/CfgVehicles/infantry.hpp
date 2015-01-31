@@ -22,7 +22,7 @@ class CDF_Soldier_Base: rhs_infantry_msv_base
     modelSides[] = {1,3};
 
     nakedUniform = "U_BasicBody";
-    uniformClass = "rhs_uniform_flora";
+    uniformClass = "U_CDF_A3_uniform_ttsko";
     weapons[]={"hlc_rifle_ak74_dirty","Throw","Put"};
     magazines[]=
     {
@@ -39,8 +39,8 @@ class CDF_Soldier_Base: rhs_infantry_msv_base
     Items[] = {"FirstAidKit"};
     RespawnItems[] = {"FirstAidKit"};
 
-    linkedItems[] = {"rhs_6b27m","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-    respawnLinkedItems[] = {"rhs_6b27m","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 
     hiddenSelections[] = {"camo1","camo2","camob"};
     hiddenSelectionsTextures[] =
@@ -60,8 +60,8 @@ class CDF_Soldier: CDF_Soldier_Base
     scopeCurator = 2;
 	displayName = "$STR_A3_CfgVehicles_B_Soldier_F0";
 
-    linkedItems[] = {"rhs_6b27m","rhs_scarf","rhs_6b23_rifleman","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-    respawnLinkedItems[] = {"rhs_6b27m","rhs_scarf","rhs_6b23_rifleman","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23","rhs_scarf","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23","rhs_scarf","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 };
 
 class CDF_Soldier_Light: CDF_Soldier_Base
