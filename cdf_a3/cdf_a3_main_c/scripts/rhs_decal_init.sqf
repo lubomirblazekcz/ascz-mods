@@ -52,37 +52,25 @@ if(local _truck)then{
         case "CDF_A3_Ural":
         {
             _params = [
-                _truck,
-                [
-                    ["Number", cDecals4NumberPlaces, "LicensePlate"]
-                ]
+                _truck,[]
             ];
         };
         case "CDF_A3_Ural_Open":
         {
             _params = [
-                _truck,
-                [
-                    ["Number", cDecals4NumberPlaces, "LicensePlate"]
-                ]
+                _truck,[]
             ];
         };
         case "CDF_A3_Ural_Fuel":
         {
             _params = [
-                _truck,
-                [
-                    ["Number", cDecals4NumberPlaces, "LicensePlate"]
-                ]
+                _truck,[]
             ];
         };
         case "CDF_A3_BM21":
         {
             _params = [
-                _truck,
-                [
-                    ["Number", cDecals4NumberPlaces, "LicensePlate"]
-                ]
+                _truck,[]
             ];
         };
 

@@ -316,8 +316,6 @@ class CDF_A3_Ural: RHS_Ural_MSV_Base
     {
         "camo1",
         "camo2",
-        "camog1",
-        "camog2",
         "n1",				// 2 - 4 number system
         "n2",
         "n3",
@@ -332,8 +330,6 @@ class CDF_A3_Ural: RHS_Ural_MSV_Base
     {
         "cdf_a3\cdf_a3_main\data\ural_kabina_camo_co.paa",
         "cdf_a3\cdf_a3_main\data\ural_plachta_camo_co.paa",
-        "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
-        "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
@@ -362,8 +358,6 @@ class CDF_A3_Ural_Open: RHS_Ural_Open_MSV_01
     {
         "camo1",
         "camo2",
-        "camog1",
-        "camog2",
         "n1",				// 2 - 4 number system
         "n2",
         "n3",
@@ -378,8 +372,6 @@ class CDF_A3_Ural_Open: RHS_Ural_Open_MSV_01
     {
         "cdf_a3\cdf_a3_main\data\ural_kabina_camo_co.paa",
         "cdf_a3\cdf_a3_main\data\ural_open_cdf_co.paa",
-        "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
-        "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
@@ -410,12 +402,12 @@ class CDF_A3_Ural_Fuel: RHS_Ural_Fuel_MSV_01
         "camo1",
         "camo2",
         "camo3",
-        "camog1",
-        "camog2",
+
         "n1",				// 2 - 4 number system
         "n2",
         "n3",
         "n4",
+
         "i1",				// 6 - right army
         "i2",				// 7 - left army
         "i3",				// 8 - right platoon
@@ -427,12 +419,12 @@ class CDF_A3_Ural_Fuel: RHS_Ural_Fuel_MSV_01
         "cdf_a3\cdf_a3_main\data\ural_kabina_camo_co.paa",
         "cdf_a3\cdf_a3_main\data\ural_open_cdf_co.paa",
         "cdf_a3\cdf_a3_main\data\ural_fuel_cdf_co.paa",
+
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
-        "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
-        "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
