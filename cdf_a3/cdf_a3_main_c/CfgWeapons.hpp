@@ -9,7 +9,7 @@ class CfgWeapons
     {
         scope = 2;
 
-        displayName = "$STR_RHS_6B23_NAME";
+        displayName = "CDF Vest";
         picture = "\cdf_a3\cdf_a3_main\data\UI\icon_vest.paa";
 
         model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23";
@@ -34,9 +34,9 @@ class CfgWeapons
     class H_HelmetB;
 	class H_CDF_A3_HelmetIA: H_HelmetB
 	{
-		author = "$STR_A3_Bohemia_Interactive";
+		author = "ASCZ Team";
 		_generalMacro = "H_HelmetIA";
-		displayName = "$STR_A3_H_HelmetIA0";
+		displayName = "CDF Helmet";
 		picture = "\cdf_a3\cdf_a3_main\data\UI\icon_helmet.paa";
 		model = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
 		hiddenSelectionsTextures[] = {"\cdf_a3\cdf_a3_main\data\CDF_helmet.paa"};
@@ -53,8 +53,8 @@ class CfgWeapons
     class U_CDF_A3_uniform_ttsko: Uniform_Base
     {
         scope = 2;
-        author = "$STR_RHS_AUTHOR_FULL";
-        displayName = "$STR_RHS_FLORAMSV_NAME";
+        author = "$STR_RHS_AUTHOR_FULL, ASCZ Team";
+        displayName = "CDF Uniform";
         picture = "\cdf_a3\cdf_a3_main\data\UI\icon_uniform.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"camo"};
