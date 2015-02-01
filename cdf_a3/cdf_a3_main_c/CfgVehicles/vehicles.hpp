@@ -205,6 +205,7 @@ class Car_F: Car
     class AnimationSources;
 };
 class Offroad_01_base_F: Car_F{};
+class Truck_F: Car_F{};
 class RHS_UAZ_Base:Offroad_01_base_F{};
 class rhs_uaz_open_Base: RHS_UAZ_Base{};
 class CDF_A3_UAZ_469: RHS_UAZ_Base
@@ -299,8 +300,9 @@ class CDF_A3_UAZ_469_Open: rhs_uaz_open_Base
         init = "_this call SLX_XEH_EH_Init;_this call compile preProcessFile '\cdf_a3\cdf_a3_main_c\scripts\rhs_decal_init.sqf'";
     };
 };
-
-class RHS_Ural_MSV_Base;
+class RHS_Ural_BaseTurret: Truck_F{};
+class RHS_Ural_Base: RHS_Ural_BaseTurret{};
+class RHS_Ural_MSV_Base: RHS_Ural_Base{};
 class CDF_A3_Ural: RHS_Ural_MSV_Base
 {
     scope=2;
@@ -339,7 +341,7 @@ class CDF_A3_Ural: RHS_Ural_MSV_Base
         init = "_this call SLX_XEH_EH_Init;_this call compile preProcessFile '\cdf_a3\cdf_a3_main_c\scripts\rhs_decal_init.sqf'";
     };
 };
-class RHS_Ural_Open_MSV_01;
+class RHS_Ural_Open_MSV_01:RHS_Ural_MSV_Base{};
 class CDF_A3_Ural_Open: RHS_Ural_Open_MSV_01
 {
     scope=2;
@@ -378,7 +380,8 @@ class CDF_A3_Ural_Open: RHS_Ural_Open_MSV_01
         init = "_this call SLX_XEH_EH_Init;_this call compile preProcessFile '\cdf_a3\cdf_a3_main_c\scripts\rhs_decal_init.sqf'";
     };
 };
-class RHS_Ural_Fuel_MSV_01;
+class RHS_Ural_Support_MSV_Base_01: RHS_Ural_MSV_Base {};
+class RHS_Ural_Fuel_MSV_01:RHS_Ural_Support_MSV_Base_01{};
 class CDF_A3_Ural_Fuel: RHS_Ural_Fuel_MSV_01
 {
     scope=2;
@@ -419,7 +422,7 @@ class CDF_A3_Ural_Fuel: RHS_Ural_Fuel_MSV_01
         init = "_this call SLX_XEH_EH_Init;_this call compile preProcessFile '\cdf_a3\cdf_a3_main_c\scripts\rhs_decal_init.sqf'";
     };
 };
-class RHS_BM21_MSV_01;
+class RHS_BM21_MSV_01:RHS_Ural_BaseTurret{};
 class CDF_A3_BM21: RHS_BM21_MSV_01
 {
     scope=2;
