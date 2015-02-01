@@ -13,7 +13,7 @@ class cfgFactionClasses
 {
 	class CDF_A3
 	{
-		displayName = "CDF";
+		displayName = "CDF A3";
 		priority = 1;
 		side = 1;
 		genericNames = "CzechMen";
