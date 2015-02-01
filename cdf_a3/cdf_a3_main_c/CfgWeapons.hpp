@@ -108,6 +108,7 @@ class CfgWeapons
     	};
     };
 
+    // HEADGEAR
     class H_HelmetB;
 	class H_CDF_A3_HelmetIA: H_HelmetB
 	{
@@ -127,6 +128,27 @@ class CfgWeapons
 			passThrough = 0.5;
 		};
 	};
+    class H_CDF_A3_fieldcap: H_HelmetB
+    {
+    	displayName = "$STR_RHS_FIELDCAP_NAME";
+    	picture = "\rhsafrf\addons\rhs_infantry\Data\inventory\gear_icon_fieldcap_ca.paa";
+
+    	model = "\rhsafrf\addons\rhs_infantry\gear\head\rhs_fieldcap";
+
+    	hiddenSelectionsTextures[] = {};
+
+    	class ItemInfo: ItemInfo
+    	{
+    		mass = 10;
+    		uniformModel = "\rhsafrf\addons\rhs_infantry\gear\head\rhs_fieldcap";
+    		allowedSlots[] = {801,901,701,605};
+    		modelSides[] = {6};
+    		armor = 0;
+    		passThrough = 1;
+    	};
+    };
+
+    // UNIFORM
     class U_CDF_A3_uniform_ttsko: Uniform_Base
     {
         scope = 2;

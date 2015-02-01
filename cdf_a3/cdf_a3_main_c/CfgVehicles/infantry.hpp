@@ -122,8 +122,8 @@ class B_CDF_A3_Soldier_Militia: B_CDF_A3_Soldier_Base
         "hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak",
         "HandGrenade"
     };
-    linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemMap","ItemCompass","ItemWatch","ItemRadio"}; //čepička
-    respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    linkedItems[] = {"H_CDF_A3_fieldcap","V_CDF_A3_6b23_engineer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    respawnLinkedItems[] = {"H_CDF_A3_fieldcap","V_CDF_A3_6b23_engineer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 };
 
 // MEDIC
@@ -408,8 +408,8 @@ class B_CDF_A3_Soldier_TL: B_CDF_A3_Soldier_Base
         "HandGrenade","SmokeShell","SmokeShellOrange","SmokeShellBlue"
     };
 	icon = "iconManLeader";
-    linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemMap","ItemCompass","ItemWatch","ItemRadio"}; //čepička
-    respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    linkedItems[] = {"H_CDF_A3_fieldcap","V_CDF_A3_6b23_engineer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    respawnLinkedItems[] = {"H_CDF_A3_fieldcap","V_CDF_A3_6b23_engineer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 };
 
 class B_CDF_A3_Soldier_Officer: B_CDF_A3_Soldier_Base
@@ -446,8 +446,8 @@ class B_CDF_A3_Soldier_Officer: B_CDF_A3_Soldier_Base
         "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M"
     };
     icon = "iconManOfficer";
-    linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crewofficer","ItemMap","ItemCompass","ItemWatch","ItemRadio"}; //čepička
-    respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crewofficer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    linkedItems[] = {"H_CDF_A3_fieldcap","V_CDF_A3_6b23_crewofficer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    respawnLinkedItems[] = {"H_CDF_A3_fieldcap","V_CDF_A3_6b23_crewofficer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 };
 
 class B_CDF_A3_Commander: B_CDF_A3_Soldier_Base
@@ -474,8 +474,8 @@ class B_CDF_A3_Commander: B_CDF_A3_Soldier_Base
         "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M"
     };
     icon = "iconManOfficer";
-    linkedItems[] = {"rhs_vest_commander","ItemMap","ItemCompass","ItemWatch","ItemRadio"}; //čepička
-    respawnLinkedItems[] = {"rhs_vest_commander","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    linkedItems[] = {"H_CDF_A3_fieldcap","rhs_vest_commander","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    respawnLinkedItems[] = {"H_CDF_A3_fieldcap","rhs_vest_commander","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 };
 
 //CREWMEN
