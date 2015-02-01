@@ -2,7 +2,7 @@ class CfgWorlds
 {
     class GenericNames
     {
-        class CzechMen //abych tohle vysvetlil tak ke vsem vojakum v hlavnim configu date genericNames = "CzechMen"; kdyz se spawne AI stimto v configu vybere mu to random jmena co jsou tu napsana.
+        class CzechMen
         {
             class FirstNames
             {
