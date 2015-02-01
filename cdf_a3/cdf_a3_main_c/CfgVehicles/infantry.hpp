@@ -1,7 +1,7 @@
 class rhs_infantry_msv_base;
 class B_CDF_A3_Soldier_Base: rhs_infantry_msv_base
 {
-    identityTypes[] = {"Head_Euro","LanguageCDF"};
+    identityTypes[] = {"Head_Euro","Language_CZ"};
     faceType = "Man_A3";
     side = 1;
     faction = "CDF_A3"; // "CDF";
@@ -454,7 +454,7 @@ class B_CDF_A3_Soldier_Officer: B_CDF_A3_Soldier_Base
 	displayName = "$STR_B_officer_F0";
     textSingular = "officer";
     textPlural = "officers";
-    identityTypes[] = {"Head_Euro","LanguageCDF"};
+    identityTypes[] = {"Head_Euro","Language_CZ"};
     camouflage = 1.6;
     sensitivity = 3;
     cost=700000; //Rg 500000;
@@ -482,7 +482,7 @@ class B_CDF_A3_Commander: B_CDF_A3_Soldier_Base
     scope = 2;
     scopeCurator = 2;
     displayName = $STR_DN_GENERAL;
-    identityTypes[] = {"Head_Euro","LanguageCDF"};
+    identityTypes[] = {"Head_Euro","Language_CZ"};
     textSingular = "officer";
     textPlural = "officers";
     camouflage = 1.6;
