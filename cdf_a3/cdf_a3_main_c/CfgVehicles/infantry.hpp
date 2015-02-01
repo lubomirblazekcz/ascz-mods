@@ -54,6 +54,19 @@ class B_CDF_A3_Soldier_Base: rhs_infantry_msv_base
     armorStructural = 5;
 };
 
+// BACKPACKS
+class Bag_Base;
+class B_CDF_A3_Backpack: Bag_Base
+{
+    scope = 2;
+    displayName = "Backpack [CDF]";
+    descriptionShort = "Backpack [CDF]";
+    picture = "\cdf_a3\cdf_a3_main\data\PLACEHOLDER_REPLACE.paa";
+    model = "\cdf_a3\cdf_a3_main\cdf_backpack.p3d";
+//  hiddenSelectionsTextures[] = {CUP_TEX(backpack_us_co)};
+    maximumLoad = 280;
+    mass = 50;
+};
 // BASIC SOLDIERS
 class B_CDF_A3_Soldier: B_CDF_A3_Soldier_Base
 {

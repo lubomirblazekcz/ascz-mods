@@ -116,13 +116,13 @@ class CfgWeapons
 		_generalMacro = "H_HelmetIA";
 		displayName = "Helmet [CDF]";
 		picture = "\cdf_a3\cdf_a3_main\data\UI\icon_helmet.paa";
-		model = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
-		hiddenSelectionsTextures[] = {"\cdf_a3\cdf_a3_main\data\CDF_helmet.paa"};
+		model = "\cdf_a3\cdf_a3_main\cdf_helmet.p3d";
+	//	hiddenSelectionsTextures[] = {"\cdf_a3\cdf_a3_main\data\CDF_helmet.paa"};
 		class ItemInfo: ItemInfo
 		{
 			mass = 40;
 			allowedSlots[] = {901,605};
-			uniformModel = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas.p3d";
+			uniformModel = "\cdf_a3\cdf_a3_main\cdf_helmet.p3d";
 			modelSides[] = {2,3};
 			armor = 4;
 			passThrough = 0.5;
@@ -130,17 +130,17 @@ class CfgWeapons
 	};
     class H_CDF_A3_fieldcap: H_HelmetB
     {
-    	displayName = "$STR_RHS_FIELDCAP_NAME";
-    	picture = "\rhsafrf\addons\rhs_infantry\Data\inventory\gear_icon_fieldcap_ca.paa";
+    	displayName = "Field Cap [CDF]";
+    	picture = "\cdf_a3\cdf_a3_main\data\PLACEHOLDER_REPLACE.paa";
 
-    	model = "\rhsafrf\addons\rhs_infantry\gear\head\rhs_fieldcap";
+    	model = "\cdf_a3\cdf_a3_main\cdf_nco_cap.p3d";
 
-    	hiddenSelectionsTextures[] = {};
+    //	hiddenSelectionsTextures[] = {};
 
     	class ItemInfo: ItemInfo
     	{
     		mass = 10;
-    		uniformModel = "\rhsafrf\addons\rhs_infantry\gear\head\rhs_fieldcap";
+    		uniformModel = "\cdf_a3\cdf_a3_main\cdf_nco_cap.p3d";
     		allowedSlots[] = {801,901,701,605};
     		modelSides[] = {6};
     		armor = 0;
