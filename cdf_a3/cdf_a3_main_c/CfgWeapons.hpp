@@ -166,6 +166,20 @@ class CfgWeapons
             mass = 40;
         };
     };
+    class U_B_GhillieSuit;
+    class U_CDF_A3_SniperGhillie: U_B_GhillieSuit
+    {
+        displayName = "Ghillie Suit [CDF]";
+		picture = "\cdf_a3\cdf_a3_main\data\UI\icon_ghillie.paa";
+        author = "CDF A3";
+        class ItemInfo: UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "B_CDF_A3_Soldier_Sniper";
+            containerClass = "Supply40";
+            mass = 60;
+        };
+    };
 
 
     // WEAPONS

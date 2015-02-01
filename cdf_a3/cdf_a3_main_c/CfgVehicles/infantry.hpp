@@ -177,6 +177,9 @@ class B_CDF_A3_Soldier_Sniper: B_CDF_A3_Soldier_Base
     camouflage = 0.6;
     sensitivity = 3.5;
     cost= 250000;
+    model = "\A3\characters_f\Common\ghillie.p3d";
+    hiddenSelections[] = {"Camo"};
+    hiddenSelectionsTextures[] = {"\cdf_a3\cdf_a3_main\data\ghillie.paa"};
     class SpeechVariants
     {
         class Default
@@ -188,6 +191,7 @@ class B_CDF_A3_Soldier_Sniper: B_CDF_A3_Soldier_Base
     textSingular = "sniper";
     textPlural = "snipers";
 
+    uniformClass = "U_CDF_A3_SniperGhillie";
     weapons[]={"CUP_srifle_SVD_wdl_ghillie","NVGoggles","Throw","Put","Binocular"};
     magazines[]=
     {
@@ -201,6 +205,8 @@ class B_CDF_A3_Soldier_Sniper: B_CDF_A3_Soldier_Base
         "CUP_10Rnd_762x54_SVD_M", "CUP_10Rnd_762x54_SVD_M", "CUP_10Rnd_762x54_SVD_M", "CUP_10Rnd_762x54_SVD_M",
         "HandGrenade","SmokeShellOrange"
     };
+    linkedItems[] = {"V_CDF_A3_6b23_rifleman_01","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    respawnLinkedItems[] = {"V_CDF_A3_6b23_rifleman_01","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 };
 
 class B_CDF_A3_Soldier_Spotter: B_CDF_A3_Soldier_Base
@@ -220,9 +226,14 @@ class B_CDF_A3_Soldier_Spotter: B_CDF_A3_Soldier_Base
     camouflage = 0.6;
     sensitivity = 3.5;
     cost = 150000; //Rg 220000;
+    model = "\A3\characters_f\Common\ghillie.p3d";
+    hiddenSelections[] = {"Camo"};
+    hiddenSelectionsTextures[] = {"\cdf_a3\cdf_a3_main\data\ghillie.paa"};
 
     textSingular = "sniper";
     textPlural = "snipers";
+
+    uniformClass = "U_CDF_A3_SniperGhillie";
     weapons[]={"hlc_rifle_aks74_kobra_silenced","Binocular","NVGoggles","Throw","Put"};
     magazines[]=
     {
@@ -232,6 +243,8 @@ class B_CDF_A3_Soldier_Spotter: B_CDF_A3_Soldier_Base
     };
     respawnWeapons[]={"hlc_rifle_aks74_kobra_silenced","Binocular","Throw","Put"};
     respawnMagazines[]={"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","HandGrenade","SmokeShell"};
+    linkedItems[] = {"V_CDF_A3_6b23_rifleman_01","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    respawnLinkedItems[] = {"V_CDF_A3_6b23_rifleman_01","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 };
 
 class B_CDF_A3_Soldier_Marksman: B_CDF_A3_Soldier_Base
