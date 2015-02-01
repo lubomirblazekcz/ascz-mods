@@ -307,10 +307,15 @@ class CDF_A3_Ural: RHS_Ural_MSV_Base
 {
     scope=2;
     scopeCurator=2;
+    displayName="Ural";
     faction="CDF_A3";
+    side = 1;
     crew = "B_CDF_A3_Soldier_Militia";
+    typicalCargo[] = {"B_CDF_A3_Soldier_Militia"};
     hiddenSelections[]=
     {
+        "camo1",
+        "camo2",
         "camog1",
         "camog2",
         "n1",				// 2 - 4 number system
@@ -334,6 +339,8 @@ class CDF_A3_Ural: RHS_Ural_MSV_Base
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"
     };
     class EventHandlers: EventHandlers
@@ -346,10 +353,15 @@ class CDF_A3_Ural_Open: RHS_Ural_Open_MSV_01
 {
     scope=2;
     scopeCurator=2;
+    displayName="Ural (Open)";
     faction="CDF_A3";
+    side = 1;
     crew = "B_CDF_A3_Soldier_Militia";
+    typicalCargo[] = {"B_CDF_A3_Soldier_Militia"};
     hiddenSelections[]=
     {
+        "camo1",
+        "camo2",
         "camog1",
         "camog2",
         "n1",				// 2 - 4 number system
@@ -373,6 +385,8 @@ class CDF_A3_Ural_Open: RHS_Ural_Open_MSV_01
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"
     };
     class EventHandlers: EventHandlers
@@ -386,13 +400,18 @@ class CDF_A3_Ural_Fuel: RHS_Ural_Fuel_MSV_01
 {
     scope=2;
     scopeCurator=2;
+    displayName="Ural (Fuel)";
     faction="CDF_A3";
+    side = 1;
     crew = "B_CDF_A3_Soldier_Militia";
+    typicalCargo[] = {"B_CDF_A3_Soldier_Militia"};
     hiddenSelections[]=
     {
+        "camo1",
+        "camo2",
+        "camo3",
         "camog1",
         "camog2",
-        "camog3",
         "n1",				// 2 - 4 number system
         "n2",
         "n3",
@@ -415,6 +434,8 @@ class CDF_A3_Ural_Fuel: RHS_Ural_Fuel_MSV_01
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"
     };
     class EventHandlers: EventHandlers
@@ -427,10 +448,15 @@ class CDF_A3_BM21: RHS_BM21_MSV_01
 {
     scope=2;
     scopeCurator=2;
+    displayName="BM-21 Grad";
     faction="CDF_A3";
+    side = 1;
     crew = "B_CDF_A3_Soldier_Militia";
+    typicalCargo[] = {"B_CDF_A3_Soldier_Militia"};
     hiddenSelections[]=
     {
+        "camo1",
+        "camo2",
         "camog1",
         "camog2",
         "n1",				// 2 - 4 number system
@@ -447,6 +473,8 @@ class CDF_A3_BM21: RHS_BM21_MSV_01
     {
         "cdf_a3\cdf_a3_main\data\ural_kabina_camo_co.paa",
         "cdf_a3\cdf_a3_main\data\ural_bm21_cdf_co.paa",
+        "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
         "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",

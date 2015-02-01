@@ -28,7 +28,7 @@ if(local _truck)then{
 
 	switch (_class) do
 	{
-		case "ACR_A3_UAZ_469":
+		case "CDF_A3_UAZ_469":
 		{
 			_params = [
 				_truck,
@@ -40,7 +40,7 @@ if(local _truck)then{
 
 		//Uaz Open
 
-		case "ACR_A3_UAZ_469_Open":
+		case "CDF_A3_UAZ_469_Open":
 		{
 			_params = [
 				_truck,
@@ -49,6 +49,42 @@ if(local _truck)then{
 				]
 			];
 		};
+        case "CDF_A3_Ural":
+        {
+            _params = [
+                _truck,
+                [
+                    ["Number", cDecals4NumberPlaces, "LicensePlate"]
+                ]
+            ];
+        };
+        case "CDF_A3_Ural_Open":
+        {
+            _params = [
+                _truck,
+                [
+                    ["Number", cDecals4NumberPlaces, "LicensePlate"]
+                ]
+            ];
+        };
+        case "CDF_A3_Ural_Fuel":
+        {
+            _params = [
+                _truck,
+                [
+                    ["Number", cDecals4NumberPlaces, "LicensePlate"]
+                ]
+            ];
+        };
+        case "CDF_A3_BM21":
+        {
+            _params = [
+                _truck,
+                [
+                    ["Number", cDecals4NumberPlaces, "LicensePlate"]
+                ]
+            ];
+        };
 
 		default
 		{
