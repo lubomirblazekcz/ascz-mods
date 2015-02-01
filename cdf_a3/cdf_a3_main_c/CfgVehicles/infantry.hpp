@@ -47,7 +47,7 @@ class B_CDF_A3_Soldier_Base: rhs_infantry_msv_base
     {
         "cdf_a3\cdf_a3_main\data\CDF_uniform.paa",
          "",
-         "rhsafrf\addons\rhs_infantry\data\digi_chevrons_co.paa"
+         ""
     };
 
     armor = 2;
@@ -63,7 +63,6 @@ class B_CDF_A3_Backpack: Bag_Base
     descriptionShort = "Backpack [CDF]";
     picture = "\cdf_a3\cdf_a3_main\data\PLACEHOLDER_REPLACE.paa";
     model = "\cdf_a3\cdf_a3_main\cdf_backpack.p3d";
-//  hiddenSelectionsTextures[] = {CUP_TEX(backpack_us_co)};
     maximumLoad = 280;
     mass = 50;
 };

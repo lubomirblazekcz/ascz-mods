@@ -116,14 +116,17 @@ class CfgWeapons
 		_generalMacro = "H_HelmetIA";
 		displayName = "Helmet [CDF]";
 		picture = "\cdf_a3\cdf_a3_main\data\UI\icon_helmet.paa";
+
 		model = "\cdf_a3\cdf_a3_main\cdf_helmet.p3d";
-	//	hiddenSelectionsTextures[] = {"\cdf_a3\cdf_a3_main\data\CDF_helmet.paa"};
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\cdf_a3\cdf_a3_main\data\helmets_co.paa"};
+
 		class ItemInfo: ItemInfo
 		{
 			mass = 40;
 			allowedSlots[] = {901,605};
 			uniformModel = "\cdf_a3\cdf_a3_main\cdf_helmet.p3d";
-			modelSides[] = {2,3};
+			modelSides[] = {6};
 			armor = 4;
 			passThrough = 0.5;
 		};
@@ -134,8 +137,8 @@ class CfgWeapons
     	picture = "\cdf_a3\cdf_a3_main\data\PLACEHOLDER_REPLACE.paa";
 
     	model = "\cdf_a3\cdf_a3_main\cdf_nco_cap.p3d";
-
-    //	hiddenSelectionsTextures[] = {};
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\cdf_a3\cdf_a3_main\data\helmets_co.paa"};
 
     	class ItemInfo: ItemInfo
     	{
