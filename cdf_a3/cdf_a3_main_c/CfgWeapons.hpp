@@ -10,7 +10,7 @@ class CfgWeapons
         scope = 2;
 
         displayName = "$STR_RHS_6B23_NAME";
-        picture = "\rhsafrf\addons\rhs_infantry\Data\inventory\gear_icon_6b23_ca.paa";
+        picture = "\cdf_a3\cdf_a3_main\data\UI\icon_vest.paa";
 
         model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23";
 
@@ -37,9 +37,9 @@ class CfgWeapons
 		author = "$STR_A3_Bohemia_Interactive";
 		_generalMacro = "H_HelmetIA";
 		displayName = "$STR_A3_H_HelmetIA0";
-		picture = "\A3\characters_F_Beta\Data\UI\icon_H_I_Helmet_canvas_ca.paa";
+		picture = "\cdf_a3\cdf_a3_main\data\UI\icon_helmet.paa";
 		model = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
-		hiddenSelectionsTextures[] = {"\A3\Characters_F_Beta\INDEP\Data\headgear_helmet_canvas_co.paa"};
+		hiddenSelectionsTextures[] = {"\cdf_a3\cdf_a3_main\data\CDF_helmet.paa"};
 		class ItemInfo: ItemInfo
 		{
 			mass = 40;
@@ -55,8 +55,10 @@ class CfgWeapons
         scope = 2;
         author = "$STR_RHS_AUTHOR_FULL";
         displayName = "$STR_RHS_FLORAMSV_NAME";
-        picture = "\rhsafrf\addons\rhs_infantry\Data\inventory\gear_icon_flora_ca.paa";
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+        picture = "\cdf_a3\cdf_a3_main\data\UI\icon_uniform.paa";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\cdf_a3\cdf_a3_main\data\Suitpacks\suitpack_CDF.paa"};
         class ItemInfo: UniformItem
         {
             uniformModel = "-";
