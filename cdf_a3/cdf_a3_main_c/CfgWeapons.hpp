@@ -134,7 +134,7 @@ class CfgWeapons
     class H_CDF_A3_fieldcap: H_HelmetB
     {
     	displayName = "Field Cap [CDF]";
-    	picture = "\cdf_a3\cdf_a3_main\data\PLACEHOLDER_REPLACE.paa";
+    	picture = "\cdf_a3\cdf_a3_main\data\UI\icon_cap.paa";
 
     	model = "\cdf_a3\cdf_a3_main\cdf_nco_cap.p3d";
 		hiddenSelections[] = {"camo"};
