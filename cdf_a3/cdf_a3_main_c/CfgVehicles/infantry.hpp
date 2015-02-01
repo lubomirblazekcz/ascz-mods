@@ -63,6 +63,8 @@ class B_CDF_A3_Backpack: Bag_Base
     descriptionShort = "Backpack [CDF]";
     picture = "\cdf_a3\cdf_a3_main\data\PLACEHOLDER_REPLACE.paa";
     model = "\cdf_a3\cdf_a3_main\cdf_backpack.p3d";
+    hiddenSelections[] = {"camo"};
+    hiddenSelectionsTextures[] = {"\cdf_a3\cdf_a3_main\data\equip_co.paa"};
     maximumLoad = 280;
     mass = 50;
 };

@@ -115,7 +115,7 @@ class CfgWeapons
 		author = "ASCZ Team";
 		_generalMacro = "H_HelmetIA";
 		displayName = "Helmet [CDF]";
-		picture = "\cdf_a3\cdf_a3_main\data\UI\icon_helmet.paa";
+		picture = "\cdf_a3\cdf_a3_main\data\PLACEHOLDER_REPLACE.paa";
 
 		model = "\cdf_a3\cdf_a3_main\cdf_helmet.p3d";
 		hiddenSelections[] = {"camo"};
