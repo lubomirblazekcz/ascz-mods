@@ -522,10 +522,10 @@ class B_CDF_A3_Soldier_Engineer: B_CDF_A3_Soldier
     {
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
-        "HandGrenade","HandGrenade","Mine","Mine"
+        "HandGrenade","HandGrenade"
     };
     respawnWeapons[]={"hlc_rifle_ak74_dirty","Throw","Put"};
-    respawnMagazines[]={"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","HandGrenade","Mine"};
+    respawnMagazines[]={"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","HandGrenade"};
     icon = "iconManEngineer";
     picture = "pictureRepair";
 };
