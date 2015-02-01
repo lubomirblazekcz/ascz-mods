@@ -75,7 +75,7 @@ class B_CDF_A3_Soldier: B_CDF_A3_Soldier_Base
     scopeCurator = 2;
 	displayName = "$STR_A3_CfgVehicles_B_Soldier_F0";
 
-    backpack = "rhs_sidor";
+    backpack = "B_CDF_A3_Backpack";
     linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_rifleman_02","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
     respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_rifleman_02","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 };
@@ -100,7 +100,7 @@ class B_CDF_A3_Soldier_GL: B_CDF_A3_Soldier_Base
     scopeCurator = 2;
 	displayName = "$STR_B_Soldier_GL_F0";
     cost=50000;
-    backpack = "rhs_sidor";
+    backpack = "B_CDF_A3_Backpack";
     weapons[]={"hlc_rifle_aks74_GL","Throw","Put"};
 	threat[] = {1,0.3,0.1};
     magazines[]=
@@ -269,7 +269,7 @@ class B_CDF_A3_Soldier_Marksman: B_CDF_A3_Soldier_Base
 	sensitivity = 3.3;
     cost = 200000; //Rg 180000;
 
-    backpack = "rhs_sidor";
+    backpack = "B_CDF_A3_Backpack";
     weapons[]={"hlc_rifle_ak74_pso","Binocular","Throw","Put"};
     magazines[]=
     {
@@ -337,7 +337,7 @@ class B_CDF_A3_Soldier_Strela: B_CDF_A3_Soldier_Base
     threat[] = {1,1,0.8};
     camouflage = 1.5;
     cost=100000; //Rg 200000;
-    backpack = "rhs_sidor";
+    backpack = "B_CDF_A3_Backpack";
     weapons[]={"hlc_rifle_ak74_dirty","CUP_launch_9K32Strela","Throw","Put"};
     magazines[]=
     {
@@ -370,7 +370,7 @@ class B_CDF_A3_Soldier_AR: B_CDF_A3_Soldier_Base
     textPlural = "mgunners";
 	threat[] = {1,0.1,0.3};
     cost=80000; //Rg 60000;
-    backpack = "rhs_sidor";
+    backpack = "B_CDF_A3_Backpack";
     weapons[]={"hlc_rifle_rpk","Throw","Put"};
     magazines[]=
     {
