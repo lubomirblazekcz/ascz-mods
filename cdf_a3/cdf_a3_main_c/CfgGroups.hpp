@@ -16,16 +16,16 @@ class CfgGroups
                     name = $STR_CfgGroups_West_CDF_Infantry_CDF_InfSquad;
                     faction = CDF;
                     rarityGroup=0.6;
-                    class Unit0 {side = 1;vehicle = "CDF_Soldier_TL";rank = "LIEUTENANT";position[] = {0,+5,0};};
-                    class Unit1	{side = 1;vehicle = "CDF_Soldier_MG";rank = "SERGEANT";position[] = {3,0,0};};
-                    class Unit2	{side = 1;vehicle = "CDF_Soldier_RPG";rank = "CORPORAL";position[] = {5,0,0};};
-                    class Unit3 {side = 1;vehicle = "CDF_Soldier_GL";rank = "CORPORAL";position[] = {7,0,0};};
-                    class Unit4	{side = 1;vehicle = "CDF_Soldier";rank = "CORPORAL";position[] = {9,0,0};};
-                    class Unit5	{side = 1;vehicle = "CDF_Soldier_MG";rank = "CORPORAL";position[] = {11,0,0};};
-                    class Unit6	{side = 1;vehicle = "CDF_Soldier_GL";rank = "PRIVATE";position[] = {13,0,0};};
-                    class Unit7	{side = 1;vehicle = "CDF_Soldier_RPG";rank = "PRIVATE";position[] = {15,0, 0};};
-                    class Unit8	{side = 1;vehicle = "CDF_Soldier";rank = "PRIVATE";position[] = {17,0,0};};
-                    class Unit9	{side = 1;vehicle = "CDF_Soldier_Medic";rank = "PRIVATE";position[] = {19,0,0};};
+                    class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_TL";rank = "LIEUTENANT";position[] = {0,+5,0};};
+                    class Unit1	{side = 1;vehicle = "B_CDF_A3_Soldier_MG";rank = "SERGEANT";position[] = {3,0,0};};
+                    class Unit2	{side = 1;vehicle = "B_CDF_A3_Soldier_RPG";rank = "CORPORAL";position[] = {5,0,0};};
+                    class Unit3 {side = 1;vehicle = "B_CDF_A3_Soldier_GL";rank = "CORPORAL";position[] = {7,0,0};};
+                    class Unit4	{side = 1;vehicle = "B_CDF_A3_Soldier";rank = "CORPORAL";position[] = {9,0,0};};
+                    class Unit5	{side = 1;vehicle = "B_CDF_A3_Soldier_MG";rank = "CORPORAL";position[] = {11,0,0};};
+                    class Unit6	{side = 1;vehicle = "B_CDF_A3_Soldier_GL";rank = "PRIVATE";position[] = {13,0,0};};
+                    class Unit7	{side = 1;vehicle = "B_CDF_A3_Soldier_RPG";rank = "PRIVATE";position[] = {15,0, 0};};
+                    class Unit8	{side = 1;vehicle = "B_CDF_A3_Soldier";rank = "PRIVATE";position[] = {17,0,0};};
+                    class Unit9	{side = 1;vehicle = "B_CDF_A3_Soldier_Medic";rank = "PRIVATE";position[] = {19,0,0};};
                 };
 
                 //CDF WEAPONS SQUAD
@@ -34,14 +34,14 @@ class CfgGroups
                     name = $STR_CfgGroups_West_CDF_Infantry_CDF_InfSquad_Weapons;
                     faction = CDF;
                     rarityGroup=0.6;
-                    class Unit0 {side = 1;vehicle = "CDF_Soldier_TL";rank = "LIEUTENANT";position[] = {0,+5,0};};
-                    class Unit1	{side = 1;vehicle = "CDF_Soldier_AR";rank = "SERGEANT";position[] = {3,0,0};};
-                    class Unit2	{side = 1;vehicle = "CDF_Soldier_MG";rank = "CORPORAL";position[] = {5,0,0};};
-                    class Unit3 {side = 1;vehicle = "CDF_Soldier_MG";rank = "CORPORAL";position[] = {7,0,0};};
-                    class Unit4	{side = 1;vehicle = "CDF_Soldier_RPG";rank = "CORPORAL";position[] = {9,0,0};};
-                    class Unit5	{side = 1;vehicle = "CDF_Soldier_RPG";rank = "CORPORAL";position[] = {11,0,0};};
-                    class Unit6	{side = 1;vehicle = "CDF_Soldier_GL";rank = "PRIVATE";position[] = {13,0,0};};
-                    class Unit7	{side = 1;vehicle = "CDF_Soldier_Marksman";rank = "PRIVATE";position[] = {15,0, 0};};
+                    class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_TL";rank = "LIEUTENANT";position[] = {0,+5,0};};
+                    class Unit1	{side = 1;vehicle = "B_CDF_A3_Soldier_AR";rank = "SERGEANT";position[] = {3,0,0};};
+                    class Unit2	{side = 1;vehicle = "B_CDF_A3_Soldier_MG";rank = "CORPORAL";position[] = {5,0,0};};
+                    class Unit3 {side = 1;vehicle = "B_CDF_A3_Soldier_MG";rank = "CORPORAL";position[] = {7,0,0};};
+                    class Unit4	{side = 1;vehicle = "B_CDF_A3_Soldier_RPG";rank = "CORPORAL";position[] = {9,0,0};};
+                    class Unit5	{side = 1;vehicle = "B_CDF_A3_Soldier_RPG";rank = "CORPORAL";position[] = {11,0,0};};
+                    class Unit6	{side = 1;vehicle = "B_CDF_A3_Soldier_GL";rank = "PRIVATE";position[] = {13,0,0};};
+                    class Unit7	{side = 1;vehicle = "B_CDF_A3_Soldier_Marksman";rank = "PRIVATE";position[] = {15,0, 0};};
                 };
 
                 //CDF AT TEAM
@@ -50,10 +50,10 @@ class CfgGroups
                     name = $STR_CfgGroups_West_CDF_Infantry_CDF_InfSection_AT;
                     faction = CDF;
                     rarityGroup=0.2;
-                    class Unit0 {side = 1;vehicle = "CDF_Soldier_TL";rank = "SERGEANT";position[] = {0,+5,0};};
-                    class Unit1	{side = 1;vehicle = "CDF_Soldier_RPG";rank = "CORPORAL";position[] = {3,0,0};};
-                    class Unit2	{side = 1;vehicle = "CDF_Soldier_RPG";rank = "CORPORAL";position[] = {5,0,0};};
-                    class Unit3 {side = 1;vehicle = "CDF_Soldier_AR";rank = "PRIVATE";position[] = {7,0,0};};
+                    class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_TL";rank = "SERGEANT";position[] = {0,+5,0};};
+                    class Unit1	{side = 1;vehicle = "B_CDF_A3_Soldier_RPG";rank = "CORPORAL";position[] = {3,0,0};};
+                    class Unit2	{side = 1;vehicle = "B_CDF_A3_Soldier_RPG";rank = "CORPORAL";position[] = {5,0,0};};
+                    class Unit3 {side = 1;vehicle = "B_CDF_A3_Soldier_AR";rank = "PRIVATE";position[] = {7,0,0};};
                 };
 
                 //CDF AA TEAM
@@ -62,10 +62,10 @@ class CfgGroups
                     name = $STR_CfgGroups_West_CDF_Infantry_CDF_InfSection_AA;
                     faction = CDF;
                     rarityGroup=0.1;
-                    class Unit0 {side = 1;vehicle = "CDF_Soldier_TL";rank = "SERGEANT";position[] = {0,+5,0};};
-                    class Unit1	{side = 1;vehicle = "CDF_Soldier_Strela";rank = "CORPORAL";position[] = {3,0,0};};
-                    class Unit2	{side = 1;vehicle = "CDF_Soldier_Strela";rank = "CORPORAL";position[] = {5,0,0};};
-                    class Unit3 {side = 1;vehicle = "CDF_Soldier_MG";rank = "PRIVATE";position[] = {7,0,0};};
+                    class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_TL";rank = "SERGEANT";position[] = {0,+5,0};};
+                    class Unit1	{side = 1;vehicle = "B_CDF_A3_Soldier_Strela";rank = "CORPORAL";position[] = {3,0,0};};
+                    class Unit2	{side = 1;vehicle = "B_CDF_A3_Soldier_Strela";rank = "CORPORAL";position[] = {5,0,0};};
+                    class Unit3 {side = 1;vehicle = "B_CDF_A3_Soldier_MG";rank = "PRIVATE";position[] = {7,0,0};};
                 };
 
                 //CDF WEAPONS TEAM
@@ -74,10 +74,10 @@ class CfgGroups
                     name = $STR_CfgGroups_West_CDF_Infantry_CDF_InfSection_MG;
                     faction = CDF;
                     rarityGroup=0.1;
-                    class Unit0 {side = 1;vehicle = "CDF_Soldier_MG";rank = "SERGEANT";position[] = {0,+5,0};};
-                    class Unit1	{side = 1;vehicle = "CDF_Soldier_MG";rank = "CORPORAL";position[] = {3,0,0};};
-                    class Unit2	{side = 1;vehicle = "CDF_Soldier_AR";rank = "CORPORAL";position[] = {5,0,0};};
-                    class Unit3 {side = 1;vehicle = "CDF_Soldier_RPG";rank = "PRIVATE";position[] = {7,0,0};};
+                    class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_MG";rank = "SERGEANT";position[] = {0,+5,0};};
+                    class Unit1	{side = 1;vehicle = "B_CDF_A3_Soldier_MG";rank = "CORPORAL";position[] = {3,0,0};};
+                    class Unit2	{side = 1;vehicle = "B_CDF_A3_Soldier_AR";rank = "CORPORAL";position[] = {5,0,0};};
+                    class Unit3 {side = 1;vehicle = "B_CDF_A3_Soldier_RPG";rank = "PRIVATE";position[] = {7,0,0};};
                 };
 
                 //CDF PATROL
@@ -86,10 +86,10 @@ class CfgGroups
                     name = $STR_CfgGroups_West_CDF_Infantry_CDF_InfSection_Patrol;
                     faction = CDF;
                     rarityGroup=0.3;
-                    class Unit0 {side = 1;vehicle = "CDF_Soldier_Militia";rank = "CORPORAL";position[] = {0,+5,0};};
-                    class Unit1	{side = 1;vehicle = "CDF_Soldier_Militia";rank = "CORPORAL";position[] = {3,0,0};};
-                    class Unit2	{side = 1;vehicle = "CDF_Soldier_Militia";rank = "PRIVATE";position[] = {5,0,0};};
-                    class Unit3 {side = 1;vehicle = "CDF_Soldier_Militia";rank = "PRIVATE";position[] = {7,0,0};};
+                    class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_Militia";rank = "CORPORAL";position[] = {0,+5,0};};
+                    class Unit1	{side = 1;vehicle = "B_CDF_A3_Soldier_Militia";rank = "CORPORAL";position[] = {3,0,0};};
+                    class Unit2	{side = 1;vehicle = "B_CDF_A3_Soldier_Militia";rank = "PRIVATE";position[] = {5,0,0};};
+                    class Unit3 {side = 1;vehicle = "B_CDF_A3_Soldier_Militia";rank = "PRIVATE";position[] = {7,0,0};};
                 };
 
                 //CDF SNIPER TEAM
@@ -98,8 +98,8 @@ class CfgGroups
                     name = $STR_CfgGroups_West_CDF_Infantry_CDF_SniperTeam;
                     faction = CDF;
                     rarityGroup=0.05;
-                    class Unit0 {side = 1;vehicle = "CDF_Soldier_Sniper";rank = "SERGEANT";position[] = {0,+5,0};};
-                    class Unit1	{side = 1;vehicle = "CDF_Soldier_Sniper";rank = "CORPORAL";position[] = {3,0,0};};
+                    class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_Sniper";rank = "SERGEANT";position[] = {0,+5,0};};
+                    class Unit1	{side = 1;vehicle = "B_CDF_A3_Soldier_Sniper";rank = "CORPORAL";position[] = {3,0,0};};
                 };
             };
             //MOTORIZED
@@ -112,17 +112,17 @@ class CfgGroups
                     name = $STR_CfgGroups_West_CDF_Motorized_CDF_MotInfSquad;
                     faction = CDF;
                     rarityGroup=0.4;
-                    class Unit0 {side = 1;vehicle = "CDF_Soldier_TL";rank = "LIEUTENANT";position[] = {0,+5,0};};
+                    class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_TL";rank = "LIEUTENANT";position[] = {0,+5,0};};
                     class Unit1	{side = 1;vehicle = "Ural_CDF";rank = "SERGEANT";position[] = {-5,0,0};}; //vehicle
-                    class Unit2	{side = 1;vehicle = "CDF_Soldier_MG";rank = "SERGEANT";position[] = {3,0,0};};
-                    class Unit3	{side = 1;vehicle = "CDF_Soldier_RPG";rank = "CORPORAL";position[] = {5,0,0};};
-                    class Unit4 {side = 1;vehicle = "CDF_Soldier_GL";rank = "CORPORAL";position[] = {7,0,0};};
-                    class Unit5	{side = 1;vehicle = "CDF_Soldier";rank = "CORPORAL";position[] = {9,0,0};};
-                    class Unit6	{side = 1;vehicle = "CDF_Soldier_MG";rank = "CORPORAL";position[] = {11,0,0};};
-                    class Unit7	{side = 1;vehicle = "CDF_Soldier_GL";rank = "PRIVATE";position[] = {13,0,0};};
-                    class Unit8	{side = 1;vehicle = "CDF_Soldier_RPG";rank = "PRIVATE";position[] = {15,0, 0};};
-                    class Unit9	{side = 1;vehicle = "CDF_Soldier";rank = "PRIVATE";position[] = {17,0,0};};
-                    class Unit10 {side = 1;vehicle = "CDF_Soldier_Medic";rank = "PRIVATE";position[] = {19,0,0};};
+                    class Unit2	{side = 1;vehicle = "B_CDF_A3_Soldier_MG";rank = "SERGEANT";position[] = {3,0,0};};
+                    class Unit3	{side = 1;vehicle = "B_CDF_A3_Soldier_RPG";rank = "CORPORAL";position[] = {5,0,0};};
+                    class Unit4 {side = 1;vehicle = "B_CDF_A3_Soldier_GL";rank = "CORPORAL";position[] = {7,0,0};};
+                    class Unit5	{side = 1;vehicle = "B_CDF_A3_Soldier";rank = "CORPORAL";position[] = {9,0,0};};
+                    class Unit6	{side = 1;vehicle = "B_CDF_A3_Soldier_MG";rank = "CORPORAL";position[] = {11,0,0};};
+                    class Unit7	{side = 1;vehicle = "B_CDF_A3_Soldier_GL";rank = "PRIVATE";position[] = {13,0,0};};
+                    class Unit8	{side = 1;vehicle = "B_CDF_A3_Soldier_RPG";rank = "PRIVATE";position[] = {15,0, 0};};
+                    class Unit9	{side = 1;vehicle = "B_CDF_A3_Soldier";rank = "PRIVATE";position[] = {17,0,0};};
+                    class Unit10 {side = 1;vehicle = "B_CDF_A3_Soldier_Medic";rank = "PRIVATE";position[] = {19,0,0};};
                 };
                 //CDF MOTORIZED PATROL
                 class CDF_MotInfSection
@@ -130,9 +130,9 @@ class CfgGroups
                     name = $STR_CfgGroups_West_CDF_Motorized_CDF_MotInfSection;
                     faction = CDF;
                     rarityGroup=0.15;
-                    class Unit0 {side = 1;vehicle = "CDF_Soldier_GL";rank = "SERGEANT";position[] = {0,+5,0};};
+                    class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_GL";rank = "SERGEANT";position[] = {0,+5,0};};
                     class Unit1	{side = 1;vehicle = "UAZ_CDF";rank = "CORPORAL";position[] = {-5,0,0};}; //vehicle
-                    class Unit2	{side = 1;vehicle = "CDF_Soldier_RPG";rank = "PRIVATE";position[] = {3,0,0};};
+                    class Unit2	{side = 1;vehicle = "B_CDF_A3_Soldier_RPG";rank = "PRIVATE";position[] = {3,0,0};};
                 };
 
                 //CDF MOTORIZED WEAPONS PATROL
@@ -141,10 +141,10 @@ class CfgGroups
                     name = $STR_CfgGroups_West_CDF_Motorized_CDF_MotInfSection_Weapons;
                     faction = CDF;
                     rarityGroup=0.2;
-                    class Unit0 {side = 1;vehicle = "CDF_Soldier_TL";rank = "SERGEANT";position[] = {0,+5,0};};
+                    class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_TL";rank = "SERGEANT";position[] = {0,+5,0};};
                     class Unit1	{side = 1;vehicle = "UAZ_AGS30_CDF";rank = "CORPORAL";position[] = {-5,0,0};}; //vehicle
                     class Unit2	{side = 1;vehicle = "UAZ_AGS30_CDF";rank = "CORPORAL";position[] = {-5,-7,0};}; //vehicle
-                    class Unit3	{side = 1;vehicle = "CDF_Soldier_MG";rank = "PRIVATE";position[] = {3,0,0};};
+                    class Unit3	{side = 1;vehicle = "B_CDF_A3_Soldier_MG";rank = "PRIVATE";position[] = {3,0,0};};
                 };
             };
             //MECHANIZED UNITS
@@ -157,14 +157,14 @@ class CfgGroups
                     name = $STR_CfgGroups_West_CDF_Mechanized_CDF_MechInfSquad;
                     faction = CDF;
                     rarityGroup=0.9;
-                    class Unit0 {side = 1;vehicle = "CDF_Soldier_TL";rank = "SERGEANT";position[] = {0,+5,0};};
+                    class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_TL";rank = "SERGEANT";position[] = {0,+5,0};};
                     class Unit1	{side = 1;vehicle = "BMP2_CDF";rank = "SERGEANT";position[] = {-5,0,0};}; //vehicle
-                    class Unit2	{side = 1;vehicle = "CDF_Soldier_MG";rank = "SERGEANT";position[] = {3,0,0};};
-                    class Unit3	{side = 1;vehicle = "CDF_Soldier_MG";rank = "CORPORAL";position[] = {5,0,0};};
-                    class Unit4 {side = 1;vehicle = "CDF_Soldier_Marksman";rank = "CORPORAL";position[] = {7,0,0};};
-                    class Unit5	{side = 1;vehicle = "CDF_Soldier_RPG";rank = "PRIVATE";position[] = {9,0,0};};
-                    class Unit6	{side = 1;vehicle = "CDF_Soldier_GL";rank = "PRIVATE";position[] = {11,0,0};};
-                    class Unit7	{side = 1;vehicle = "CDF_Soldier";rank = "PRIVATE";position[] = {13,0,0};};
+                    class Unit2	{side = 1;vehicle = "B_CDF_A3_Soldier_MG";rank = "SERGEANT";position[] = {3,0,0};};
+                    class Unit3	{side = 1;vehicle = "B_CDF_A3_Soldier_MG";rank = "CORPORAL";position[] = {5,0,0};};
+                    class Unit4 {side = 1;vehicle = "B_CDF_A3_Soldier_Marksman";rank = "CORPORAL";position[] = {7,0,0};};
+                    class Unit5	{side = 1;vehicle = "B_CDF_A3_Soldier_RPG";rank = "PRIVATE";position[] = {9,0,0};};
+                    class Unit6	{side = 1;vehicle = "B_CDF_A3_Soldier_GL";rank = "PRIVATE";position[] = {11,0,0};};
+                    class Unit7	{side = 1;vehicle = "B_CDF_A3_Soldier";rank = "PRIVATE";position[] = {13,0,0};};
                 };
 
                 //CDF RECON SECTION
@@ -173,10 +173,10 @@ class CfgGroups
                     name = $STR_CfgGroups_West_CDF_Mechanized_CDF_MechReconSection;
                     faction = CDF;
                     rarityGroup=0.5;
-                    class Unit0 {side = 1;vehicle = "CDF_Soldier_TL";rank = "SERGEANT";position[] = {0,+5,0};};
+                    class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_TL";rank = "SERGEANT";position[] = {0,+5,0};};
                     class Unit1	{side = 1;vehicle = "BRDM2_CDF";rank = "SERGEANT";position[] = {-5,0,0};}; //vehicle
-                    class Unit2	{side = 1;vehicle = "CDF_Soldier_MG";rank = "SERGEANT";position[] = {3,0,0};};
-                    class Unit3	{side = 1;vehicle = "CDF_Soldier_RPG";rank = "CORPORAL";position[] = {5,0,0};};
+                    class Unit2	{side = 1;vehicle = "B_CDF_A3_Soldier_MG";rank = "SERGEANT";position[] = {3,0,0};};
+                    class Unit3	{side = 1;vehicle = "B_CDF_A3_Soldier_RPG";rank = "CORPORAL";position[] = {5,0,0};};
                 };
 
                 //CDF MECH PATROL AT (BRDM)
@@ -185,10 +185,10 @@ class CfgGroups
                     name = $STR_CfgGroups_West_CDF_Mechanized_CDF_MechATSection;
                     faction = CDF;
                     rarityGroup=0.5;
-                    class Unit0 {side = 1;vehicle = "CDF_Soldier_TL";rank = "SERGEANT";position[] = {0,+5,0};};
+                    class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_TL";rank = "SERGEANT";position[] = {0,+5,0};};
                     class Unit1	{side = 1;vehicle = "BRDM2_ATGM_CDF";rank = "SERGEANT";position[] = {-5,0,0};}; //vehicle
-                    class Unit2	{side = 1;vehicle = "CDF_Soldier_MG";rank = "SERGEANT";position[] = {3,0,0};};
-                    class Unit3	{side = 1;vehicle = "CDF_Soldier_RPG";rank = "CORPORAL";position[] = {5,0,0};};
+                    class Unit2	{side = 1;vehicle = "B_CDF_A3_Soldier_MG";rank = "SERGEANT";position[] = {3,0,0};};
+                    class Unit3	{side = 1;vehicle = "B_CDF_A3_Soldier_RPG";rank = "CORPORAL";position[] = {5,0,0};};
                 };
             };
             class Armored

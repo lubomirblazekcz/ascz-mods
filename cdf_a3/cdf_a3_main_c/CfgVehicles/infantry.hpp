@@ -1,5 +1,5 @@
 class rhs_infantry_msv_base;
-class CDF_Soldier_Base: rhs_infantry_msv_base
+class B_CDF_A3_Soldier_Base: rhs_infantry_msv_base
 {
     identityTypes[] = {"Head_Euro","LanguageCDF"};
     faceType = "Man_A3";
@@ -54,7 +54,7 @@ class CDF_Soldier_Base: rhs_infantry_msv_base
 };
 
 // BASIC SOLDIERS
-class CDF_Soldier: CDF_Soldier_Base
+class B_CDF_A3_Soldier: B_CDF_A3_Soldier_Base
 {
     scope = 2;
     scopeCurator = 2;
@@ -64,7 +64,7 @@ class CDF_Soldier: CDF_Soldier_Base
     respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23","rhs_scarf","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 };
 
-class CDF_Soldier_Light: CDF_Soldier_Base
+class B_CDF_A3_Soldier_Light: B_CDF_A3_Soldier_Base
 {
     scope = 2;
     scopeCurator = 2;
@@ -76,7 +76,7 @@ class CDF_Soldier_Light: CDF_Soldier_Base
 	camouflage = 1.2;
 };
 
-class CDF_Soldier_GL: CDF_Soldier_Base
+class B_CDF_A3_Soldier_GL: B_CDF_A3_Soldier_Base
 {
     scope = 2;
     scopeCurator = 2;
@@ -99,7 +99,7 @@ class CDF_Soldier_GL: CDF_Soldier_Base
     };
 };
 
-class CDF_Soldier_Militia: CDF_Soldier_Base
+class B_CDF_A3_Soldier_Militia: B_CDF_A3_Soldier_Base
 {
     scope = 2;
     scopeCurator = 2;
@@ -120,7 +120,7 @@ class CDF_Soldier_Militia: CDF_Soldier_Base
 };
 
 // MEDIC
-class CDF_Soldier_Medic: CDF_Soldier_Base
+class B_CDF_A3_Soldier_Medic: B_CDF_A3_Soldier_Base
 {
     class SpeechVariants
     {
@@ -158,7 +158,7 @@ class CDF_Soldier_Medic: CDF_Soldier_Base
 };
 
 // SNIPERS
-class CDF_Soldier_Sniper: CDF_Soldier_Base
+class B_CDF_A3_Soldier_Sniper: B_CDF_A3_Soldier_Base
 {
 	displayName = "$STR_B_sniper_F0";
     scope = 2;
@@ -193,7 +193,7 @@ class CDF_Soldier_Sniper: CDF_Soldier_Base
     };
 };
 
-class CDF_Soldier_Spotter: CDF_Soldier_Base
+class B_CDF_A3_Soldier_Spotter: B_CDF_A3_Soldier_Base
 {
     class SpeechVariants
     {
@@ -224,7 +224,7 @@ class CDF_Soldier_Spotter: CDF_Soldier_Base
     respawnMagazines[]={"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","HandGrenade","SmokeShell"};
 };
 
-class CDF_Soldier_Marksman: CDF_Soldier_Base
+class B_CDF_A3_Soldier_Marksman: B_CDF_A3_Soldier_Base
 {
     scope = 2;
     scopeCurator = 2;
@@ -244,7 +244,7 @@ class CDF_Soldier_Marksman: CDF_Soldier_Base
 };
 
 //LAUNCHER SOLDIERS
-class CDF_Soldier_RPG: CDF_Soldier_Base
+class B_CDF_A3_Soldier_RPG: B_CDF_A3_Soldier_Base
 {
     class SpeechVariants
     {
@@ -278,7 +278,7 @@ class CDF_Soldier_RPG: CDF_Soldier_Base
 	icon = "iconManAT";
 };
 
-class CDF_Soldier_Strela: CDF_Soldier_Base
+class B_CDF_A3_Soldier_Strela: B_CDF_A3_Soldier_Base
 {
     class SpeechVariants
     {
@@ -309,7 +309,7 @@ class CDF_Soldier_Strela: CDF_Soldier_Base
 };
 
 //MACHINEGUNNERS
-class CDF_Soldier_AR: CDF_Soldier_Base
+class B_CDF_A3_Soldier_AR: B_CDF_A3_Soldier_Base
 {
     class SpeechVariants
     {
@@ -342,7 +342,7 @@ class CDF_Soldier_AR: CDF_Soldier_Base
 	icon = "iconManMG";
 };
 
-class CDF_Soldier_MG: CDF_Soldier_Base
+class B_CDF_A3_Soldier_MG: B_CDF_A3_Soldier_Base
 {
     scope = 2;
     scopeCurator = 2;
@@ -364,7 +364,7 @@ class CDF_Soldier_MG: CDF_Soldier_Base
 };
 
 // COMMANDERS
-class CDF_Soldier_TL: CDF_Soldier_Base
+class B_CDF_A3_Soldier_TL: B_CDF_A3_Soldier_Base
 {
     scope = 2;
     scopeCurator = 2;
@@ -390,7 +390,7 @@ class CDF_Soldier_TL: CDF_Soldier_Base
 	icon = "iconManLeader";
 };
 
-class CDF_Soldier_Officer: CDF_Soldier_Base
+class B_CDF_A3_Soldier_Officer: B_CDF_A3_Soldier_Base
 {
     class SpeechVariants
     {
@@ -426,7 +426,7 @@ class CDF_Soldier_Officer: CDF_Soldier_Base
     icon = "iconManOfficer";
 };
 
-class CDF_Commander: CDF_Soldier_Base
+class B_CDF_A3_Commander: B_CDF_A3_Soldier_Base
 {
     portrait = "\Ca\characters\data\portraits\comBarHead_common_officer_ca";
     scope = 2;
@@ -454,7 +454,7 @@ class CDF_Commander: CDF_Soldier_Base
 };
 
 //CREWMEN
-class CDF_Soldier_Pilot: CDF_Soldier_Base
+class B_CDF_A3_Soldier_Pilot: B_CDF_A3_Soldier_Base
 {
     class SpeechVariants
     {
@@ -484,7 +484,7 @@ class CDF_Soldier_Pilot: CDF_Soldier_Base
     };
 };
 
-class CDF_Soldier_Crew: CDF_Soldier_Base
+class B_CDF_A3_Soldier_Crew: B_CDF_A3_Soldier_Base
 {
     camouflage = 1.6;
     sensitivity = 2.5;
@@ -505,7 +505,7 @@ class CDF_Soldier_Crew: CDF_Soldier_Base
 };
 
 // SPECIAL SOLDIERS
-class CDF_Soldier_Engineer: CDF_Soldier
+class B_CDF_A3_Soldier_Engineer: B_CDF_A3_Soldier
 {
     scope = 2;
     scopeCurator = 2;

@@ -60,7 +60,7 @@ class CfgWeapons
         class ItemInfo: UniformItem
         {
             uniformModel = "-";
-            uniformClass = "CDF_Soldier_Base";
+            uniformClass = "B_CDF_A3_Soldier_Base";
             containerClass = "Supply40";
             mass = 40;
         };
