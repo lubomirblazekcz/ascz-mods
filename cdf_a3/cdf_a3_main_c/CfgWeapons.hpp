@@ -17,8 +17,8 @@ class CfgWeapons
         hiddenSelections[] = {"Camo1","Camo2"};
         hiddenSelectionsTextures[] =
         {
-            "rhsafrf\addons\rhs_infantry\data\6b23_co.paa",
-            "rhsafrf\addons\rhs_infantry\data\gearpack1_6sh92_co.paa"
+            "cdf_a3\cdf_a3_main\data\CDF_vestpart1.paa",
+            "cdf_a3\cdf_a3_main\data\CDF_vestpart2.paa"
         };
 
         class ItemInfo: ItemInfo

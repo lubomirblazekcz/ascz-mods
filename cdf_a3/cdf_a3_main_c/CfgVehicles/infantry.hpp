@@ -45,7 +45,7 @@ class B_CDF_A3_Soldier_Base: rhs_infantry_msv_base
     hiddenSelections[] = {"camo1","camo2","camob"};
     hiddenSelectionsTextures[] =
     {
-        "rhsafrf\addons\rhs_infantry\data\flora_co.paa",
+        "cdf_a3\cdf_a3_main\data\CDF_uniform.paa",
         "rhsafrf\addons\rhs_infantry\data\shevrons_co.paa"
     };
 
