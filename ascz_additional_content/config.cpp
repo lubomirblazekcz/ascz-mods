@@ -17,6 +17,7 @@ class cfgWeapons {
     class V_PlateCarrier1_rgr;
     class V_PlateCarrier2_rgr;
     class V_PlateCarrierIA1_dgtl;
+    class V_TacVestIR_blk;
 	class V_PlateCarrierIA2_dgtl: V_PlateCarrierIA1_dgtl //czech translation fix
 	{
 		displayName = "$STR_a3_v_platecarrieria2_dgtl0_fix";
@@ -389,6 +390,16 @@ class cfgWeapons {
                 hiddenSelections[] = {"camo"};
     		    hiddenSelectionsTextures[] = {"\ascz_additional_content\data\equip_ia_vest01_blk_co.paa"};
     		};
+    	};
+
+    	// Raven vest
+    	class V_TacVestIR_khk: V_TacVestIR_blk
+    	{
+    		hiddenSelections[] = {"camo1","camo2"};
+    	};
+    	class V_TacVestIR_rgr: V_TacVestIR_blk
+    	{
+    		hiddenSelections[] = {"camo1","camo2"};
     	};
 
     // --- UNIFORMS --- //

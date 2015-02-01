@@ -42,7 +42,7 @@ class CfgWeapons
     		mass = 60;
     	};
     };
-    class V_CDF_A3_rifleman_02: V_CDF_A3_6b23
+    class V_CDF_A3_6b23_rifleman_02: V_CDF_A3_6b23
     {
     	displayName = "$STR_RHS_6B23RIFLEMAN_NAME";
 
@@ -55,7 +55,7 @@ class CfgWeapons
     		mass = 60;
     	};
     };
-    class V_CDF_A3_crewofficer: V_CDF_A3_6b23
+    class V_CDF_A3_6b23_crewofficer: V_CDF_A3_6b23
     {
     	displayName = "$STR_RHS_6B23CREWOFFICER_NAME";
 
@@ -142,6 +142,61 @@ class CfgWeapons
             uniformClass = "B_CDF_A3_Soldier_Base";
             containerClass = "Supply40";
             mass = 40;
+        };
+    };
+
+
+    // WEAPONS
+    class hlc_rifle_aks74;
+    class hlc_rifle_aks74_kobra_silenced: hlc_rifle_aks74
+    {
+        class LinkedItems
+        {
+            class LinkedItemsOptic
+            {
+                slot = "CowsSlot";
+                item = "hlc_optic_kobra";
+            };
+            class LinkedItemsMuzzle
+            {
+                slot = "MuzzleSlot";
+                item = "hlc_muzzle_545SUP_AK";
+            };
+        };
+    };
+    class hlc_rifle_ak74;
+    class hlc_rifle_ak74_pso: hlc_rifle_ak74
+    {
+        class LinkedItems
+        {
+            class LinkedItemsOptic
+            {
+                slot = "CowsSlot";
+                item = "HLC_Optic_PSO1";
+            };
+        };
+    };
+    class rhs_weap_pkp;
+    class rhs_weap_pkp_bipod: rhs_weap_pkp
+    {
+        class LinkedItems
+        {
+            class LinkedItemsAcc
+            {
+                slot = "PointerSlot";
+                item = "rhs_bipod";
+            };
+        };
+    };
+    class hlc_rifle_aks74_kobra: hlc_rifle_aks74
+    {
+        class LinkedItems
+        {
+            class LinkedItemsOptic
+            {
+                slot = "CowsSlot";
+                item = "hlc_optic_kobra";
+            };
         };
     };
 };

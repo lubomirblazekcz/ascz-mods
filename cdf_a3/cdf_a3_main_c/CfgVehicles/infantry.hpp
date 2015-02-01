@@ -42,11 +42,12 @@ class B_CDF_A3_Soldier_Base: rhs_infantry_msv_base
     linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_rifleman_01","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
     respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_rifleman_01","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 
-    hiddenSelections[] = {"camo1","camo2","camob"};
+    hiddenSelections[] = {"camo1","camo2","camob","insignia"};
     hiddenSelectionsTextures[] =
     {
         "cdf_a3\cdf_a3_main\data\CDF_uniform.paa",
-        "rhsafrf\addons\rhs_infantry\data\shevrons_co.paa"
+         "",
+         "rhsafrf\addons\rhs_infantry\data\digi_chevrons_co.paa"
     };
 
     armor = 2;
@@ -60,6 +61,7 @@ class B_CDF_A3_Soldier: B_CDF_A3_Soldier_Base
     scopeCurator = 2;
 	displayName = "$STR_A3_CfgVehicles_B_Soldier_F0";
 
+    backpack = "rhs_sidor";
     linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_rifleman_02","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
     respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_rifleman_02","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 };
@@ -84,6 +86,7 @@ class B_CDF_A3_Soldier_GL: B_CDF_A3_Soldier_Base
     scopeCurator = 2;
 	displayName = "$STR_B_Soldier_GL_F0";
     cost=50000;
+    backpack = "rhs_sidor";
     weapons[]={"hlc_rifle_aks74_GL","Throw","Put"};
 	threat[] = {1,0.3,0.1};
     magazines[]=
@@ -119,7 +122,7 @@ class B_CDF_A3_Soldier_Militia: B_CDF_A3_Soldier_Base
         "hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_b_ak",
         "HandGrenade"
     };
-    linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemMap","ItemCompass","ItemWatch","ItemRadio"}; //čepička
     respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 };
 
@@ -146,6 +149,7 @@ class B_CDF_A3_Soldier_Medic: B_CDF_A3_Soldier_Base
 	sensitivity = 2.5;
     cost=60000;
 
+    backpack = "rhs_assault_umbts_medic";
     weapons[]={"hlc_rifle_aks74u","Throw","Put"};
     magazines[]=
     {
@@ -191,7 +195,7 @@ class B_CDF_A3_Soldier_Sniper: B_CDF_A3_Soldier_Base
         "CUP_10Rnd_762x54_SVD_M", "CUP_10Rnd_762x54_SVD_M", "CUP_10Rnd_762x54_SVD_M", "CUP_10Rnd_762x54_SVD_M",
         "HandGrenade","HandGrenade","SmokeShell","SmokeShellOrange"
     };
-    respawnWeapons[]={SVD, "NVGoggles", ,"Throw","Put", "Binocular"};
+    respawnWeapons[]={"CUP_srifle_SVD_wdl_ghillie", "NVGoggles", ,"Throw","Put", "Binocular"};
     respawnMagazines[]=
     {
         "CUP_10Rnd_762x54_SVD_M", "CUP_10Rnd_762x54_SVD_M", "CUP_10Rnd_762x54_SVD_M", "CUP_10Rnd_762x54_SVD_M",
@@ -219,14 +223,14 @@ class B_CDF_A3_Soldier_Spotter: B_CDF_A3_Soldier_Base
 
     textSingular = "sniper";
     textPlural = "snipers";
-    weapons[]={"hlc_rifle_aks74","Binocular","NVGoggles","Throw","Put"}; // měl by mít kobru a tlumič
+    weapons[]={"hlc_rifle_aks74_kobra_silenced","Binocular","NVGoggles","Throw","Put"};
     magazines[]=
     {
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
         "HandGrenade","HandGrenade","SmokeShellOrange","SmokeShell"
     };
-    respawnWeapons[]={"hlc_rifle_aks74","Binocular","Throw","Put"};
+    respawnWeapons[]={"hlc_rifle_aks74_kobra_silenced","Binocular","Throw","Put"};
     respawnMagazines[]={"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","HandGrenade","SmokeShell"};
 };
 
@@ -238,14 +242,15 @@ class B_CDF_A3_Soldier_Marksman: B_CDF_A3_Soldier_Base
 	sensitivity = 3.3;
     cost = 200000; //Rg 180000;
 
-    weapons[]={"hlc_rifle_ak74","Binocular","Throw","Put"}; // měl by mít pso
+    backpack = "rhs_sidor";
+    weapons[]={"hlc_rifle_ak74_pso","Binocular","Throw","Put"};
     magazines[]=
     {
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
         "HandGrenade","HandGrenade","SmokeShellOrange","SmokeShell"
     };
-    respawnWeapons[]={"hlc_rifle_ak74","Binocular","Throw","Put"};
+    respawnWeapons[]={"hlc_rifle_ak74_pso","Binocular","Throw","Put"};
     respawnMagazines[]={"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","HandGrenade","SmokeShell"};
 };
 
@@ -305,6 +310,7 @@ class B_CDF_A3_Soldier_Strela: B_CDF_A3_Soldier_Base
     threat[] = {1,1,0.8};
     camouflage = 1.5;
     cost=100000; //Rg 200000;
+    backpack = "rhs_sidor";
     weapons[]={"hlc_rifle_ak74_dirty","CUP_launch_9K32Strela","Throw","Put"};
     magazines[]=
     {
@@ -337,17 +343,18 @@ class B_CDF_A3_Soldier_AR: B_CDF_A3_Soldier_Base
     textPlural = "mgunners";
 	threat[] = {1,0.1,0.3};
     cost=80000; //Rg 60000;
+    backpack = "rhs_sidor";
     weapons[]={"hlc_rifle_rpk","Throw","Put"};
     magazines[]=
     {
-        "hlc_45Rnd_545x39_t_rpk","hlc_45Rnd_545x39_t_rpk","hlc_45Rnd_545x39_t_rpk","hlc_45Rnd_545x39_t_rpk",
+        "hlc_45Rnd_762x39_t_rpk","hlc_45Rnd_762x39_t_rpk","hlc_45Rnd_762x39_t_rpk","hlc_45Rnd_762x39_t_rpk",
         "HandGrenade","HandGrenade","SmokeShell","SmokeShell"
 
     };
     respawnWeapons[]={"hlc_rifle_rpk","Throw","Put"};
     respawnMagazines[]=
     {
-        "hlc_45Rnd_545x39_t_rpk","hlc_45Rnd_545x39_t_rpk","hlc_45Rnd_545x39_t_rpk",
+        "hlc_45Rnd_762x39_t_rpk","hlc_45Rnd_762x39_t_rpk","hlc_45Rnd_762x39_t_rpk",
         "HandGrenade","SmokeShell"
     };
 	icon = "iconManMG";
@@ -362,14 +369,15 @@ class B_CDF_A3_Soldier_MG: B_CDF_A3_Soldier_Base
     textSingular = "mgunner";
     textPlural = "mgunners";
     displayName=$STR_DN_MGUNNER;
-    weapons[]={"rhs_weap_pkp","Throw","Put"};  // rozložit dvojnožku
+    backpack = "rhs_sidorMG";
+    weapons[]={"rhs_weap_pkp_bipod","Throw","Put"};
     magazines[]=
     {
         "rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR",
         "rhs_100Rnd_762x54mmR"
     };
     threat[]={1, 0.1, 0.8};
-    respawnWeapons[]={"rhs_weap_pkp","Throw","Put"};
+    respawnWeapons[]={"rhs_weap_pkp_bipod","Throw","Put"};
     respawnMagazines[]={"rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR"};
 	icon = "iconManMG";
 };
@@ -385,21 +393,22 @@ class B_CDF_A3_Soldier_TL: B_CDF_A3_Soldier_Base
     camouflage = 1.4;
     sensitivity = 3.3;
     cost=350000; //Rg 400000;
-    weapons[]={"hlc_rifle_aks74","ItemGPS","NVGoggles","Binocular","Throw","Put"}; // měl by mít kobru
+    backpack = "rhs_sidor";
+    weapons[]={"hlc_rifle_aks74_kobra","ItemGPS","NVGoggles","Binocular","Throw","Put"};
     magazines[]=
     {
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
         "HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShellOrange","SmokeShellBlue"
     };
-    respawnWeapons[]={"hlc_rifle_aks74","ItemGPS","NVGoggles","Binocular","Throw","Put"};
+    respawnWeapons[]={"hlc_rifle_aks74_kobra","ItemGPS","NVGoggles","Binocular","Throw","Put"};
     respawnMagazines[]=
     {
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
         "HandGrenade","SmokeShell","SmokeShellOrange","SmokeShellBlue"
     };
 	icon = "iconManLeader";
-    linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemMap","ItemCompass","ItemWatch","ItemRadio"}; //čepička
     respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 };
 
@@ -437,8 +446,8 @@ class B_CDF_A3_Soldier_Officer: B_CDF_A3_Soldier_Base
         "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M"
     };
     icon = "iconManOfficer";
-    linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_crewofficer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-    respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_crewofficer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crewofficer","ItemMap","ItemCompass","ItemWatch","ItemRadio"}; //čepička
+    respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crewofficer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 };
 
 class B_CDF_A3_Commander: B_CDF_A3_Soldier_Base
@@ -465,8 +474,8 @@ class B_CDF_A3_Commander: B_CDF_A3_Soldier_Base
         "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M"
     };
     icon = "iconManOfficer";
-    linkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-    respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    linkedItems[] = {"rhs_vest_commander","ItemMap","ItemCompass","ItemWatch","ItemRadio"}; //čepička
+    respawnLinkedItems[] = {"rhs_vest_commander","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 };
 
 //CREWMEN
@@ -498,8 +507,8 @@ class B_CDF_A3_Soldier_Pilot: B_CDF_A3_Soldier_Base
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
         "SmokeShellOrange","SmokeShellBlue"
     };
-    linkedItems[] = {"rhs_zsh7a","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-    respawnLinkedItems[] = {"rhs_zsh7a","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    linkedItems[] = {"rhs_zsh7a_mike","rhs_6sh46","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    respawnLinkedItems[] = {"rhs_zsh7a_mike","rhs_6sh46","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 };
 
 class B_CDF_A3_Soldier_Crew: B_CDF_A3_Soldier_Base
@@ -537,6 +546,7 @@ class B_CDF_A3_Soldier_Engineer: B_CDF_A3_Soldier
     threat[] = {1,0.5,0.1};
     canDeactivateMines = 1;
     engineer = 1;
+    backpack = "rhs_assault_umbts_engineer";
     weapons[]={"hlc_rifle_ak74_dirty","Throw","Put"};
     magazines[]=
     {
