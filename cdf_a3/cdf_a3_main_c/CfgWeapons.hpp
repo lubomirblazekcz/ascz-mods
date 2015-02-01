@@ -8,8 +8,6 @@ class CfgWeapons
     class V_CDF_A3_6b23: rhs_6b23
     {
         scope = 2;
-
-        displayName = "CDF Vest";
         picture = "\cdf_a3\cdf_a3_main\data\UI\icon_vest.paa";
 
         model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23";
@@ -25,18 +23,97 @@ class CfgWeapons
         {
             hiddenSelections[] = {"Camo1","Camo2"};
             uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23";
-            containerClass = "Supply140";
+            containerClass = "Supply80";
             mass = 60;
             armor = 12;
             passThrough = 0.4;
         };
     };
+    class V_CDF_A3_6b23_rifleman_01: V_CDF_A3_6b23
+    {
+    	displayName = "$STR_RHS_6B23SNIPER_NAME";
+
+    	model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_sniper";
+
+    	class ItemInfo: ItemInfo
+    	{
+    		uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_sniper";
+    		containerClass = "Supply120";
+    		mass = 60;
+    	};
+    };
+    class V_CDF_A3_rifleman_02: V_CDF_A3_6b23
+    {
+    	displayName = "$STR_RHS_6B23RIFLEMAN_NAME";
+
+    	model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_rifleman";
+
+    	class ItemInfo: ItemInfo
+    	{
+    		uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_rifleman";
+    		containerClass = "Supply120";
+    		mass = 60;
+    	};
+    };
+    class V_CDF_A3_crewofficer: V_CDF_A3_6b23
+    {
+    	displayName = "$STR_RHS_6B23CREWOFFICER_NAME";
+
+    	model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_crewofficer";
+
+    	class ItemInfo: ItemInfo
+    	{
+    		uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_crewofficer";
+    		containerClass = "Supply80";
+    		mass = 60;
+    	};
+    };
+    class V_CDF_A3_6b23_crew: V_CDF_A3_6b23
+    {
+    	displayName = "$STR_RHS_6B23CREW_NAME";
+
+    	model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_6sh46";
+
+    	class ItemInfo: ItemInfo
+    	{
+    		uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_6sh46";
+    		containerClass = "Supply120";
+    		mass = 60;
+    	};
+    };
+    class V_CDF_A3_6b23_engineer: V_CDF_A3_6b23
+    {
+    	displayName = "$STR_RHS_6B23ENGINEER_NAME";
+
+    	model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_engineer";
+
+    	class ItemInfo: ItemInfo
+    	{
+    		uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_engineer";
+    		containerClass = "Supply120";
+    		mass = 60;
+    	};
+    };
+    class V_CDF_A3_6b23_medic: V_CDF_A3_6b23
+    {
+    	displayName = "$STR_RHS_6B23MEDIC_NAME";
+
+    	model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_medic";
+
+    	class ItemInfo: ItemInfo
+    	{
+    		uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_medic";
+    		containerClass = "Supply140";
+    		mass = 60;
+    	};
+    };
+
     class H_HelmetB;
 	class H_CDF_A3_HelmetIA: H_HelmetB
 	{
 		author = "ASCZ Team";
 		_generalMacro = "H_HelmetIA";
-		displayName = "CDF Helmet";
+		displayName = "Helmet [CDF]";
 		picture = "\cdf_a3\cdf_a3_main\data\UI\icon_helmet.paa";
 		model = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
 		hiddenSelectionsTextures[] = {"\cdf_a3\cdf_a3_main\data\CDF_helmet.paa"};
@@ -54,7 +131,7 @@ class CfgWeapons
     {
         scope = 2;
         author = "$STR_RHS_AUTHOR_FULL, ASCZ Team";
-        displayName = "CDF Uniform";
+        displayName = "Uniform [CDF]";
         picture = "\cdf_a3\cdf_a3_main\data\UI\icon_uniform.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"camo"};
