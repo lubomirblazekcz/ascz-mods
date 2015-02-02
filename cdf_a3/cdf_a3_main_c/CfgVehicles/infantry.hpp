@@ -503,7 +503,7 @@ class B_CDF_A3_Commander: B_CDF_A3_Soldier_Base
 	author = "CDF_A3";
     scope = 2;
     scopeCurator = 2;
-    displayName = $STR_DN_GENERAL;
+    displayName = "$STR_DN_GENERAL_CDF_A3";
     identityTypes[] = {"Head_Euro","Language_CZ","Language_ACR_CZ"};
     textSingular = "officer";
     textPlural = "officers";

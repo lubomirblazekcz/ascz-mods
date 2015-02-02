@@ -132,7 +132,7 @@ class CDF_A3_Mi17_medevac: RHS_Mi8AMT_base
     typicalCargo[] = {"B_CDF_A3_Soldier_Pilot"};
     faction = "CDF_A3";
     side = 1;
-    vehicleclass = "Air";
+    vehicleClass = "Support";
     hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","n1","n2","tail_decals"};
     hiddenselectionstextures[] =
     {
@@ -548,6 +548,7 @@ class RDS_ZSU_AAF_04;
 class CDF_A3_ZSU: RDS_ZSU_AAF_04
 {
 	author = "CDF_A3";
+	displayName = "ZSU-23 Shilka";
     scope=2;
     scopeCurator=2;
     side = 1;
