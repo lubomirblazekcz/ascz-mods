@@ -61,8 +61,8 @@ class B_CDF_A3_Backpack: Bag_Base
 {
 	author = "CDF_A3";
     scope = 2;
-    displayName = "Backpack [CDF]";
-    descriptionShort = "Backpack [CDF]";
+    displayName = "Small Bag [CDF]";
+    descriptionShort = "Bag [CDF]";
     picture = "\cdf_a3\cdf_a3_main\data\UI\icon_pack.paa";
     model = "\cdf_a3\cdf_a3_main\cdf_backpack.p3d";
     hiddenSelections[] = {"camo"};
