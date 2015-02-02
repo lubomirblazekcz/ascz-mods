@@ -99,7 +99,7 @@ class CfgGroups
                     faction = CDF_A3;
                     rarityGroup=0.05;
                     class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_Sniper";rank = "SERGEANT";position[] = {0,+5,0};};
-                    class Unit1	{side = 1;vehicle = "B_CDF_A3_Soldier_Sniper";rank = "CORPORAL";position[] = {3,0,0};};
+                    class Unit1	{side = 1;vehicle = "B_CDF_A3_Soldier_Spotter";rank = "CORPORAL";position[] = {3,0,0};};
                 };
             };
             //MOTORIZED

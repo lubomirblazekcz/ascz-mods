@@ -129,5 +129,18 @@
             <Russian>Маскировочный костюм [CDF]</Russian>
             <Spanish>Traje de camuflaje [CDF]</Spanish>
         </Key>
+        <Key ID="str_dn_general_cdf_a3">
+            <Original>General</Original>
+            <French>Général</French>
+            <Spanish>General</Spanish>
+            <Italian>Generale</Italian>
+            <Hungarian>Tábornok</Hungarian>
+            <Polish>Generał</Polish>
+            <Russian>Высший офицер</Russian>
+            <German>General</German>
+            <Czech>Generál</Czech>
+            <English>General</English>
+            <Japanese>General</Japanese>
+        </Key>
     </Package>
 </Project>
