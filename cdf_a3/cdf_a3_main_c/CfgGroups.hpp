@@ -9,12 +9,12 @@ class CfgGroups
             //INFANTRY
             class Infantry
             {
-                name = $STR_CfgGroups_West_CDF_Infantry;
+				name = "$STR_A3_CfgGroups_West_BLU_F_Infantry0";
                 //CDF RIFLE SQUAD
                 class CDF_InfSquad
                 {
-                    name = $STR_CfgGroups_West_CDF_Infantry_CDF_InfSquad;
-                    faction = CDF;
+					name = "$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad0";
+                    faction = CDF_A3;
                     rarityGroup=0.6;
                     class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_TL";rank = "LIEUTENANT";position[] = {0,+5,0};};
                     class Unit1	{side = 1;vehicle = "B_CDF_A3_Soldier_MG";rank = "SERGEANT";position[] = {3,0,0};};
@@ -31,8 +31,8 @@ class CfgGroups
                 //CDF WEAPONS SQUAD
                 class CDF_InfSquad_Weapons
                 {
-                    name = $STR_CfgGroups_West_CDF_Infantry_CDF_InfSquad_Weapons;
-                    faction = CDF;
+					name = "$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad_Weapons0";
+                    faction = CDF_A3;
                     rarityGroup=0.6;
                     class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_TL";rank = "LIEUTENANT";position[] = {0,+5,0};};
                     class Unit1	{side = 1;vehicle = "B_CDF_A3_Soldier_AR";rank = "SERGEANT";position[] = {3,0,0};};
@@ -47,8 +47,8 @@ class CfgGroups
                 //CDF AT TEAM
                 class CDF_InfSection_AT
                 {
-                    name = $STR_CfgGroups_West_CDF_Infantry_CDF_InfSection_AT;
-                    faction = CDF;
+					name = "$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam_AT0";
+                    faction = CDF_A3;
                     rarityGroup=0.2;
                     class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_TL";rank = "SERGEANT";position[] = {0,+5,0};};
                     class Unit1	{side = 1;vehicle = "B_CDF_A3_Soldier_RPG";rank = "CORPORAL";position[] = {3,0,0};};
@@ -59,8 +59,8 @@ class CfgGroups
                 //CDF AA TEAM
                 class CDF_InfSection_AA
                 {
-                    name = $STR_CfgGroups_West_CDF_Infantry_CDF_InfSection_AA;
-                    faction = CDF;
+					name = "$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam_AA0";
+                    faction = CDF_A3;
                     rarityGroup=0.1;
                     class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_TL";rank = "SERGEANT";position[] = {0,+5,0};};
                     class Unit1	{side = 1;vehicle = "B_CDF_A3_Soldier_Strela";rank = "CORPORAL";position[] = {3,0,0};};
@@ -71,8 +71,8 @@ class CfgGroups
                 //CDF WEAPONS TEAM
                 class CDF_InfSection_MG
                 {
-                    name = $STR_CfgGroups_West_CDF_Infantry_CDF_InfSection_MG;
-                    faction = CDF;
+					name = "$STR_A3_CfgGroups_West_BLU_F_Support_BUS_Support_MG0";
+                    faction = CDF_A3;
                     rarityGroup=0.1;
                     class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_MG";rank = "SERGEANT";position[] = {0,+5,0};};
                     class Unit1	{side = 1;vehicle = "B_CDF_A3_Soldier_MG";rank = "CORPORAL";position[] = {3,0,0};};
@@ -83,8 +83,8 @@ class CfgGroups
                 //CDF PATROL
                 class CDF_InfSection_Patrol
                 {
-                    name = $STR_CfgGroups_West_CDF_Infantry_CDF_InfSection_Patrol;
-                    faction = CDF;
+					name = "$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_ReconPatrol0";
+                    faction = CDF_A3;
                     rarityGroup=0.3;
                     class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_Militia";rank = "CORPORAL";position[] = {0,+5,0};};
                     class Unit1	{side = 1;vehicle = "B_CDF_A3_Soldier_Militia";rank = "CORPORAL";position[] = {3,0,0};};
@@ -95,8 +95,8 @@ class CfgGroups
                 //CDF SNIPER TEAM
                 class CDF_SniperTeam
                 {
-                    name = $STR_CfgGroups_West_CDF_Infantry_CDF_SniperTeam;
-                    faction = CDF;
+					name = "$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_SniperTeam0";
+                    faction = CDF_A3;
                     rarityGroup=0.05;
                     class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_Sniper";rank = "SERGEANT";position[] = {0,+5,0};};
                     class Unit1	{side = 1;vehicle = "B_CDF_A3_Soldier_Sniper";rank = "CORPORAL";position[] = {3,0,0};};
@@ -105,12 +105,12 @@ class CfgGroups
             //MOTORIZED
             class Motorized
             {
-                name = $STR_CfgGroups_West_CDF_Motorized;
+				name = "$STR_A3_CfgGroups_West_BLU_F_Motorized0";
                 //CDF MOTORIZED RIFLE SQUAD
                 class CDF_MotInfSquad
                 {
-                    name = $STR_CfgGroups_West_CDF_Motorized_CDF_MotInfSquad;
-                    faction = CDF;
+					name = "$STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_Team0";
+                    faction = CDF_A3;
                     rarityGroup=0.4;
                     class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_TL";rank = "LIEUTENANT";position[] = {0,+5,0};};
                     class Unit1	{side = 1;vehicle = "CDF_A3_Ural";rank = "SERGEANT";position[] = {-5,0,0};}; //vehicle
@@ -127,8 +127,8 @@ class CfgGroups
                 //CDF MOTORIZED PATROL
                 class CDF_MotInfSection
                 {
-                    name = $STR_CfgGroups_West_CDF_Motorized_CDF_MotInfSection;
-                    faction = CDF;
+                    name = "$STR_CfgGroups_West_CDF_A3_Motorized_CDF_MotInfSection";
+                    faction = CDF_A3;
                     rarityGroup=0.15;
                     class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_GL";rank = "SERGEANT";position[] = {0,+5,0};};
                     class Unit1	{side = 1;vehicle = "CDF_A3_UAZ_469";rank = "CORPORAL";position[] = {-5,0,0};}; //vehicle
@@ -138,8 +138,8 @@ class CfgGroups
                 //CDF MOTORIZED WEAPONS PATROL
 //                class CDF_MotInfSection_Weapons
 //                {
-//                    name = $STR_CfgGroups_West_CDF_Motorized_CDF_MotInfSection_Weapons;
-//                    faction = CDF;
+//                    name = "$STR_CfgGroups_West_CDF_A3_Motorized_CDF_MotInfSection_Weapons";
+//                    faction = CDF_A3;
 //                    rarityGroup=0.2;
 //                    class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_TL";rank = "SERGEANT";position[] = {0,+5,0};};
 //                    class Unit1	{side = 1;vehicle = "UAZ_AGS30_CDF";rank = "CORPORAL";position[] = {-5,0,0};}; //vehicle
@@ -150,12 +150,12 @@ class CfgGroups
             //MECHANIZED UNITS
             class Mechanized
             {
-                name = $STR_CfgGroups_West_CDF_Mechanized;
+				name = "$STR_A3_CfgGroups_West_BLU_F_Mechanized0";
                 //CDF MECHANIZED RIFLE SQUAD
                 class CDF_MechInfSquad
                 {
-                    name = $STR_CfgGroups_West_CDF_Mechanized_CDF_MechInfSquad;
-                    faction = CDF;
+					name = "$STR_A3_CfgGroups_West_BLU_F_Mechanized_BUS_MechInfSquad0";
+                    faction = CDF_A3;
                     rarityGroup=0.9;
                     class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_TL";rank = "SERGEANT";position[] = {0,+5,0};};
                     class Unit1	{side = 1;vehicle = "CDF_A3_BMP2";rank = "SERGEANT";position[] = {-5,0,0};}; //vehicle
@@ -170,8 +170,8 @@ class CfgGroups
                 //CDF RECON SECTION
 //                class CDF_MechReconSection
 //                {
-//                    name = $STR_CfgGroups_West_CDF_Mechanized_CDF_MechReconSection;
-//                    faction = CDF;
+//                    name = $STR_CfgGroups_West_CDF_A3_Mechanized_CDF_MechReconSection;
+//                    faction = CDF_A3;
 //                    rarityGroup=0.5;
 //                    class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_TL";rank = "SERGEANT";position[] = {0,+5,0};};
 //                    class Unit1	{side = 1;vehicle = "BRDM2_CDF";rank = "SERGEANT";position[] = {-5,0,0};}; //vehicle
@@ -182,8 +182,8 @@ class CfgGroups
                 //CDF MECH PATROL AT (BRDM)
 //                class CDF_MechATSection
 //                {
-//                    name = $STR_CfgGroups_West_CDF_Mechanized_CDF_MechATSection;
-//                    faction = CDF;
+//                    name = $STR_CfgGroups_West_CDF_A3_Mechanized_CDF_MechATSection;
+//                    faction = CDF_A3;
 //                    rarityGroup=0.5;
 //                    class Unit0 {side = 1;vehicle = "B_CDF_A3_Soldier_TL";rank = "SERGEANT";position[] = {0,+5,0};};
 //                    class Unit1	{side = 1;vehicle = "BRDM2_ATGM_CDF";rank = "SERGEANT";position[] = {-5,0,0};}; //vehicle
@@ -193,12 +193,12 @@ class CfgGroups
             };
             class Armored
             {
-                name = $STR_CfgGroups_West_CDF_Armored;
+				name = "$STR_A3_CfgGroups_West_BLU_F_Armored0";
                 //CDF TANK PLATOON
                 class CDF_TankPlatoon
                 {
-                    name = $STR_CfgGroups_West_CDF_Armored_CDF_TankPlatoon;
-                    faction = CDF;
+					name = "$STR_A3_CfgGroups_West_BLU_F_Armored_BUS_TankPlatoon0";
+                    faction = CDF_A3;
                     rarityGroup=0.25;
                     class Unit0 {side = 1;vehicle = "CDF_A3_T72";rank = "CAPTAIN";position[] = {0,+10,0};};
                     class Unit1	{side = 1;vehicle = "CDF_A3_T72";rank = "LIEUTENANT";position[] = {5,0,0};};
@@ -209,13 +209,13 @@ class CfgGroups
             //AIR
             class Air
             {
-                name = $STR_CfgGroups_West_CDF_Air;
+                name = "$STR_CfgGroups_West_CDF_A3_Air";
 
                 //CDF Mi-24D squadron
                 class CDF_Mi24DSquadron
                 {
-                    name = $STR_CfgGroups_West_CDF_Air_CDF_Mi24DSquadron;
-                    faction = CDF;
+                    name = "$STR_CfgGroups_West_CDF_A3_Air_CDF_Mi24DSquadron";
+                    faction = CDF_A3;
                     rarityGroup = 0.1;
 
                     //ACM entries:
@@ -229,8 +229,8 @@ class CfgGroups
                 //CDF Mi-8 squadron
                 class CDF_Mi8Squadron
                 {
-                    name = $STR_CfgGroups_West_CDF_Air_CDF_Mi8Squadron;
-                    faction = CDF;
+                    name = "$STR_CfgGroups_West_CDF_A3_Air_CDF_Mi8Squadron";
+                    faction = CDF_A3;
                     rarityGroup = 0.3;
 
                     //ACM entries:

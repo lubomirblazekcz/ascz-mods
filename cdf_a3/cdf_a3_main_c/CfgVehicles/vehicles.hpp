@@ -14,7 +14,7 @@ class RHS_Mi24V_base;
 class CDF_A3_Mi_24v: RHS_Mi24V_base
 {
     accuracy = 0.5;
-    author = "CDF A3";
+	author = "CDF_A3";
     displayName = "Mi-24V";
     scope=2;
     scopeCurator=2;
@@ -45,7 +45,7 @@ class CDF_A3_Mi_24v: RHS_Mi24V_base
 class CDF_A3_Mi_24p: RHS_Mi24_base
 {
     accuracy = 0.5;
-    author = "CDF A3";
+	author = "CDF_A3";
     displayName = "Mi-24P";
     scope=2;
     scopeCurator=2;
@@ -78,7 +78,7 @@ class RHS_Mi8AMTSh_base;
 class RHS_Mi8_base;
 class CDF_A3_Mi17: RHS_Mi8_base
 {
-    author = "CDF A3";
+	author = "CDF_A3";
     faction = "CDF_A3";
     crew = "B_CDF_A3_Soldier_Pilot";
     typicalCargo[] = {"B_CDF_A3_Soldier_Pilot"};
@@ -104,7 +104,7 @@ class CDF_A3_Mi17_rockets: RHS_Mi8AMTSh_base
     scope=2;
     scopeCurator=2;
     displayName = "Mi-17 (Rockets)";
-    author = "CDF A3";
+	author = "CDF_A3";
     crew = "B_CDF_A3_Soldier_Pilot";
     typicalCargo[] = {"B_CDF_A3_Soldier_Pilot"};
     faction = "CDF_A3";
@@ -127,7 +127,7 @@ class CDF_A3_Mi17_medevac: RHS_Mi8AMT_base
     scope=2;
     scopeCurator=2;
     displayName = "Mi-17 (Medevac)";
-    author = "CDF A3";
+	author = "CDF_A3";
     crew = "B_CDF_A3_Soldier_Pilot";
     typicalCargo[] = {"B_CDF_A3_Soldier_Pilot"};
     faction = "CDF_A3";
@@ -162,7 +162,7 @@ class RHS_Su25SM_vvs;
 class CDF_A3_Su25SM: RHS_Su25SM_vvs
 {
     faction = "CDF_A3";
-    author = "CDF A3";
+	author = "CDF_A3";
     crew = "B_CDF_A3_Soldier_Pilot";
     scope=2;
     scopeCurator=2;
@@ -221,7 +221,7 @@ class rhs_uaz_open_Base: RHS_UAZ_Base{};
 class CDF_A3_UAZ_469: RHS_UAZ_Base
 {
     accuracy = 0.5;
-    author = "CDF A3";
+	author = "CDF_A3";
     vehicleClass = "Car";
     displayName = "UAZ-469";
     scope=2;
@@ -267,7 +267,7 @@ class CDF_A3_UAZ_469: RHS_UAZ_Base
 class CDF_A3_UAZ_469_Open: rhs_uaz_open_Base
 {
     accuracy = 0.5;
-    author = "CDF A3";
+	author = "CDF_A3";
     vehicleClass = "Car";
     displayName = "UAZ-469 (Open)";
     scope=2;
@@ -315,8 +315,10 @@ class RHS_Ural_Base: RHS_Ural_BaseTurret{};
 class RHS_Ural_MSV_Base: RHS_Ural_Base{};
 class CDF_A3_Ural: RHS_Ural_MSV_Base
 {
+	author = "CDF_A3";
     scope=2;
     scopeCurator=2;
+    vehicleClass = "Car";
     displayName="Ural";
     faction="CDF_A3";
     side = 1;
@@ -357,8 +359,10 @@ class CDF_A3_Ural: RHS_Ural_MSV_Base
 class RHS_Ural_Open_MSV_01:RHS_Ural_MSV_Base{};
 class CDF_A3_Ural_Open: RHS_Ural_Open_MSV_01
 {
+	author = "CDF_A3";
     scope=2;
     scopeCurator=2;
+    vehicleClass = "Car";
     displayName="Ural (Open)";
     faction="CDF_A3";
     side = 1;
@@ -400,8 +404,10 @@ class RHS_Ural_Support_MSV_Base_01: RHS_Ural_MSV_Base {};
 class RHS_Ural_Fuel_MSV_01:RHS_Ural_Support_MSV_Base_01{};
 class CDF_A3_Ural_Fuel: RHS_Ural_Fuel_MSV_01
 {
+	author = "CDF_A3";
     scope=2;
     scopeCurator=2;
+    vehicleClass = "Support";
     displayName="Ural (Fuel)";
     faction="CDF_A3";
     side = 1;
@@ -448,8 +454,10 @@ class CDF_A3_Ural_Fuel: RHS_Ural_Fuel_MSV_01
 class RHS_BM21_MSV_01:RHS_Ural_BaseTurret{};
 class CDF_A3_BM21: RHS_BM21_MSV_01
 {
+	author = "CDF_A3";
     scope=2;
     scopeCurator=2;
+    vehicleClass = "Car";
     displayName="BM-21 Grad";
     faction="CDF_A3";
     side = 1;
@@ -496,9 +504,11 @@ class CDF_A3_BM21: RHS_BM21_MSV_01
 class RDS_T72_AAF_04;
 class CDF_A3_T72: RDS_T72_AAF_04
 {
+	author = "CDF_A3";
     scope=2;
     scopeCurator=2;
     side = 1;
+    displayName = "T-72";
     faction = "CDF_A3";
     crew = "B_CDF_A3_Soldier_Crew";
     typicalCargo[] = {"B_CDF_A3_Soldier_Crew"};
@@ -506,6 +516,7 @@ class CDF_A3_T72: RDS_T72_AAF_04
 class RDS_BMP2_AAF_01;
 class CDF_A3_BMP2: RDS_BMP2_AAF_01
 {
+	author = "CDF_A3";
     scope=2;
     scopeCurator=2;
     side = 1;
@@ -515,6 +526,7 @@ class CDF_A3_BMP2: RDS_BMP2_AAF_01
 };
 class RDS_BMP2_HQ_AAF_01;
 class CDF_A3_BMP2_HQ: RDS_BMP2_HQ_AAF_01 {
+	author = "CDF_A3";
     scope=2;
     scopeCurator=2;
     side = 1;
@@ -524,6 +536,7 @@ class CDF_A3_BMP2_HQ: RDS_BMP2_HQ_AAF_01 {
 };
 class RDS_BMP2_Ambul_01;
 class CDF_A3_BMP2_Ambul: RDS_BMP2_Ambul_01 {
+	author = "CDF_A3";
     scope=2;
     scopeCurator=2;
     side = 1;
@@ -534,6 +547,7 @@ class CDF_A3_BMP2_Ambul: RDS_BMP2_Ambul_01 {
 class RDS_ZSU_AAF_04;
 class CDF_A3_ZSU: RDS_ZSU_AAF_04
 {
+	author = "CDF_A3";
     scope=2;
     scopeCurator=2;
     side = 1;

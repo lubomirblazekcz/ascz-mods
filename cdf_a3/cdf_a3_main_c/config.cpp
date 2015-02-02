@@ -13,11 +13,11 @@ class cfgFactionClasses
 {
 	class CDF_A3
 	{
-		displayName = "CDF A3";
+		displayName = "CDF";
 		priority = 1;
 		side = 1;
 		genericNames = "CzechMen";
-		identityTypes[] = {"LanguageCDF","Head_Euro"};
+		identityTypes[] = {"LanguageCDF","Language_ACR_CZ","Head_Euro"};
 		flag = "cdf_a3\cdf_a3_main\data\flag_cdf_co.paa";
         icon = "cdf_a3\cdf_a3_main\data\icon_cdf_co.paa";
 	};

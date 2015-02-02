@@ -451,17 +451,17 @@ class RadioProtocolCZ: RadioProtocolBaseCZ
 {
  class Words
  {
-    micOut[] = {"\cdf_a3\cdf_a3_dubbingradio\Data\Mic_Out1.ogg"};
-    micOut1[] = {"\cdf_a3\cdf_a3_dubbingradio\Data\over01.ogg"};
-    micOut2[] = {"\cdf_a3\cdf_a3_dubbingradio\Data\over02.ogg"};
-    micOut3[] = {"\cdf_a3\cdf_a3_dubbingradio\Data\over03.ogg"};
-    micOut4[] = {"\A3\Dubbing_Radio_F\Data\static\out2a.ogg"};
-    micOut5[] = {"\A3\Dubbing_Radio_F\Data\static\out2b.ogg"};
-    micOut6[] = {"\A3\Dubbing_Radio_F\Data\static\out2c.ogg"};
-    loop[] = {"\cdf_a3\cdf_a3_dubbingradio\Data\radionoise1.ogg"};
-    beepBeep[] = {"\cdf_a3\cdf_a3_dubbingradio\Data\beep.ogg"};
-    pause[] = {"\cdf_a3\cdf_a3_dubbingradio\Data\empty01sec.ogg"};
-    xmit[] = {"\cdf_a3\cdf_a3_dubbingradio\Data\beep.ogg"};
+    micOut[] = {"\cdf_a3\cdf_a3_dubbingradio\Data\Mic_Out1"};
+    micOut1[] = {"\cdf_a3\cdf_a3_dubbingradio\Data\over01"};
+    micOut2[] = {"\cdf_a3\cdf_a3_dubbingradio\Data\over02"};
+    micOut3[] = {"\cdf_a3\cdf_a3_dubbingradio\Data\over03"};
+    micOut4[] = {"\A3\Dubbing_Radio_F\Data\static\out2a"};
+    micOut5[] = {"\A3\Dubbing_Radio_F\Data\static\out2b"};
+    micOut6[] = {"\A3\Dubbing_Radio_F\Data\static\out2c"};
+    loop[] = {"\cdf_a3\cdf_a3_dubbingradio\Data\radionoise1"};
+    beepBeep[] = {"\cdf_a3\cdf_a3_dubbingradio\Data\beep"};
+    pause[] = {"\cdf_a3\cdf_a3_dubbingradio\Data\empty01sec"};
+    xmit[] = {"\cdf_a3\cdf_a3_dubbingradio\Data\beep"};
   all[] = {"numbers\all"};
   allGroup[] = {"numbers\all"};
   zero[] = {"numbers\zero"};

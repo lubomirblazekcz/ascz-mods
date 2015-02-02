@@ -7,6 +7,9 @@ class CfgWeapons
     class rhs_6b23;
     class V_CDF_A3_6b23: rhs_6b23
     {
+		author = "CDF_A3";
+    	displayName = "6B23 CDF";
+
         scope = 2;
         picture = "\cdf_a3\cdf_a3_main\data\UI\icon_vest.paa";
 
@@ -31,7 +34,8 @@ class CfgWeapons
     };
     class V_CDF_A3_6b23_rifleman_01: V_CDF_A3_6b23
     {
-    	displayName = "$STR_RHS_6B23SNIPER_NAME";
+		author = "CDF_A3";
+    	displayName = "6B23 CDF (Rifleman 1)";
 
     	model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_sniper";
 
@@ -44,7 +48,8 @@ class CfgWeapons
     };
     class V_CDF_A3_6b23_rifleman_02: V_CDF_A3_6b23
     {
-    	displayName = "$STR_RHS_6B23RIFLEMAN_NAME";
+		author = "CDF_A3";
+    	displayName = "6B23 CDF (Rifleman 2)";
 
     	model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_rifleman";
 
@@ -57,7 +62,8 @@ class CfgWeapons
     };
     class V_CDF_A3_6b23_crewofficer: V_CDF_A3_6b23
     {
-    	displayName = "$STR_RHS_6B23CREWOFFICER_NAME";
+		author = "CDF_A3";
+    	displayName = "6B23 CDF (Officer)";
 
     	model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_crewofficer";
 
@@ -70,7 +76,8 @@ class CfgWeapons
     };
     class V_CDF_A3_6b23_crew: V_CDF_A3_6b23
     {
-    	displayName = "$STR_RHS_6B23CREW_NAME";
+		author = "CDF_A3";
+    	displayName = "6B23 CDF (Crew)";
 
     	model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_6sh46";
 
@@ -83,7 +90,8 @@ class CfgWeapons
     };
     class V_CDF_A3_6b23_engineer: V_CDF_A3_6b23
     {
-    	displayName = "$STR_RHS_6B23ENGINEER_NAME";
+		author = "CDF_A3";
+    	displayName = "6B23 CDF (Engineer)";
 
     	model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_engineer";
 
@@ -96,7 +104,8 @@ class CfgWeapons
     };
     class V_CDF_A3_6b23_medic: V_CDF_A3_6b23
     {
-    	displayName = "$STR_RHS_6B23MEDIC_NAME";
+		author = "CDF_A3";
+    	displayName = "6B23 CDF (Medic)";
 
     	model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_medic";
 
@@ -112,7 +121,7 @@ class CfgWeapons
     class H_HelmetB;
 	class H_CDF_A3_HelmetIA: H_HelmetB
 	{
-		author = "ASCZ Team";
+		author = "CDF_A3";
 		_generalMacro = "H_HelmetIA";
 		displayName = "Helmet [CDF]";
 		picture = "\cdf_a3\cdf_a3_main\data\UI\icon_helmet.paa";
@@ -133,6 +142,7 @@ class CfgWeapons
 	};
     class H_CDF_A3_fieldcap: H_HelmetB
     {
+		author = "CDF_A3";
     	displayName = "Field Cap [CDF]";
     	picture = "\cdf_a3\cdf_a3_main\data\UI\icon_cap.paa";
 
@@ -154,9 +164,9 @@ class CfgWeapons
     // UNIFORM
     class U_CDF_A3_uniform_ttsko: Uniform_Base
     {
+		author = "CDF_A3";
         scope = 2;
-        author = "$STR_RHS_AUTHOR_FULL, ASCZ Team";
-        displayName = "Uniform [CDF]";
+        displayName = "$STR_A3_combat_fatigues_cdf_a3";
         picture = "\cdf_a3\cdf_a3_main\data\UI\icon_uniform.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -172,9 +182,9 @@ class CfgWeapons
     class U_B_GhillieSuit;
     class U_CDF_A3_SniperGhillie: U_B_GhillieSuit
     {
-        displayName = "Ghillie Suit [CDF]";
+		author = "CDF_A3";
+        displayName = "$STR_A3_ghillie_suit_cdf_a3";
 		picture = "\cdf_a3\cdf_a3_main\data\UI\icon_ghillie.paa";
-        author = "CDF A3";
         class ItemInfo: UniformItem
         {
             uniformModel = "-";

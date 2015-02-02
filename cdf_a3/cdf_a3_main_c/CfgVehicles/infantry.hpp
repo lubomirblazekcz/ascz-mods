@@ -1,6 +1,7 @@
 class rhs_infantry_msv_base;
 class B_CDF_A3_Soldier_Base: rhs_infantry_msv_base
 {
+	author = "CDF_A3";
     identityTypes[] = {"Head_Euro","Language_CZ","Language_ACR_CZ"};
     faceType = "Man_A3";
     side = 1;
@@ -58,6 +59,7 @@ class B_CDF_A3_Soldier_Base: rhs_infantry_msv_base
 class Bag_Base;
 class B_CDF_A3_Backpack: Bag_Base
 {
+	author = "CDF_A3";
     scope = 2;
     displayName = "Backpack [CDF]";
     descriptionShort = "Backpack [CDF]";
@@ -65,12 +67,13 @@ class B_CDF_A3_Backpack: Bag_Base
     model = "\cdf_a3\cdf_a3_main\cdf_backpack.p3d";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\cdf_a3\cdf_a3_main\data\equip_co.paa"};
-    maximumLoad = 280;
-    mass = 50;
+    maximumLoad = 100;
+    mass = 10;
 };
 // BASIC SOLDIERS
 class B_CDF_A3_Soldier: B_CDF_A3_Soldier_Base
 {
+	author = "CDF_A3";
     scope = 2;
     scopeCurator = 2;
 	displayName = "$STR_A3_CfgVehicles_B_Soldier_F0";
@@ -82,6 +85,7 @@ class B_CDF_A3_Soldier: B_CDF_A3_Soldier_Base
 
 class B_CDF_A3_Soldier_Light: B_CDF_A3_Soldier_Base
 {
+	author = "CDF_A3";
     scope = 2;
     scopeCurator = 2;
 	displayName = "$STR_B_Soldier_lite_F0";
@@ -96,6 +100,7 @@ class B_CDF_A3_Soldier_Light: B_CDF_A3_Soldier_Base
 
 class B_CDF_A3_Soldier_GL: B_CDF_A3_Soldier_Base
 {
+	author = "CDF_A3";
     scope = 2;
     scopeCurator = 2;
 	displayName = "$STR_B_Soldier_GL_F0";
@@ -107,22 +112,23 @@ class B_CDF_A3_Soldier_GL: B_CDF_A3_Soldier_Base
     {
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
-        "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
-        "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK"
+        "hlc_VOG25_AK","hlc_VOG25_AK","hlc_VOG25_AK","hlc_VOG25_AK",
+        "hlc_VOG25_AK","hlc_VOG25_AK","hlc_VOG25_AK","hlc_VOG25_AK"
     };
     respawnWeapons[]={"hlc_rifle_aks74_GL","Throw","Put"};
     respawnMagazines[]=
     {
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
-        "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK"
+        "hlc_VOG25_AK","hlc_VOG25_AK","hlc_VOG25_AK","hlc_VOG25_AK"
     };
 };
 
 class B_CDF_A3_Soldier_Militia: B_CDF_A3_Soldier_Base
 {
+	author = "CDF_A3";
     scope = 2;
     scopeCurator = 2;
-    displayName = $STR_DN_SOLDIER_MILITIA;
+    displayName = "$STR_DN_CDF_A3_SOLDIER_MILITIA";
     weapons[]={"hlc_rifle_ak47","Throw","Put"};
     magazines[]=
     {
@@ -143,6 +149,7 @@ class B_CDF_A3_Soldier_Militia: B_CDF_A3_Soldier_Base
 // MEDIC
 class B_CDF_A3_Soldier_Medic: B_CDF_A3_Soldier_Base
 {
+	author = "CDF_A3";
     class SpeechVariants
     {
         class Default
@@ -179,11 +186,13 @@ class B_CDF_A3_Soldier_Medic: B_CDF_A3_Soldier_Base
     };
     linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_medic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
     respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_medic","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	icon = "iconManMedic";
 };
 
 // SNIPERS
 class B_CDF_A3_Soldier_Sniper: B_CDF_A3_Soldier_Base
 {
+	author = "CDF_A3";
 	displayName = "$STR_B_sniper_F0";
     scope = 2;
     scopeCurator = 2;
@@ -206,17 +215,17 @@ class B_CDF_A3_Soldier_Sniper: B_CDF_A3_Soldier_Base
     textPlural = "snipers";
 
     uniformClass = "U_CDF_A3_SniperGhillie";
-    weapons[]={"CUP_srifle_SVD_wdl_ghillie","NVGoggles","Throw","Put","Binocular"};
+    weapons[]={"rhs_weap_svdp_pso1","NVGoggles","Throw","Put","Binocular"}; // org. SVD
     magazines[]=
     {
-        "CUP_10Rnd_762x54_SVD_M", "CUP_10Rnd_762x54_SVD_M", "CUP_10Rnd_762x54_SVD_M", "CUP_10Rnd_762x54_SVD_M",
-        "CUP_10Rnd_762x54_SVD_M", "CUP_10Rnd_762x54_SVD_M", "CUP_10Rnd_762x54_SVD_M", "CUP_10Rnd_762x54_SVD_M",
+        "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1",
+        "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1",
         "HandGrenade","HandGrenade","SmokeShell","SmokeShellOrange"
     };
-    respawnWeapons[]={"CUP_srifle_SVD_wdl_ghillie", "NVGoggles", ,"Throw","Put", "Binocular"};
+    respawnWeapons[]={"rhs_weap_svdp_pso1", "NVGoggles", ,"Throw","Put", "Binocular"};
     respawnMagazines[]=
     {
-        "CUP_10Rnd_762x54_SVD_M", "CUP_10Rnd_762x54_SVD_M", "CUP_10Rnd_762x54_SVD_M", "CUP_10Rnd_762x54_SVD_M",
+        "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1",
         "HandGrenade","SmokeShellOrange"
     };
     linkedItems[] = {"V_CDF_A3_6b23_rifleman_01","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -225,6 +234,7 @@ class B_CDF_A3_Soldier_Sniper: B_CDF_A3_Soldier_Base
 
 class B_CDF_A3_Soldier_Spotter: B_CDF_A3_Soldier_Base
 {
+	author = "CDF_A3";
     class SpeechVariants
     {
         class Default
@@ -263,6 +273,7 @@ class B_CDF_A3_Soldier_Spotter: B_CDF_A3_Soldier_Base
 
 class B_CDF_A3_Soldier_Marksman: B_CDF_A3_Soldier_Base
 {
+	author = "CDF_A3";
     scope = 2;
     scopeCurator = 2;
 	displayName = "$STR_B_soldier_M_F0";
@@ -284,6 +295,7 @@ class B_CDF_A3_Soldier_Marksman: B_CDF_A3_Soldier_Base
 //LAUNCHER SOLDIERS
 class B_CDF_A3_Soldier_RPG: B_CDF_A3_Soldier_Base
 {
+	author = "CDF_A3";
     class SpeechVariants
     {
         class Default
@@ -321,6 +333,7 @@ class B_CDF_A3_Soldier_RPG: B_CDF_A3_Soldier_Base
 
 class B_CDF_A3_Soldier_Strela: B_CDF_A3_Soldier_Base
 {
+	author = "CDF_A3";
     class SpeechVariants
     {
         class Default
@@ -337,24 +350,29 @@ class B_CDF_A3_Soldier_Strela: B_CDF_A3_Soldier_Base
     threat[] = {1,1,0.8};
     camouflage = 1.5;
     cost=100000; //Rg 200000;
-    backpack = "B_CDF_A3_Backpack";
-    weapons[]={"hlc_rifle_ak74_dirty","CUP_launch_9K32Strela","Throw","Put"};
+    backpack = "";
+    weapons[]={"hlc_rifle_ak74_dirty","rhs_weap_igla","Throw","Put"}; // org. Strela
     magazines[]=
     {
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
-        "CUP_Strela_2_M"
+        "rhs_mag_9k38_rocket"
     };
-    respawnWeapons[]={"hlc_rifle_ak74_dirty","CUP_launch_9K32Strela","Throw","Put"};
-    respawnMagazines[]={"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","CUP_Strela_2_M"};
+    respawnWeapons[]={"hlc_rifle_ak74_dirty","rhs_weap_igla","Throw","Put"};
+    respawnMagazines[]={"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","rhs_mag_9k38_rocket"};
 	icon = "iconManAT";
     linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
     respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    class eventHandlers
+    {
+        init = "_unit = _this select 0;_unit addBackpack 'B_CDF_A3_Backpack';_unit addMagazines ['rhs_mag_9k38_rocket',1];";
+    };
 };
 
 //MACHINEGUNNERS
 class B_CDF_A3_Soldier_AR: B_CDF_A3_Soldier_Base
 {
+	author = "CDF_A3";
     class SpeechVariants
     {
         class Default
@@ -389,13 +407,14 @@ class B_CDF_A3_Soldier_AR: B_CDF_A3_Soldier_Base
 
 class B_CDF_A3_Soldier_MG: B_CDF_A3_Soldier_Base
 {
+	author = "CDF_A3";
     scope = 2;
     scopeCurator = 2;
     cost=90000; //Rg 60000;
     accuracy=3.7; //Rg 1.5;
     textSingular = "mgunner";
     textPlural = "mgunners";
-    displayName=$STR_DN_MGUNNER;
+	displayName = "$STR_B_soldier_AR_F0";
     backpack = "rhs_sidorMG";
     weapons[]={"rhs_weap_pkp_bipod","Throw","Put"};
     magazines[]=
@@ -412,6 +431,7 @@ class B_CDF_A3_Soldier_MG: B_CDF_A3_Soldier_Base
 // COMMANDERS
 class B_CDF_A3_Soldier_TL: B_CDF_A3_Soldier_Base
 {
+	author = "CDF_A3";
     scope = 2;
     scopeCurator = 2;
 	displayName = "$STR_B_Soldier_TL_F0";
@@ -441,6 +461,7 @@ class B_CDF_A3_Soldier_TL: B_CDF_A3_Soldier_Base
 
 class B_CDF_A3_Soldier_Officer: B_CDF_A3_Soldier_Base
 {
+	author = "CDF_A3";
     class SpeechVariants
     {
         class Default
@@ -458,19 +479,19 @@ class B_CDF_A3_Soldier_Officer: B_CDF_A3_Soldier_Base
     camouflage = 1.6;
     sensitivity = 3;
     cost=700000; //Rg 500000;
-    weapons[]={"hlc_rifle_aks74u","CUP_hgun_Makarov","ItemGPS","NVGoggles","Binocular","Throw","Put"};
+    weapons[]={"hlc_rifle_aks74u","rhs_weap_pya","ItemGPS","NVGoggles","Binocular","Throw","Put"}; // org. Makarov
     magazines[]=
     {
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
-        "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M",
-        "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M"
+        "rhs_mag_9x19_17","rhs_mag_9x19_17","rhs_mag_9x19_17",
+        "rhs_mag_9x19_17","rhs_mag_9x19_17","rhs_mag_9x19_17"
     };
-    respawnWeapons[]={"hlc_rifle_aks74u","CUP_hgun_Makarov","ItemGPS","NVGoggles","Binocular","Throw","Put"};
+    respawnWeapons[]={"hlc_rifle_aks74u","rhs_weap_pya","ItemGPS","NVGoggles","Binocular","Throw","Put"};
     respawnmagazines[]=
     {
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
-        "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M"
+        "rhs_mag_9x19_17","rhs_mag_9x19_17"
     };
     icon = "iconManOfficer";
     linkedItems[] = {"H_CDF_A3_fieldcap","V_CDF_A3_6b23_crewofficer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -479,6 +500,7 @@ class B_CDF_A3_Soldier_Officer: B_CDF_A3_Soldier_Base
 
 class B_CDF_A3_Commander: B_CDF_A3_Soldier_Base
 {
+	author = "CDF_A3";
     scope = 2;
     scopeCurator = 2;
     displayName = $STR_DN_GENERAL;
@@ -488,17 +510,17 @@ class B_CDF_A3_Commander: B_CDF_A3_Soldier_Base
     camouflage = 1.6;
     sensitivity = 3;
     cost=900000; //Rg 1000000;
-    weapons[]={"hlc_rifle_aks74u","CUP_hgun_Makarov","NVGoggles","ItemGPS","Binocular","Throw","Put"};
+    weapons[]={"hlc_rifle_aks74u","rhs_weap_pya","NVGoggles","ItemGPS","Binocular","Throw","Put"}; // org. Makarov
     magazines[]=
     {
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
-        "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M"
+        "rhs_mag_9x19_17","rhs_mag_9x19_17","rhs_mag_9x19_17","rhs_mag_9x19_17"
     };
-    respawnWeapons[]={"hlc_rifle_aks74u","CUP_hgun_Makarov","NVGoggles","ItemGPS","Binocular","Throw","Put"};
+    respawnWeapons[]={"hlc_rifle_aks74u","rhs_weap_pya","NVGoggles","ItemGPS","Binocular","Throw","Put"};
     respawnmagazines[]=
     {
         "hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
-        "CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M"
+        "rhs_mag_9x19_17","rhs_mag_9x19_17"
     };
     icon = "iconManOfficer";
     linkedItems[] = {"H_CDF_A3_fieldcap","rhs_vest_commander","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -508,6 +530,7 @@ class B_CDF_A3_Commander: B_CDF_A3_Soldier_Base
 //CREWMEN
 class B_CDF_A3_Soldier_Pilot: B_CDF_A3_Soldier_Base
 {
+	author = "CDF_A3";
     class SpeechVariants
     {
         class Default
@@ -540,6 +563,7 @@ class B_CDF_A3_Soldier_Pilot: B_CDF_A3_Soldier_Base
 
 class B_CDF_A3_Soldier_Crew: B_CDF_A3_Soldier_Base
 {
+	author = "CDF_A3";
     camouflage = 1.6;
     sensitivity = 2.5;
     cost=20000; //Rg ADDED
@@ -563,6 +587,7 @@ class B_CDF_A3_Soldier_Crew: B_CDF_A3_Soldier_Base
 // SPECIAL SOLDIERS
 class B_CDF_A3_Soldier_Engineer: B_CDF_A3_Soldier
 {
+	author = "CDF_A3";
     scope = 2;
     scopeCurator = 2;
 	displayName = "$STR_B_engineer_F0";
