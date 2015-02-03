@@ -286,12 +286,10 @@ class CfgWeapons
     };
     class hlc_rifle_Colt727: hlc_ar15_base
     {
-        displayName = "M16A2";
         jsrs_soundeffect = "JSRS2_Distance_Effects_M16";
     };
     class hlc_rifle_Colt727_GL: hlc_rifle_Colt727
     {
-        displayName = "M16A2 M203";
         jsrs_soundeffect = "JSRS2_Distance_Effects_M16";
     };
     class hlc_rifle_Bushmaster300: hlc_rifle_Colt727

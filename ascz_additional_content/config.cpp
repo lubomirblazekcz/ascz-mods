@@ -5,19 +5,19 @@ class CfgPatches
 		units[] = {"B_SoldierW_F", "B_SoldierW_02_f", "B_SoldierW_03_f", "B_SoldierS_F", "B_SoldierS_02_f", "B_SoldierS_03_f","B_SoldierOlive_F", "B_SoldierOlive_02_f", "B_SoldierOlive_03_f"};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"A3_Weapons_F", "A3_Characters_F_BLUFOR"};
+		requiredAddons[] = {"A3_Weapons_F", "A3_Characters_F", "A3_Characters_F_BLUFOR"};
 	};
 };
 class cfgWeapons {
     class Uniform_Base;
 	class UniformItem;
 	class ItemInfo;
+	class ItemCore;;
     class VestItem;
     class V_Rangemaster_belt;
     class V_PlateCarrier1_rgr;
     class V_PlateCarrier2_rgr;
     class V_PlateCarrierIA1_dgtl;
-    class V_TacVestIR_blk;
 	class V_PlateCarrierIA2_dgtl: V_PlateCarrierIA1_dgtl //czech translation fix
 	{
 		displayName = "$STR_a3_v_platecarrieria2_dgtl0_fix";
@@ -393,14 +393,75 @@ class cfgWeapons {
     	};
 
     	// Raven vest
-    	class V_TacVestIR_khk: V_TacVestIR_blk
-    	{
+        class V_TacVestIR_khk: ItemCore
+        {
+            author = "$STR_A3_Bohemia_Interactive";
+            _generalMacro = "V_TacVestIR_blk";
+            scope = 2;
+            weaponPoolAvailable = 1;
+            allowedSlots[] = {901};
+            displayName = "$STR_A3_V_TacVestIR_blk0";
+            picture = "\A3\characters_f\Data\UI\icon_V_TacVestIR_blk_CA.paa";
+            model = "\A3\Characters_F_Beta\INDEP\equip_ir_vest01";
     		hiddenSelections[] = {"camo1","camo2"};
-    	};
-    	class V_TacVestIR_rgr: V_TacVestIR_blk
-    	{
+    		hiddenSelectionsTextures[] = {"\ascz_additional_content\data\clothing_oucamo_co.paa","\ascz_additional_content\data\tech_oucamo_co.paa"};
+            class ItemInfo: VestItem
+            {
+                uniformModel = "\A3\Characters_F_Beta\INDEP\equip_ir_vest01";
+    		    hiddenSelections[] = {"camo1","camo2"};
+    		    hiddenSelectionsTextures[] = {"\ascz_additional_content\data\clothing_oucamo_co.paa","\ascz_additional_content\data\tech_oucamo_co.paa"};
+                containerClass = "Supply100";
+                mass = 50;
+                armor = 20;
+                passThrough = 0.5;
+            };
+        };
+        class V_TacVestIR_cbr: ItemCore
+        {
+            author = "$STR_A3_Bohemia_Interactive";
+            _generalMacro = "V_TacVestIR_blk";
+            scope = 2;
+            weaponPoolAvailable = 1;
+            allowedSlots[] = {901};
+            displayName = "$STR_A3_V_TacVestIR_blk0";
+            picture = "\A3\characters_f\Data\UI\icon_V_TacVestIR_blk_CA.paa";
+            model = "\A3\Characters_F_Beta\INDEP\equip_ir_vest01";
     		hiddenSelections[] = {"camo1","camo2"};
-    	};
+    		hiddenSelectionsTextures[] = {"\ascz_additional_content\data\clothing_co.paa","\ascz_additional_content\data\tech_co.paa"};
+            class ItemInfo: VestItem
+            {
+                uniformModel = "\A3\Characters_F_Beta\INDEP\equip_ir_vest01";
+    		    hiddenSelections[] = {"camo1","camo2"};
+    		    hiddenSelectionsTextures[] = {"\ascz_additional_content\data\clothing_co.paa","\ascz_additional_content\data\tech_co.paa"};
+                containerClass = "Supply100";
+                mass = 50;
+                armor = 20;
+                passThrough = 0.5;
+            };
+        };
+        class V_TacVestIR_rgr: ItemCore
+        {
+            author = "$STR_A3_Bohemia_Interactive";
+            _generalMacro = "V_TacVestIR_blk";
+            scope = 2;
+            weaponPoolAvailable = 1;
+            allowedSlots[] = {901};
+            displayName = "$STR_A3_V_TacVestIR_blk0";
+            picture = "\A3\characters_f\Data\UI\icon_V_TacVestIR_blk_CA.paa";
+            model = "\A3\Characters_F_Beta\INDEP\equip_ir_vest01";
+    		hiddenSelections[] = {"camo1","camo2"};
+    		hiddenSelectionsTextures[] = {"\ascz_additional_content\data\clothing_co.paa","\ascz_additional_content\data\tech_co.paa"};
+            class ItemInfo: VestItem
+            {
+                uniformModel = "\A3\Characters_F_Beta\INDEP\equip_ir_vest01";
+    		    hiddenSelections[] = {"camo1","camo2"};
+    		    hiddenSelectionsTextures[] = {"\ascz_additional_content\data\clothing_co.paa","\ascz_additional_content\data\tech_co.paa"};
+                containerClass = "Supply100";
+                mass = 50;
+                armor = 20;
+                passThrough = 0.5;
+            };
+        };
 
     // --- UNIFORMS --- //
 

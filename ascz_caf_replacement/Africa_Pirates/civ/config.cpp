@@ -6,7 +6,7 @@ class CfgPatches
 		units[] = {"CAF_AG_AFR_CIV_BASE","CAF_AG_AFR_CIV","CAF_AG_AFR_CIV_02","CAF_AG_AFR_CIV_03","CAF_AG_AFR_CIV_04"};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		requiredAddons[] = {"caf_ag_faction_afr_civ"};
 	};
 };
 class CfgFactionClasses
