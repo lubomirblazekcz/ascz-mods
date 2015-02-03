@@ -416,52 +416,14 @@ class cfgWeapons {
                 passThrough = 0.5;
             };
         };
-        class V_TacVestIR_cbr: ItemCore
+        class V_TacVestIR_cbr: V_TacVestIR_khk
         {
-            author = "$STR_A3_Bohemia_Interactive";
-            _generalMacro = "V_TacVestIR_blk";
-            scope = 2;
-            weaponPoolAvailable = 1;
-            allowedSlots[] = {901};
-            displayName = "$STR_A3_V_TacVestIR_blk0";
-            picture = "\A3\characters_f\Data\UI\icon_V_TacVestIR_blk_CA.paa";
-            model = "\A3\Characters_F_Beta\INDEP\equip_ir_vest01";
-    		hiddenSelections[] = {"camo1","camo2"};
     		hiddenSelectionsTextures[] = {"\ascz_additional_content\data\clothing_co.paa","\ascz_additional_content\data\tech_co.paa"};
-            class ItemInfo: VestItem
-            {
-                uniformModel = "\A3\Characters_F_Beta\INDEP\equip_ir_vest01";
-    		    hiddenSelections[] = {"camo1","camo2"};
-    		    hiddenSelectionsTextures[] = {"\ascz_additional_content\data\clothing_co.paa","\ascz_additional_content\data\tech_co.paa"};
-                containerClass = "Supply100";
-                mass = 50;
-                armor = 20;
-                passThrough = 0.5;
-            };
         };
-        class V_TacVestIR_rgr: ItemCore
-        {
-            author = "$STR_A3_Bohemia_Interactive";
-            _generalMacro = "V_TacVestIR_blk";
-            scope = 2;
-            weaponPoolAvailable = 1;
-            allowedSlots[] = {901};
-            displayName = "$STR_A3_V_TacVestIR_blk0";
-            picture = "\A3\characters_f\Data\UI\icon_V_TacVestIR_blk_CA.paa";
-            model = "\A3\Characters_F_Beta\INDEP\equip_ir_vest01";
-    		hiddenSelections[] = {"camo1","camo2"};
-    		hiddenSelectionsTextures[] = {"\ascz_additional_content\data\clothing_co.paa","\ascz_additional_content\data\tech_co.paa"};
-            class ItemInfo: VestItem
-            {
-                uniformModel = "\A3\Characters_F_Beta\INDEP\equip_ir_vest01";
-    		    hiddenSelections[] = {"camo1","camo2"};
-    		    hiddenSelectionsTextures[] = {"\ascz_additional_content\data\clothing_co.paa","\ascz_additional_content\data\tech_co.paa"};
-                containerClass = "Supply100";
-                mass = 50;
-                armor = 20;
-                passThrough = 0.5;
-            };
-        };
+//        class V_TacVestIR_rgr: V_TacVestIR_khk
+//        {
+//    		hiddenSelectionsTextures[] = {"\ascz_additional_content\data\clothing_co.paa","\ascz_additional_content\data\tech_co.paa"};
+//        };
 
     // --- UNIFORMS --- //
 
