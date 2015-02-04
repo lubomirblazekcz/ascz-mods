@@ -23,6 +23,7 @@ class cfgFactionClasses
 	};
 };
 class DefaultEventhandlers;
+class UniformSlotInfo;
 class CfgVehicles
 {
     //  INFANTRY  //

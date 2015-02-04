@@ -1,4 +1,3 @@
-class UniformSlotInfo;
 class CfgWeapons
 {
     class Uniform_Base;

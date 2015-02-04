@@ -106,28 +106,28 @@
             <Japanese>Militia</Japanese>
         </Key>
         <Key ID="str_a3_combat_fatigues_tka_a3">
-            <Original>Combat Fatigues [CDF]</Original>
-            <English>Combat Fatigues [CDF]</English>
-            <Czech>Uniforma [CDF]</Czech>
-            <French>Treillis [CDF]</French>
-            <German>Kampfanzug [CDF]</German>
-            <Italian>Uniforme da combattimento [CDF]</Italian>
-            <Polish>Mundur bojowy [CDF]</Polish>
-            <Portuguese>Uniforme de combate [CDF]</Portuguese>
-            <Russian>Полевая форма [CDF]</Russian>
-            <Spanish>Traje de combate [CDF]</Spanish>
+            <Original>Combat Fatigues [TKA]</Original>
+            <English>Combat Fatigues [TKA]</English>
+            <Czech>Uniforma [TKA]</Czech>
+            <French>Treillis [TKA]</French>
+            <German>Kampfanzug [TKA]</German>
+            <Italian>Uniforme da combattimento [TKA]</Italian>
+            <Polish>Mundur bojowy [TKA]</Polish>
+            <Portuguese>Uniforme de combate [TKA]</Portuguese>
+            <Russian>Полевая форма [TKA]</Russian>
+            <Spanish>Traje de combate [TKA]</Spanish>
         </Key>
         <Key ID="str_a3_ghillie_suit_tka_a3">
-            <Original>Ghillie Suit [CDF]</Original>
-            <English>Ghillie Suit [CDF]</English>
-            <Czech>Hejkal [CDF]</Czech>
-            <French>Ghillie Suit [CDF]</French>
-            <German>Ghillie-Anzug [CDF]</German>
-            <Italian>Mimetica da cecchino [CDF]</Italian>
-            <Polish>Ghillie [CDF]</Polish>
-            <Portuguese>Traje ghillie [CDF]</Portuguese>
-            <Russian>Маскировочный костюм [CDF]</Russian>
-            <Spanish>Traje de camuflaje [CDF]</Spanish>
+            <Original>Ghillie Suit [TKA]</Original>
+            <English>Ghillie Suit [TKA]</English>
+            <Czech>Hejkal [TKA]</Czech>
+            <French>Ghillie Suit [TKA]</French>
+            <German>Ghillie-Anzug [TKA]</German>
+            <Italian>Mimetica da cecchino [TKA]</Italian>
+            <Polish>Ghillie [TKA]</Polish>
+            <Portuguese>Traje ghillie [TKA]</Portuguese>
+            <Russian>Маскировочный костюм [TKA]</Russian>
+            <Spanish>Traje de camuflaje [TKA]</Spanish>
         </Key>
         <Key ID="str_dn_general_tka_a3">
             <Original>General</Original>

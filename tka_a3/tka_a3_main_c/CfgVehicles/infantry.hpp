@@ -1,5 +1,5 @@
-class I_G_medic_F;
-class B_TKA_A3_Soldier_Base: I_G_medic_F
+class SoldierGB;
+class B_TKA_A3_Soldier_Base: SoldierGB
 {
 	author = "TKA_A3";
     identityTypes[] = {"LanguagePER_F","Head_TK"};
@@ -22,6 +22,7 @@ class B_TKA_A3_Soldier_Base: I_G_medic_F
 	canCarryBackPack = 1;
     modelSides[] = {0,3};
 
+	model = "\A3\characters_F_gamma\Guerrilla\ig_guerrilla2_1.p3d";
     nakedUniform = "U_BasicBody";
     uniformClass = "U_TKA_A3_uniform";
     weapons[]={"hlc_rifle_FAL5061","Throw","Put"};
@@ -48,9 +49,13 @@ class B_TKA_A3_Soldier_Base: I_G_medic_F
 
     armor = 2;
     armorStructural = 5;
+    class Wounds
+    {
+        tex[] = {};
+        mat[] = {"A3\Characters_F\Civil\Data\c_cloth1.rvmat","A3\Characters_F\Civil\Data\c_cloth1_injury.rvmat","A3\Characters_F\Civil\Data\c_cloth1_injury.rvmat","A3\Characters_F\Civil\Data\c_cloth2.rvmat","A3\Characters_F\Civil\Data\c_cloth2_injury.rvmat","A3\Characters_F\Civil\Data\c_cloth2_injury.rvmat","A3\Characters_F\Civil\Data\c_cloth3.rvmat","A3\Characters_F\Civil\Data\c_cloth3_injury.rvmat","A3\Characters_F\Civil\Data\c_cloth3_injury.rvmat","A3\Characters_F\Civil\Data\c_cloth4.rvmat","A3\Characters_F\Civil\Data\c_cloth4_injury.rvmat","A3\Characters_F\Civil\Data\c_cloth4_injury.rvmat","A3\characters_f\civil\data\c_poloshirt.rvmat","A3\Characters_F\Civil\Data\c_poloshirt_injury.rvmat","A3\Characters_F\Civil\Data\c_poloshirt_injury.rvmat","A3\characters_f\common\data\coveralls.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Civil\Data\hunter.rvmat","A3\Characters_F\Civil\Data\hunter_injury.rvmat","A3\Characters_F\Civil\Data\hunter_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
+    };
 };
-class I_officer_F;
-class B_TKA_A3_Soldier_Base_02: I_officer_F
+class B_TKA_A3_Soldier_Base_02: SoldierGB
 {
 	author = "TKA_A3";
     identityTypes[] = {"LanguagePER_F","Head_TK"};
@@ -73,6 +78,7 @@ class B_TKA_A3_Soldier_Base_02: I_officer_F
 	canCarryBackPack = 1;
     modelSides[] = {0,3};
 
+	model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
     nakedUniform = "U_BasicBody";
     uniformClass = "U_TKA_A3_uniform_02";
     weapons[]={"hlc_rifle_FAL5061","Throw","Put"};
@@ -99,9 +105,35 @@ class B_TKA_A3_Soldier_Base_02: I_officer_F
 
     armor = 2;
     armorStructural = 5;
+    class Wounds
+    {
+        tex[] = {};
+        mat[] = {"A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
+    };
+    class UniformInfo
+    {
+        class SlotsInfo
+        {
+            class NVG: UniformSlotInfo
+            {
+                slotType = 602;
+            };
+            class Scuba: UniformSlotInfo
+            {
+                slotType = 604;
+            };
+            class Googles: UniformSlotInfo
+            {
+                slotType = 603;
+            };
+            class Headgear: UniformSlotInfo
+            {
+                slotType = 605;
+            };
+        };
+    };
 };
-class I_G_Soldier_TL_F;
-class B_TKA_A3_Soldier_Base_03: I_G_Soldier_TL_F
+class B_TKA_A3_Soldier_Base_03: SoldierGB
 {
 	author = "TKA_A3";
     identityTypes[] = {"LanguagePER_F","Head_TK"};
@@ -124,6 +156,7 @@ class B_TKA_A3_Soldier_Base_03: I_G_Soldier_TL_F
 	canCarryBackPack = 1;
     modelSides[] = {0,3};
 
+	model = "\A3\characters_F_gamma\Guerrilla\ig_leader.p3d";
     nakedUniform = "U_BasicBody";
     uniformClass = "U_TKA_A3_uniform_03";
     weapons[]={"hlc_rifle_FAL5061","Throw","Put"};
@@ -150,6 +183,11 @@ class B_TKA_A3_Soldier_Base_03: I_G_Soldier_TL_F
 
     armor = 2;
     armorStructural = 5;
+    class Wounds
+    {
+        tex[] = {};
+        mat[] = {"A3\Characters_F\Civil\Data\c_cloth1.rvmat","A3\Characters_F\Civil\Data\c_cloth1_injury.rvmat","A3\Characters_F\Civil\Data\c_cloth1_injury.rvmat","A3\Characters_F\Civil\Data\c_cloth2.rvmat","A3\Characters_F\Civil\Data\c_cloth2_injury.rvmat","A3\Characters_F\Civil\Data\c_cloth2_injury.rvmat","A3\Characters_F\Civil\Data\c_cloth3.rvmat","A3\Characters_F\Civil\Data\c_cloth3_injury.rvmat","A3\Characters_F\Civil\Data\c_cloth3_injury.rvmat","A3\Characters_F\Civil\Data\c_cloth4.rvmat","A3\Characters_F\Civil\Data\c_cloth4_injury.rvmat","A3\Characters_F\Civil\Data\c_cloth4_injury.rvmat","A3\characters_f\civil\data\c_poloshirt.rvmat","A3\Characters_F\Civil\Data\c_poloshirt_injury.rvmat","A3\Characters_F\Civil\Data\c_poloshirt_injury.rvmat","A3\characters_f\common\data\coveralls.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Civil\Data\hunter.rvmat","A3\Characters_F\Civil\Data\hunter_injury.rvmat","A3\Characters_F\Civil\Data\hunter_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
+    };
 };
 
 // BACKPACKS
