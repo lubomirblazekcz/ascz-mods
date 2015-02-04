@@ -95,7 +95,7 @@ class B_TKA_A3_Soldier_Base_02: I_officer_F
     respawnLinkedItems[] = {"H_TKA_A3_HelmetIA","V_TKA_A3_6b23_rifleman_01","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 
     hiddenSelections[] = {"Camo","insignia"};
-    hiddenSelectionsTextures[] = {"\A3\Characters_F_Beta\INDEP\Data\officer_spc_co.paa"};
+    hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\TKA_Uniform.paa"};
 
     armor = 2;
     armorStructural = 5;
@@ -146,7 +146,7 @@ class B_TKA_A3_Soldier_Base_03: I_G_Soldier_TL_F
     respawnLinkedItems[] = {"H_TKA_A3_HelmetIA","V_TKA_A3_6b23_rifleman_01","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 
     hiddenSelections[] = {"Camo1","Camo2","insignia"};
-    hiddenSelectionsTextures[] = {"\A3\Characters_F_Beta\INDEP\Data\officer_spc_co.paa","\a3\characters_f_gamma\civil\data\c_cloth1_black.paa"};
+    hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\TKA_Uniform.paa","\a3\characters_f_gamma\civil\data\c_cloth1_black.paa"};
 
     armor = 2;
     armorStructural = 5;
