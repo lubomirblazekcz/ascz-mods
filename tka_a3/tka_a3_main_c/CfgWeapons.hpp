@@ -3,6 +3,7 @@ class CfgWeapons
     class Uniform_Base;
     class ItemInfo;
     class UniformItem;
+    class Vest_Camo_Base;
     class rhs_6b23;
     class V_TKA_A3_6b23: rhs_6b23
     {
@@ -116,6 +117,27 @@ class CfgWeapons
     	};
     };
 
+    class V_TKA_A3_ChestRig: Vest_Camo_Base
+    {
+		author = "TKA_A3";
+		scope = 2;
+		displayName = "Chest Rig [TKA]";
+		picture = "\A3\characters_f\Data\UI\icon_V_Chestrig_khk_CA.paa";
+		model = "\tka_a3\tka_a3_main\tka_vest.p3d";
+		hiddenSelections[] = {"Camo3"};
+		hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\tak_soldier_equip_co.paa"};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\tka_a3\tka_a3_main\tka_vest.p3d";
+			containerClass = "Supply140";
+			mass = 20;
+			armor = 4;
+			passThrough = 0.8;
+			hiddenSelections[] = {"camo3"};
+		};
+
+    };
+
     // HEADGEAR
     class H_HelmetB;
 	class H_TKA_A3_HelmetIA: H_HelmetB
@@ -125,15 +147,15 @@ class CfgWeapons
 		displayName = "Helmet [TK]";
 		picture = "\tka_a3\tka_a3_main\data\UI\icon_helmet.paa";
 
-		model = "\tka_a3\tka_a3_main\cdf_helmet.p3d";
+		model = "\tka_a3\tka_a3_main\tka_helmet.p3d";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\helmets_co.paa"};
+		hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\tak_soldier_equip_co.paa"};
 
 		class ItemInfo: ItemInfo
 		{
 			mass = 40;
 			allowedSlots[] = {901,605};
-			uniformModel = "\tka_a3\tka_a3_main\cdf_helmet.p3d";
+			uniformModel = "\tka_a3\tka_a3_main\tka_helmet.p3d";
 			modelSides[] = {6};
 			armor = 4;
 			passThrough = 0.5;
