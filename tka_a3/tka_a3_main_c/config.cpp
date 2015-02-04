@@ -13,7 +13,7 @@ class cfgFactionClasses
 {
 	class TKA_A3
 	{
-		displayName = "Takistani Army";
+		displayName = "Takistani Army A3";
 		priority = 1;
 		side = 0;
 		genericNames = "TakistaniMen";
