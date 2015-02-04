@@ -11,7 +11,7 @@ class TKA_A3_ZU23: RDS_ZU23_AAF
     scope=2;
     scopeCurator=2;
     faction="TKA_A3";
-    side=1;
+    side=0;
     crew = "B_TKA_A3_Soldier";
 	typicalCargo[]={"B_TKA_A3_Soldier"};
 };
@@ -21,7 +21,7 @@ class TKA_A3_DSHKM: RDS_DSHKM_AAF
     scope = 2;
     scopeCurator=2;
     faction="TKA_A3";
-    side=1;
+    side=0;
     crew = "B_TKA_A3_Soldier";
 	typicalCargo[]={"B_TKA_A3_Soldier"};
 };
@@ -31,7 +31,7 @@ class TKA_A3_DSHkM_Mini_TriPod: RDS_DSHkM_Mini_TriPod
     scope=2;
     scopeCurator=2;
     faction="TKA_A3";
-    side=1;
+    side=0;
     crew = "B_TKA_A3_Soldier";
 	typicalCargo[]={"B_TKA_A3_Soldier"};
 };
@@ -42,7 +42,7 @@ class TKA_A3_AGS:RDS_AGS_AAF
     scope = 2;
     scopeCurator=2;
     faction="TKA_A3";
-    side=1;
+    side=0;
     crew = "B_TKA_A3_Soldier";
 	typicalCargo[]={"B_TKA_A3_Soldier"};
 };
@@ -52,7 +52,7 @@ class TKA_A3_SPG9:RDS_SPG9_AAF
     scope = 2;
     scopeCurator=2;
     faction="TKA_A3";
-    side=1;
+    side=0;
     crew = "B_TKA_A3_Soldier";
 	typicalCargo[]={"B_TKA_A3_Soldier"};
 };
@@ -62,7 +62,7 @@ class TKA_A3_2b14_82mm: RDS_2b14_82mm_AAF
     scope=2;
     scopeCurator=2;
     faction="TKA_A3";
-    side=1;
+    side=0;
     crew = "B_TKA_A3_Soldier";
 	typicalCargo[]={"B_TKA_A3_Soldier"};
 };
@@ -72,7 +72,7 @@ class TKA_A3_D30: RDS_D30_AAF
     scope=2;
     scopeCurator=2;
     faction="TKA_A3";
-    side=1;
+    side=0;
     crew = "B_TKA_A3_Soldier";
 	typicalCargo[]={"B_TKA_A3_Soldier"};
 };

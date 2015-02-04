@@ -35,6 +35,6 @@ class CfgVehicles
    #include "CfgVehicles\static.hpp"
 };
 
-#include "CzechMen.hpp"
+#include "TakistaniMen.hpp"
 #include "cfgWeapons.hpp"
 #include "cfgGroups.hpp"

@@ -4,7 +4,7 @@ class B_TKA_A3_Soldier_Base: I_G_Soldier_base_F
 	author = "TKA_A3";
     identityTypes[] = {"LanguagePER_F","Head_TK"};
     faceType = "Man_A3";
-    side = 1;
+    side = 0;
     faction = "TKA_A3"; // "CDF";
     genericNames = "TakistaniMen";
     vehicleClass= "Men";
@@ -55,7 +55,7 @@ class B_TKA_A3_Soldier_Base_02: I_officer_F
 	author = "TKA_A3";
     identityTypes[] = {"LanguagePER_F","Head_TK"};
     faceType = "Man_A3";
-    side = 1;
+    side = 0;
     faction = "TKA_A3"; // "CDF";
     genericNames = "TakistaniMen";
     vehicleClass= "Men";
@@ -106,7 +106,7 @@ class B_TKA_A3_Soldier_Base_03: I_G_Soldier_TL_F
 	author = "TKA_A3";
     identityTypes[] = {"LanguagePER_F","Head_TK"};
     faceType = "Man_A3";
-    side = 1;
+    side = 0;
     faction = "TKA_A3"; // "CDF";
     genericNames = "TakistaniMen";
     vehicleClass= "Men";
