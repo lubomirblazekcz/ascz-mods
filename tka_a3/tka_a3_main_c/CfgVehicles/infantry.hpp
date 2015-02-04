@@ -1,5 +1,5 @@
-class I_G_Soldier_base_F;
-class B_TKA_A3_Soldier_Base: I_G_Soldier_base_F
+class I_G_medic_F;
+class B_TKA_A3_Soldier_Base: I_G_medic_F
 {
 	author = "TKA_A3";
     identityTypes[] = {"LanguagePER_F","Head_TK"};
@@ -43,8 +43,8 @@ class B_TKA_A3_Soldier_Base: I_G_Soldier_base_F
     linkedItems[] = {"H_TKA_A3_HelmetIA","V_TKA_A3_6b23_rifleman_01","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
     respawnLinkedItems[] = {"H_TKA_A3_HelmetIA","V_TKA_A3_6b23_rifleman_01","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 
-    hiddenSelections[] = {"Camo","insignia"};
-    hiddenSelectionsTextures[] = {"\A3\Characters_F_Gamma\Guerrilla\Data\ig_guerrilla2_1_co.paa"};
+    hiddenSelections[] = {"camo"};
+    hiddenSelectionsTextures[] = {"\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla2_3_co.paa"};
 
     armor = 2;
     armorStructural = 5;
@@ -558,12 +558,12 @@ class B_TKA_A3_Aziz: B_TKA_A3_Soldier_Base
     weapons[]={"revolver_gold_EP1","Throw","Put"}; // org. Makarov
     magazines[]=
     {
-        "6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP"
+        "RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag"
     };
-    respawnWeapons[]={"revolver_gold_EP1","Throw","Put"};
+    respawnWeapons[]={"RH_ttracker_g","Throw","Put"};
     respawnmagazines[]=
     {
-        "6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP"
+        "RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag"
     };
     icon = "iconManOfficer";
     linkedItems[] = {"H_TKA_A3_fieldcap","rhs_vest_commander","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -580,19 +580,19 @@ class B_TKA_A3_Commander: B_TKA_A3_Soldier_Base
     textSingular = "officer";
     textPlural = "officers";
     cost=900000; //Rg 1000000;
-    weapons[]={"hlc_rifle_FAL5061","revolver_gold_EP1","ItemGPS","Binocular","Throw","Put"}; // org. Makarov
+    weapons[]={"hlc_rifle_FAL5061","RH_ttracker_g","ItemGPS","Binocular","Throw","Put"}; // org. Makarov
     magazines[]=
     {
         "hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal",
 		"SmokeShell", "SmokeShellBlue",
-        "6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP"
+        "RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag"
     };
-    respawnWeapons[]={"hlc_rifle_FAL5061","revolver_gold_EP1","ItemGPS","Binocular","Throw","Put"};
+    respawnWeapons[]={"hlc_rifle_FAL5061","RH_ttracker_g","ItemGPS","Binocular","Throw","Put"};
     respawnmagazines[]=
     {
         "hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal",
 		"SmokeShellBlue",
-        "6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP"
+        "RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag"
     };
     icon = "iconManOfficer";
     linkedItems[] = {"H_TKA_A3_fieldcap","rhs_vest_commander","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -845,7 +845,7 @@ class B_TKA_A3_Special_Forces: B_TKA_A3_Soldier_Base
 	scope=2;
     scopeCurator = 2;
 	accuracy=3.9;
-	vehicleClass="MenSpecialForces";
+	vehicleClass="Men"; //MenSpecialForces
 	displayName=$STR_EP1_DN_TK_Special_Forces_EP1; // TODO sring
 
 	backpack = "TKA_ALICE_Pack_Ammo_EP1";
