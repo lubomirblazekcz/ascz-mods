@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Chernarrusian Defence Forces">
+    <Package name="CDF mod">
+        <Key ID="str_cfggroups_west_tka_a3_air">
+            <Original>Air</Original>
+            <French>Air</French>
+            <Spanish>Aire</Spanish>
+            <Italian>Aerea</Italian>
+            <Hungarian>Légi</Hungarian>
+            <Polish>Powietrzne </Polish>
+            <Russian>Авиация</Russian>
+            <German>Luft</German>
+            <Czech>Letectvo</Czech>
+            <English>Air</English>
+            <Japanese>Air</Japanese>
+        </Key>
+        <Key ID="str_cfggroups_west_tka_a3_air_cdf_mi8squadron">
+            <Original>Mi-8 Squadron</Original>
+            <French>Escadrille Mi-8</French>
+            <Spanish>Escuadrón Mi-8</Spanish>
+            <Italian>Squadriglia Mi-8</Italian>
+            <Hungarian>Mi-8 raj</Hungarian>
+            <Polish>Eskadra Mi-8 </Polish>
+            <Russian>Звено Ми-8</Russian>
+            <German>Mi-8-Geschwader</German>
+            <Czech>Letka Mi-8</Czech>
+            <English>Mi-8 Squadron</English>
+            <Japanese>Mi-8 Squadron</Japanese>
+        </Key>
+        <Key ID="str_cfggroups_west_tka_a3_air_cdf_mi24dsquadron">
+            <Original>Mi-24D Squadron</Original>
+            <French>Escadrille Mi-24D</French>
+            <Spanish>Escuadrón Mi-24D</Spanish>
+            <Italian>Squadriglia Mi-24D</Italian>
+            <Hungarian>Mi-24D raj</Hungarian>
+            <Polish>Eskadra Mi-24D </Polish>
+            <Russian>Звено Ми-24Д</Russian>
+            <German>Mi-24D-Geschwader</German>
+            <Czech>Letka Mi-24D</Czech>
+            <English>Mi-24D Squadron</English>
+            <Japanese>Mi-24D Squadron</Japanese>
+        </Key>
+        <Key ID="str_cfggroups_west_tka_a3_motorized_cdf_motinfsection_weapons">
+            <Original>Motorized Weapons Section</Original>
+            <French>Groupe armes motorisé</French>
+            <Spanish>División de armas motorizadas</Spanish>
+            <Italian>Sezione armi motorizzate</Italian>
+            <Hungarian>Motorizált fegyveres raj</Hungarian>
+            <Polish>Zmotoryzowany pluton broni </Polish>
+            <Russian>Огневой взвод АГС</Russian>
+            <German>Motorisierte Waffensektion</German>
+            <Czech>Motorizované družstvo s těžkými zbraněmi</Czech>
+            <English>Motorized Weapons Section</English>
+            <Japanese>Motorized Weapons Section</Japanese>
+        </Key>
+        <Key ID="str_cfggroups_west_tka_a3_motorized_cdf_motinfsection">
+            <Original>Motorized Infantry Patrol</Original>
+            <French>Patrouille infanterie motorisée</French>
+            <Spanish>Patrulla de infantería motorizada</Spanish>
+            <Italian>Pattuglia di fanteria motorizzata</Italian>
+            <Hungarian>Motorizált gyalogos őrjárat</Hungarian>
+            <Polish>Patrol piechoty zmotoryzowanej </Polish>
+            <Russian>Разведдозор</Russian>
+            <German>Motorisierte Infanteriepatrouille</German>
+            <Czech>Motorizovaná pěchotní hlídka</Czech>
+            <English>Motorized Infantry Patrol</English>
+            <Japanese>Motorized Infantry Patrol</Japanese>
+        </Key>
+        <Key ID="str_cfggroups_west_tka_a3_mechanized_cdf_mechreconsection">
+            <Original>Mechanized Recon Section</Original>
+            <French>Groupe reco mécanisée</French>
+            <Spanish>División mecanizada de Reconocimiento</Spanish>
+            <Italian>Sezione ricognizione meccanizzata</Italian>
+            <Hungarian>Gépesített felderítő raj</Hungarian>
+            <Polish>Zmechanizowany pluton rozpoznania </Polish>
+            <Russian>Разведдозор</Russian>
+            <German>BRDM2-Patrouille</German>
+            <Czech>Mechanizované průzkumné družstvo</Czech>
+            <English>Mechanized Recon Section</English>
+            <Japanese>Mechanized Recon Section</Japanese>
+        </Key>
+        <Key ID="str_cfggroups_west_tka_a3_mechanized_cdf_mechatsection">
+            <Original>Mechanized Recon Section (AT)</Original>
+            <French>Groupe reco mécanisée (AC)</French>
+            <Spanish>División mecanizada de Reconocimiento (AT)</Spanish>
+            <Italian>Sezione ricognizione meccanizzata (AT)</Italian>
+            <Hungarian>Gépesített felderítő raj (tankelhárító)</Hungarian>
+            <Polish>Zmechanizowany pluton rozpoznania (ppanc) </Polish>
+            <Russian>ПТ взвод</Russian>
+            <German>BRDM2 (ATGM)-Patrouille</German>
+            <Czech>Mechanizované průzkumné družstvo (AT)</Czech>
+            <English>Mechanized Recon Section (AT)</English>
+            <Japanese>Mechanized Recon Section (AT)</Japanese>
+        </Key>
+        <Key ID="str_dn_tka_a3_soldier_militia">
+            <Original>Militia</Original>
+            <French>Milice</French>
+            <Spanish>Milicia</Spanish>
+            <Italian>Miliziano</Italian>
+            <Hungarian>Polgárőr</Hungarian>
+            <Polish>Milicja</Polish>
+            <Russian>Стрелок (АКС)</Russian>
+            <German>Milizen</German>
+            <Czech>Milice</Czech>
+            <English>Militia</English>
+            <Japanese>Militia</Japanese>
+        </Key>
+        <Key ID="str_a3_combat_fatigues_tka_a3">
+            <Original>Combat Fatigues [CDF]</Original>
+            <English>Combat Fatigues [CDF]</English>
+            <Czech>Uniforma [CDF]</Czech>
+            <French>Treillis [CDF]</French>
+            <German>Kampfanzug [CDF]</German>
+            <Italian>Uniforme da combattimento [CDF]</Italian>
+            <Polish>Mundur bojowy [CDF]</Polish>
+            <Portuguese>Uniforme de combate [CDF]</Portuguese>
+            <Russian>Полевая форма [CDF]</Russian>
+            <Spanish>Traje de combate [CDF]</Spanish>
+        </Key>
+        <Key ID="str_a3_ghillie_suit_tka_a3">
+            <Original>Ghillie Suit [CDF]</Original>
+            <English>Ghillie Suit [CDF]</English>
+            <Czech>Hejkal [CDF]</Czech>
+            <French>Ghillie Suit [CDF]</French>
+            <German>Ghillie-Anzug [CDF]</German>
+            <Italian>Mimetica da cecchino [CDF]</Italian>
+            <Polish>Ghillie [CDF]</Polish>
+            <Portuguese>Traje ghillie [CDF]</Portuguese>
+            <Russian>Маскировочный костюм [CDF]</Russian>
+            <Spanish>Traje de camuflaje [CDF]</Spanish>
+        </Key>
+        <Key ID="str_dn_general_tka_a3">
+            <Original>General</Original>
+            <French>Général</French>
+            <Spanish>General</Spanish>
+            <Italian>Generale</Italian>
+            <Hungarian>Tábornok</Hungarian>
+            <Polish>Generał</Polish>
+            <Russian>Высший офицер</Russian>
+            <German>General</German>
+            <Czech>Generál</Czech>
+            <English>General</English>
+            <Japanese>General</Japanese>
+        </Key>
+    </Package>
+</Project>
