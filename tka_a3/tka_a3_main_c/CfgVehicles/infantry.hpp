@@ -78,7 +78,7 @@ class B_TKA_A3_Soldier_Base_02: SoldierGB
 	canCarryBackPack = 1;
     modelSides[] = {0,3};
 
-	model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
+	model = "\A3\characters_F\OPFOR\o_officer.p3d";
     nakedUniform = "U_BasicBody";
     uniformClass = "U_TKA_A3_uniform_02";
     weapons[]={"hlc_rifle_FAL5061","Throw","Put"};
