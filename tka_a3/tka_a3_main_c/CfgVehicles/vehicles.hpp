@@ -531,6 +531,7 @@ class TKA_A3_T72: RDS_T72_AAF_05
     crew = "B_TKA_A3_Soldier_Crew";
     typicalCargo[] = {"B_TKA_A3_Soldier_Crew"};
 };
+class RDS_T55_AAF_02;
 class TKA_A3_T55: RDS_T55_AAF_02
 {
     author = "TKA_A3";
@@ -542,6 +543,7 @@ class TKA_A3_T55: RDS_T55_AAF_02
     crew = "B_TKA_A3_Soldier_Crew";
     typicalCargo[] = {"B_TKA_A3_Soldier_Crew"};
 };
+class RDS_T34_AAF_02;
 class TKA_A3_T34: RDS_T34_AAF_02 {
     author = "TKA_A3";
     scope=2;
@@ -595,6 +597,7 @@ class TKA_A3_ZSU: RDS_ZSU_AAF_03
     crew = "B_TKA_A3_Soldier_Crew";
     typicalCargo[] = {"B_TKA_A3_Soldier_Crew"};
 };
+class rhs_btr60_base;
 class TKA_A3_BTR60: rhs_btr60_base
 {
     scope = 2;
@@ -658,9 +661,10 @@ class TKA_A3_BTR60: rhs_btr60_base
         "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"		//i10 22
     };
 };
+class rhsusf_m113tank_base;
 class TKA_A3_M113: rhsusf_m113tank_base
 {
-    model = "\rhsusf\addons\rhsusf_m113\m113a3_d";{
+    model = "\rhsusf\addons\rhsusf_m113\m113a3_d";
     scope = 2;
     scopeCurator=2;
     displayName = "M113";

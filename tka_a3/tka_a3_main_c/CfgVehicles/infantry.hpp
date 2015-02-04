@@ -693,7 +693,7 @@ class B_TKA_A3_Soldier_SniperH: B_TKA_A3_Soldier_Sniper
 	{
 		"CUP_5Rnd_127x108_KSVK_M","CUP_5Rnd_127x108_KSVK_M","CUP_5Rnd_127x108_KSVK_M","CUP_5Rnd_127x108_KSVK_M",
 		"CUP_5Rnd_127x108_KSVK_M","CUP_5Rnd_127x108_KSVK_M","CUP_5Rnd_127x108_KSVK_M","CUP_5Rnd_127x108_KSVK_M",
-		"HandGrenade", "HandGrenade", "SmokeShell", "smokeshellBlue",
+		"HandGrenade", "HandGrenade", "SmokeShell", "smokeshellBlue"
 	};
 	respawnWeapons[]={"CUP_arifle_ksvk_PSO3","NVGoggles","Throw","Put","Binocular","itemGPS"};
 	respawnMagazines[]=
@@ -779,7 +779,7 @@ class B_TKA_A3_Soldier_TWS: B_TKA_A3_Soldier
 	respawnMagazines[]=
 	{
 		"hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK","hlc_30Rnd_545x39_B_AK",
-		"HandGrenade""
+		"HandGrenade"
 	};
 };
 //***

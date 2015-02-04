@@ -15,7 +15,7 @@ class cfgFactionClasses
 	{
 		displayName = "Takistani Army";
 		priority = 1;
-		side = 1;
+		side = 0;
 		genericNames = "TakistaniMen";
         identityTypes[] = {"LanguagePER_F","Head_TK"};
 		flag = "tka_a3\tka_a3_main\data\flag_tka_co.paa";
