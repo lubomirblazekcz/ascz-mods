@@ -570,7 +570,7 @@ class TKA_A3_BMP2_HQ: RDS_BMP2_HQ_AAF_03 {
 	author = "TKA_A3";
     scope=2;
     scopeCurator=2;
-    side = 1;
+    side = 0;
     faction = "TKA_A3";
     crew = "B_TKA_A3_Soldier_Crew";
     typicalCargo[] = {"B_TKA_A3_Soldier_Crew"};
