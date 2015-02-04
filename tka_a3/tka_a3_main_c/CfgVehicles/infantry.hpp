@@ -558,12 +558,12 @@ class B_TKA_A3_Aziz: B_TKA_A3_Soldier_Base
     weapons[]={"revolver_gold_EP1","Throw","Put"}; // org. Makarov
     magazines[]=
     {
-        "6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP"
+        "RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag"
     };
-    respawnWeapons[]={"revolver_gold_EP1","Throw","Put"};
+    respawnWeapons[]={"RH_ttracker_g","Throw","Put"};
     respawnmagazines[]=
     {
-        "6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP"
+        "RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag"
     };
     icon = "iconManOfficer";
     linkedItems[] = {"H_TKA_A3_fieldcap","rhs_vest_commander","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -580,19 +580,19 @@ class B_TKA_A3_Commander: B_TKA_A3_Soldier_Base
     textSingular = "officer";
     textPlural = "officers";
     cost=900000; //Rg 1000000;
-    weapons[]={"hlc_rifle_FAL5061","revolver_gold_EP1","ItemGPS","Binocular","Throw","Put"}; // org. Makarov
+    weapons[]={"hlc_rifle_FAL5061","RH_ttracker_g","ItemGPS","Binocular","Throw","Put"}; // org. Makarov
     magazines[]=
     {
         "hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal",
 		"SmokeShell", "SmokeShellBlue",
-        "6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP"
+        "RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag"
     };
-    respawnWeapons[]={"hlc_rifle_FAL5061","revolver_gold_EP1","ItemGPS","Binocular","Throw","Put"};
+    respawnWeapons[]={"hlc_rifle_FAL5061","RH_ttracker_g","ItemGPS","Binocular","Throw","Put"};
     respawnmagazines[]=
     {
         "hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal",
 		"SmokeShellBlue",
-        "6Rnd_45ACP","6Rnd_45ACP","6Rnd_45ACP"
+        "RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag","RH_6Rnd_45ACP_Mag"
     };
     icon = "iconManOfficer";
     linkedItems[] = {"H_TKA_A3_fieldcap","rhs_vest_commander","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
