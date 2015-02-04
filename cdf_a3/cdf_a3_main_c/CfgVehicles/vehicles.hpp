@@ -523,6 +523,7 @@ class CDF_A3_BMP2: RDS_BMP2_AAF_01
     faction = "CDF_A3";
     crew = "B_CDF_A3_Soldier_Crew";
     typicalCargo[] = {"B_CDF_A3_Soldier_Crew"};
+    hiddenselectionstextures[] = {"\RDS_APC\BMP2\data\bmp2_01_camo_co.paa", "\RDS_APC\BMP2\data\bmp2_02_camo_co.paa"};
 };
 class RDS_BMP2_HQ_AAF_01;
 class CDF_A3_BMP2_HQ: RDS_BMP2_HQ_AAF_01 {
@@ -533,6 +534,7 @@ class CDF_A3_BMP2_HQ: RDS_BMP2_HQ_AAF_01 {
     faction = "CDF_A3";
     crew = "B_CDF_A3_Soldier_Crew";
     typicalCargo[] = {"B_CDF_A3_Soldier_Crew"};
+    hiddenselectionstextures[] = {"\RDS_APC\BMP2\data\bmp2_01_camo_co.paa", "\RDS_APC\BMP2\data\bmp2_02_camo_co.paa"};
 };
 class RDS_BMP2_Ambul_01;
 class CDF_A3_BMP2_Ambul: RDS_BMP2_Ambul_01 {
@@ -543,6 +545,7 @@ class CDF_A3_BMP2_Ambul: RDS_BMP2_Ambul_01 {
     faction = "CDF_A3";
     crew = "B_CDF_A3_Soldier_Crew";
     typicalCargo[] = {"B_CDF_A3_Soldier_Crew"};
+    hiddenselectionstextures[] = {"\RDS_APC\BMP2\data\bmp2_01_camo_co.paa", "\RDS_APC\BMP2\data\bmp2_02_camo_co.paa"};
 };
 class RDS_ZSU_AAF_04;
 class CDF_A3_ZSU: RDS_ZSU_AAF_04
