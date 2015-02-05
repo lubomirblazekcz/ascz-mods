@@ -4,118 +4,6 @@ class CfgWeapons
     class ItemInfo;
     class UniformItem;
     class Vest_Camo_Base;
-    class rhs_6b23;
-    class V_TKA_A3_6b23: rhs_6b23
-    {
-		author = "TKA_A3";
-    	displayName = "6B23 TK";
-
-        scope = 2;
-        picture = "\tka_a3\tka_a3_main\data\UI\icon_vest.paa";
-
-        model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23";
-
-        hiddenSelections[] = {"Camo1","Camo2"};
-        hiddenSelectionsTextures[] =
-        {
-            "tka_a3\tka_a3_main\data\CDF_vestpart1.paa",
-            "tka_a3\tka_a3_main\data\CDF_vestpart2.paa"
-        };
-
-        class ItemInfo: ItemInfo
-        {
-            hiddenSelections[] = {"Camo1","Camo2"};
-            uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23";
-            containerClass = "Supply80";
-            mass = 60;
-            armor = 12;
-            passThrough = 0.4;
-        };
-    };
-    class V_TKA_A3_6b23_rifleman_01: V_TKA_A3_6b23
-    {
-		author = "TKA_A3";
-    	displayName = "6B23 TK (Rifleman 1)";
-
-    	model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_sniper";
-
-    	class ItemInfo: ItemInfo
-    	{
-    		uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_sniper";
-    		containerClass = "Supply120";
-    		mass = 60;
-    	};
-    };
-    class V_TKA_A3_6b23_rifleman_02: V_TKA_A3_6b23
-    {
-		author = "TKA_A3";
-    	displayName = "6B23 TK (Rifleman 2)";
-
-    	model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_rifleman";
-
-    	class ItemInfo: ItemInfo
-    	{
-    		uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_rifleman";
-    		containerClass = "Supply120";
-    		mass = 60;
-    	};
-    };
-    class V_TKA_A3_6b23_crewofficer: V_TKA_A3_6b23
-    {
-		author = "TKA_A3";
-    	displayName = "6B23 TK (Officer)";
-
-    	model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_crewofficer";
-
-    	class ItemInfo: ItemInfo
-    	{
-    		uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_crewofficer";
-    		containerClass = "Supply80";
-    		mass = 60;
-    	};
-    };
-    class V_TKA_A3_6b23_crew: V_TKA_A3_6b23
-    {
-		author = "TKA_A3";
-    	displayName = "6B23 TK (Crew)";
-
-    	model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_6sh46";
-
-    	class ItemInfo: ItemInfo
-    	{
-    		uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_6sh46";
-    		containerClass = "Supply120";
-    		mass = 60;
-    	};
-    };
-    class V_TKA_A3_6b23_engineer: V_TKA_A3_6b23
-    {
-		author = "TKA_A3";
-    	displayName = "6B23 TK (Engineer)";
-
-    	model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_engineer";
-
-    	class ItemInfo: ItemInfo
-    	{
-    		uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_engineer";
-    		containerClass = "Supply120";
-    		mass = 60;
-    	};
-    };
-    class V_TKA_A3_6b23_medic: V_TKA_A3_6b23
-    {
-		author = "TKA_A3";
-    	displayName = "6B23 TK (Medic)";
-
-    	model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_medic";
-
-    	class ItemInfo: ItemInfo
-    	{
-    		uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_medic";
-    		containerClass = "Supply140";
-    		mass = 60;
-    	};
-    };
 
     class V_TKA_A3_ChestRig: Vest_Camo_Base
     {
@@ -161,26 +49,24 @@ class CfgWeapons
 			passThrough = 0.5;
 		};
 	};
-    class H_TKA_A3_fieldcap: H_HelmetB
-    {
-		author = "TKA_A3";
-    	displayName = "Field Cap [TK]";
-    	picture = "\tka_a3\tka_a3_main\data\UI\icon_cap.paa";
-
-    	model = "\tka_a3\tka_a3_main\cdf_nco_cap.p3d";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\helmets_co.paa"};
-
-    	class ItemInfo: ItemInfo
-    	{
-    		mass = 10;
-    		uniformModel = "\tka_a3\tka_a3_main\cdf_nco_cap.p3d";
-    		allowedSlots[] = {801,901,701,605};
-    		modelSides[] = {6};
-    		armor = 0;
-    		passThrough = 1;
-    	};
-    };
+	class H_Beret_blk;
+	class H_TKA_A3_Beret: H_Beret_blk
+	{
+		author = "$STR_A3_Bohemia_Interactive";
+		displayName = "Beret [TK]";
+		picture = "\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
+		model = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02";
+		hiddenSelectionsTextures[] = {"\A3\Characters_F_EPB\BLUFOR\Data\headgear_beret02_co.paa"};
+		class ItemInfo: ItemInfo
+		{
+			mass = 6;
+			allowedSlots[] = {801,901,701,605};
+			uniformModel = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02";
+			modelSides[] = {6};
+			armor = 0;
+			passThrough = 1;
+		};
+	};
 
     // UNIFORM
     class U_TKA_A3_uniform: Uniform_Base
@@ -230,6 +116,23 @@ class CfgWeapons
         {
             uniformModel = "-";
             uniformClass = "B_TKA_A3_Soldier_Base_03";
+            containerClass = "Supply40";
+            mass = 40;
+        };
+    };
+    class U_TKA_A3_uniform_04: Uniform_Base
+    {
+		author = "TKA_A3";
+        scope = 2;
+        displayName = "$STR_A3_combat_fatigues_tka_a3";
+		picture = "\tka_a3\tka_a3_main\data\UI\icon_uniform_mix.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\Suitpacks\suitpack_TKA.paa"};
+        class ItemInfo: UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "B_TKA_A3_Soldier_Base_04";
             containerClass = "Supply40";
             mass = 40;
         };

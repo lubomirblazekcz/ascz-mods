@@ -243,8 +243,8 @@ class TKA_A3_UAZ_469: RHS_UAZ_Base
     scope=2;
     scopeCurator=2;
     side = 0;
-    crew = "B_TKA_A3_Soldier_Militia";
-    typicalCargo[] = {"B_TKA_A3_Soldier_Militia"};
+    crew = "B_TKA_A3_Soldier";
+    typicalCargo[] = {"B_TKA_A3_Soldier"};
     faction = "TKA_A3";
     hiddenSelections[]=
     {
@@ -289,8 +289,8 @@ class TKA_A3_UAZ_469_Open: rhs_uaz_open_Base
     scope=2;
     scopeCurator=2;
     side = 0;
-    crew = "B_TKA_A3_Soldier_Militia";
-    typicalCargo[] = {"B_TKA_A3_Soldier_Militia"};
+    crew = "B_TKA_A3_Soldier";
+    typicalCargo[] = {"B_TKA_A3_Soldier"};
     faction = "TKA_A3";
     hiddenSelections[]=
     {
@@ -338,8 +338,8 @@ class TKA_A3_Ural: RHS_Ural_MSV_Base
     displayName="Ural";
     faction="TKA_A3";
     side = 0;
-    crew = "B_TKA_A3_Soldier_Militia";
-    typicalCargo[] = {"B_TKA_A3_Soldier_Militia"};
+    crew = "B_TKA_A3_Soldier";
+    typicalCargo[] = {"B_TKA_A3_Soldier"};
     hiddenSelections[]=
     {
         "camo1",
@@ -382,8 +382,8 @@ class TKA_A3_Ural_Open: RHS_Ural_Open_MSV_01
     displayName="Ural (Open)";
     faction="TKA_A3";
     side = 0;
-    crew = "B_TKA_A3_Soldier_Militia";
-    typicalCargo[] = {"B_TKA_A3_Soldier_Militia"};
+    crew = "B_TKA_A3_Soldier";
+    typicalCargo[] = {"B_TKA_A3_Soldier"};
     hiddenSelections[]=
     {
         "camo1",
@@ -427,8 +427,8 @@ class TKA_A3_Ural_Fuel: RHS_Ural_Fuel_MSV_01
     displayName="Ural (Fuel)";
     faction="TKA_A3";
     side = 0;
-    crew = "B_TKA_A3_Soldier_Militia";
-    typicalCargo[] = {"B_TKA_A3_Soldier_Militia"};
+    crew = "B_TKA_A3_Soldier";
+    typicalCargo[] = {"B_TKA_A3_Soldier"};
     hiddenSelections[]=
     {
         "camo1",
@@ -477,8 +477,8 @@ class TKA_A3_BM21: RHS_BM21_MSV_01
     displayName="BM-21 Grad";
     faction="TKA_A3";
     side = 0;
-    crew = "B_TKA_A3_Soldier_Militia";
-    typicalCargo[] = {"B_TKA_A3_Soldier_Militia"};
+    crew = "B_TKA_A3_Soldier";
+    typicalCargo[] = {"B_TKA_A3_Soldier"};
     hiddenSelections[]=
     {
         "camo1",
