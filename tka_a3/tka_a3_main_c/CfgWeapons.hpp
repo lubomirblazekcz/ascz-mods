@@ -72,11 +72,11 @@ class CfgWeapons
 	};
 	class H_TKA_A3_Beret: H_Beret_blk
 	{
-		author = "$STR_A3_Bohemia_Interactive";
+		author = "TKA_A3";
 		displayName = "$STR_tka_a3_h_beret";
-		picture = "\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
-		model = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02";
-		hiddenSelectionsTextures[] = {"\A3\Characters_F_EPB\BLUFOR\Data\headgear_beret02_co.paa"};
+		picture = "\A3\characters_f\Data\UI\icon_H_Beret_blk_CA.paa";
+		hiddenSelectionsTextures[] = {"\a3\characters_f\common\data\headgear_beret01_co.paa"};
+		model = "\A3\Characters_F\Common\headgear_beret01";
 		class ItemInfo: ItemInfo
 		{
 			mass = 6;
