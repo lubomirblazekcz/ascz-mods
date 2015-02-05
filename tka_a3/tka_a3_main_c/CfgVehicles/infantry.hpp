@@ -972,7 +972,7 @@ class B_TKA_A3_Soldier_Night_2: B_TKA_A3_Soldier
 		"hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal",
 		"HandGrenade","HandGrenade"
 	};
-	respawnWeapons[]={"FN_FAL_ANPVS4","Throw","Put"};
+	respawnWeapons[]={"hlc_rifle_FAL5061","Throw","Put"};
 	respawnMagazines[]=
 	{
 		"hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal",
