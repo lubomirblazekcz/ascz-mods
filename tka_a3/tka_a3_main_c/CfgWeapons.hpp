@@ -56,15 +56,15 @@ class CfgWeapons
 		displayName = "Turban [TK]";
 		picture = "\tka_a3\tka_a3_main\data\UI\icon_helmet.paa";
 
-		model = "\tka_a3\tka_a3_main\tka_helmet.p3d";
-		hiddenSelections[] = {"camo"};
+		model = "\tka_a3\tka_a3_main\tka_turban.p3d";
+		hiddenSelections[] = {"camo2"};
 		hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\tak_soldier_equip_co.paa"};
 
 		class ItemInfo: ItemInfo
 		{
 			mass = 6;
 			allowedSlots[] = {801,901,701,605};
-			uniformModel = "\tka_a3\tka_a3_main\tka_helmet.p3d";
+			uniformModel = "\tka_a3\tka_a3_main\tka_turban.p3d";
 			modelSides[] = {6};
 			armor = 0;
 			passThrough = 1;
