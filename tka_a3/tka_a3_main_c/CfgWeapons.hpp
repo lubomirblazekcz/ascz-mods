@@ -10,7 +10,7 @@ class CfgWeapons
 		author = "TKA_A3";
 		scope = 2;
 		displayName = "Chest Rig [TKA]";
-		picture = "\A3\characters_f\Data\UI\icon_V_Chestrig_khk_CA.paa";
+		picture = "\tka_a3\tka_a3_main\data\UI\icon_vest.paa";
 		model = "\tka_a3\tka_a3_main\tka_vest.p3d";
 		hiddenSelections[] = {"Camo3"};
 		hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\tak_soldier_equip_co.paa"};
@@ -74,7 +74,7 @@ class CfgWeapons
 		author = "TKA_A3";
         scope = 2;
         displayName = "$STR_A3_combat_fatigues_tka_a3";
-        picture = "\tka_a3\tka_a3_main\data\UI\icon_uniform.paa";
+        picture = "\tka_a3\tka_a3_main\data\UI\icon_uniform2.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\Suitpacks\suitpack_TKA.paa"};
@@ -91,7 +91,7 @@ class CfgWeapons
 		author = "TKA_A3";
         scope = 2;
         displayName = "$STR_A3_combat_fatigues_tka_a3";
-        picture = "\tka_a3\tka_a3_main\data\UI\icon_uniform2.paa";
+        picture = "\tka_a3\tka_a3_main\data\UI\icon_uniform.paa";
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\Suitpacks\suitpack_TKA.paa"};
@@ -125,7 +125,7 @@ class CfgWeapons
 		author = "TKA_A3";
         scope = 2;
         displayName = "$STR_A3_combat_fatigues_tka_a3";
-		picture = "\tka_a3\tka_a3_main\data\UI\icon_uniform_mix.paa";
+		picture = "\tka_a3\tka_a3_main\data\UI\icon_uniform_officer.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\Suitpacks\suitpack_TKA.paa"};
