@@ -261,40 +261,40 @@
             <Spanish>Traje de combate [TK]</Spanish>
         </Key>
         <Key ID="str_a3_combat_fatigues_shemag_tka_a3">
-            <Original>Combat Fatigues (Shemag) [TK]</Original>
-            <English>Combat Fatigues (Shemag) [TK]</English>
-            <Czech>Uniforma (shemag) [TK]</Czech>
-            <French>Treillis (Shemag) [TK]</French>
-            <German>Kampfanzug (Shemag) [TK]</German>
-            <Italian>Uniforme da combattimento (Shemag) [TK]</Italian>
-            <Polish>Mundur bojowy (Shemag) [TK]</Polish>
-            <Portuguese>Uniforme de combate (Shemag) [TK]</Portuguese>
-            <Russian>Полевая форма (Shemag) [TK]</Russian>
-            <Spanish>Traje de combate (Shemag) [TK]</Spanish>
+            <Original>Combat Fatigues [TK] (Shemag)</Original>
+            <English>Combat Fatigues [TK] (Shemag)</English>
+            <Czech>Uniforma [TK] (shemag)</Czech>
+            <French>Treillis [TK] (Shemag)</French>
+            <German>Kampfanzug [TK] (Shemag)</German>
+            <Italian>Uniforme da combattimento [TK] (Shemag)</Italian>
+            <Polish>Mundur bojowy [TK] (Shemag)</Polish>
+            <Portuguese>Uniforme de combate [TK] (Shemag)</Portuguese>
+            <Russian>Полевая форма [TK] (Shemag)</Russian>
+            <Spanish>Traje de combate [TK] (Shemag)</Spanish>
         </Key>
         <Key ID="str_a3_combat_fatigues_mix_tka_a3">
-            <Original>Combat Fatigues (Mix) [TK]</Original>
-            <English>Combat Fatigues (Mix) [TK]</English>
-            <Czech>Uniforma (mix) [TK]</Czech>
-            <French>Treillis (Mix) [TK]</French>
-            <German>Kampfanzug (Mix) [TK]</German>
-            <Italian>Uniforme da combattimento (Mix) [TK]</Italian>
+            <Original>Combat Fatigues [TK] (Mix)</Original>
+            <English>Combat Fatigues [TK] (Mix)</English>
+            <Czech>Uniforma [TK] (mix)</Czech>
+            <French>Treillis [TK] (Mix)</French>
+            <German>Kampfanzug [TK] (Mix)</German>
+            <Italian>Uniforme da combattimento [TK] (Mix)</Italian>
             <Polish>Mundur bojowy (Mix) [TK]</Polish>
-            <Portuguese>Uniforme de combate (Mix) [TK]</Portuguese>
-            <Russian>Полевая форма (Mix) [TK]</Russian>
-            <Spanish>Traje de combate (Mix) [TK]</Spanish>
+            <Portuguese>Uniforme de combate [TK] (Mix)</Portuguese>
+            <Russian>Полевая форма [TK] (Mix)</Russian>
+            <Spanish>Traje de combate [TK] (Mix)</Spanish>
         </Key>
         <Key ID="str_a3_combat_fatigues_officer_tka_a3">
-            <Original>Combat Fatigues (Officer) [TK]</Original>
-            <English>Combat Fatigues (Officer) [TK]</English>
-            <Czech>Uniforma (důstojnická) [TK]</Czech>
-            <French>Treillis (Officer) [TK]</French>
-            <German>Kampfanzug (Officer) [TK]</German>
-            <Italian>Uniforme da combattimento (Officer) [TK]</Italian>
+            <Original>Combat Fatigues [TK] (Officer)</Original>
+            <English>Combat Fatigues [TK] (Officer)</English>
+            <Czech>Uniforma [TK] (důstojnická)</Czech>
+            <French>Treillis [TK] (Officer)</French>
+            <German>Kampfanzug [TK] (Officer)</German>
+            <Italian>Uniforme da combattimento [TK] (Officer)</Italian>
             <Polish>Mundur bojowy (Officer) [TK]</Polish>
-            <Portuguese>Uniforme de combate (Officer) [TK]</Portuguese>
-            <Russian>Полевая форма (Officer) [TK]</Russian>
-            <Spanish>Traje de combate (Officer) [TK]</Spanish>
+            <Portuguese>Uniforme de combate [TK] (Officer)</Portuguese>
+            <Russian>Полевая форма [TK] (Officer)</Russian>
+            <Spanish>Traje de combate [TK] (Officer)</Spanish>
         </Key>
         <Key ID="str_a3_ghillie_suit_tka_a3">
             <Original>Ghillie Suit [TK]</Original>
@@ -309,12 +309,12 @@
             <Spanish>Traje de camuflaje [TK]</Spanish>
         </Key>
         <Key ID="str_tka_a3_v_chestrigb_blk0">
-            <Original>Fighter Chest rig [TK]</Original>
-            <English>Fighter Chest rig [TK]</English>
+            <Original>Fighter Chestrig [TK]</Original>
+            <English>Fighter Chestrig [TK]</English>
             <Czech>Bojový hrudní pás [TK]</Czech>
             <French>Gilet modulable de combat [TK]</French>
             <German>Kämpfer-Chest-Rig [TK]</German>
-            <Italian>Pettorale da combattente [TK]</Italian>
+            <Italian>Gilet da combattente [TK]</Italian>
             <Polish>Kamizelka bojowa [TK]</Polish>
             <Portuguese>Suporte peitoral de combatente [TK]</Portuguese>
             <Russian>Разгрузка [TK]</Russian>
