@@ -222,7 +222,7 @@ class CfgWeapons
 		author = "TKA_A3";
         scope = 2;
         displayName = "$STR_A3_combat_fatigues_tka_a3";
-		picture = "\A3\characters_f_gamma\Guerrilla\data\ui\icon_U_G_ig_leader_ca.paa";
+		picture = "\tka_a3\tka_a3_main\data\UI\icon_uniform_mix.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\Suitpacks\suitpack_TKA.paa"};

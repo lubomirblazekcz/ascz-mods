@@ -5,7 +5,7 @@ class B_TKA_A3_Soldier_Base: SoldierGB
     identityTypes[] = {"LanguagePER_F","Head_TK"};
     faceType = "Man_A3";
     side = 0;
-    faction = "TKA_A3"; // "CDF";
+    faction = "TKA_A3"; // "TKA";
     genericNames = "TakistaniMen";
     vehicleClass= "Men";
     portrait = "";
@@ -83,7 +83,7 @@ class B_TKA_A3_Soldier_Base_02: SoldierGB
     identityTypes[] = {"LanguagePER_F","Head_TK"};
     faceType = "Man_A3";
     side = 0;
-    faction = "TKA_A3"; // "CDF";
+    faction = "TKA_A3"; // "TKA";
     genericNames = "TakistaniMen";
     vehicleClass= "Men";
     portrait = "";
@@ -139,7 +139,7 @@ class B_TKA_A3_Soldier_Base_03: SoldierGB
     identityTypes[] = {"LanguagePER_F","Head_TK"};
     faceType = "Man_A3";
     side = 0;
-    faction = "TKA_A3"; // "CDF";
+    faction = "TKA_A3"; // "TKA";
     genericNames = "TakistaniMen";
     vehicleClass= "Men";
     portrait = "";
@@ -179,7 +179,7 @@ class B_TKA_A3_Soldier_Base_03: SoldierGB
     respawnLinkedItems[] = {"H_TKA_A3_HelmetIA","V_TKA_A3_ChestRig","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 
     hiddenSelections[] = {"Camo","insignia"};
-    hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\TKA_Uniform.paa"};
+    hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\TKA_Uniform_mix.paa"};
 
     armor = 2;
     armorStructural = 5;
