@@ -1,3 +1,4 @@
+
 class StageTI
 {
 	texture = "a3\characters_f\opfor\data\officer_ti_ca.paa";
@@ -12,7 +13,7 @@ PixelShaderID = "Super";
 VertexShaderID = "Super";
 class Stage1
 {
-	texture = "\tka_a3\tka_a3_main\data\TKA_officer_nohq.paa";
+	texture = "tka_a3\tka_a3_main\data\TKA_officer_nohq.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -60,7 +61,7 @@ class Stage4
 };
 class Stage5
 {
-	texture = "\tka_a3\tka_a3_main\data\TKA_officer_smdi.paa";
+	texture = "tka_a3\tka_a3_main\data\TKA_officer_smdi.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
