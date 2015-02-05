@@ -4,15 +4,15 @@ class CfgGroups
     {
         class TKA_A3
         {
-            name = $STR_EP1_DN_CfgGroups_East_BIS_TK;
+            name = "$STR_EP1_dn_cfggroups_east_tka_a3";
 
             class Infantry
             {
-                name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Infantry;
+				name = "$STR_A3_CfgGroups_West_BLU_F_Infantry0";
 
                 class TK_InfantrySquad
                 {
-                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Infantry_TK_InfantrySquad;
+					name = "$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad0";
                     faction = TKA_A3;
                     rarityGroup=0.7;
                     class Unit0	{side = 0;vehicle = "B_TKA_A3_Soldier_SL";rank = "LIEUTENANT";position[] = {0,+5,0};};
@@ -28,7 +28,7 @@ class CfgGroups
 
                 class TK_InfantrySection
                 {
-                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Infantry_TK_InfantrySection;
+					name = "$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam0";
                     faction = TKA_A3;
                     rarityGroup=0.2;
                     class Unit0	{side = 0;vehicle = "B_TKA_A3_Soldier_MG";rank = "CORPORAL";position[] = {0,+5,0};};
@@ -39,7 +39,7 @@ class CfgGroups
 
                 class TK_InfantrySectionAT
                 {
-                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Infantry_TK_InfantrySectionAT;
+					name = "$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam_AT0";
                     faction = TKA_A3;
                     rarityGroup=0.2;
                     class Unit0	{side = 0;vehicle = "B_TKA_A3_Soldier_HAT";rank = "SERGEANT";position[] = {0,+5,0};};
@@ -51,7 +51,7 @@ class CfgGroups
 
                 class TK_InfantrySectionAA
                 {
-                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Infantry_TK_InfantrySectionAA;
+					name = "$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam_AA0";
                     faction = TKA_A3;
                     rarityGroup=0.2;
                     class Unit0	{side = 0;vehicle = "B_TKA_A3_Soldier_AA";rank = "LIEUTENANT";position[] = {0,+5,0};};
@@ -61,7 +61,7 @@ class CfgGroups
 
                 class TK_InfantrySectionMG
                 {
-                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Infantry_TK_InfantrySectionMG;
+					name = "$STR_A3_CfgGroups_West_BLU_F_Support_BUS_Support_MG0";
                     faction = TKA_A3;
                     rarityGroup=0.2;
                     class Unit0	{side = 0;vehicle = "B_TKA_A3_Soldier_MG";rank = "CORPORAL";position[] = {0,+5,0};};
@@ -73,7 +73,7 @@ class CfgGroups
 
                 class TK_SniperTeam
                 {
-                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Infantry_TK_SniperTeam;
+					name = "$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_SniperTeam0";
                     faction = TKA_A3;
                     rarityGroup=0.05;
                     class Unit0	{side = 0;vehicle = "B_TKA_A3_Soldier_SniperH";rank = "SERGEANT";position[] = {0,+5,0};};
@@ -82,7 +82,7 @@ class CfgGroups
 
                 class TK_SpecialPurposeSquad
                 {
-                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Infantry_TK_SpecialPurposeSquad;
+					name = "$STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_reconTeam0";
                     faction = TKA_A3;
                     rarityGroup=0.5;
                     class Unit0	{side = 0;vehicle = "B_TKA_A3_Special_Forces_TL";rank = "LIEUTENANT";position[] = {0,+5,0};};
@@ -97,28 +97,28 @@ class CfgGroups
 
             class Motorized
             {
-                name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Motorized;
+				name = "$STR_A3_CfgGroups_West_BLU_F_Motorized0";
 
-//                class TK_MotorizedInfanterySquad
-//                {
-//                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Motorized_TK_MotorizedInfanterySquad;
-//                    faction = TKA_A3;
-//                    rarityGroup=0.3;
-//                    class Unit0	{side = 0;vehicle = "B_TKA_A3_Soldier_SL";rank = "SERGEANT";position[] = {3,+5,0};};
-//                    class Unit1	{side = 0;vehicle = "V3S_Open_TK_EP1";rank = "CORPORAL";position[] = {-5,0,0};};
-//                    class Unit2	{side = 0;vehicle = "B_TKA_A3_Soldier_MG";rank = "CORPORAL";position[] = {5,0,0};};
-//                    class Unit3	{side = 0;vehicle = "B_TKA_A3_Soldier_AT";rank = "CORPORAL";position[] = {7,0,0};};
-//                    class Unit4	{side = 0;vehicle = "B_TKA_A3_Soldier_GL";rank = "CORPORAL";position[] = {9,0,0};};
-//                    class Unit5	{side = 0;vehicle = "B_TKA_A3_Soldier";rank = "CORPORAL";position[] = {11,0,0};};
-//                    class Unit6	{side = 0;vehicle = "B_TKA_A3_Soldier_MG";rank = "CORPORAL";position[] = {13,0,0};};
-//                    class Unit7	{side = 0;vehicle = "B_TKA_A3_Soldier_LAT";rank = "CORPORAL";position[] = {15,0,0};};
-//                    class Unit8	{side = 0;vehicle = "B_TKA_A3_Soldier_GL";rank = "PRIVATE";position[] = {17,0,0};};
-//                    class Unit9	{side = 0;vehicle = "B_TKA_A3_Soldier_AMG";rank = "PRIVATE";position[] = {19,0,0};};
-//                };
+                class TK_MotorizedInfanterySquad
+                {
+					name = "$STR_tka_a3_dn_cfggroups_east_bis_tk_motorized_tk_motorizedinfanterysquad";
+                    faction = TKA_A3;
+                    rarityGroup=0.3;
+                    class Unit0	{side = 0;vehicle = "B_TKA_A3_Soldier_SL";rank = "SERGEANT";position[] = {3,+5,0};};
+                    class Unit1	{side = 0;vehicle = "TKA_A3_Ural_Open";rank = "CORPORAL";position[] = {-5,0,0};}; // default v3s
+                    class Unit2	{side = 0;vehicle = "B_TKA_A3_Soldier_MG";rank = "CORPORAL";position[] = {5,0,0};};
+                    class Unit3	{side = 0;vehicle = "B_TKA_A3_Soldier_AT";rank = "CORPORAL";position[] = {7,0,0};};
+                    class Unit4	{side = 0;vehicle = "B_TKA_A3_Soldier_GL";rank = "CORPORAL";position[] = {9,0,0};};
+                    class Unit5	{side = 0;vehicle = "B_TKA_A3_Soldier";rank = "CORPORAL";position[] = {11,0,0};};
+                    class Unit6	{side = 0;vehicle = "B_TKA_A3_Soldier_MG";rank = "CORPORAL";position[] = {13,0,0};};
+                    class Unit7	{side = 0;vehicle = "B_TKA_A3_Soldier_LAT";rank = "CORPORAL";position[] = {15,0,0};};
+                    class Unit8	{side = 0;vehicle = "B_TKA_A3_Soldier_GL";rank = "PRIVATE";position[] = {17,0,0};};
+                    class Unit9	{side = 0;vehicle = "B_TKA_A3_Soldier_AMG";rank = "PRIVATE";position[] = {19,0,0};};
+                };
 
 //                class TK_MotorizedReconSection
 //                {
-//                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Motorized_TK_MotorizedReconSection;
+//                    name = "$STR_tka_a3_dn_cfggroups_east_bis_tk_motorized_tk_motorizedreconsection";
 //                    faction = TKA_A3;
 //                    rarityGroup=0.3;
 //                    class Unit0	{side = 0;vehicle = "B_TKA_A3_Soldier_SL";rank = "SERGEANT";position[] = {3,+5,0};};
@@ -129,7 +129,7 @@ class CfgGroups
 
                 class TK_MotorizedPatrol
                 {
-                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Motorized_TK_MotorizedPatrol;
+                    name = "$STR_tka_a3_dn_cfggroups_east_bis_tk_motorized_tk_motorizedpatrol";
                     faction = TKA_A3;
                     rarityGroup=0.4;
                     class Unit0	{side = 0;vehicle = "B_TKA_A3_Soldier_GL";rank = "SERGEANT";position[] = {3,+5,0};};
@@ -141,11 +141,11 @@ class CfgGroups
 
             class Mechanized
             {
-                name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Mechanized;
+				name = "$STR_A3_CfgGroups_West_BLU_F_Mechanized0";
 
                 class TK_MechanizedInfantrySquadBMP2
                 {
-                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Mechanized_TK_MechanizedInfantrySquadBMP2;
+                    name = "$STR_tka_a3_dn_cfggroups_east_bis_tk_mechanized_tk_mechanizedinfantrysquadbmp2";
                     faction = TKA_A3;
                     rarityGroup=0.7;
                     class Unit0 	{side = 0;vehicle = "B_TKA_A3_Soldier_SL";rank = "LIEUTENANT";position[] = {3,+5,0};};
@@ -159,42 +159,42 @@ class CfgGroups
                     // class Unit8	{side = 0;vehicle = "B_TKA_A3_Soldier_AMG";rank = "PRIVATE";position[] = {17,0,0};};
                 };
 
-//                class TK_MechanizedInfantrySquadBTR60
-//                {
-//                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Mechanized_TK_MechanizedInfantrySquadBTR60;
-//                    faction = TKA_A3;
-//                    rarityGroup=0.9;
-//                    class Unit0 	{side = 0;vehicle = "B_TKA_A3_Soldier_SL";rank = "LIEUTENANT";position[] = {3,+5,0};};
-//                    class Unit1	{side = 0;vehicle = "BTR60_TK_EP1";rank = "SERGEANT";position[] = {-5,0,0};};
-//                    class Unit2	{side = 0;vehicle = "B_TKA_A3_Soldier_MG";rank = "SERGEANT";position[] = {5,0,0};};
-//                    class Unit3	{side = 0;vehicle = "B_TKA_A3_Soldier_GL";rank = "CORPORAL";position[] = {7,0,0};};
-//                    class Unit4 	{side = 0;vehicle = "B_TKA_A3_Soldier_AT";rank = "CORPORAL";position[] = {9,0,0};};
-//                    class Unit5	{side = 0;vehicle = "B_TKA_A3_Soldier_MG";rank = "PRIVATE";position[] = {11,0,0};};
-//                    class Unit6	{side = 0;vehicle = "B_TKA_A3_Soldier_GL";rank = "SERGEANT";position[] = {13,0,0};};
-//                    class Unit7	{side = 0;vehicle = "B_TKA_A3_Soldier_LAT";rank = "CORPORAL";position[] = {15,0,0};};
-//                    class Unit8	{side = 0;vehicle = "B_TKA_A3_Soldier";rank = "CORPORAL";position[] = {17,0,0};};
-//                };
+                class TK_MechanizedInfantrySquadBTR60
+                {
+                    name = "$STR_tka_a3_dn_cfggroups_east_bis_tk_mechanized_tk_mechanizedinfantrysquadbtr60;
+                    faction = TKA_A3;
+                    rarityGroup=0.9;
+                    class Unit0 	{side = 0;vehicle = "B_TKA_A3_Soldier_SL";rank = "LIEUTENANT";position[] = {3,+5,0};};
+                    class Unit1	{side = 0;vehicle = "TKA_A3_BTR60";rank = "SERGEANT";position[] = {-5,0,0};};
+                    class Unit2	{side = 0;vehicle = "B_TKA_A3_Soldier_MG";rank = "SERGEANT";position[] = {5,0,0};};
+                    class Unit3	{side = 0;vehicle = "B_TKA_A3_Soldier_GL";rank = "CORPORAL";position[] = {7,0,0};};
+                    class Unit4 	{side = 0;vehicle = "B_TKA_A3_Soldier_AT";rank = "CORPORAL";position[] = {9,0,0};};
+                    class Unit5	{side = 0;vehicle = "B_TKA_A3_Soldier_MG";rank = "PRIVATE";position[] = {11,0,0};};
+                    class Unit6	{side = 0;vehicle = "B_TKA_A3_Soldier_GL";rank = "SERGEANT";position[] = {13,0,0};};
+                    class Unit7	{side = 0;vehicle = "B_TKA_A3_Soldier_LAT";rank = "CORPORAL";position[] = {15,0,0};};
+                    class Unit8	{side = 0;vehicle = "B_TKA_A3_Soldier";rank = "CORPORAL";position[] = {17,0,0};};
+                };
 
-//                class TK_MechanizedSpecialSquad
-//                {
-//                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Mechanized_TK_MechanizedSpecialSquad;
-//                    faction = TKA_A3;
-//                    rarityGroup=0;
-//                    class Unit0	{side = 0;vehicle = "B_TKA_A3_Special_Forces_TL";rank = "LIEUTENANT";position[] = {3,+5,0};};
-//                    class Unit1	{side = 0;vehicle = "BTR60_TK_EP1";rank = "SERGEANT";position[] = {-5,0,0};};
-//                    class Unit2	{side = 0;vehicle = "B_TKA_A3_Special_Forces_MG";rank = "SERGEANT";position[] = {5,0,0};};
-//                    class Unit3	{side = 0;vehicle = "B_TKA_A3_Special_Forces_MG";rank = "SERGEANT";position[] = {7,0,0};};
-//                    class Unit4	{side = 0;vehicle = "B_TKA_A3_Special_Forces_MG";rank = "SERGEANT";position[] = {9,0,0};};
-//                    class Unit5	{side = 0;vehicle = "B_TKA_A3_Special_Forces";rank = "CORPORAL";position[] = {11,0,0};};
-//                    class Unit6	{side = 0;vehicle = "B_TKA_A3_Special_Forces";rank = "CORPORAL";position[] = {13,0,0};};
-//                    class Unit7	{side = 0;vehicle = "B_TKA_A3_Special_Forces";rank = "CORPORAL";position[] = {15,0,0};};
-//                    class Unit8	{side = 0;vehicle = "B_TKA_A3_Special_Forces";rank = "CORPORAL";position[] = {17,0,0};};
-//                    // class Unit9	{side = 0;vehicle = "B_TKA_A3_Special_Forces";rank = "CORPORAL";position[] = {19,0,0};};
-//                };
+                class TK_MechanizedSpecialSquad
+                {
+                    name = "$STR_tka_a3_dn_cfggroups_east_bis_tk_mechanized_tk_mechanizedspecialsquad";
+                    faction = TKA_A3;
+                    rarityGroup=0;
+                    class Unit0	{side = 0;vehicle = "B_TKA_A3_Special_Forces_TL";rank = "LIEUTENANT";position[] = {3,+5,0};};
+                    class Unit1	{side = 0;vehicle = "TKA_A3_BTR60";rank = "SERGEANT";position[] = {-5,0,0};};
+                    class Unit2	{side = 0;vehicle = "B_TKA_A3_Special_Forces_MG";rank = "SERGEANT";position[] = {5,0,0};};
+                    class Unit3	{side = 0;vehicle = "B_TKA_A3_Special_Forces_MG";rank = "SERGEANT";position[] = {7,0,0};};
+                    class Unit4	{side = 0;vehicle = "B_TKA_A3_Special_Forces_MG";rank = "SERGEANT";position[] = {9,0,0};};
+                    class Unit5	{side = 0;vehicle = "B_TKA_A3_Special_Forces";rank = "CORPORAL";position[] = {11,0,0};};
+                    class Unit6	{side = 0;vehicle = "B_TKA_A3_Special_Forces";rank = "CORPORAL";position[] = {13,0,0};};
+                    class Unit7	{side = 0;vehicle = "B_TKA_A3_Special_Forces";rank = "CORPORAL";position[] = {15,0,0};};
+                    class Unit8	{side = 0;vehicle = "B_TKA_A3_Special_Forces";rank = "CORPORAL";position[] = {17,0,0};};
+                    // class Unit9	{side = 0;vehicle = "B_TKA_A3_Special_Forces";rank = "CORPORAL";position[] = {19,0,0};};
+                };
 
 //                class TK_MechanizedReconSection
 //                {
-//                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Mechanized_TK_MechanizedReconSection;
+//                    name = "$STR_cfggroups_west_tka_a3_mechanized_cdf_mechreconsection";
 //                    faction = TKA_A3;
 //                    rarityGroup=0.7;
 //                    class Unit0	{side = 0;vehicle = "B_TKA_A3_Soldier_SL";rank = "SERGEANT";position[] = {3,+5,0};};
@@ -209,7 +209,7 @@ class CfgGroups
 
 //                class TK_MechanizedReconSectionAT
 //                {
-//                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Mechanized_TK_MechanizedReconSectionAT;
+//                    name = "$STR_cfggroups_west_tka_a3_mechanized_cdf_mechatsection";
 //                    faction = TKA_A3;
 //                    rarityGroup=0.7;
 //                    //class Unit0	{side = 0;vehicle = "B_TKA_A3_Soldier_GL";rank = "SERGEANT";position[] = {3,+5,0};};
@@ -221,11 +221,11 @@ class CfgGroups
 
             class Armored
             {
-                name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Armored;
+				name = "$STR_A3_CfgGroups_West_BLU_F_Armored0";
 
                 class TK_T72Platoon
                 {
-                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Armored_TK_T72Platoon;
+                    name = "$STR_tka_a3_dn_cfggroups_east_bis_tk_armored_tk_t72platoon";
                     faction = TKA_A3;
                     rarityGroup=0.05;
                     class Unit0	{side = 0;vehicle = "TKA_A3_T72";rank = "CAPTAIN";position[] = {0,+10,0};};
@@ -235,7 +235,7 @@ class CfgGroups
 
                 class TK_T55Platoon
                 {
-                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Armored_TK_T55Platoon;
+                    name = "$STR_tka_a3_dn_cfggroups_east_bis_tk_armored_tk_t55platoon";
                     faction = TKA_A3;
                     rarityGroup=0.05;
                     class Unit0	{side = 0;vehicle = "TKA_A3_T55";rank = "CAPTAIN";position[] = {0,+10,0};};
@@ -245,7 +245,7 @@ class CfgGroups
 
                 class TK_T34Platoon
                 {
-                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Armored_TK_T34Platoon;
+                    name = "$STR_tka_a3_dn_cfggroups_east_bis_tk_armored_tk_t34platoon";
                     faction = TKA_A3;
                     rarityGroup=0.05;
                     class Unit0	{side = 0;vehicle = "TKA_A3_T34";rank = "CAPTAIN";position[] = {0,+10,0};};
@@ -259,7 +259,7 @@ class CfgGroups
 
 //                class TK_An2Flight
 //                {
-//                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Air_TK_An2Flight;
+//                    name = "$STR_tka_a3_dn_cfggroups_east_bis_tk_air_tk_an2flight";
 //                    faction = TKA_A3;
 //                    rarityGroup = 0.3;
 //
@@ -270,7 +270,7 @@ class CfgGroups
 //                };
                 class TK_Mi24_DFlight
                 {
-                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Air_TK_Mi24_DFlight;
+                    name = "$STR_cfggroups_west_tka_a3_air_cdf_mi24dsquadron";
                     faction = TKA_A3;
                     rarityGroup = 0.3;
 
@@ -281,7 +281,7 @@ class CfgGroups
                 };
                 class TK_Mi_17Flight
                 {
-                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Air_TK_Mi_17Flight;
+                    name = "$STR_cfggroups_west_tka_a3_air_cdf_mi8squadron";
                     faction = TKA_A3;
                     rarityGroup = 0.3;
 
@@ -293,7 +293,7 @@ class CfgGroups
                 };
                 class TK_Su25Flight
                 {
-                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Air_TK_Su25Flight;
+                    name = "$STR_tka_a3_dn_cfggroups_east_bis_tk_air_tk_su25flight";
                     faction = TKA_A3;
                     rarityGroup = 0.3;
 
@@ -305,7 +305,7 @@ class CfgGroups
                 };
 //                class TK_UH1HFlight
 //                {
-//                    name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Air_TK_UH1HFlight;
+//                    name = "$STR_tka_a3_dn_cfggroups_east_bis_tk_air_tk_uh1hflight";
 //                    faction = TKA_A3;
 //                    rarityGroup = 0.3;
 //

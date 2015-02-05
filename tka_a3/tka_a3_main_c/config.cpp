@@ -13,7 +13,7 @@ class cfgFactionClasses
 {
 	class TKA_A3
 	{
-		displayName = "Takistani Army A3";
+		displayName = "$STR_EP1_dn_cfggroups_east_tka_a3";
 		priority = 1;
 		side = 0;
 		genericNames = "TakistaniMen";

@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="Chernarrusian Defence Forces">
-    <Package name="CDF mod">
+    <Package name="TKA mod">
+        <Key ID="str_ep1_dn_cfggroups_east_tka_a3">
+            <Original>Takistan Army</Original>
+            <Chinese>Takistan Army</Chinese>
+            <French>Armée takistanaise</French>
+            <Spanish>Ejército takistaní</Spanish>
+            <Italian>Esercito takistano</Italian>
+            <Hungarian>Takistan Army</Hungarian>
+            <Polish>Armia takistańska</Polish>
+            <Russian>Армия Такистана</Russian>
+            <German>Takistanische Armee</German>
+            <Czech>Takistánská armáda</Czech>
+            <English>Takistan Army</English>
+            <Japanese>Takistan Army</Japanese>
+        </Key>
         <Key ID="str_cfggroups_west_tka_a3_air">
             <Original>Air</Original>
             <French>Air</French>
@@ -40,31 +54,117 @@
             <English>Mi-24D Squadron</English>
             <Japanese>Mi-24D Squadron</Japanese>
         </Key>
-        <Key ID="str_cfggroups_west_tka_a3_motorized_cdf_motinfsection_weapons">
-            <Original>Motorized Weapons Section</Original>
-            <French>Groupe armes motorisé</French>
-            <Spanish>División de armas motorizadas</Spanish>
-            <Italian>Sezione armi motorizzate</Italian>
-            <Hungarian>Motorizált fegyveres raj</Hungarian>
-            <Polish>Zmotoryzowany pluton broni </Polish>
-            <Russian>Огневой взвод АГС</Russian>
-            <German>Motorisierte Waffensektion</German>
-            <Czech>Motorizované družstvo s těžkými zbraněmi</Czech>
-            <English>Motorized Weapons Section</English>
-            <Japanese>Motorized Weapons Section</Japanese>
+        <Key ID="str_tka_a3_dn_cfggroups_east_bis_tk_air_tk_su25flight">
+            <Original>Su-25 flight</Original>
+            <Chinese>Su-25 flight</Chinese>
+            <French>Vol Su-25</French>
+            <Spanish>Escuadrilla Su-25</Spanish>
+            <Italian>Velivolo Su-25</Italian>
+            <Hungarian>Su-25 flight</Hungarian>
+            <Polish>Lot Su-25 </Polish>
+            <Russian>Звено Су-25К</Russian>
+            <German>Su-25 Luftwaffe</German>
+            <Czech>Letka Su-25</Czech>
+            <English>Su-25 flight</English>
+            <Japanese>Su-25 flight</Japanese>
         </Key>
-        <Key ID="str_cfggroups_west_tka_a3_motorized_cdf_motinfsection">
-            <Original>Motorized Infantry Patrol</Original>
-            <French>Patrouille infanterie motorisée</French>
-            <Spanish>Patrulla de infantería motorizada</Spanish>
-            <Italian>Pattuglia di fanteria motorizzata</Italian>
-            <Hungarian>Motorizált gyalogos őrjárat</Hungarian>
-            <Polish>Patrol piechoty zmotoryzowanej </Polish>
+        <Key ID="str_tka_a3_dn_cfggroups_east_bis_tk_air_tk_uh1hflight">
+            <Original>UH-1H flight</Original>
+            <Chinese>UH-1H flight</Chinese>
+            <French>Vol UH-1H</French>
+            <Spanish>Escuadrilla UH-1H</Spanish>
+            <Italian>Velivolo UH-1H</Italian>
+            <Hungarian>UH-1H flight</Hungarian>
+            <Polish>Lot UH-1H </Polish>
+            <Russian>Звено UH-1H</Russian>
+            <German>UH-1H Luftwaffe</German>
+            <Czech>Letka UH-1H</Czech>
+            <English>UH-1H flight</English>
+            <Japanese>UH-1H flight</Japanese>
+        </Key>
+        <Key ID="str_tka_a3_dn_cfggroups_east_bis_tk_motorized_tk_motorizedinfanterysquad">
+            <Original>Motorized Infantry Squad</Original>
+            <Chinese>Motorized Infantry Squad</Chinese>
+            <French>Groupe d'infanterie motorisée</French>
+            <Spanish>Escuadra de infantería motorizada</Spanish>
+            <Italian>Sq. Fanteria motor.</Italian>
+            <Hungarian>Motorized Infantry Squad</Hungarian>
+            <Polish>Drużyna piechoty zmotoryzowanej</Polish>
+            <Russian>Моторизованное отделение</Russian>
+            <German>Motorisierter Infanterietrupp</German>
+            <Czech>Motorizované pěchotní družstvo</Czech>
+            <English>Motorized Infantry Squad</English>
+            <Japanese>Motorized Infantry Squad</Japanese>
+        </Key>
+        <Key ID="str_tka_a3_dn_cfggroups_east_bis_tk_motorized_tk_motorizedpatrol">
+            <Original>Motorized Patrol</Original>
+            <Chinese>Motorized Patrol</Chinese>
+            <French>Patrouille motorisée</French>
+            <Spanish>Patrulla motorizada</Spanish>
+            <Italian>Pattuglia motorizzata</Italian>
+            <Hungarian>Motorized Patrol</Hungarian>
+            <Polish>Patrol zmotoryzowany</Polish>
             <Russian>Разведдозор</Russian>
-            <German>Motorisierte Infanteriepatrouille</German>
-            <Czech>Motorizovaná pěchotní hlídka</Czech>
-            <English>Motorized Infantry Patrol</English>
-            <Japanese>Motorized Infantry Patrol</Japanese>
+            <German>Motorisierte Patrouille</German>
+            <Czech>Motorizovaná hlídka</Czech>
+            <English>Motorized Patrol</English>
+            <Japanese>Motorized Patrol</Japanese>
+        </Key>
+        <Key ID="str_tka_a3_dn_cfggroups_east_bis_tk_motorized_tk_motorizedreconsection">
+            <Original>Motorized Recon Section</Original>
+            <Chinese>Motorized Recon Section</Chinese>
+            <French>Groupe reco motorisée</French>
+            <Spanish>Sección de reconocimiento motorizado</Spanish>
+            <Italian>Sez. Ricogn.motorizzata</Italian>
+            <Hungarian>Motorized Recon Section</Hungarian>
+            <Polish>Sekcja zwiadu zmotoryzowanego</Polish>
+            <Russian>Усиленный разведдозор</Russian>
+            <German>Motorisierte Aufklärungssektion</German>
+            <Czech>Motorizovaná průzkumná sekce</Czech>
+            <English>Motorized Recon Section</English>
+            <Japanese>Motorized Recon Section</Japanese>
+        </Key>
+        <Key ID="str_tka_a3_dn_cfggroups_east_bis_tk_mechanized_tk_mechanizedinfantrysquadbmp2">
+            <Original>Mechanized Infantry Squad (BMP-2)</Original>
+            <Chinese>Mechanized Infantry Squad (BMP-2)</Chinese>
+            <French>Groupe d'infanterie mécanisé (BMP-2)</French>
+            <Spanish>Escuadra de infantería mecanizada (BMP-2)</Spanish>
+            <Italian>Sq.Fant.Mecc. (BMP-2)</Italian>
+            <Hungarian>Mechanized Infantry Squad (BMP-2)</Hungarian>
+            <Polish>Drużyna piechoty zmechanizowanej (BMP-2)</Polish>
+            <Russian>Мотострелковое отделение на БМП</Russian>
+            <German>Mechanisierter Infanterietrupp (BMP-2)</German>
+            <Czech>Mechanizované pěchtoní družstvo (BPM-2)</Czech>
+            <English>Mechanized Infantry Squad (BMP-2)</English>
+            <Japanese>Mechanized Infantry Squad (BMP-2)</Japanese>
+        </Key>
+        <Key ID="str_tka_a3_dn_cfggroups_east_bis_tk_mechanized_tk_mechanizedinfantrysquadbtr60">
+            <Original>Mechanized Infantry Squad (BTR-60)</Original>
+            <Chinese>Mechanized Infantry Squad (BTR-60)</Chinese>
+            <French>Groupe d'infanterie mécanisé (BTR-60)</French>
+            <Spanish>Escuadra de infantería mecanizada (BTR-60)</Spanish>
+            <Italian>Sq.Fant.Mecc. (BTR-60)</Italian>
+            <Hungarian>Mechanized Infantry Squad (BTR-60)</Hungarian>
+            <Polish>Drużyna piechoty zmechanizowanej (BTR-60)</Polish>
+            <Russian>Мотострелковое отделение на БТР</Russian>
+            <German>Mechanisierter Infanterietrupp (BTR-60)</German>
+            <Czech>Mechanizované pěchtoní družstvo (BTR-60)</Czech>
+            <English>Mechanized Infantry Squad (BTR-60)</English>
+            <Japanese>Mechanized Infantry Squad (BTR-60)</Japanese>
+        </Key>
+        <Key ID="str_tka_a3_dn_cfggroups_east_bis_tk_mechanized_tk_mechanizedspecialsquad">
+            <Original>Mechanized Special Squad</Original>
+            <Chinese>Mechanized Special Squad</Chinese>
+            <French>Groupe spécial mécanisé</French>
+            <Spanish>Escuadra mecanizada especial</Spanish>
+            <Italian>Sq. speciale mecc.</Italian>
+            <Hungarian>Mechanized Special Squad</Hungarian>
+            <Polish>Specjalna drużyna zmechanizowana</Polish>
+            <Russian>Разведотделение на БТР</Russian>
+            <German>Mechanisierter Spezialtrupp</German>
+            <Czech>Mechanizované speciální družstvo</Czech>
+            <English>Mechanized Special Squad</English>
+            <Japanese>Mechanized Special Squad</Japanese>
         </Key>
         <Key ID="str_cfggroups_west_tka_a3_mechanized_cdf_mechreconsection">
             <Original>Mechanized Recon Section</Original>
@@ -92,42 +192,164 @@
             <English>Mechanized Recon Section (AT)</English>
             <Japanese>Mechanized Recon Section (AT)</Japanese>
         </Key>
-        <Key ID="str_dn_tka_a3_soldier_militia">
-            <Original>Militia</Original>
-            <French>Milice</French>
-            <Spanish>Milicia</Spanish>
-            <Italian>Miliziano</Italian>
-            <Hungarian>Polgárőr</Hungarian>
-            <Polish>Milicja</Polish>
-            <Russian>Стрелок (АКС)</Russian>
-            <German>Milizen</German>
-            <Czech>Milice</Czech>
-            <English>Militia</English>
-            <Japanese>Militia</Japanese>
+        <Key ID="str_tka_a3_dn_cfggroups_east_bis_tk_armored_tk_t72platoon">
+            <Original>T-72 Platoon</Original>
+            <Chinese>T-72 Platoon</Chinese>
+            <French>Peloton T-72</French>
+            <Spanish>Pelotón T-72</Spanish>
+            <Italian>Plotone T-72</Italian>
+            <Hungarian>T-72 Platoon</Hungarian>
+            <Polish>Pluton T-72</Polish>
+            <Russian>Взвод Т-72М1</Russian>
+            <German>T-72-Zug</German>
+            <Czech>Četa T-72</Czech>
+            <English>T-72 Platoon</English>
+            <Japanese>T-72 Platoon</Japanese>
+        </Key>
+        <Key ID="str_tka_a3_dn_cfggroups_east_bis_tk_armored_tk_t55platoon">
+            <Original>T-55 Platoon</Original>
+            <Chinese>T-55 Platoon</Chinese>
+            <French>Peloton T-55</French>
+            <Spanish>Pelotón T-55</Spanish>
+            <Italian>Plotone T-55</Italian>
+            <Hungarian>T-55 Platoon</Hungarian>
+            <Polish>Pluton T-55 </Polish>
+            <Russian>Взвод Т-55А</Russian>
+            <German>T-55-Zug</German>
+            <Czech>Četa T-55</Czech>
+            <English>T-55 Platoon</English>
+            <Japanese>T-55 Platoon</Japanese>
+        </Key>
+        <Key ID="str_tka_a3_dn_cfggroups_east_bis_tk_armored_tk_t34platoon">
+            <Original>T-34 Platoon</Original>
+            <Chinese>T-34 Platoon</Chinese>
+            <French>Peloton T-34</French>
+            <Spanish>Pelotón T-34</Spanish>
+            <Italian>Plotone T-34</Italian>
+            <Hungarian>T-34 Platoon</Hungarian>
+            <Polish>Pluton T-34 </Polish>
+            <Russian>Взвод Т-34-85</Russian>
+            <German>T-34-Zug</German>
+            <Czech>Četa T-34</Czech>
+            <English>T-34 Platoon</English>
+            <Japanese>T-34 Platoon</Japanese>
+        </Key>
+        <Key ID="str_tka_a3_dn_cfggroups_east_bis_tk_air_tk_an2flight">
+            <Original>An-2 flight</Original>
+            <Chinese>An-2 flight</Chinese>
+            <French>Vol An-2</French>
+            <Spanish>Escuadrilla An-2</Spanish>
+            <Italian>Velivolo An-2</Italian>
+            <Hungarian>An-2 flight</Hungarian>
+            <Polish>Lot An-2 </Polish>
+            <Russian>Звено Ан-2ТП</Russian>
+            <German>An-2 Luftwaffe</German>
+            <Czech>An-2 letka</Czech>
+            <English>An-2 flight</English>
+            <Japanese>An-2 flight</Japanese>
         </Key>
         <Key ID="str_a3_combat_fatigues_tka_a3">
-            <Original>Combat Fatigues [TKA]</Original>
-            <English>Combat Fatigues [TKA]</English>
-            <Czech>Uniforma [TKA]</Czech>
-            <French>Treillis [TKA]</French>
-            <German>Kampfanzug [TKA]</German>
-            <Italian>Uniforme da combattimento [TKA]</Italian>
-            <Polish>Mundur bojowy [TKA]</Polish>
-            <Portuguese>Uniforme de combate [TKA]</Portuguese>
-            <Russian>Полевая форма [TKA]</Russian>
-            <Spanish>Traje de combate [TKA]</Spanish>
+            <Original>Combat Fatigues [TK]</Original>
+            <English>Combat Fatigues [TK]</English>
+            <Czech>Uniforma [TK]</Czech>
+            <French>Treillis [TK]</French>
+            <German>Kampfanzug [TK]</German>
+            <Italian>Uniforme da combattimento [TK]</Italian>
+            <Polish>Mundur bojowy [TK]</Polish>
+            <Portuguese>Uniforme de combate [TK]</Portuguese>
+            <Russian>Полевая форма [TK]</Russian>
+            <Spanish>Traje de combate [TK]</Spanish>
+        </Key>
+        <Key ID="str_a3_combat_fatigues_shemag_tka_a3">
+            <Original>Combat Fatigues (Shemag) [TK]</Original>
+            <English>Combat Fatigues (Shemag) [TK]</English>
+            <Czech>Uniforma (shemag) [TK]</Czech>
+            <French>Treillis (Shemag) [TK]</French>
+            <German>Kampfanzug (Shemag) [TK]</German>
+            <Italian>Uniforme da combattimento (Shemag) [TK]</Italian>
+            <Polish>Mundur bojowy (Shemag) [TK]</Polish>
+            <Portuguese>Uniforme de combate (Shemag) [TK]</Portuguese>
+            <Russian>Полевая форма (Shemag) [TK]</Russian>
+            <Spanish>Traje de combate (Shemag) [TK]</Spanish>
+        </Key>
+        <Key ID="str_a3_combat_fatigues_mix_tka_a3">
+            <Original>Combat Fatigues (Mix) [TK]</Original>
+            <English>Combat Fatigues (Mix) [TK]</English>
+            <Czech>Uniforma (mix) [TK]</Czech>
+            <French>Treillis (Mix) [TK]</French>
+            <German>Kampfanzug (Mix) [TK]</German>
+            <Italian>Uniforme da combattimento (Mix) [TK]</Italian>
+            <Polish>Mundur bojowy (Mix) [TK]</Polish>
+            <Portuguese>Uniforme de combate (Mix) [TK]</Portuguese>
+            <Russian>Полевая форма (Mix) [TK]</Russian>
+            <Spanish>Traje de combate (Mix) [TK]</Spanish>
+        </Key>
+        <Key ID="str_a3_combat_fatigues_officer_tka_a3">
+            <Original>Combat Fatigues (Officer) [TK]</Original>
+            <English>Combat Fatigues (Officer) [TK]</English>
+            <Czech>Uniforma (důstojnická) [TK]</Czech>
+            <French>Treillis (Officer) [TK]</French>
+            <German>Kampfanzug (Officer) [TK]</German>
+            <Italian>Uniforme da combattimento (Officer) [TK]</Italian>
+            <Polish>Mundur bojowy (Officer) [TK]</Polish>
+            <Portuguese>Uniforme de combate (Officer) [TK]</Portuguese>
+            <Russian>Полевая форма (Officer) [TK]</Russian>
+            <Spanish>Traje de combate (Officer) [TK]</Spanish>
         </Key>
         <Key ID="str_a3_ghillie_suit_tka_a3">
-            <Original>Ghillie Suit [TKA]</Original>
-            <English>Ghillie Suit [TKA]</English>
-            <Czech>Hejkal [TKA]</Czech>
-            <French>Ghillie Suit [TKA]</French>
-            <German>Ghillie-Anzug [TKA]</German>
-            <Italian>Mimetica da cecchino [TKA]</Italian>
-            <Polish>Ghillie [TKA]</Polish>
-            <Portuguese>Traje ghillie [TKA]</Portuguese>
-            <Russian>Маскировочный костюм [TKA]</Russian>
-            <Spanish>Traje de camuflaje [TKA]</Spanish>
+            <Original>Ghillie Suit [TK]</Original>
+            <English>Ghillie Suit [TK]</English>
+            <Czech>Hejkal [TK]</Czech>
+            <French>Ghillie Suit [TK]</French>
+            <German>Ghillie-Anzug [TK]</German>
+            <Italian>Mimetica da cecchino [TK]</Italian>
+            <Polish>Ghillie [TK]</Polish>
+            <Portuguese>Traje ghillie [TK]</Portuguese>
+            <Russian>Маскировочный костюм [TK]</Russian>
+            <Spanish>Traje de camuflaje [TK]</Spanish>
+        </Key>
+        <Key ID="str_tka_a3_v_chestrigb_blk0">
+            <Original>Fighter Chest rig [TK]</Original>
+            <English>Fighter Chest rig [TK]</English>
+            <Czech>Bojový hrudní pás [TK]</Czech>
+            <French>Gilet modulable de combat [TK]</French>
+            <German>Kämpfer-Chest-Rig [TK]</German>
+            <Italian>Pettorale da combattente [TK]</Italian>
+            <Polish>Kamizelka bojowa [TK]</Polish>
+            <Portuguese>Suporte peitoral de combatente [TK]</Portuguese>
+            <Russian>Разгрузка [TK]</Russian>
+            <Spanish>Pechera de combate [TK]</Spanish>
+        </Key>
+        <Key ID="str_tka_a3_h_helmet">
+            <Original>Helmet [TK]</Original>
+            <English>Helmet [TK]</English>
+            <Czech>Přilba [TK]</Czech>
+        </Key>
+        <Key ID="str_tka_a3_h_beret">
+            <Original>Beret [TK]</Original>
+            <English>Beret [TK]</English>
+            <Czech>Baret [TK]</Czech>
+            <French>Béret [TK]</French>
+            <German>Barett [TK]</German>
+            <Italian>Basco [TK]</Italian>
+            <Polish>Beret [TK]</Polish>
+            <Portuguese>Boina [TK]</Portuguese>
+            <Russian>Берет [TK]</Russian>
+            <Spanish>Boina [TK]</Spanish>
+        </Key>
+        <Key ID="str_tka_a3_dn_tk_soldier_b_ep1">
+            <Original>Rifleman (backpack)</Original>
+            <Chinese>Rifleman (backpack)</Chinese>
+            <French>Fusilier (sac à dos)</French>
+            <Spanish>Fusilero (mochila)</Spanish>
+            <Italian>Fuciliere (con zaino)</Italian>
+            <Hungarian>Rifleman (backpack)</Hungarian>
+            <Polish>Strzelec (plecak)</Polish>
+            <Russian>Стрелок (ранец)</Russian>
+            <German>Schütze (Rucksack)</German>
+            <Czech>Střelec (batoh)</Czech>
+            <English>Rifleman (backpack)</English>
+            <Japanese>Rifleman (backpack)</Japanese>
         </Key>
         <Key ID="str_dn_general_tka_a3">
             <Original>General</Original>
@@ -141,6 +363,107 @@
             <Czech>Generál</Czech>
             <English>General</English>
             <Japanese>General</Japanese>
+        </Key>
+        <Key ID="str_tka_a3_dn_tk_aziz_ep1">
+            <Original>Col. Aziz</Original>
+            <Chinese>Col. Aziz</Chinese>
+            <French>Col. Aziz</French>
+            <Spanish>Col. Aziz</Spanish>
+            <Italian>Col. Aziz</Italian>
+            <Hungarian>Col. Aziz</Hungarian>
+            <Polish>Płk Aziz</Polish>
+            <Russian>Полковник Азиз</Russian>
+            <German>Col. Aziz</German>
+            <Czech>Plk. Aziz</Czech>
+            <English>Col. Aziz</English>
+            <Japanese>Col. Aziz</Japanese>
+        </Key>
+        <Key ID="str_tka_a3_dn_tk_soldier_sniperh_ep1">
+            <Original>Sniper (KSVK)</Original>
+            <Chinese>Sniper (KSVK)</Chinese>
+            <French>Sniper (KSVK)</French>
+            <Spanish>Francotirador (KSVK)</Spanish>
+            <Italian>Cecchino (KSVK)</Italian>
+            <Hungarian>Sniper (KSVK)</Hungarian>
+            <Polish>Snajper (KSWK)</Polish>
+            <Russian>Снайпер (КСВК)</Russian>
+            <German>Scharfschütze (KSVK)</German>
+            <Czech>Ostřelovač (KSVK)</Czech>
+            <English>Sniper (KSVK)</English>
+            <Japanese>Sniper (KSVK)</Japanese>
+        </Key>
+        <Key ID="str_tka_a3_dn_tk_soldier_sniper_night_ep1">
+            <Original>Sniper (night)</Original>
+            <Chinese>Sniper (night)</Chinese>
+            <French>Sniper (nocturne)</French>
+            <Spanish>Francotirador (noche)</Spanish>
+            <Italian>Cecchino (notturno)</Italian>
+            <Hungarian>Sniper (night)</Hungarian>
+            <Polish>Snajper (noc)</Polish>
+            <Russian>Снайпер (СВДН)</Russian>
+            <German>Scharfschütze (Nacht)</German>
+            <Czech>Ostřelovač (noční)</Czech>
+            <English>Sniper (night)</English>
+            <Japanese>Sniper (night)</Japanese>
+        </Key>
+        <Key ID="str_tka_a3_dn_tk_soldier_night_1_ep1">
+            <Original>Soldier (AKS-74 night)</Original>
+            <Chinese>Soldier (AKS-74 night)</Chinese>
+            <French>Soldat (AKS-74 - nuit)</French>
+            <Spanish>Soldado (AKS-74 noche)</Spanish>
+            <Italian>Soldato (AKS-74 nott.)</Italian>
+            <Hungarian>Soldier (AKS-74 night)</Hungarian>
+            <Polish>Żołnierz (nocny AKS-74)</Polish>
+            <Russian>Стрелок (АКС-74Н НСПУ)</Russian>
+            <German>Soldat (AKS-74 Nacht)</German>
+            <Czech>Voják (AKS-74 noční)</Czech>
+            <English>Soldier (AKS-74 night)</English>
+            <Japanese>Soldier (AKS-74 night)</Japanese>
+        </Key>
+        <Key ID="str_tka_a3_dn_tk_soldier_night_2_ep1">
+            <Original>Soldier (night)</Original>
+            <Chinese>Soldier (night)</Chinese>
+            <French>Soldat (nocturne)</French>
+            <Spanish>Soldado (noche)</Spanish>
+            <Italian>Soldato (notturno)</Italian>
+            <Hungarian>Soldier (night)</Hungarian>
+            <Polish>Żołnierz (nocny)</Polish>
+            <Russian>Стрелок (FN FAL AN/PVS-4)</Russian>
+            <German>Soldat (Nacht)</German>
+            <Czech>Voják (noční)</Czech>
+            <English>Soldier (night)</English>
+            <Japanese>Soldier (night)</Japanese>
+        </Key>
+        <Key ID="str_tka_a3_dn_tk_soldier_tws_ep1">
+            <Original>Soldier (TWS)</Original>
+            <Chinese>Soldier (TWS)</Chinese>
+            <French>Soldat (TWS)</French>
+            <Spanish>Soldado (TWS)</Spanish>
+            <Italian>Soldato (mirino termico)</Italian>
+            <Hungarian>Soldier (TWS)</Hungarian>
+            <Polish>Żołnierz (TWS)</Polish>
+            <Russian>Стрелок (АКС-74Н ТВП 'Шахин')</Russian>
+            <German>Soldat (TWS)</German>
+            <Czech>Voják (TWS)</Czech>
+            <English>Soldier (TWS)</English>
+            <Japanese>Soldier (TWS)</Japanese>
+        </Key>
+        <Key ID="str_b_recon_f0_tka_a3_mg">
+            <Original>Recon Machinegunner</Original>
+            <English>Recon Machinegunner</English>
+            <Czech>Průzkumník - kulometčík</Czech>
+        </Key>
+        <Key ID="str_b_soldier_at_f0_tka_a3">
+            <Original>Missile Specialist (Metis)</Original>
+            <English>Missile Specialist (Metis)</English>
+            <Czech>Raketometčík - specialista (Metis)</Czech>
+            <French>Spécialiste en missiles (Metis)</French>
+            <German>Raketenspezialist (Metis)</German>
+            <Italian>Specialista missili (Metis)</Italian>
+            <Polish>Specjalista ppk</Polish>
+            <Portuguese>Especialista em mísseis (Metis)</Portuguese>
+            <Russian>Ракетчик (Metis)</Russian>
+            <Spanish>Especialista en misiles (Metis)</Spanish>
         </Key>
     </Package>
 </Project>
