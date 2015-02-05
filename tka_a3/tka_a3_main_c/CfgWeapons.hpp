@@ -54,7 +54,7 @@ class CfgWeapons
 	{
 		author = "TKA_A3";
 		displayName = "Turban [TK]";
-		picture = "\tka_a3\tka_a3_main\data\UI\icon_helmet.paa";
+		picture = "\tka_a3\tka_a3_main\data\UI\icon_turban.paa";
 
 		model = "\tka_a3\tka_a3_main\tka_turban.p3d";
 		hiddenSelections[] = {"camo2"};
@@ -74,8 +74,8 @@ class CfgWeapons
 	{
 		author = "TKA_A3";
 		displayName = "$STR_tka_a3_h_beret";
-		picture = "\A3\characters_f\Data\UI\icon_H_Beret_blk_CA.paa";
-		hiddenSelectionsTextures[] = {"\a3\characters_f\common\data\headgear_beret01_co.paa"};
+		picture = "\tka_a3\tka_a3_main\data\UI\icon_beret.paa";
+		hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\TKA_beret.paa"};
 		model = "\A3\Characters_F\Common\headgear_beret01";
 		class ItemInfo: ItemInfo
 		{
