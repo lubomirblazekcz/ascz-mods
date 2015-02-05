@@ -176,7 +176,7 @@ class CfgVehicles
             };
         };
     };
-
+    class B_TKA_A3_Soldier;
     class B_TKA_A3_Soldier_GL: B_TKA_A3_Soldier_Base
     {
         weapons[]={"CUP_arifle_M16A2_GL","Throw","Put"};
