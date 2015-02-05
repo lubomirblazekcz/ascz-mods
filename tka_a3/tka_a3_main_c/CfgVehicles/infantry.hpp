@@ -32,7 +32,7 @@ class B_TKA_A3_Soldier_Base: SoldierGB
         "hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal",
         "HandGrenade","HandGrenade"
     };
-    respawnWeapons[]={"hlc_rifle_ak74_dirty","Throw","Put"};
+    respawnWeapons[]={"hlc_rifle_FAL5061","Throw","Put"};
     respawnMagazines[]=
     {
         "hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal",
@@ -88,7 +88,7 @@ class B_TKA_A3_Soldier_Base_02: SoldierGB
         "hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal",
         "HandGrenade","HandGrenade"
     };
-    respawnWeapons[]={"hlc_rifle_ak74_dirty","Throw","Put"};
+    respawnWeapons[]={"hlc_rifle_FAL5061","Throw","Put"};
     respawnMagazines[]=
     {
         "hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal",
@@ -167,7 +167,7 @@ class B_TKA_A3_Soldier_Base_03: SoldierGB
         "hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal",
         "HandGrenade","HandGrenade"
     };
-    respawnWeapons[]={"hlc_rifle_ak74_dirty","Throw","Put"};
+    respawnWeapons[]={"hlc_rifle_FAL5061","Throw","Put"};
     respawnMagazines[]=
     {
         "hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal",
@@ -246,7 +246,7 @@ class B_TKA_A3_Soldier_Base_04: SoldierGB
         "hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal",
         "HandGrenade","HandGrenade"
     };
-    respawnWeapons[]={"hlc_rifle_ak74_dirty","Throw","Put"};
+    respawnWeapons[]={"hlc_rifle_FAL5061","Throw","Put"};
     respawnMagazines[]=
     {
         "hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_t_fal",
@@ -423,7 +423,7 @@ class B_TKA_A3_Soldier_GL: B_TKA_A3_Soldier_Base
         "1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell",
         "1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell"
     };
-    respawnWeapons[]={"hlc_rifle_aks74_GL","Throw","Put"};
+    respawnWeapons[]={"RH_m16a2gl","Throw","Put"};
     respawnMagazines[]=
     {
         "30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag",
