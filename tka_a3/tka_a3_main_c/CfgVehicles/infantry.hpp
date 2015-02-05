@@ -295,6 +295,103 @@ class B_TKA_A3_Soldier_Base_04: SoldierGB
 
 // BACKPACKS
 class Bag_Base;
+class CUP_B_CivPack_WDL;
+class CUP_B_AlicePack_Khaki;
+class B_TKA_A3_Assault_Pack_Ammo: CUP_B_CivPack_WDL {
+    scope = 1;
+    class TransportMagazines
+    {
+        class _xx_hlc_20Rnd_762x51_t_fal
+        {
+            magazine = "hlc_20Rnd_762x51_t_fal";
+            count = 2;
+        };
+        class _xx_CUP_10Rnd_762x54_SVD_M
+        {
+            magazine = "CUP_10Rnd_762x54_SVD_M";
+            count = 2;
+        };
+        class _xx_1Rnd_HE_Grenade_shell
+        {
+            magazine = "1Rnd_HE_Grenade_shell";
+            count = 2;
+        };
+        class _xx_HandGrenade
+        {
+            magazine = "HandGrenade";
+            count = 2;
+        };
+    };
+};
+class B_TKA_A3_ALICE_Pack_AmmoMG: CUP_B_AlicePack_Khaki {
+    scope = 1;
+    class TransportMagazines
+    {
+        class _xx_rhs_100Rnd_762x54mmR
+        {
+            magazine = "rhs_100Rnd_762x54mmR";
+            count = 5;
+        };
+        class _xx_HandGrenade
+        {
+            magazine = "HandGrenade";
+            count = 2;
+        };
+    };
+};
+class B_TKA_A3_ALICE_Pack_Explosives: CUP_B_AlicePack_Khaki {
+    scope = 1;
+    class TransportMagazines
+    {
+        class _xx_ATMine_Range_Mag
+        {
+            magazine = "ATMine_Range_Mag";
+            count = 3;
+        };
+        class _xx_DemoCharge_Remote_Mag
+        {
+            magazine = "DemoCharge_Remote_Mag";
+            count = 3;
+        };
+    };
+};
+class B_TKA_A3_Assault_Pack_RPK: CUP_B_CivPack_WDL {
+    scope = 1;
+    class TransportMagazines
+    {
+        class _xx_hlc_45Rnd_762x39_t_rpk
+        {
+            magazine = "hlc_45Rnd_762x39_t_rpk";
+            count = 3;
+        };
+        class _xx_HandGrenade
+        {
+            magazine = "HandGrenade";
+            count = 2;
+        };
+    };
+};
+class B_TKA_A3_ALICE_Pack_Ammo: CUP_B_AlicePack_Khaki {
+    scope = 1;
+    class TransportMagazines
+    {
+        class _xx_30Rnd_556x45_Stanag
+        {
+            magazine = "30Rnd_556x45_Stanag";
+            count = 6;
+        };
+        class _xx_1Rnd_HE_Grenade_shell
+        {
+            magazine = "1Rnd_HE_Grenade_shell";
+            count = 4;
+        };
+        class _xx_smokeshellOrange
+        {
+            magazine = "smokeshellOrange";
+            count = 2;
+        };
+    };
+};
 
 // BASIC SOLDIERS
 class B_TKA_A3_Soldier: B_TKA_A3_Soldier_Base
@@ -337,20 +434,20 @@ class B_TKA_A3_Soldier_GL: B_TKA_A3_Soldier_Base
 //BACKPACK CLASSES START
 class B_TKA_A3_Soldier_B: B_TKA_A3_Soldier
 {
-	displayName=$STR_EP1_DN_TK_Soldier_B_EP1;
-	backpack = "TKA_Assault_Pack_Ammo_EP1";
+	displayName="$STR_tka_a3_dn_tk_soldier_b_ep1";
+	backpack = "B_TKA_A3_Assault_Pack_Ammo";
 };
 
 class B_TKA_A3_Soldier_AAT: B_TKA_A3_Soldier
 {
-	displayName=$STR_EP1_DN_TK_Soldier_AAT_EP1;
-	backpack = "TK_RPG_Backpack_EP1";
+	displayName="$STR_b_soldier_aat_f0";
+	backpack = "rhs_rpg";
 };
 
 class B_TKA_A3_Soldier_AMG: B_TKA_A3_Soldier
 {
-	displayName=$STR_EP1_DN_TK_Soldier_AMG_EP1;
-	backpack = "TK_ALICE_Pack_AmmoMG_EP1";
+	displayName="$STR_b_soldier_aar_f0";
+	backpack = "B_TKA_A3_ALICE_Pack_AmmoMG";
 };
 //BACKPACK CLASSES END
 
@@ -359,7 +456,7 @@ class B_TKA_A3_Soldier_LAT:B_TKA_A3_Soldier_Base
 {
 	scope=2;
 	accuracy=3.9;
-	displayName=$STR_EP1_DN_TK_Soldier_LAT_EP1; // TODO sring
+	displayName="$STR_b_soldier_lat_f0";
 	icon = "iconManAT";
 
     textSingular = "launcherSoldier";
@@ -398,7 +495,7 @@ class B_TKA_A3_Soldier_AT: B_TKA_A3_Soldier_Base
     camouflage = 1.5;
     textSingular = "launcherSoldier";
     textPlural = "launcherSoldiers";
-    backpack = "rhs_rpg"; //none
+    backpack = ""; //none
     weapons[]={"hlc_rifle_FAL5061","rhs_weap_rpg7","Throw","Put"};
     magazines[]=
     {
@@ -419,7 +516,7 @@ class B_TKA_A3_Soldier_HAT:B_TKA_A3_Soldier_Base
 {
 	scope=2;
 	accuracy=3.9;
-	displayName=$STR_EP1_DN_TK_Soldier_HAT_EP1; // TODO sring
+	displayName="$STR_b_soldier_at_f0_tka_a3";
 	icon = "iconManAT";
 
     textSingular = "launcherSoldier";
@@ -482,7 +579,7 @@ class B_TKA_A3_Soldier_Engineer: B_TKA_A3_Soldier
 	displayName = "$STR_B_engineer_F0";
     canDeactivateMines = 1;
     engineer = 1;
-    backpack = "TK_ALICE_Pack_Explosives_EP1";
+    backpack = "B_TKA_A3_ALICE_Pack_Explosives";
     weapons[]={"hlc_rifle_FAL5061","Throw","Put"};
     magazines[]=
     {
@@ -507,7 +604,7 @@ class B_TKA_A3_Soldier_MG: B_TKA_A3_Soldier_Base
     textSingular = "mgunner";
     textPlural = "mgunners";
 	displayName = "$STR_B_soldier_AR_F0";
-    backpack = "rhs_sidorMG";
+    backpack = "";
     weapons[]={"rhs_weap_pkp_bipod","Throw","Put"};
     magazines[]=
     {
@@ -539,7 +636,7 @@ class B_TKA_A3_Soldier_AR: B_TKA_A3_Soldier_Base
     textPlural = "mgunners";
 	threat[] = {1,0.1,0.3};
     cost=80000; //Rg 60000;
-    backpack = "TK_Assault_Pack_RPK_EP1";
+    backpack = "B_TKA_A3_Assault_Pack_RPK";
     weapons[]={"hlc_rifle_rpk","Throw","Put"};
     magazines[]=
     {
@@ -640,7 +737,7 @@ class B_TKA_A3_Soldier_Officer: B_TKA_A3_Soldier_Base
 	displayName = "$STR_B_officer_F0";
     textSingular = "officer";
     textPlural = "officers";
-    identityTypes[] = {"Head_Euro","Language_CZ","Language_ACR_CZ"};
+    identityTypes[] = {"LanguagePER_F","Head_TK"};
     camouflage = 1.6;
     sensitivity = 3;
     cost=700000; //Rg 500000;
@@ -669,7 +766,7 @@ class B_TKA_A3_Aziz: B_TKA_A3_Soldier_Base
     scope = 2;
     scopeCurator = 2;
 	accuracy=3.9;
-	displayName=$STR_EP1_DN_TK_Aziz_EP1; // TODO sring
+	displayName="$STR_tka_a3_dn_tk_aziz_ep1";
     textSingular = "officer";
     textPlural = "officers";
     uniformClass = "U_TKA_A3_uniform_04";
@@ -805,7 +902,7 @@ class B_TKA_A3_Soldier_SniperH: B_TKA_A3_Soldier_Sniper
 {
 	scope=2;
     scopeCurator = 2;
-	displayName = $STR_EP1_DN_TK_Soldier_SniperH_EP1;
+	displayName = "$STR_tka_a3_dn_tk_soldier_sniperh_ep1";
 	threat[]={1, 0.6, 0.6};
 	weapons[]={"CUP_srifle_ksvk_PSO3","NVGoggles","Throw","Put","Binocular","itemGPS"};
 	magazines[]=
@@ -828,7 +925,7 @@ class B_TKA_A3_Soldier_Sniper_Night: B_TKA_A3_Soldier_Sniper
 {
 	scope = 2;
     scopeCurator = 2;
-	displayName = $STR_EP1_DN_TK_Soldier_Sniper_Night_EP1;
+	displayName = "$STR_tka_a3_dn_tk_soldier_sniper_night_ep1";
 	weapons[]={"CUP_srifle_SVD_NSPU","NVGoggles","Throw","Put","Binocular","itemGPS"};
 	magazines[]=
 	{
@@ -848,7 +945,7 @@ class B_TKA_A3_Soldier_Night_1: B_TKA_A3_Soldier
 {
 	scope=2;
     scopeCurator = 2;
-	displayName=$STR_EP1_DN_TK_Soldier_Night_1_EP1;
+	displayName="$STR_tka_a3_dn_tk_soldier_night_1_ep1";
 	weapons[]={"hlc_rifle_aks74","Throw","Put","NVGoggles"}; //NSPU
 	magazines[]=
 	{
@@ -867,7 +964,7 @@ class B_TKA_A3_Soldier_Night_2: B_TKA_A3_Soldier
 {
 	scope=2;
     scopeCurator = 2;
-	displayName=$STR_EP1_DN_TK_Soldier_Night_2_EP1;
+	displayName="$STR_tka_a3_dn_tk_soldier_night_2_ep1";
 	weapons[]={"hlc_rifle_FAL5061","Throw","Put"}; // ANPVS4
 	magazines[]=
 	{
@@ -886,7 +983,7 @@ class B_TKA_A3_Soldier_TWS: B_TKA_A3_Soldier
 {
 	scope=2;
     scopeCurator = 2;
-	displayName=$STR_EP1_DN_TK_Soldier_TWS_EP1;
+	displayName="$STR_tka_a3_dn_tk_soldier_tws_ep1";
 	weapons[]={"hlc_rifle_aks74","Throw","Put","NVGoggles"}; // GHOSTHAWK
 	magazines[]=
 	{
@@ -968,9 +1065,9 @@ class B_TKA_A3_Special_Forces: B_TKA_A3_Soldier_Base
 	accuracy=3.9;
 	vehicleClass="Men"; //MenSpecialForces
     uniformClass = "U_TKA_A3_uniform_03";
-	displayName=$STR_EP1_DN_TK_Special_Forces_EP1; // TODO sring
+	displayName="$STR_b_recon_f0"; // TODO sring
 
-	backpack = "TKA_ALICE_Pack_Ammo_EP1";
+	backpack = "B_TKA_A3_ALICE_Pack_Ammo";
 	weapons[]={"RH_m16a2gl","Binocular","Throw","Put","RH_mak"};
 	magazines[]=
 	{
@@ -988,11 +1085,14 @@ class B_TKA_A3_Special_Forces: B_TKA_A3_Soldier_Base
 		"HandGrenade", "smokeshellBlue",
 		"RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak"
 	};
+
+    linkedItems[] = {"H_TKA_A3_Turban","V_TKA_A3_ChestRig","G_Bandanna_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+    respawnLinkedItems[] = {"H_TKA_A3_Turban","V_TKA_A3_ChestRig","G_Bandanna_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 };
 
 class B_TKA_A3_Special_Forces_TL: B_TKA_A3_Special_Forces
 {
-	displayName=$STR_EP1_DN_TK_Special_Forces_TL_EP1; // TODO sring
+	displayName="$STR_b_recon_tl_f0"; // TODO sring
 
 	backpack="";
     uniformClass = "U_TKA_A3_uniform_03";
@@ -1015,7 +1115,7 @@ class B_TKA_A3_Special_Forces_TL: B_TKA_A3_Special_Forces
 
 class B_TKA_A3_Special_Forces_MG: B_TKA_A3_Special_Forces
 {
-	displayName=$STR_EP1_DN_TK_Special_Forces_MG_EP1;
+	displayName="$STR_b_recon_f0_tka_a3_mg";
 
 	backpack="";
     uniformClass = "U_TKA_A3_uniform_03";

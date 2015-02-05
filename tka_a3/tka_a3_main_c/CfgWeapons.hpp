@@ -9,8 +9,13 @@ class CfgWeapons
     {
 		author = "TKA_A3";
 		scope = 2;
+<<<<<<< HEAD
 		displayName = "Chest Rig [TKA]";
 		picture = "\tka_a3\tka_a3_main\data\UI\icon_vest.paa";
+=======
+		displayName = "$STR_tka_a3_v_chestrigb_blk0";
+		picture = "\A3\characters_f\Data\UI\icon_V_Chestrig_khk_CA.paa";
+>>>>>>> origin/master
 		model = "\tka_a3\tka_a3_main\tka_vest.p3d";
 		hiddenSelections[] = {"Camo3"};
 		hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\tak_soldier_equip_co.paa"};
@@ -32,7 +37,7 @@ class CfgWeapons
 	{
 		author = "TKA_A3";
 		_generalMacro = "H_HelmetIA";
-		displayName = "Helmet [TK]";
+		displayName = "$STR_tka_a3_h_helmet";
 		picture = "\tka_a3\tka_a3_main\data\UI\icon_helmet.paa";
 
 		model = "\tka_a3\tka_a3_main\tka_helmet.p3d";
@@ -50,10 +55,30 @@ class CfgWeapons
 		};
 	};
 	class H_Beret_blk;
+	class H_TKA_A3_Turban: H_Beret_blk
+	{
+		author = "TKA_A3";
+		displayName = "Turban [TK]";
+		picture = "\tka_a3\tka_a3_main\data\UI\icon_helmet.paa";
+
+		model = "\tka_a3\tka_a3_main\tka_helmet.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\tak_soldier_equip_co.paa"};
+
+		class ItemInfo: ItemInfo
+		{
+			mass = 6;
+			allowedSlots[] = {801,901,701,605};
+			uniformModel = "\tka_a3\tka_a3_main\tka_helmet.p3d";
+			modelSides[] = {6};
+			armor = 0;
+			passThrough = 1;
+		};
+	};
 	class H_TKA_A3_Beret: H_Beret_blk
 	{
 		author = "$STR_A3_Bohemia_Interactive";
-		displayName = "Beret [TK]";
+		displayName = "$STR_tka_a3_h_beret";
 		picture = "\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
 		model = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F_EPB\BLUFOR\Data\headgear_beret02_co.paa"};
@@ -73,8 +98,13 @@ class CfgWeapons
     {
 		author = "TKA_A3";
         scope = 2;
+<<<<<<< HEAD
         displayName = "$STR_A3_combat_fatigues_tka_a3";
         picture = "\tka_a3\tka_a3_main\data\UI\icon_uniform2.paa";
+=======
+        displayName = "$STR_A3_combat_fatigues_shemag_tka_a3";
+        picture = "\tka_a3\tka_a3_main\data\UI\icon_uniform.paa";
+>>>>>>> origin/master
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\Suitpacks\suitpack_TKA.paa"};
@@ -107,7 +137,7 @@ class CfgWeapons
     {
 		author = "TKA_A3";
         scope = 2;
-        displayName = "$STR_A3_combat_fatigues_tka_a3";
+        displayName = "$STR_A3_combat_fatigues_mix_tka_a3";
 		picture = "\tka_a3\tka_a3_main\data\UI\icon_uniform_mix.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"camo"};
@@ -124,8 +154,13 @@ class CfgWeapons
     {
 		author = "TKA_A3";
         scope = 2;
+<<<<<<< HEAD
         displayName = "$STR_A3_combat_fatigues_tka_a3";
 		picture = "\tka_a3\tka_a3_main\data\UI\icon_uniform_officer.paa";
+=======
+        displayName = "$STR_A3_combat_fatigues_officer_tka_a3";
+		picture = "\tka_a3\tka_a3_main\data\UI\icon_uniform_mix.paa";
+>>>>>>> origin/master
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\tka_a3\tka_a3_main\data\Suitpacks\suitpack_TKA.paa"};
