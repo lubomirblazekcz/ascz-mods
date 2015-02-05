@@ -255,7 +255,7 @@ class CfgGroups
             };
             class Air
             {
-                name = $STR_EP1_DN_CfgGroups_East_BIS_TK_Air;
+                name = "$STR_cfggroups_west_tka_a3_air";
 
 //                class TK_An2Flight
 //                {
