@@ -2,18 +2,18 @@
 <Project name="Chernarrusian Defence Forces">
     <Package name="TKA mod">
         <Key ID="str_ep1_dn_cfggroups_east_tka_a3">
-            <Original>Takistan Army</Original>
-            <Chinese>Takistan Army</Chinese>
+            <Original>Takistani Army</Original>
+            <Chinese>Takistani Army</Chinese>
             <French>Armée takistanaise</French>
             <Spanish>Ejército takistaní</Spanish>
             <Italian>Esercito takistano</Italian>
-            <Hungarian>Takistan Army</Hungarian>
+            <Hungarian>Takistani Army</Hungarian>
             <Polish>Armia takistańska</Polish>
             <Russian>Армия Такистана</Russian>
             <German>Takistanische Armee</German>
             <Czech>Takistánská armáda</Czech>
-            <English>Takistan Army</English>
-            <Japanese>Takistan Army</Japanese>
+            <English>Takistani Army</English>
+            <Japanese>Takistani Army</Japanese>
         </Key>
         <Key ID="str_cfggroups_west_tka_a3_air">
             <Original>Air</Original>

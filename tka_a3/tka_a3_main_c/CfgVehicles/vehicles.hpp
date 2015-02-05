@@ -661,24 +661,24 @@ class TKA_A3_BTR60: rhs_btr60_base
         "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"		//i10 22
     };
 };
-class rhsusf_m113tank_base;
-class TKA_A3_M113: rhsusf_m113tank_base
-{
-    model = "\rhsusf\addons\rhsusf_m113\m113a3_d";
-    scope = 2;
-    scopeCurator=2;
-    displayName = "M113";
-    side = 0;
-    faction = "TKA_A3";
-    author = "TKA_A3";
-    vehicleClass = "Armored";
-    crew = "B_TKA_A3_Soldier_Crew";
-    typicalCargo[] = {"B_TKA_A3_Soldier_Crew"};
-    hiddenSelections[] =
-    {
-        "camo1"
-    };
-    hiddenSelectionsTextures[] = {
-        "tka_a3\tka_a3_main\data\m113a3_01_tk_co.paa"
-    };
-};
+//class rhsusf_m113tank_base;
+//class TKA_A3_M113: rhsusf_m113tank_base
+//{
+//    model = "\rhsusf\addons\rhsusf_m113\m113a3_d";
+//    scope = 2;
+//    scopeCurator=2;
+//    displayName = "M113";
+//    side = 0;
+//    faction = "TKA_A3";
+//    author = "TKA_A3";
+//    vehicleClass = "Armored";
+//    crew = "B_TKA_A3_Soldier_Crew";
+//    typicalCargo[] = {"B_TKA_A3_Soldier_Crew"};
+//    hiddenSelections[] =
+//    {
+//        "camo1"
+//    };
+//    hiddenSelectionsTextures[] = {
+//        "tka_a3\tka_a3_main\data\m113a3_01_tk_co.paa"
+//    };
+//};
