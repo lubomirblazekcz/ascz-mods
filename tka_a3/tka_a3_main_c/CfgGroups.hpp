@@ -161,7 +161,7 @@ class CfgGroups
 
                 class TK_MechanizedInfantrySquadBTR60
                 {
-                    name = "$STR_tka_a3_dn_cfggroups_east_bis_tk_mechanized_tk_mechanizedinfantrysquadbtr60;
+                    name = "$STR_tka_a3_dn_cfggroups_east_bis_tk_mechanized_tk_mechanizedinfantrysquadbtr60";
                     faction = TKA_A3;
                     rarityGroup=0.9;
                     class Unit0 	{side = 0;vehicle = "B_TKA_A3_Soldier_SL";rank = "LIEUTENANT";position[] = {3,+5,0};};
