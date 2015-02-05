@@ -81,7 +81,7 @@ class CfgWeapons
 		{
 			mass = 6;
 			allowedSlots[] = {801,901,701,605};
-			uniformModel = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02";
+		    model = "\A3\Characters_F\Common\headgear_beret01";
 			modelSides[] = {6};
 			armor = 0;
 			passThrough = 1;

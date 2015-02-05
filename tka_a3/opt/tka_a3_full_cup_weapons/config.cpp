@@ -143,7 +143,7 @@ class CfgVehicles
         scope = 1;
         class TransportMagazines
         {
-            class _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
+            class _xx_hlc_45Rnd_762x39_t_rpk
             {
                 magazine = "CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
                 count = 3;
