@@ -62,10 +62,10 @@ class CfgVehicles {
 		displayname = "Land Rover HMG";
 		side = 0;
 		hiddenSelectionsTextures[] = {"pansy\LandRover\data\lr_base_ind_co","pansy\LandRover\data\lr_special_w_baf_co","pansy\LandRover\data\lr_mg-spg9_ind_co"};
-		typicalCargo[] = {"kae_TK_rifleman"};
-        author = "Kaelies";
+		typicalCargo[] = {"B_TKA_A3_Soldier"};
+        author = "TKA_A3";
         vehicleClass = "Car";
-        crew = "kae_TK_rifleman";
-		faction = "Kae_TK";
+        crew = "B_TKA_A3_Soldier";
+		faction = "TKA_A3";
 	};
 };

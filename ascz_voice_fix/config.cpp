@@ -177,6 +177,27 @@ class CfgVoice
 	{
 		scope = 1;
 	};
+    class CZ;
+    class Male01CZ: CZ
+    {
+        scope = 1;
+    };
+    class Male02CZ: CZ
+    {
+        scope = 1;
+    };
+    class Male03CZ: CZ
+    {
+        scope = 1;
+    };
+    class Male04CZ: CZ
+    {
+        scope = 1;
+    };
+    class Male05CZ: CZ
+    {
+        scope = 1;
+    };
 };
 
 
