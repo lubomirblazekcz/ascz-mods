@@ -142,5 +142,10 @@
             <English>General</English>
             <Japanese>General</Japanese>
         </Key>
+        <Key ID="str_cdf_a3_h_helmet">
+            <Original>Helmet [CDF]</Original>
+            <English>Helmet [CDF]</English>
+            <Czech>Přilba [CDF]</Czech>
+        </Key>
     </Package>
 </Project>

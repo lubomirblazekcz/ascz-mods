@@ -123,7 +123,7 @@ class CfgWeapons
 	{
 		author = "CDF_A3";
 		_generalMacro = "H_HelmetIA";
-		displayName = "Helmet [CDF]";
+		displayName = "$STR_cdf_a3_h_helmet";
 		picture = "\cdf_a3\cdf_a3_main\data\UI\icon_helmet.paa";
 
 		model = "\cdf_a3\cdf_a3_main\cdf_helmet.p3d";
