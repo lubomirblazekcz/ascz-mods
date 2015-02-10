@@ -559,3 +559,40 @@ class CDF_A3_ZSU: RDS_ZSU_AAF_04
     crew = "B_CDF_A3_Soldier_Crew";
     typicalCargo[] = {"B_CDF_A3_Soldier_Crew"};
 };
+
+class CDF_A3_BRDM2_Base;
+class CDF_A3_BRDM2: CDF_A3_BRDM2_Base
+{
+    author = "CDF_A3";
+    scope=2;
+    scopeCurator=2;
+    side = 1;
+    faction = "CDF_A3";
+    crew = "B_CDF_A3_Soldier_Crew";
+    typicalCargo[] = {"B_CDF_A3_Soldier_Crew"};
+    hiddenselectionstextures[] = {"cdf_a3\cdf_a3_main\data\brdm2_01_camo_co.paa"};
+};
+class CDF_A3_BRDM2_ATGM_Base;
+class CDF_A3_BRDM2_ATGM: CDF_A3_BRDM2_ATGM_Base
+{
+    author = "CDF_A3";
+    scope=2;
+    scopeCurator=2;
+    side = 1;
+    faction = "CDF_A3";
+    crew = "B_CDF_A3_Soldier_Crew";
+    typicalCargo[] = {"B_CDF_A3_Soldier_Crew"};
+    hiddenselectionstextures[] = {"cdf_a3\cdf_a3_main\data\brdm2_atgm_01_camo_co.paa"};
+};
+class CDF_A3_BRDM2_HQ_Base;
+class CDF_A3_BRDM2_HQ: CDF_A3_BRDM2_HQ_Base
+{
+    author = "CDF_A3";
+    scope=2;
+    scopeCurator=2;
+    side = 1;
+    faction = "CDF_A3";
+    crew = "B_CDF_A3_Soldier_Crew";
+    typicalCargo[] = {"B_CDF_A3_Soldier_Crew"};
+    hiddenselectionstextures[] = {"cdf_a3\cdf_a3_main\data\brdm2_01_camo_co.paa"};
+};
