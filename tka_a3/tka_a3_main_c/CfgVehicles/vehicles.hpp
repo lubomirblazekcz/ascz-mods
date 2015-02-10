@@ -1,11 +1,20 @@
 // MISSING
 //Ural (Repair)
 //Ural (Ammo)
-//Ural (ZU-23)
+//9P117 Scud-B
+//Military Offroad (M2)
+//Military Offroad (SPG-9)
+//Motorcycle
+//SUV
 //UAZ (AGS-30)
 //UAZ (DShKM)
+//Ural (ZU-23)
+//V3S
+//V3S Open
 //BRDM-2
 //BRDM-2 (ATGM)
+//An-2
+//UH-1H
 
 
 // AIR
