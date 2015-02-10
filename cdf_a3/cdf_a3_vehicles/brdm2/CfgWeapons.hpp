@@ -6,7 +6,6 @@ class CfgAmmo
 	{
 		hit=520;indirectHit=12;indirectHitRange=1.2; // 600mm vs RHA
 		irLock=true;
-		rhs_ce_penetration="ACR_A3_M_AT5_penetrator";
 
 		manualControl=true;
 		maxControlRange=4000;
@@ -33,7 +32,7 @@ class CfgMagazines
 	class CDF_A3_5Rnd_AT5: VehicleMagazine
 	{
 		scope = 2;
-		displayName = "AT5";
+		displayName = "9M113";
 		displayNameShort = "9M113";
 		ammo=CDF_A3_M_AT5_AT;
 		initSpeed = 55.1688;
@@ -65,7 +64,7 @@ class CfgWeapons
         magazineReloadTime=30;
         aiRateOfFire=5;
         aiRateOfFireDistance=1400;
-		displayName="$STR_DN_AT5LAUNCHER";
+		displayName="Konkurs 9M113";
 		magazines[]=
 		{
 			"CDF_A3_5Rnd_AT5"
