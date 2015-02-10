@@ -92,5 +92,5 @@ class Stage7
 };
 class StageTI
 {
-	texture="cdf_a3\cdf_a3_vehicles\brdm2\data\auta_skla_ti_ca.tga";
+	texture="a3\data_f\default_glass_ti_ca.paa";
 };

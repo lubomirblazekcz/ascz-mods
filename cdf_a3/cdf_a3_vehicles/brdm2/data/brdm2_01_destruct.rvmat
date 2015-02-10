@@ -20,7 +20,7 @@ class Stage1
 };
 class Stage2
 {
-	texture="cdf_a3\cdf_a3_vehicles\brdm2\data\Destruct\destruct_plech_full_dt.tga";
+	texture="a3\data_f\destruct\destruct_plech_full_dt.tga";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -32,7 +32,7 @@ class Stage2
 };
 class Stage3
 {
-	texture="cdf_a3\cdf_a3_vehicles\brdm2\data\Destruct\destruct_plech_full_mc.tga";
+	texture="a3\data_f\destruct\destruct_plech_full_mc.tga";
 	uvSource="tex";
 	class uvTransform
 	{

@@ -1,4 +1,0 @@
-surfaceInfo="cdf_a3\cdf_a3_vehicles\brdm2\data\Penetration\rubber.bisurf";
-
-diffuse[]={0.5,0.5,1.0,1.000000};
-ambient[]={0.5,0.5,1.0,1.000000};

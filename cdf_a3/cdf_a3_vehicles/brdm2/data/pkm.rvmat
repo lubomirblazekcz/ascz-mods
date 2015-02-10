@@ -20,7 +20,7 @@ class Stage1
 };
 class Stage2
 {
-	texture="cdf_a3\cdf_a3_vehicles\brdm2\data\DetailMaps\Metal_Detail_DT.tga";
+	texture="a3\weapons_f\data\detailmaps\metal_detail_dt.paa";
 	uvSource="tex";
 	class uvTransform
 	{
