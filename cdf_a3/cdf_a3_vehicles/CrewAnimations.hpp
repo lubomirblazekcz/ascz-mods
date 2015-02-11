@@ -45,12 +45,12 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class CDF_A3_KIA_BRDM2_Driver:DefaultDie
 		{
-			actions = DeadActions;
+			actions = "DeadActions";
 			speed = 0.5;
 			looped=false;
 			terminal = 1;
 			file="\cdf_a3\cdf_a3_vehicles\data\anim\AnimPath\KIA_BRDM2_Driver.rtm";
-			connectTo[] = {"DeadState",0.1};
+			connectTo[] = {"Unconscious",0.1};
 		};
 		class CDF_A3_BRDM2_Driver: Crew
 		{
@@ -59,13 +59,13 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class CDF_A3_KIA_BRDM2_Gunner:DefaultDie
 		{
-			actions = DeadActions;
+			actions = "DeadActions";
 			speed = 0.5;
 			looped=false;
 			terminal = 1;
 			file="\cdf_a3\cdf_a3_vehicles\data\anim\KIA_BRDM2_Gunner.rtm";
 			soundEnabled=0;
-			connectTo[] = {"DeadState",0.1};
+			connectTo[] = {"Unconscious",0.1};
 		};
 		class CDF_A3_BRDM2_Gunner: Crew
 		{
@@ -74,13 +74,13 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class CDF_A3_KIA_BRDM2_Cargo01:DefaultDie
 		{
-			actions = DeadActions;
+			actions = "DeadActions";
 			speed = 0.5;
 			looped=false;
 			terminal = 1;
 			file="\cdf_a3\cdf_a3_vehicles\data\anim\KIA_BRDM2_Cargo01.rtm";
 			soundEnabled=0;
-			connectTo[] = {"DeadState",0.1};
+			connectTo[] = {"Unconscious",0.1};
 		};
 		class CDF_A3_BRDM2_Cargo01: Crew
 		{
@@ -89,13 +89,13 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class CDF_A3_KIA_BRDM2_Cargo02:DefaultDie
 		{
-			actions = DeadActions;
+			actions = "DeadActions";
 			speed = 0.5;
 			looped=false;
 			terminal = 1;
 			file="\cdf_a3\cdf_a3_vehicles\data\anim\KIA_BRDM2_Cargo02.rtm";
 			soundEnabled=0;
-			connectTo[] = {"DeadState",0.1};
+			connectTo[] = {"Unconscious",0.1};
 		};
 		class CDF_A3_BRDM2_Cargo02: Crew
 		{
@@ -104,18 +104,18 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class CDF_A3_KIA_GAZ_Gunner: DefaultDie
 		{
-			actions = DeadActions;
+			actions = "DeadActions";
 			file="\cdf_a3\cdf_a3_vehicles\data\anim\KIA_GAZ_Gunner.rtm";
 			speed = 0.5;
 			looped=false;
 			terminal = 1;
 			soundEnabled=0;
-			connectTo[] = {"DeadState",0.1};
+			connectTo[] = {"Unconscious",0.1};
 		};
 		class CDF_A3_GAZ_Gunner: Crew
 		{
 			file="\cdf_a3\cdf_a3_vehicles\data\anim\Stryker_GunnerOut.rtm";
-			interpolateTo[]={"KIA_GAZ_Gunner",1};
+			interpolateTo[]={"CDF_A3_KIA_GAZ_Gunner",1};
 		};
 	};
 };
