@@ -1,0 +1,11 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: Produced from mikero's Dos Tools Dll version 4.45
+//Mon Apr 07 16:30:16 2014 : Source 'file' date Mon Apr 07 16:30:16 2014
+//http://dev-heaven.net/projects/list_files/mikero-pbodll
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+//Class wheeled : data\empty_nzw.rvmat{
+renderFlags[] = {"NoZWrite"};
+//};
