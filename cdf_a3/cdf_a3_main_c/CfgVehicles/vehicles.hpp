@@ -306,7 +306,8 @@ class CDF_A3_UAZ_469_Open: rhs_uaz_open_Base
         init = "_this call SLX_XEH_EH_Init;_this call compile preProcessFile '\cdf_a3\cdf_a3_main_c\scripts\rhs_decal_init.sqf'";
     };
 };
-class CDF_A3_UAZ_MG_Base: RHS_UAZ_Base {};
+class CDF_A3_UAZ_Base: RHS_UAZ_Base{};
+class CDF_A3_UAZ_MG_Base: CDF_A3_UAZ_Base {};
 class CDF_A3_UAZ_MG: CDF_A3_UAZ_MG_Base
 {
 	author = "CDF_A3";
@@ -351,7 +352,7 @@ class CDF_A3_UAZ_MG: CDF_A3_UAZ_MG_Base
         init = "_this call SLX_XEH_EH_Init;_this call compile preProcessFile '\cdf_a3\cdf_a3_main_c\scripts\rhs_decal_init.sqf'";
     };
 };
-class CDF_A3_UAZ_AGS30_Base: RHS_UAZ_Base {};
+class CDF_A3_UAZ_AGS30_Base: CDF_A3_UAZ_Base {};
 class CDF_A3_UAZ_AGS30: CDF_A3_UAZ_AGS30_Base
 {
 	author = "CDF_A3";
@@ -396,12 +397,12 @@ class CDF_A3_UAZ_AGS30: CDF_A3_UAZ_AGS30_Base
         init = "_this call SLX_XEH_EH_Init;_this call compile preProcessFile '\cdf_a3\cdf_a3_main_c\scripts\rhs_decal_init.sqf'";
     };
 };
-class CDF_A3_UAZ_SPG9_Base: RHS_UAZ_Base {};
+class CDF_A3_UAZ_SPG9_Base: CDF_A3_UAZ_Base {};
 class CDF_A3_UAZ_SPG9: CDF_A3_UAZ_SPG9_Base
 {
 	author = "CDF_A3";
     vehicleClass = "Car";
-    scope=1;
+    scope=2;
     scopeCurator=0;
     side = 1;
     crew = "B_CDF_A3_Soldier_Militia";
@@ -722,7 +723,7 @@ class CDF_A3_BRDM2_HQ_Base;
 class CDF_A3_BRDM2_HQ: CDF_A3_BRDM2_HQ_Base
 {
     author = "CDF_A3";
-    scope=1;
+    scope=2;
     scopeCurator=0;
     side = 1;
     faction = "CDF_A3";
