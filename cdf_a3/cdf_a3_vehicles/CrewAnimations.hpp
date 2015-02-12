@@ -49,7 +49,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed = 0.5;
 			looped=false;
 			terminal = 1;
-			file="\cdf_a3\cdf_a3_vehicles\data\anim\AnimPath\KIA_BRDM2_Driver.rtm";
+			file="\cdf_a3\cdf_a3_vehicles\data\anim\KIA_BRDM2_Driver.rtm";
 			connectTo[] = {"Unconscious",0.1};
 		};
 		class CDF_A3_BRDM2_Driver: Crew
