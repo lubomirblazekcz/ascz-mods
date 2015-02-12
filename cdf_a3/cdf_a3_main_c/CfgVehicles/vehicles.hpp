@@ -1,9 +1,3 @@
-// MISSING
-//Ural (Repair)
-//Ural (Ammo)
-//Ural (ZU-23)
-
-
 // AIR
 class RHS_Mi24_base;
 class RHS_Mi24V_base;
