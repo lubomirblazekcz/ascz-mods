@@ -811,7 +811,7 @@ class CDF_A3_BMD2: rhs_bmd2_base
     author = "$STR_RHS_AUTHOR_FULL";
     displayName = "BMD-2";
     scope=2;
-    scopeCurator=0;
+    scopeCurator=2;
     side = 1;
     faction = "CDF_A3";
     crew = "B_CDF_A3_Soldier_Crew";
@@ -835,8 +835,7 @@ class rhs_btr_base;
 class CDF_A3_BTR70: rhs_btr_base
 {
     scope = 2;
-    scope=2;
-    scopeCurator=0;
+    scopeCurator=2;
     side = 1;
     faction = "CDF_A3";
     crew = "B_CDF_A3_Soldier_Crew";
