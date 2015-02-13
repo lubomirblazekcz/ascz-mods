@@ -798,7 +798,7 @@ class CDF_A3_BRDM2_HQ: CDF_A3_BRDM2_HQ_Base
 {
     author = "CDF_A3";
     scope=2;
-    scopeCurator=0;
+    scopeCurator=2;
     side = 1;
     faction = "CDF_A3";
     crew = "B_CDF_A3_Soldier_Crew";
