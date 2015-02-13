@@ -629,6 +629,86 @@ class CDF_A3_BM21: RHS_BM21_MSV_01
     };
 };
 
+class CDF_A3_Ural_Support_Base: RHS_Ural_BaseTurret {};
+class CDF_A3_Ural_Repair_Base: CDF_A3_Ural_Support_Base {};
+class CDF_A3_Ural_Repair: CDF_A3_Ural_Repair_Base
+{
+    author = "CDF_A3";
+    scope=2;
+    scopeCurator=2;
+    faction="CDF_A3";
+    side = 1;
+    crew = "B_CDF_A3_Soldier_Militia";
+    typicalCargo[] = {"B_CDF_A3_Soldier_Militia"};
+    hiddenSelections[]=
+    {
+        "camo1",
+        "camo2"
+    };
+
+    hiddenSelectionsTextures[] =
+    {
+        "cdf_a3\cdf_a3_main\data\ural_kabina_camo_co.paa",
+        "cdf_a3\cdf_a3_main\data\ural_repair_cdf_co.paa"
+    };
+    class EventHandlers: EventHandlers
+    {
+        init = "";
+    };
+};
+class CDF_A3_Ural_Reammo_Base: CDF_A3_Ural_Support_Base {};
+class CDF_A3_Ural_Reammo: CDF_A3_Ural_Reammo_Base
+{
+    author = "CDF_A3";
+    scope=2;
+    scopeCurator=2;
+    faction="CDF_A3";
+    side = 1;
+    crew = "B_CDF_A3_Soldier_Militia";
+    typicalCargo[] = {"B_CDF_A3_Soldier_Militia"};
+    hiddenSelections[]=
+    {
+        "camo1",
+        "camo2"
+    };
+
+    hiddenSelectionsTextures[] =
+    {
+        "cdf_a3\cdf_a3_main\data\ural_kabina_camo_co.paa",
+        "cdf_a3\cdf_a3_main\data\ural_plachta_camo_co.paa"
+    };
+    class EventHandlers: EventHandlers
+    {
+        init = "";
+    };
+};
+class CDF_A3_Ural_ZU23_Base: RHS_Ural_BaseTurret {};
+class CDF_A3_Ural_ZU23: CDF_A3_Ural_ZU23_Base
+{
+    author = "CDF_A3";
+    scope=2;
+    scopeCurator=2;
+    faction="CDF_A3";
+    side = 1;
+    crew = "B_CDF_A3_Soldier_Militia";
+    typicalCargo[] = {"B_CDF_A3_Soldier_Militia"};
+    hiddenSelections[]=
+    {
+        "camo1",
+        "camo2"
+    };
+
+    hiddenSelectionsTextures[] =
+    {
+        "cdf_a3\cdf_a3_main\data\ural_kabina_camo_co.paa",
+        "cdf_a3\cdf_a3_main\data\ural_open_cdf_co.paa"
+    };
+    class EventHandlers: EventHandlers
+    {
+        init = "";
+    };
+};
+
 // TANKs and APCs
 class RDS_T72_AAF_04;
 class CDF_A3_T72: RDS_T72_AAF_04
@@ -724,4 +804,72 @@ class CDF_A3_BRDM2_HQ: CDF_A3_BRDM2_HQ_Base
     crew = "B_CDF_A3_Soldier_Crew";
     typicalCargo[] = {"B_CDF_A3_Soldier_Crew"};
     hiddenselectionstextures[] = {"cdf_a3\cdf_a3_main\data\brdm2_01_camo_co.paa"};
+};
+class rhs_bmd2_base;
+class CDF_A3_BMD2: rhs_bmd2_base
+{
+    author = "$STR_RHS_AUTHOR_FULL";
+    displayName = "BMD-2";
+    scope=2;
+    scopeCurator=0;
+    side = 1;
+    faction = "CDF_A3";
+    crew = "B_CDF_A3_Soldier_Crew";
+    typicalCargo[] = {"B_CDF_A3_Soldier_Crew"};
+    vehicleClass = "Armored";
+    hiddenSelectionsTextures[] =
+    {
+        "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+        "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+        "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+        "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+        "rhsafrf\addons\rhs_decals\Data\Labels\Misc\no_ca.paa",
+        "cdf_a3\cdf_a3_main\data\sa_bmd2_01_cdf_co.paa",
+        "cdf_a3\cdf_a3_main\data\sa_bmd2_02_cdf_co.paa",
+        "cdf_a3\cdf_a3_main\data\sa_bmd2_03_cdf_co.paa",
+        "cdf_a3\cdf_a3_main\data\sa_bmd2_01_cdf_co.paa"
+    };
+};
+
+class rhs_btr_base;
+class CDF_A3_BTR70: rhs_btr_base
+{
+    scope = 2;
+    scope=2;
+    scopeCurator=0;
+    side = 1;
+    faction = "CDF_A3";
+    crew = "B_CDF_A3_Soldier_Crew";
+    typicalCargo[] = {"B_CDF_A3_Soldier_Crew"};
+    driverRightLegAnimName = "pedalR";
+    driverLeftLegAnimName = "pedalL";
+    author = "$STR_RHS_AUTHOR_FULL";
+    displayName = "BTR-70";
+    vehicleClass = "Armored";
+    hiddenSelectionsTextures[] =
+    {
+        "cdf_a3\cdf_a3_main\data\btr70_CDF_1_co.paa",
+        "cdf_a3\cdf_a3_main\data\btr70_CDF_2_co.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+        "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"
+    };
 };
