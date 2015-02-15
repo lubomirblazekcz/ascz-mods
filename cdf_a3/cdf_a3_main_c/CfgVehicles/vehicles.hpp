@@ -656,6 +656,32 @@ class CDF_A3_Ural_Repair: CDF_A3_Ural_Repair_Base
         init = "";
     };
 };
+class CDF_A3_Ural_Empty_Base: CDF_A3_Ural_Repair_Base {};
+class CDF_A3_Ural_Empty: CDF_A3_Ural_Empty_Base
+{
+    author = "CDF_A3";
+    scope=2;
+    scopeCurator=2;
+    faction="CDF_A3";
+    side = 1;
+    crew = "B_CDF_A3_Soldier_Militia";
+    typicalCargo[] = {"B_CDF_A3_Soldier_Militia"};
+    hiddenSelections[]=
+    {
+        "camo1",
+        "camo2"
+    };
+
+    hiddenSelectionsTextures[] =
+    {
+        "cdf_a3\cdf_a3_main\data\ural_kabina_camo_co.paa",
+        "cdf_a3\cdf_a3_main\data\ural_plachta_camo_co.paa"
+    };
+    class EventHandlers: EventHandlers
+    {
+        init = "";
+    };
+};
 class CDF_A3_Ural_Reammo_Base: CDF_A3_Ural_Support_Base {};
 class CDF_A3_Ural_Reammo: CDF_A3_Ural_Reammo_Base
 {
