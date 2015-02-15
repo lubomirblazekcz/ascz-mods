@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class ascz_voice_fix
+	class ascz_core_c
 	{
 		units[] = {};
 		weapons[] = {};
