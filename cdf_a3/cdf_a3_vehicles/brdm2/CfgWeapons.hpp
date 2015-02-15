@@ -57,7 +57,7 @@ class CfgWeapons
         class StandardSound
         {
             weaponSoundEffect = "DefaultRifle";
-            begin1[] ={"\acr_a3\acr_a3_vehicles\bmp2\Javelin1",1.6228,1,1000};
+            begin1[] ={"\cdf_a3\cdf_a3_vehicles\brdm2\Javelin1",1.6228,1,1000};
             soundBegin[] = {"begin1",1};
         };
         reloadTime=1;
