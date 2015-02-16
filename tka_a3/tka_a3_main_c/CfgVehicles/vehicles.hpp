@@ -13,6 +13,7 @@
 //V3S Open
 //BRDM-2
 //BRDM-2 (ATGM)
+//BTR-40
 //An-2
 //UH-1H
 

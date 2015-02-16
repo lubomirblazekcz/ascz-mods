@@ -73,6 +73,12 @@ if(local _truck)then{
                 _truck,[]
             ];
         };
+        case "CAF_AG_EEUR_Ural_Open_IND":
+        {
+            _params = [
+                _truck,[]
+            ];
+        };
 
 		default
 		{

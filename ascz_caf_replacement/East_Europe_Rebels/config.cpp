@@ -4,7 +4,7 @@ class CfgPatches
 {
 	class ascz_caf_ag_faction_eeur_r
 	{
-		units[] = {"CAF_AG_EEUR_R_AK47","CAF_AG_EEUR_R_AK74","CAF_AG_EEUR_R_RPK74","CAF_AG_EEUR_R_PKM","CAF_AG_EEUR_R_SVD","CAF_AG_EEUR_R_RPG","CAF_AG_EEUR_R_GL", "CAF_AG_EEUR_UAZ_469", "CAF_AG_EEUR_UAZ_469_Open", "CAF_AG_EEUR_Mi_Mi8", "CAF_AG_EEUR_Mi_Mi8_rockets","CAF_AG_afr_p_Offroad", "CAF_AG_afr_p_Offroad_armed_01", "caf_ag_me_t_Offroad", "caf_ag_me_t_Offroad_armed_01", "caf_ag_eeur_r_Offroad", "caf_ag_eeur_r_Offroad_armed_01","CAF_AG_EEUR_R_AK47_IND","CAF_AG_EEUR_R_AK74_IND","CAF_AG_EEUR_R_RPK74_IND","CAF_AG_EEUR_R_PKM_IND","CAF_AG_EEUR_R_SVD_IND","CAF_AG_EEUR_R_RPG_IND","CAF_AG_EEUR_R_GL_IND", "caf_ag_me_t_Offroad_IND", "caf_ag_me_t_Offroad_armed_01_IND", "caf_ag_eeur_r_Offroad_IND", "caf_ag_eeur_r_Offroad_armed_01_IND","CAF_AG_EEUR_Ural","CAF_AG_EEUR_Ural_Open","CAF_AG_EEUR_Ural_Fuel","CAF_AG_EEUR_BM21","CAF_AG_EEUR_T72_IND","CAF_AG_EEUR_BMP2_IND"};
+		units[] = {"CAF_AG_EEUR_R_AK47","CAF_AG_EEUR_R_AK74","CAF_AG_EEUR_R_RPK74","CAF_AG_EEUR_R_PKM","CAF_AG_EEUR_R_SVD","CAF_AG_EEUR_R_RPG","CAF_AG_EEUR_R_GL", "CAF_AG_EEUR_UAZ_469", "CAF_AG_EEUR_UAZ_469_Open", "CAF_AG_EEUR_Mi_Mi8", "CAF_AG_EEUR_Mi_Mi8_rockets","CAF_AG_afr_p_Offroad", "CAF_AG_afr_p_Offroad_armed_01", "caf_ag_me_t_Offroad", "caf_ag_me_t_Offroad_armed_01", "caf_ag_eeur_r_Offroad", "caf_ag_eeur_r_Offroad_armed_01","CAF_AG_EEUR_R_AK47_IND","CAF_AG_EEUR_R_AK74_IND","CAF_AG_EEUR_R_RPK74_IND","CAF_AG_EEUR_R_PKM_IND","CAF_AG_EEUR_R_SVD_IND","CAF_AG_EEUR_R_RPG_IND","CAF_AG_EEUR_R_GL_IND", "caf_ag_me_t_Offroad_IND", "caf_ag_me_t_Offroad_armed_01_IND", "caf_ag_eeur_r_Offroad_IND", "caf_ag_eeur_r_Offroad_armed_01_IND","CAF_AG_EEUR_Ural","CAF_AG_EEUR_Ural_Open","CAF_AG_EEUR_Ural_Fuel","CAF_AG_EEUR_BM21","CAF_AG_EEUR_T72_IND","CAF_AG_EEUR_BMP2_IND","CAF_AG_EEUR_UAZ_MG","CAF_AG_EEUR_UAZ_AGS30","CAF_AG_EEUR_UAZ_SPG9","CAF_AG_EEUR_Ural_Repair","CAF_AG_EEUR_Ural_Empty","CAF_AG_EEUR_Ural_Reammo","CAF_AG_EEUR_Ural_ZU23","CAF_AG_EEUR_Ural_Open_IND","CAF_AG_EEUR_Ural_ZU23_IND","CAF_AG_EEUR_BRDM2","CAF_AG_EEUR_BRDM2_ATGM","CAF_AG_EEUR_BRDM2_HQ","CAF_AG_EEUR_BRDM2_IND","CAF_AG_EEUR_BRDM2_ATGM_IND","CAF_AG_EEUR_BRDM2_HQ_IND"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"caf_ag_faction_eeur_r"};
@@ -216,7 +216,7 @@ class CfgVehicles
         accuracy = 0.5;
         author = "CAF MOD TEAM";
         vehicleClass = "Car";
-        displayName = "UAZ-469";
+        displayName = "UAZ";
         scope = 2;
         side = 0;
         crew = "CAF_AG_EEUR_R_AK47";
@@ -261,7 +261,7 @@ class CfgVehicles
         accuracy = 0.5;
         author = "CAF MOD TEAM";
         vehicleClass = "Car";
-        displayName = "UAZ-469 (Open)";
+        displayName = "UAZ (Open)";
         scope = 2;
         side = 0;
         crew = "CAF_AG_EEUR_R_AK47";
@@ -299,6 +299,82 @@ class CfgVehicles
         class EventHandlers: EventHandlers
         {
             init = "_this call SLX_XEH_EH_Init;_this call compile preProcessFile '\ASCZ_CAF_replacement\scripts\rhs_decal_init.sqf'";
+        };
+    };
+    class CDF_A3_UAZ_Base: RHS_UAZ_Base{};
+    class CDF_A3_UAZ_MG_Base: CDF_A3_UAZ_Base {};
+    class CAF_AG_EEUR_UAZ_MG: CDF_A3_UAZ_MG_Base
+    {
+        author = "CDF_A3";
+        vehicleClass = "Car";
+        scope=2;
+        scopeCurator=2;
+        side = 0;
+        crew = "CAF_AG_EEUR_R_AK47";
+        typicalCargo[] = {"CAF_AG_EEUR_R_AK47"};
+        faction = "caf_ag_eeur_r";
+        hiddenSelections[]=
+        {
+            "camo1"
+        };
+
+        hiddenSelectionsTextures[] =
+        {
+            "\ASCZ_CAF_replacement\East_Europe_Rebels\uaz_main_ChDKZ_co.paa"
+        };
+        class EventHandlers: EventHandlers
+        {
+            init = "";
+        };
+    };
+    class CDF_A3_UAZ_AGS30_Base: CDF_A3_UAZ_Base {};
+    class CAF_AG_EEUR_UAZ_AGS30: CDF_A3_UAZ_AGS30_Base
+    {
+        author = "CDF_A3";
+        vehicleClass = "Car";
+        scope=2;
+        scopeCurator=2;
+        side = 0;
+        crew = "CAF_AG_EEUR_R_AK47";
+        typicalCargo[] = {"CAF_AG_EEUR_R_AK47"};
+        faction = "caf_ag_eeur_r";
+        hiddenSelections[]=
+        {
+            "camo1"		// 9 - left platoon
+        };
+
+        hiddenSelectionsTextures[] =
+        {
+            "\ASCZ_CAF_replacement\East_Europe_Rebels\uaz_main_ChDKZ_co.paa"
+        };
+        class EventHandlers: EventHandlers
+        {
+            init = "";
+        };
+    };
+    class CDF_A3_UAZ_SPG9_Base: CDF_A3_UAZ_Base {};
+    class CAF_AG_EEUR_UAZ_SPG9: CDF_A3_UAZ_SPG9_Base
+    {
+        author = "CDF_A3";
+        vehicleClass = "Car";
+        scope=2;
+        scopeCurator=2;
+        side = 0;
+        crew = "CAF_AG_EEUR_R_AK47";
+        typicalCargo[] = {"CAF_AG_EEUR_R_AK47"};
+        faction = "caf_ag_eeur_r";
+        hiddenSelections[]=
+        {
+            "camo1"
+        };
+
+        hiddenSelectionsTextures[] =
+        {
+            "\ASCZ_CAF_replacement\East_Europe_Rebels\uaz_main_ChDKZ_co.paa"
+        };
+        class EventHandlers: EventHandlers
+        {
+            init = "";
         };
     };
     class RHS_Mi8AMTSh_vvs;
@@ -531,7 +607,253 @@ class CfgVehicles
             init = "_this call SLX_XEH_EH_Init;_this call compile preProcessFile '\ASCZ_CAF_replacement\scripts\rhs_decal_init.sqf'";
         };
     };
+    class CDF_A3_Ural_Support_Base: RHS_Ural_BaseTurret {};
+    class CDF_A3_Ural_Repair_Base: CDF_A3_Ural_Support_Base {};
+    class CAF_AG_EEUR_Ural_Repair: CDF_A3_Ural_Repair_Base
+    {
+        author = "CDF_A3";
+        scope=2;
+        scopeCurator=2;
+        faction="caf_ag_eeur_r";
+        side = 0;
+        crew = "CAF_AG_EEUR_R_AK47";
+        typicalCargo[] = {"CAF_AG_EEUR_R_AK47"};
+        hiddenSelections[]=
+        {
+            "camo1",
+            "camo2"
+        };
 
+        hiddenSelectionsTextures[] =
+        {
+            "\ASCZ_CAF_replacement\East_Europe_Rebels\ural_kabina_co.paa",
+            "\ASCZ_CAF_replacement\East_Europe_Rebels\ural_repair_co.paa"
+        };
+        class EventHandlers: EventHandlers
+        {
+            init = "";
+        };
+    };
+    class CDF_A3_Ural_Empty_Base: CDF_A3_Ural_Repair_Base {};
+    class CAF_AG_EEUR_Ural_Empty: CDF_A3_Ural_Empty_Base
+    {
+        author = "CDF_A3";
+        scope=2;
+        scopeCurator=2;
+        faction="caf_ag_eeur_r";
+        side = 0;
+        crew = "CAF_AG_EEUR_R_AK47";
+        typicalCargo[] = {"CAF_AG_EEUR_R_AK47"};
+        hiddenSelections[]=
+        {
+            "camo1",
+            "camo2"
+        };
+
+        hiddenSelectionsTextures[] =
+        {
+            "\ASCZ_CAF_replacement\East_Europe_Rebels\ural_kabina_co.paa",
+            "\ASCZ_CAF_replacement\East_Europe_Rebels\ural_plachta_co.paa"
+        };
+        class EventHandlers: EventHandlers
+        {
+            init = "";
+        };
+    };
+    class CDF_A3_Ural_Reammo_Base: CDF_A3_Ural_Support_Base {};
+    class CAF_AG_EEUR_Ural_Reammo: CDF_A3_Ural_Reammo_Base
+    {
+        author = "CDF_A3";
+        scope=2;
+        scopeCurator=2;
+        faction="caf_ag_eeur_r";
+        side = 0;
+        crew = "CAF_AG_EEUR_R_AK47";
+        typicalCargo[] = {"CAF_AG_EEUR_R_AK47"};
+        hiddenSelections[]=
+        {
+            "camo1",
+            "camo2"
+        };
+
+        hiddenSelectionsTextures[] =
+        {
+            "\ASCZ_CAF_replacement\East_Europe_Rebels\ural_kabina_co.paa",
+            "\ASCZ_CAF_replacement\East_Europe_Rebels\ural_plachta_co.paa"
+        };
+        class EventHandlers: EventHandlers
+        {
+            init = "";
+        };
+    };
+    class CDF_A3_Ural_ZU23_Base: RHS_Ural_BaseTurret {};
+    class CAF_AG_EEUR_Ural_ZU23: CDF_A3_Ural_ZU23_Base
+    {
+        author = "CDF_A3";
+        scope=2;
+        scopeCurator=2;
+        faction="caf_ag_eeur_r";
+        side = 0;
+        crew = "CAF_AG_EEUR_R_AK47";
+        typicalCargo[] = {"CAF_AG_EEUR_R_AK47"};
+        hiddenSelections[]=
+        {
+            "camo1",
+            "camo2"
+        };
+
+        hiddenSelectionsTextures[] =
+        {
+            "\ASCZ_CAF_replacement\East_Europe_Rebels\ural_kabina_co.paa",
+            "\ASCZ_CAF_replacement\East_Europe_Rebels\ural_open_co.paa"
+        };
+        class EventHandlers: EventHandlers
+        {
+            init = "";
+        };
+    };
+
+    //IND
+    class CAF_AG_EEUR_Ural_Open_IND: RHS_Ural_Open_MSV_01
+    {
+    	author = "CDF_A3";
+        scope=2;
+        scopeCurator=2;
+        vehicleClass = "Car";
+        displayName="Ural (Open)";
+        faction="caf_ag_eeur_r_ind";
+        side = 2;
+        crew = "CAF_AG_EEUR_R_AK47_IND";
+        typicalCargo[] = {"CAF_AG_EEUR_R_AK47_IND"};
+        hiddenSelections[]=
+        {
+            "camo1",
+            "camo2",
+            "n1",				// 2 - 4 number system
+            "n2",
+            "n3",
+            "n4",
+            "i1",				// 6 - right army
+            "i2",				// 7 - left army
+            "i3",				// 8 - right platoon
+            "i4"
+        };
+
+        hiddenSelectionsTextures[] =
+        {
+            "\ASCZ_CAF_replacement\East_Europe_Rebels\ural_kabina_khk_co.paa",
+            "\ASCZ_CAF_replacement\East_Europe_Rebels\ural_korba_khk_co.paa",
+            "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+            "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+            "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+            "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+            "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+            "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+            "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa",
+            "rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"
+        };
+        class EventHandlers: EventHandlers
+        {
+            init = "_this call SLX_XEH_EH_Init;_this call compile preProcessFile '\ASCZ_CAF_replacement\scripts\rhs_decal_init.sqf'";
+        };
+    };
+    class CAF_AG_EEUR_Ural_ZU23_IND: CDF_A3_Ural_ZU23_Base
+    {
+        author = "CDF_A3";
+        scope=2;
+        scopeCurator=2;
+        faction="caf_ag_eeur_r_ind";
+        side = 2;
+        crew = "CAF_AG_EEUR_R_AK47_IND";
+        typicalCargo[] = {"CAF_AG_EEUR_R_AK47_IND"};
+        hiddenSelections[]=
+        {
+            "camo1",
+            "camo2"
+        };
+
+        hiddenSelectionsTextures[] =
+        {
+            "\ASCZ_CAF_replacement\East_Europe_Rebels\ural_kabina_khk_co.paa",
+            "\ASCZ_CAF_replacement\East_Europe_Rebels\ural_korba_khk_co.paa"
+        };
+        class EventHandlers: EventHandlers
+        {
+            init = "";
+        };
+    };
+
+    class CDF_A3_BRDM2_Base;
+    class CAF_AG_EEUR_BRDM2: CDF_A3_BRDM2_Base
+    {
+        author = "CDF_A3";
+        scope=2;
+        scopeCurator=2;
+        side = 0;
+        faction = "caf_ag_eeur_r";
+        crew = "CAF_AG_EEUR_R_AK47";
+        typicalCargo[] = {"CAF_AG_EEUR_R_AK47"};
+        hiddenselectionstextures[] = {"\ASCZ_CAF_replacement\East_Europe_Rebels\brdm2_01_co.paa"};
+    };
+    class CDF_A3_BRDM2_ATGM_Base;
+    class CAF_AG_EEUR_BRDM2_ATGM: CDF_A3_BRDM2_ATGM_Base
+    {
+        author = "CDF_A3";
+        scope=2;
+        scopeCurator=2;
+        side = 0;
+        faction = "caf_ag_eeur_r";
+        crew = "CAF_AG_EEUR_R_AK47";
+        typicalCargo[] = {"CAF_AG_EEUR_R_AK47"};
+        hiddenselectionstextures[] = {"\ASCZ_CAF_replacement\East_Europe_Rebels\brdm2_atgm_01_co.paa"};
+    };
+    class CDF_A3_BRDM2_HQ_Base;
+    class CAF_AG_EEUR_BRDM2_HQ: CDF_A3_BRDM2_HQ_Base
+    {
+        author = "CDF_A3";
+        scope=2;
+        scopeCurator=2;
+        side = 0;
+        faction = "caf_ag_eeur_r";
+        crew = "CAF_AG_EEUR_R_AK47";
+        typicalCargo[] = {"CAF_AG_EEUR_R_AK47"};
+        hiddenselectionstextures[] = {"\ASCZ_CAF_replacement\East_Europe_Rebels\brdm2_01_co.paa"};
+    };
+
+    //IND
+    class CAF_AG_EEUR_BRDM2_IND: CDF_A3_BRDM2_Base
+    {
+        author = "CDF_A3";
+        scope=2;
+        scopeCurator=2;
+        side = 2;
+        faction = "caf_ag_eeur_r_ind";
+        crew = "CAF_AG_EEUR_R_AK47_IND";
+        typicalCargo[] = {"CAF_AG_EEUR_R_AK47_IND"};
+        hiddenselectionstextures[] = {"\ASCZ_CAF_replacement\East_Europe_Rebels\bdrm2_khk_01_co.paa"};
+    };
+    class CAF_AG_EEUR_BRDM2_ATGM_IND: CDF_A3_BRDM2_ATGM_Base
+    {
+        author = "CDF_A3";
+        scope=2;
+        scopeCurator=2;
+        side = 2;
+        faction = "caf_ag_eeur_r_ind";
+        crew = "CAF_AG_EEUR_R_AK47_IND";
+        typicalCargo[] = {"CAF_AG_EEUR_R_AK47_IND"};
+        hiddenselectionstextures[] = {"\ASCZ_CAF_replacement\East_Europe_Rebels\bdrm2_atgm_khk_01_co.paa"};
+    };
+    class CAF_AG_EEUR_BRDM2_HQ_IND: CDF_A3_BRDM2_HQ_Base
+    {
+        author = "CDF_A3";
+        scope=2;
+        scopeCurator=2;
+        side = 2;
+        faction = "caf_ag_eeur_r_ind";
+        crew = "CAF_AG_EEUR_R_AK47_IND";
+        typicalCargo[] = {"CAF_AG_EEUR_R_AK47_IND"};
+        hiddenselectionstextures[] = {"\ASCZ_CAF_replacement\East_Europe_Rebels\bdrm2_khk_01_co.paa"};
+    };
     // TANKs and APCs
     class RDS_T72_AAF_02;
     class CAF_AG_EEUR_T72_IND: RDS_T72_AAF_02
