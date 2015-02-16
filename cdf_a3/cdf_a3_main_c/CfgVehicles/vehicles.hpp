@@ -314,36 +314,16 @@ class CDF_A3_UAZ_MG: CDF_A3_UAZ_MG_Base
     faction = "CDF_A3";
     hiddenSelections[]=
     {
-        "camo1",
-        "camog1",
-        "camog2",
-        "n1",				// 2 - 4 number system
-        "n2",
-        "n3",
-        "n4",
-        "i1",				// 6 - right army
-        "i2",				// 7 - left army
-        "i3",				// 8 - right platoon
-        "i4"				// 9 - left platoon
+        "camo1"
     };
 
     hiddenSelectionsTextures[] =
     {
-        "cdf_a3\cdf_a3_main\data\uaz_main_CDF_old_co.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa"
+        "cdf_a3\cdf_a3_main\data\uaz_main_CDF_old_co.paa"
     };
     class EventHandlers: EventHandlers
     {
-        init = "_this call SLX_XEH_EH_Init;_this call compile preProcessFile '\cdf_a3\cdf_a3_main_c\scripts\rhs_decal_init.sqf'";
+        init = "";
     };
 };
 class CDF_A3_UAZ_AGS30_Base: CDF_A3_UAZ_Base {};
@@ -359,36 +339,16 @@ class CDF_A3_UAZ_AGS30: CDF_A3_UAZ_AGS30_Base
     faction = "CDF_A3";
     hiddenSelections[]=
     {
-        "camo1",
-        "camog1",
-        "camog2",
-        "n1",				// 2 - 4 number system
-        "n2",
-        "n3",
-        "n4",
-        "i1",				// 6 - right army
-        "i2",				// 7 - left army
-        "i3",				// 8 - right platoon
-        "i4"				// 9 - left platoon
+        "camo1"		// 9 - left platoon
     };
 
     hiddenSelectionsTextures[] =
     {
-        "cdf_a3\cdf_a3_main\data\uaz_main_CDF_old_co.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa"
+        "cdf_a3\cdf_a3_main\data\uaz_main_CDF_old_co.paa"
     };
     class EventHandlers: EventHandlers
     {
-        init = "_this call SLX_XEH_EH_Init;_this call compile preProcessFile '\cdf_a3\cdf_a3_main_c\scripts\rhs_decal_init.sqf'";
+        init = "";
     };
 };
 class CDF_A3_UAZ_SPG9_Base: CDF_A3_UAZ_Base {};
@@ -397,43 +357,23 @@ class CDF_A3_UAZ_SPG9: CDF_A3_UAZ_SPG9_Base
 	author = "CDF_A3";
     vehicleClass = "Car";
     scope=2;
-    scopeCurator=0;
+    scopeCurator=2;
     side = 1;
     crew = "B_CDF_A3_Soldier_Militia";
     typicalCargo[] = {"B_CDF_A3_Soldier_Militia"};
     faction = "CDF_A3";
     hiddenSelections[]=
     {
-        "camo1",
-        "camog1",
-        "camog2",
-        "n1",				// 2 - 4 number system
-        "n2",
-        "n3",
-        "n4",
-        "i1",				// 6 - right army
-        "i2",				// 7 - left army
-        "i3",				// 8 - right platoon
-        "i4"				// 9 - left platoon
+        "camo1"
     };
 
     hiddenSelectionsTextures[] =
     {
-        "cdf_a3\cdf_a3_main\data\uaz_main_CDF_old_co.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa",
-        "a3\data_f\clear_empty.paa"
+        "cdf_a3\cdf_a3_main\data\uaz_main_CDF_old_co.paa"
     };
     class EventHandlers: EventHandlers
     {
-        init = "_this call SLX_XEH_EH_Init;_this call compile preProcessFile '\cdf_a3\cdf_a3_main_c\scripts\rhs_decal_init.sqf'";
+        init = "";
     };
 };
 
