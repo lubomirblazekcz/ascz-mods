@@ -559,6 +559,10 @@ class cfgVehicles
         };
     };
 
+    class ibr_afr_soldier: B_Soldier_base_F {};
+    class ibr_afr_soldier2: B_Soldier_base_F {};
+    class ibr_afr_soldier_lite: ibr_afr_soldier {};
+    class ibr_afr_general: ibr_afr_soldier {};
     class B_RangeMaster_F;
     class ibr_afr_cop: B_RangeMaster_F
     {
@@ -575,11 +579,6 @@ class cfgVehicles
         magazines[] = {"30Rnd_556x45_Stanag_Tracer_Yellow","30Rnd_556x45_Stanag_Tracer_Yellow","30Rnd_556x45_Stanag_Tracer_Yellow","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
         respawnMagazines[] = {"30Rnd_556x45_Stanag_Tracer_Yellow","30Rnd_556x45_Stanag_Tracer_Yellow","30Rnd_556x45_Stanag_Tracer_Yellow","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
     };
-    class I_Soldier_TL_F;
-    class ibr_soldier: I_Soldier_TL_F {};
-    class ibr_soldier2: I_Soldier_TL_F {};
-    class ibr_afr_soldier: ibr_soldier {};
-    class ibr_afr_general: ibr_afr_soldier {};
     class ibr_afr_soldier_rifleman: ibr_afr_soldier
     {
         weapons[] = {"ibr_steyr_a1","Throw","Put"};
@@ -790,7 +789,11 @@ class cfgVehicles
         respawnweapons[] = {"CUP_hgun_Colt1911","Throw","Put","Binocular"};
         respawnmagazines[] = {"CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","HandGrenade","HandGrenade","SmokeShellGreen","SmokeShellBlue","SmokeShellOrange","Chemlight_green","Chemlight_green"};
     };
-    class ibr_mol_soldier: ibr_soldier {};
+
+    class O_Soldier_base_F;
+    class ibr_mol_soldier: O_Soldier_base_F {};
+    class ibr_mol_soldier_lite: ibr_mol_soldier {};
+    class ibr_mol_general: ibr_mol_soldier {};
     class ibr_mol_soldier_rifleman: ibr_mol_soldier
     {
         weapons[] = {"CUP_arifle_AKM","Throw","Put"};
