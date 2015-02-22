@@ -14,7 +14,7 @@ class CfgFaces
 			head = "GreekHead_A3";
 			identityTypes[] = {"Head_Aziz"};
 			author = "TKA_A3";
-			material = "\tka_a3\tka_a3_main\data\Heads\Aziz_co.rvmat";
+			material = "\tka_a3\tka_a3_main\data\Heads\Aziz.rvmat";
 			disabled = 0;
 			textureHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
 			materialHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
