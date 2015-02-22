@@ -763,6 +763,7 @@ class B_TKA_A3_Soldier_Officer: B_TKA_A3_Soldier_Base
 class B_TKA_A3_Aziz: B_TKA_A3_Soldier_Base
 {
 	author = "TKA_A3";
+	genericNames = "AzizMen";
     scope = 2;
     scopeCurator = 2;
 	accuracy=3.9;
