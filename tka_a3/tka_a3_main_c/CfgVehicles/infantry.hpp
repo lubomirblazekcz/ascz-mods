@@ -766,6 +766,7 @@ class B_TKA_A3_Aziz: B_TKA_A3_Soldier_Base
     scope = 2;
     scopeCurator = 2;
 	accuracy=3.9;
+    identityTypes[] = {"LanguagePER_F","Head_Aziz"};
 	displayName="$STR_tka_a3_dn_tk_aziz_ep1";
     textSingular = "officer";
     textPlural = "officers";

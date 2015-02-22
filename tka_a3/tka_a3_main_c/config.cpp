@@ -37,5 +37,6 @@ class CfgVehicles
 };
 
 #include "TakistaniMen.hpp"
+#include "CfgHeads.hpp"
 #include "cfgWeapons.hpp"
 #include "cfgGroups.hpp"
