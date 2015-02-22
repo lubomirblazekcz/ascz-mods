@@ -15,11 +15,12 @@ class CfgFaces
 			identityTypes[] = {"Head_Aziz"};
 			author = "TKA_A3";
 			material = "\tka_a3\tka_a3_main\data\Heads\Aziz.rvmat";
-			disabled = 0;
-			textureHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
-			materialHL = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
-			textureHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_1_co.paa";
-			materialHL2 = "\A3\Characters_F\Heads\Data\hl_White_hairy_muscular.rvmat";
+			materialWounded1 = "A3\Characters_F\Heads\Data\m_persian_03_injury.rvmat";
+			materialWounded2 = "A3\Characters_F\Heads\Data\m_persian_03_injury.rvmat";
+			textureHL = "\A3\Characters_F\Heads\Data\hl_black_bald_co.paa";
+			materialHL = "\A3\Characters_F\Heads\Data\hl_White_old.rvmat";
+			textureHL2 = "\A3\Characters_F\Heads\Data\hl_black_bald_co.paa";
+			materialHL2 = "\A3\Characters_F\Heads\Data\hl_White_old.rvmat";
 		};
 	};
 };

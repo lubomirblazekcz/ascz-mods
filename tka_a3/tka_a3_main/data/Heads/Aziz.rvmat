@@ -36,7 +36,7 @@ class Stage2
 };
 class Stage3
 {
-	texture = "\tka_a3\tka_a3_main\data\Heads\Aziz_co.paa";
+	texture = "a3\characters_f\heads\data\m_persian_03_co.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
