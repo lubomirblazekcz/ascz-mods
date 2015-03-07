@@ -116,16 +116,16 @@ class CfgGroups
                     class Unit9	{side = 0;vehicle = "B_TKA_A3_Soldier_AMG";rank = "PRIVATE";position[] = {19,0,0};};
                 };
 
-//                class TK_MotorizedReconSection
-//                {
-//                    name = "$STR_tka_a3_dn_cfggroups_east_bis_tk_motorized_tk_motorizedreconsection";
-//                    faction = TKA_A3;
-//                    rarityGroup=0.3;
-//                    class Unit0	{side = 0;vehicle = "B_TKA_A3_Soldier_SL";rank = "SERGEANT";position[] = {3,+5,0};};
-//                    class Unit1	{side = 0;vehicle = "UAZ_MG_TK_EP1";rank = "CORPORAL";position[] = {-5,0,0};};
-//                    class Unit2	{side = 0;vehicle = "UAZ_AGS30_TK_EP1";rank = "CORPORAL";position[] = {-5,-7,0};};
-//                    class Unit3	{side = 0;vehicle = "B_TKA_A3_Soldier_AT";rank = "CORPORAL";position[] = {5,0,0};};
-//                };
+                class TK_MotorizedReconSection
+                {
+                    name = "$STR_tka_a3_dn_cfggroups_east_bis_tk_motorized_tk_motorizedreconsection";
+                    faction = TKA_A3;
+                    rarityGroup=0.3;
+                    class Unit0	{side = 0;vehicle = "B_TKA_A3_Soldier_SL";rank = "SERGEANT";position[] = {3,+5,0};};
+                    class Unit1	{side = 0;vehicle = "TKA_A3_UAZ_MG";rank = "CORPORAL";position[] = {-5,0,0};};
+                    class Unit2	{side = 0;vehicle = "TKA_A3_UAZ_AGS30";rank = "CORPORAL";position[] = {-5,-7,0};};
+                    class Unit3	{side = 0;vehicle = "B_TKA_A3_Soldier_AT";rank = "CORPORAL";position[] = {5,0,0};};
+                };
 
                 class TK_MotorizedPatrol
                 {
@@ -192,31 +192,31 @@ class CfgGroups
                     // class Unit9	{side = 0;vehicle = "B_TKA_A3_Special_Forces";rank = "CORPORAL";position[] = {19,0,0};};
                 };
 
-//                class TK_MechanizedReconSection
-//                {
-//                    name = "$STR_cfggroups_west_tka_a3_mechanized_cdf_mechreconsection";
-//                    faction = TKA_A3;
-//                    rarityGroup=0.7;
-//                    class Unit0	{side = 0;vehicle = "B_TKA_A3_Soldier_SL";rank = "SERGEANT";position[] = {3,+5,0};};
-//                    class Unit1	{side = 0;vehicle = "BRDM2_TK_EP1";rank = "SERGEANT";position[] = {-5,0,0};};
-//                    class Unit2	{side = 0;vehicle = "BRDM2_TK_EP1";rank = "SERGEANT";position[] = {-5,-7,0};};
-//                    class Unit3	{side = 0;vehicle = "B_TKA_A3_Soldier_MG";rank = "CORPORAL";position[] = {5,0,0};};
-//                    class Unit4 	{side = 0;vehicle = "B_TKA_A3_Soldier_AR";rank = "CORPORAL";position[] = {7,0,0};};
-//                    class Unit5	{side = 0;vehicle = "B_TKA_A3_Soldier_AT";rank = "CORPORAL";position[] = {9,0,0};};
-//                    class Unit6	{side = 0;vehicle = "B_TKA_A3_Soldier_GL";rank = "PRIVATE";position[] = {11,0,0};};
-//                    class Unit7	{side = 0;vehicle = "B_TKA_A3_Soldier";rank = "PRIVATE";position[] = {13,0,0};};
-//                };
+                class TK_MechanizedReconSection
+                {
+                    name = "$STR_cfggroups_west_tka_a3_mechanized_cdf_mechreconsection";
+                    faction = TKA_A3;
+                    rarityGroup=0.7;
+                    class Unit0	{side = 0;vehicle = "B_TKA_A3_Soldier_SL";rank = "SERGEANT";position[] = {3,+5,0};};
+                    class Unit1	{side = 0;vehicle = "TKA_A3_BRDM2";rank = "SERGEANT";position[] = {-5,0,0};};
+                    class Unit2	{side = 0;vehicle = "TKA_A3_BRDM2";rank = "SERGEANT";position[] = {-5,-7,0};};
+                    class Unit3	{side = 0;vehicle = "B_TKA_A3_Soldier_MG";rank = "CORPORAL";position[] = {5,0,0};};
+                    class Unit4 	{side = 0;vehicle = "B_TKA_A3_Soldier_AR";rank = "CORPORAL";position[] = {7,0,0};};
+                    class Unit5	{side = 0;vehicle = "B_TKA_A3_Soldier_AT";rank = "CORPORAL";position[] = {9,0,0};};
+                    class Unit6	{side = 0;vehicle = "B_TKA_A3_Soldier_GL";rank = "PRIVATE";position[] = {11,0,0};};
+                    class Unit7	{side = 0;vehicle = "B_TKA_A3_Soldier";rank = "PRIVATE";position[] = {13,0,0};};
+                };
 
-//                class TK_MechanizedReconSectionAT
-//                {
-//                    name = "$STR_cfggroups_west_tka_a3_mechanized_cdf_mechatsection";
-//                    faction = TKA_A3;
-//                    rarityGroup=0.7;
-//                    //class Unit0	{side = 0;vehicle = "B_TKA_A3_Soldier_GL";rank = "SERGEANT";position[] = {3,+5,0};};
-//                    class Unit0	{side = 0;vehicle = "BRDM2_ATGM_TK_EP1";rank = "SERGEANT";position[] = {0,+10,0};};
-//                    class Unit1	{side = 0;vehicle = "BRDM2_ATGM_TK_EP1";rank = "SERGEANT";position[] = {5,0,0};};
-//                    //class Unit3	{side = 0;vehicle = "B_TKA_A3_Soldier_HAT";rank = "CORPORAL";position[] = {5,0,0};};
-//                };
+                class TK_MechanizedReconSectionAT
+                {
+                    name = "$STR_cfggroups_west_tka_a3_mechanized_cdf_mechatsection";
+                    faction = TKA_A3;
+                    rarityGroup=0.7;
+                    //class Unit0	{side = 0;vehicle = "B_TKA_A3_Soldier_GL";rank = "SERGEANT";position[] = {3,+5,0};};
+                    class Unit0	{side = 0;vehicle = "TKA_A3_BRDM2_ATGM";rank = "SERGEANT";position[] = {0,+10,0};};
+                    class Unit1	{side = 0;vehicle = "TKA_A3_BRDM2_ATGM";rank = "SERGEANT";position[] = {5,0,0};};
+                    //class Unit3	{side = 0;vehicle = "B_TKA_A3_Soldier_HAT";rank = "CORPORAL";position[] = {5,0,0};};
+                };
             };
 
             class Armored
