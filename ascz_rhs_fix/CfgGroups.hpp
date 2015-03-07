@@ -18,5 +18,19 @@ class CfgGroups
                 name = "Infantry (OCP)";
             };
         };
+        class rhs_faction_usmc_d
+        {
+            name = "USMC (Desert)";
+
+        };
+        class rhs_faction_usmc_wd
+        {
+            name = "USMC";
+
+        };
+        class rhs_faction_socom_marsoc
+        {
+            name = "SOCOM";
+        };
     };
 };

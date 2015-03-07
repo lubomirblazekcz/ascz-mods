@@ -24,6 +24,18 @@ class CfgVehicleClasses
     {
         displayname= "$STR_ASCZ_RHS_FACTION_VDV";
     };
+    class rhs_vehclass_infantry_flora
+    {
+        displayname= "$STR_ASCZ_RHS_FACTION_FLORA";
+    };
+    class rhs_vehclass_infantry_mflora
+    {
+        displayname= "$STR_ASCZ_RHS_FACTION_MFLORA";
+    };
+    class rhs_vehclass_infantry_emr
+    {
+        displayname= "$STR_ASCZ_RHS_FACTION_EMR";
+    };
 	class rhs_vehclass_infantry_ucp
     {
         displayname= "$STR_ASCZ_RHS_FACTION_UCP";
@@ -31,6 +43,22 @@ class CfgVehicleClasses
 	class rhs_vehclass_infantry_ocp
     {
         displayname= "$STR_ASCZ_RHS_FACTION_OCP";
+    };
+	class rhs_vehclass_infantry_usmc
+    {
+        displayname= "$STR_ASCZ_RHS_FACTION_USMC";
+    };
+	class rhs_vehclass_infantry_usmc_d
+    {
+        displayname= "$STR_ASCZ_RHS_FACTION_USMC_D";
+    };
+	class rhs_vehclass_infantry_usmc_fr
+    {
+        displayname= "$STR_ASCZ_RHS_FACTION_USMC_FR";
+    };
+	class rhs_vehclass_infantry_usmc_fr_d
+    {
+        displayname= "$STR_ASCZ_RHS_FACTION_USMC_FR_D";
     };
 };
 #include "CfgFactionClasses.hpp"

@@ -2,36 +2,69 @@
 <Project name="RHS Alternative Names">
 	<Package name="ASCZ_RHS">
         <Key ID="STR_ASCZ_RHS_FACTION">
+            <Original>Russia</Original>
             <English>Russia</English>
             <Czech>Rusko</Czech>
         </Key>
-        <Key ID="STR_ASCZ_RHS_FACTION_US">
-            <English>US Army</English>
-            <Czech>US Army</Czech>
-        </Key>
-        <Key ID="STR_ASCZ_RHS_FACTION_USMC">
-            <English>USMC</English>
-            <Czech>USMC</Czech>
-        </Key>
         <Key ID="STR_ASCZ_RHS_FACTION_MEN">
+            <Original>Men</Original>
             <English>Men</English>
             <Czech>Muži</Czech>
         </Key>
         <Key ID="STR_ASCZ_RHS_FACTION_MSV">
+            <Original>Men (MSV)</Original>
             <English>Men (MSV)</English>
             <Czech>Muži (MSV)</Czech>
         </Key>
         <Key ID="STR_ASCZ_RHS_FACTION_VDV">
+            <Original>Men (VDV)</Original>
             <English>Men (VDV)</English>
             <Czech>Muži (VDV)</Czech>
         </Key>
+        <Key ID="STR_ASCZ_RHS_FACTION_FLORA">
+            <Original>Men (FLORA)</Original>
+            <English>Men (FLORA)</English>
+            <Czech>Muži (FLORA)</Czech>
+        </Key>
+        <Key ID="STR_ASCZ_RHS_FACTION_MFLORA">
+            <Original>Men (M. FLORA)</Original>
+            <English>Men (M. FLORA)</English>
+            <Czech>Muži (M. FLORA)</Czech>
+        </Key>
+        <Key ID="STR_ASCZ_RHS_FACTION_EMR">
+            <Original>Men (EMR)</Original>
+            <English>Men (EMR)</English>
+            <Czech>Muži (EMR)</Czech>
+        </Key>
         <Key ID="STR_ASCZ_RHS_FACTION_UCP">
+            <Original>Men (UCP)</Original>
             <English>Men (UCP)</English>
             <Czech>Muži (UCP)</Czech>
         </Key>
         <Key ID="STR_ASCZ_RHS_FACTION_OCP">
+            <Original>Men (OCP)</Original>
             <English>Men (OCP)</English>
             <Czech>Muži (OCP)</Czech>
+        </Key>
+        <Key ID="STR_ASCZ_RHS_FACTION_USMC">
+            <Original>Men (MARPAT)</Original>
+            <English>Men (MARPAT)</English>
+            <Czech>Muži (MARPAT)</Czech>
+        </Key>
+        <Key ID="STR_ASCZ_RHS_FACTION_USMC_D">
+            <Original>Men (MARPAT) (Desert)</Original>
+            <English>Men (MARPAT) (Desert)</English>
+            <Czech>Muži (MARPAT) (pouštní)</Czech>
+        </Key>
+        <Key ID="STR_ASCZ_RHS_FACTION_USMC_FR">
+            <Original>Men (FR)</Original>
+            <English>Men (FR)</English>
+            <Czech>Muži (FR)</Czech>
+        </Key>
+        <Key ID="STR_ASCZ_RHS_FACTION_USMC_FR_D">
+            <Original>Men (FR) (Desert)</Original>
+            <English>Men (FR) (Desert)</English>
+            <Czech>Muži (FR) (pouštní)</Czech>
         </Key>
     </Package>
 </Project>

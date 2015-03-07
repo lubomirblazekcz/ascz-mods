@@ -684,7 +684,7 @@ class cfgVehicles
         respawnmagazines[] = {"CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","HandGrenade","HandGrenade","SmokeShellGreen","SmokeShellBlue","SmokeShellOrange","Chemlight_green","Chemlight_green"};
     };
 
-    class ibr_afr_90s_soldier: ibr_soldier2 {};
+    class ibr_afr_90s_soldier: ibr_afr_soldier2 {};
     class ibr_afr_90s_soldier_rifleman: ibr_afr_90s_soldier
     {
         weapons[] = {"ibr_steyr_a1","Throw","Put"};
@@ -791,7 +791,12 @@ class cfgVehicles
     };
 
     class O_Soldier_base_F;
-    class ibr_mol_soldier: O_Soldier_base_F {};
+    class ibr_mol_soldier: O_Soldier_base_F {
+        weapons[] = {"CUP_arifle_AKM","Throw","Put"};
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","HandGrenade","HandGrenade","Chemlight_green"};
+        respawnweapons[] = {"CUP_arifle_AKM","Throw","Put"};
+        respawnmagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","HandGrenade","HandGrenade","Chemlight_green"};
+    };
     class ibr_mol_soldier_lite: ibr_mol_soldier {};
     class ibr_mol_general: ibr_mol_soldier {};
     class ibr_mol_soldier_rifleman: ibr_mol_soldier

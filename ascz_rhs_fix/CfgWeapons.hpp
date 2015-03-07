@@ -57,6 +57,7 @@ class CfgWeapons
     {
         jsrs_soundeffect = "JSRS2_Distance_Effects_Launcher";
     };
+    class launch_O_Titan_F;
     class rhs_weap_fgm148: launch_O_Titan_F
     {
         jsrs_soundeffect = "JSRS2_Distance_Effects_Javelin";

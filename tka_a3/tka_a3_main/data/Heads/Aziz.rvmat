@@ -60,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-	texture = "\tka_a3\tka_a3_main\data\Heads\Aziz_smdi.paa";
+	texture = "tka_a3\tka_a3_main\data\Heads\Aziz_smdi.paa";
 	uvSource = "tex";
 	class uvTransform
 	{

@@ -1,16 +1,4 @@
 // MISSING
-//0.9.5
-//Ural (Repair)
-//Ural (Ammo)
-//Ural (ZU-23)
-//UAZ (AGS-30)
-//UAZ (DShKM)
-//BRDM-2
-//BRDM-2 (ATGM)
-//Military Offroad (M2)
-//Military Offroad (SPG-9)
-//UH-1H
-//SUV
 
 //1.0
 //9P117 Scud-B
@@ -19,6 +7,8 @@
 //V3S Open
 //BTR-40
 //An-2
+//UH-1H
+//SUV
 
 
 // AIR
@@ -252,7 +242,7 @@ class TKA_A3_UAZ_469: RHS_UAZ_Base
     accuracy = 0.5;
 	author = "TKA_A3";
     vehicleClass = "Car";
-    displayName = "UAZ-469";
+    displayName = "UAZ";
     scope=2;
     scopeCurator=2;
     side = 0;
@@ -298,7 +288,7 @@ class TKA_A3_UAZ_469_Open: rhs_uaz_open_Base
     accuracy = 0.5;
 	author = "TKA_A3";
     vehicleClass = "Car";
-    displayName = "UAZ-469 (Open)";
+    displayName = "UAZ (Open)";
     scope=2;
     scopeCurator=2;
     side = 0;
@@ -339,6 +329,84 @@ class TKA_A3_UAZ_469_Open: rhs_uaz_open_Base
         init = "_this call SLX_XEH_EH_Init;_this call compile preProcessFile '\tka_a3\tka_a3_main_c\scripts\rhs_decal_init.sqf'";
     };
 };
+class TKA_A3_UAZ_Base: RHS_UAZ_Base{};
+class TKA_A3_UAZ_MG_Base: TKA_A3_UAZ_Base {};
+class TKA_A3_UAZ_MG: TKA_A3_UAZ_MG_Base
+{
+	author = "TKA_A3";
+    vehicleClass = "Car";
+    scope=2;
+    scopeCurator=2;
+    side = 0;
+    crew = "B_TKA_A3_Soldier";
+    typicalCargo[] = {"B_TKA_A3_Soldier"};
+    faction = "TKA_A3";
+    hiddenSelections[]=
+    {
+        "camo1"
+    };
+
+    hiddenSelectionsTextures[] =
+    {
+        "tka_a3\tka_a3_main\data\uaz_main_ind_co.paa"
+    };
+    class EventHandlers: EventHandlers
+    {
+        init = "";
+    };
+};
+class TKA_A3_UAZ_AGS30_Base: TKA_A3_UAZ_Base {};
+class TKA_A3_UAZ_AGS30: TKA_A3_UAZ_AGS30_Base
+{
+	author = "TKA_A3";
+    vehicleClass = "Car";
+    scope=2;
+    scopeCurator=2;
+    side = 0;
+    crew = "B_TKA_A3_Soldier";
+    typicalCargo[] = {"B_TKA_A3_Soldier"};
+    faction = "TKA_A3";
+    hiddenSelections[]=
+    {
+        "camo1"		// 9 - left platoon
+    };
+
+    hiddenSelectionsTextures[] =
+    {
+        "tka_a3\tka_a3_main\data\uaz_main_ind_co.paa"
+    };
+    class EventHandlers: EventHandlers
+    {
+        init = "";
+    };
+};
+class TKA_A3_UAZ_SPG9_Base: TKA_A3_UAZ_Base {};
+class TKA_A3_UAZ_SPG9: TKA_A3_UAZ_SPG9_Base
+{
+	author = "TKA_A3";
+    vehicleClass = "Car";
+    scope=2;
+    scopeCurator=2;
+    side = 0;
+    crew = "B_TKA_A3_Soldier";
+    typicalCargo[] = {"B_TKA_A3_Soldier"};
+    faction = "TKA_A3";
+    hiddenSelections[]=
+    {
+        "camo1"
+    };
+
+    hiddenSelectionsTextures[] =
+    {
+        "tka_a3\tka_a3_main\data\uaz_main_ind_co.paa"
+    };
+    class EventHandlers: EventHandlers
+    {
+        init = "";
+    };
+};
+
+
 class RHS_Ural_BaseTurret: Truck_F{};
 class RHS_Ural_Base: RHS_Ural_BaseTurret{};
 class RHS_Ural_MSV_Base: RHS_Ural_Base{};
@@ -529,6 +597,111 @@ class TKA_A3_BM21: RHS_BM21_MSV_01
     };
 };
 
+class TKA_A3_Ural_Support_Base: RHS_Ural_BaseTurret {};
+class TKA_A3_Ural_Repair_Base: TKA_A3_Ural_Support_Base {};
+class TKA_A3_Ural_Repair: TKA_A3_Ural_Repair_Base
+{
+    author = "TKA_A3";
+    scope=2;
+    scopeCurator=2;
+    faction="TKA_A3";
+    side = 0;
+    crew = "B_TKA_A3_Soldier";
+    typicalCargo[] = {"B_TKA_A3_Soldier"};
+    hiddenSelections[]=
+    {
+        "camo1",
+        "camo2"
+    };
+
+    hiddenSelectionsTextures[] =
+    {
+        "tka_a3\tka_a3_main\data\ural_kabina_tka_co.paa",
+        "tka_a3\tka_a3_main\data\ural_repair_tka_co.paa"
+    };
+    class EventHandlers: EventHandlers
+    {
+        init = "";
+    };
+};
+class TKA_A3_Ural_Empty_Base: TKA_A3_Ural_Repair_Base {};
+class TKA_A3_Ural_Empty: TKA_A3_Ural_Empty_Base
+{
+    author = "TKA_A3";
+    scope=2;
+    scopeCurator=2;
+    faction="TKA_A3";
+    side = 0;
+    crew = "B_TKA_A3_Soldier";
+    typicalCargo[] = {"B_TKA_A3_Soldier"};
+    hiddenSelections[]=
+    {
+        "camo1",
+        "camo2"
+    };
+
+    hiddenSelectionsTextures[] =
+    {
+        "tka_a3\tka_a3_main\data\ural_kabina_tka_co.paa",
+        "tka_a3\tka_a3_main\data\ural_plachta_tka_co.paa"
+    };
+    class EventHandlers: EventHandlers
+    {
+        init = "";
+    };
+};
+class TKA_A3_Ural_Reammo_Base: TKA_A3_Ural_Support_Base {};
+class TKA_A3_Ural_Reammo: TKA_A3_Ural_Reammo_Base
+{
+    author = "TKA_A3";
+    scope=2;
+    scopeCurator=2;
+    faction="TKA_A3";
+    side = 0;
+    crew = "B_TKA_A3_Soldier";
+    typicalCargo[] = {"B_TKA_A3_Soldier"};
+    hiddenSelections[]=
+    {
+        "camo1",
+        "camo2"
+    };
+
+    hiddenSelectionsTextures[] =
+    {
+        "tka_a3\tka_a3_main\data\ural_kabina_tka_co.paa",
+        "tka_a3\tka_a3_main\data\ural_plachta_tka_co.paa"
+    };
+    class EventHandlers: EventHandlers
+    {
+        init = "";
+    };
+};
+class TKA_A3_Ural_ZU23_Base: RHS_Ural_BaseTurret {};
+class TKA_A3_Ural_ZU23: TKA_A3_Ural_ZU23_Base
+{
+    author = "TKA_A3";
+    scope=2;
+    scopeCurator=2;
+    faction="TKA_A3";
+    side = 0;
+    crew = "B_TKA_A3_Soldier";
+    typicalCargo[] = {"B_TKA_A3_Soldier"};
+    hiddenSelections[]=
+    {
+        "camo1",
+        "camo2"
+    };
+
+    hiddenSelectionsTextures[] =
+    {
+        "tka_a3\tka_a3_main\data\ural_kabina_tka_co.paa",
+        "tka_a3\tka_a3_main\data\ural_open_tka_co.paa"
+    };
+    class EventHandlers: EventHandlers
+    {
+        init = "";
+    };
+};
 
 
 // TANKs and APCs
@@ -674,24 +847,141 @@ class TKA_A3_BTR60: rhs_btr60_base
         "\rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"		//i10 22
     };
 };
-//class rhsusf_m113tank_base;
-//class TKA_A3_M113: rhsusf_m113tank_base
-//{
-//    model = "\rhsusf\addons\rhsusf_m113\m113a3_d";
-//    scope = 2;
-//    scopeCurator=2;
-//    displayName = "M113";
-//    side = 0;
-//    faction = "TKA_A3";
-//    author = "TKA_A3";
-//    vehicleClass = "Armored";
-//    crew = "B_TKA_A3_Soldier_Crew";
-//    typicalCargo[] = {"B_TKA_A3_Soldier_Crew"};
-//    hiddenSelections[] =
-//    {
-//        "camo1"
-//    };
-//    hiddenSelectionsTextures[] = {
-//        "tka_a3\tka_a3_main\data\m113a3_01_tk_co.paa"
-//    };
-//};
+class rhsusf_m113tank_base;
+class TKA_A3_M113: rhsusf_m113tank_base
+{
+    model = "\rhsusf\addons\rhsusf_m113\m113a3";
+    scope = 2;
+    scopeCurator=2;
+    displayName = "M113";
+    side = 0;
+    faction = "TKA_A3";
+    author = "TKA_A3";
+    vehicleClass = "Armored";
+    crew = "B_TKA_A3_Soldier_Crew";
+    typicalCargo[] = {"B_TKA_A3_Soldier_Crew"};
+    hiddenSelections[] =
+    {
+        "camo1"
+    };
+    hiddenSelectionsTextures[] = {
+        "tka_a3\tka_a3_main\data\m113a3_01_tk_co.paa"
+    };
+};
+class TKA_A3_BRDM2_Base;
+class TKA_A3_BRDM2: TKA_A3_BRDM2_Base
+{
+    author = "TKA_A3";
+    scope=2;
+    scopeCurator=2;
+    side = 0;
+    faction = "TKA_A3";
+    crew = "B_TKA_A3_Soldier_Crew";
+    typicalCargo[] = {"B_TKA_A3_Soldier_Crew"};
+    hiddenselectionstextures[] = {"tka_a3\tka_a3_main\data\brdm2_01_tka_co.paa"};
+};
+class TKA_A3_BRDM2_ATGM_Base;
+class TKA_A3_BRDM2_ATGM: TKA_A3_BRDM2_ATGM_Base
+{
+    author = "TKA_A3";
+    scope=2;
+    scopeCurator=2;
+    side = 0;
+    faction = "TKA_A3";
+    crew = "B_TKA_A3_Soldier_Crew";
+    typicalCargo[] = {"B_TKA_A3_Soldier_Crew"};
+    hiddenselectionstextures[] = {"tka_a3\tka_a3_main\data\brdm2_atgm_01_tka_co.paa"};
+};
+class TKA_A3_BRDM2_HQ_Base;
+class TKA_A3_BRDM2_HQ: TKA_A3_BRDM2_HQ_Base
+{
+    author = "TKA_A3";
+    scope=2;
+    scopeCurator=2;
+    side = 0;
+    faction = "TKA_A3";
+    crew = "B_TKA_A3_Soldier_Crew";
+    typicalCargo[] = {"B_TKA_A3_Soldier_Crew"};
+    hiddenselectionstextures[] = {"tka_a3\tka_a3_main\data\brdm2_01_tka_co.paa"};
+};
+
+class TKA_A3_LandRover_MG_Base;
+class TKA_A3_LandRover_MG: TKA_A3_LandRover_MG_Base
+{
+    displayname = "Military Offroad (M2)";
+    scope = 2;
+    scopeCurator = 2;
+    side = 0;
+    faction = "TKA_A3";
+    crew = "B_TKA_A3_Soldier";
+    typicalCargo[] = {"B_TKA_A3_Soldier"};
+    hiddenSelections[] = {"camo1"};
+    hiddenselectionstextures[] = {"tka_a3\tka_a3_main\data\lr_base_ind_co.paa"};
+    class RenderTargets
+    {
+        class LeftMirror
+        {
+            renderTarget = "rendertarget1";
+            class CameraView1
+            {
+                pointPosition = "PIP0_pos";
+                pointDirection = "PIP0_dir";
+                renderQuality = 2;
+                renderVisionMode = 4;
+                fov = 0.7;
+            };
+        };
+        class RightMirror
+        {
+            renderTarget = "rendertarget2";
+            class CameraView1
+            {
+                pointPosition = "PIP1_pos";
+                pointDirection = "PIP1_dir";
+                renderQuality = 2;
+                renderVisionMode = 4;
+                fov = 0.7;
+            };
+        };
+    };
+};
+class TKA_A3_LandRover_SPG9_Base;
+class TKA_A3_LandRover_SPG9: TKA_A3_LandRover_SPG9_Base
+{
+    displayname = "Military Offroad (SPG-9)";
+    scope = 2;
+    scopeCurator = 2;
+    side = 0;
+    faction = "TKA_A3";
+    crew = "B_TKA_A3_Soldier";
+    typicalCargo[] = {"B_TKA_A3_Soldier"};
+    hiddenSelections[] = {"camo1"};
+    hiddenselectionstextures[] = {"tka_a3\tka_a3_main\data\lr_base_ind_co.paa"};
+    class RenderTargets
+    {
+        class LeftMirror
+        {
+            renderTarget = "rendertarget1";
+            class CameraView1
+            {
+                pointPosition = "PIP0_pos";
+                pointDirection = "PIP0_dir";
+                renderQuality = 2;
+                renderVisionMode = 4;
+                fov = 0.7;
+            };
+        };
+        class RightMirror
+        {
+            renderTarget = "rendertarget2";
+            class CameraView1
+            {
+                pointPosition = "PIP1_pos";
+                pointDirection = "PIP1_dir";
+                renderQuality = 2;
+                renderVisionMode = 4;
+                fov = 0.7;
+            };
+        };
+    };
+};
