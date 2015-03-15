@@ -20,7 +20,7 @@ class B_TKA_A3_Soldier_Base: SoldierGB
     scopeCurator = 0;
     cost= 40000;
 	canCarryBackPack = 1;
-    modelSides[] = {0,3};
+    modelSides[] = {6};
 
 	model = "\A3\characters_F_gamma\Guerrilla\ig_leader.p3d";
     nakedUniform = "U_BasicBody";
@@ -76,7 +76,7 @@ class B_TKA_A3_Soldier_Base_02: SoldierGB
     scopeCurator = 0;
     cost= 40000;
 	canCarryBackPack = 1;
-    modelSides[] = {0,3};
+    modelSides[] = {6};
 
 	model = "\A3\characters_F\OPFOR\o_officer.p3d";
     nakedUniform = "U_BasicBody";
@@ -155,7 +155,7 @@ class B_TKA_A3_Soldier_Base_03: SoldierGB
     scopeCurator = 0;
     cost= 40000;
     canCarryBackPack = 1;
-    modelSides[] = {0,3};
+    modelSides[] = {6};
 
     model = "\A3\characters_F\OPFOR\o_officer.p3d";
     nakedUniform = "U_BasicBody";
@@ -234,7 +234,7 @@ class B_TKA_A3_Soldier_Base_04: SoldierGB
     scopeCurator = 0;
     cost= 40000;
 	canCarryBackPack = 1;
-    modelSides[] = {0,3};
+    modelSides[] = {6};
 
 	model = "\A3\characters_F\OPFOR\o_officer.p3d";
     nakedUniform = "U_BasicBody";
