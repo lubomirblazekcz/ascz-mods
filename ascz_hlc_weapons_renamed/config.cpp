@@ -43,7 +43,7 @@ class CfgWeapons
 	class hlc_rifle_ak12GL: hlc_rifle_aks74 {
 		displayName = "AK-12 (GL)";
         jsrs_soundeffect = "JSRS2_Distance_Effects_Ak74";
-	}
+	};
 	class hlc_rifle_aku12: hlc_rifle_ak12
 	{
 		displayName = "AKU-12";
