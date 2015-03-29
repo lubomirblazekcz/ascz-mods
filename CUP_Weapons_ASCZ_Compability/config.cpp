@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"acr_a3_weapons_pbo","CUP_Weapons_West_Attachments", "CUP_Weapons_Ammunition"};
+		requiredAddons[] = {"CUP_Weapons_West_Attachments", "CUP_Weapons_Ammunition"};
 	};
 };
 class CfgWeapons
@@ -13,16 +13,6 @@ class CfgWeapons
     class Rifle_Base_F;
     class Rifle_Long_Base_F;
 	class ItemCore;
-    class CUP_srifle_M14: Rifle_Base_F
-    {
-        displayName = "M14 RIS";
-        magazines[] = {"hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_T_M14","hlc_50Rnd_762x51_B_M14","hlc_20Rnd_762x51_S_M14"};
-		reloadaction = "HLC_GestureReloadm14";
-		handanim[] = {"OFP2_ManSkeleton","\hlc_wp_m14\gesture\newgesture\m14_hands.rtm"};
-        drysound[] = {"\hlc_core\sound\empty_machineguns",0.01,1,10};
-        reloadmagazinesound[] = {"\hlc_wp_M14\snd\m14_reload",0.5,1};
-
-    };
     class hlc_lmg_M60E4;
     class CUP_lmg_M60A4: hlc_lmg_M60E4 {
         scope = 1;
@@ -624,10 +614,6 @@ class CfgMagazines
 	{
         scope = 2;
 	};
-    class CUP_MAAWS_HEDP_M: CA_LauncherMagazine
-    {
-        picture = "\CUP_Weapons_ASCZ_Compability\data\m_maaws_co.paa";
-    };
 	class CUP_64Rnd_9x19_Bizon_M: CA_Magazine
 	{
         scope = 2;
@@ -654,28 +640,3 @@ class CfgMagazines
 	};
 };
 
-class cfgVehicles {
-    class Bag_Base;
-    class CUP_B_ACRPara_Base: Bag_Base {
-        model = "\CUP_Weapons_ASCZ_Compability\data\CUP_Backpack_ACR.p3d";
-        hiddenSelectionsTextures[] = {"\CUP_Weapons_ASCZ_Compability\data\backpack_acr_co.paa"};
-    };
-    class CUP_B_ACRPara_m95: CUP_B_ACRPara_Base
-    {
-        displayName = "ACR Paratrooper Backpack (vz. 95)";
-        descriptionShort = "Czech Paratrooper Backpack (vz. 95)";
-        hiddenSelectionsTextures[] = {"\CUP_Weapons_ASCZ_Compability\data\backpack_acr_co.paa"};
-    };
-
-    class CUP_B_ACRScout_Base: Bag_Base
-    {
-		model = "\CUP_Weapons_ASCZ_Compability\data\CUP_Scoutpack_ACR.p3d";
-		hiddenSelectionsTextures[] = {"\CUP_Weapons_ASCZ_Compability\data\acr_equip2_co.paa"};
-    };
-    class CUP_B_ACRScout_m95: CUP_B_ACRScout_Base
-    {
-        displayName = "ACR Scout Pack (vz. 95)";
-        descriptionShort = "Czech Scout Pack (vz. 95)";
-        hiddenSelectionsTextures[] = {"\CUP_Weapons_ASCZ_Compability\data\acr_equip2_co.paa"};
-    };
-};

@@ -40,6 +40,10 @@ class CfgWeapons
 		displayName = "AK-12";
         jsrs_soundeffect = "JSRS2_Distance_Effects_Ak74";
 	};
+	class hlc_rifle_ak12GL: hlc_rifle_aks74 {
+		displayName = "AK-12 (GL)";
+        jsrs_soundeffect = "JSRS2_Distance_Effects_Ak74";
+	}
 	class hlc_rifle_aku12: hlc_rifle_ak12
 	{
 		displayName = "AKU-12";
@@ -88,7 +92,6 @@ class CfgWeapons
 	class hlc_rifle_saiga12k: hlc_rifle_ak47
 	{
 		displayName = "Saiga12K";
-        jsrs_soundeffect = "JSRS2_Distance_Effects_Shotgun";
 	};
 	class hlc_rifle_ak74_dirty: hlc_rifle_ak74
 	{
@@ -103,6 +106,11 @@ class CfgWeapons
 	{
 	   displayName = "M14";
         jsrs_soundeffect = "JSRS2_Distance_Effects_M14";
+	};
+
+	class hlc_rifle_M14_Rail: hlc_rifle_m14
+	{
+		displayName = "M14 RIS";
 	};
 	class hlc_rifle_m14sopmod: hlc_rifle_M14
 	{
