@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="ASCZ Headgear">
+	<Package name="ASCZ">
+          <Key ID="STR_ASCZ_Bandana_Khaki">
+            <Original>Bandana (Khaki)</Original>
+            <English>Bandana (Khaki)</English>
+            <Czech>Bandana (khaki)</Czech>
+            <French>Bandana (kaki)</French>
+            <German>Bandana (Khaki)</German>
+            <Italian>Bandana (kaki)</Italian>
+            <Polish>Bandana (khaki)</Polish>
+            <Portuguese>Bandana (cáqui)</Portuguese>
+            <Russian>Бандана (камуфляжная)</Russian>
+            <Spanish>Panuelo (caqui)</Spanish>
+          </Key>
+          <Key ID="STR_ASCZ_Bandana_Black">
+            <Original>Bandana (Black)</Original>
+            <English>Bandana (Black)</English>
+            <Czech>Bandana (černá)</Czech>
+            <French>Bandana (noir)</French>
+            <German>Bandana (schwarz)</German>
+            <Italian>Bandana (nera)</Italian>
+            <Polish>Bandana (czarna)</Polish>
+            <Portuguese>Bandana (preta)</Portuguese>
+            <Russian>Бандана (черная)</Russian>
+            <Spanish>Panuelo (negro)</Spanish>
+          </Key>
+          <Key ID="STR_ASCZ_Bandana_Brown">
+            <Original>Bandana (Brown)</Original>
+            <English>Bandana (Brown)</English>
+            <Czech>Bandana (hnědá)</Czech>
+            <French>Bandana (marron)</French>
+            <German>Bandana (braun)</German>
+            <Italian>Bandana (marrone)</Italian>
+            <Polish>Bandana (brązowy)</Polish>
+            <Portuguese>Bandana (marrom)</Portuguese>
+            <Russian>Бандана (коричневая)</Russian>
+            <Spanish>Panuelo (marrón)</Spanish>
+          </Key>
+          <Key ID="STR_ASCZ_Bandana_Red">
+            <Original>Bandana (Red)</Original>
+            <English>Bandana (Red)</English>
+            <Czech>Bandana (červená)</Czech>
+            <French>Bandana (rouge)</French>
+            <German>Bandana (rot)</German>
+            <Italian>Bandana (rosso)</Italian>
+            <Polish>Bandana (czerwona)</Polish>
+            <Portuguese>Bandana (vermelha)</Portuguese>
+            <Russian>Бандана (красный)</Russian>
+            <Spanish>Panuelo (roja)</Spanish>
+          </Key>
+          <Key ID="STR_ASCZ_Bandana_Olive">
+            <Original>Bandana (Olive)</Original>
+            <English>Bandana (Olive)</English>
+            <Czech>Bandana (olivová)</Czech>
+            <French>Bandana (olive)</French>
+            <German>Bandana (Oliv)</German>
+            <Italian>Bandana (olivova)</Italian>
+            <Polish>Bandana (oliwkowa)</Polish>
+            <Portuguese>Bandana (verde-oliva)</Portuguese>
+            <Russian>Бандана (оливковый)</Russian>
+            <Spanish>Panuelo (oliva)</Spanish>
+          </Key>
+    </Package>
+</Project>

@@ -27,10 +27,6 @@ class CfgFaces
 		class Custom
 		{
 			material = "ASCZ_Heads\data\Custom.rvmat";
-			textureHL = "\A3\Characters_F\Heads\Data\hl_white_bald_co.paa";
-			materialHL = "\A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat";
-			textureHL2 = "\A3\Characters_F\Heads\Data\hl_white_bald_co.paa";
-			materialHL2 = "\A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat";
 		};
 		class Miller: Default
 		{
