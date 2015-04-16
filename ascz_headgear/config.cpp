@@ -11,53 +11,66 @@ class cfgWeapons
 {
 	class H_Cap_oli_hs;
 	class ItemInfo;
-	class H_Bandana_khaki: H_Cap_oli_hs
+	class H_Bandana_khaki: H_Cap_oli_hs //Bandana
 	{
 		author = "ASCZ";
 		displayName = "$STR_ASCZ_Bandana_Khaki";
-		picture = "\ascz_headgear\data\UI\icon_bandana_khaki.paa";
+		picture = "\ascz_headgear\data\UI\icon_Bandana_khaki.paa";
 
-		model = "\ascz_headgear\bandana.p3d";
+		model = "\ascz_headgear\Bandana.p3d";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\ascz_headgear\data\bandana_khaki_co.paa"};
+		hiddenSelectionsTextures[] = {"\ascz_headgear\data\Bandana_khaki_co.paa"};
         class ItemInfo: ItemInfo{
-			uniformModel = "\ascz_headgear\bandana.p3d";
+			uniformModel = "\ascz_headgear\Bandana.p3d";
 		};
 	};
-	class H_bandana_black: H_bandana_khaki
+	class H_Bandana_black: H_Bandana_khaki
 	{
 	author = "ASCZ";
 	displayName = "$STR_ASCZ_Bandana_Black";
-	picture = "\ascz_headgear\data\UI\icon_bandana_black.paa";
+	picture = "\ascz_headgear\data\UI\icon_Bandana_black.paa";
 	
-	    hiddenSelectionsTextures[] = {"\ascz_headgear\data\bandana_black_co.paa"};
+	    hiddenSelectionsTextures[] = {"\ascz_headgear\data\Bandana_black_co.paa"};
 	    class ItemInfo: ItemInfo{};
 	};
-	class H_bandana_brown: H_bandana_black
+	class H_Bandana_brown: H_Bandana_black
 	{
 	author = "ASCZ";
 	displayName = "$STR_ASCZ_Bandana_Brown";
-	picture = "\ascz_headgear\data\UI\icon_bandana_brown.paa";
+	picture = "\ascz_headgear\data\UI\icon_Bandana_brown.paa";
 	
-	    hiddenSelectionsTextures[] = {"\ascz_headgear\data\bandana_brown_co.paa"};
+	    hiddenSelectionsTextures[] = {"\ascz_headgear\data\Bandana_brown_co.paa"};
 	    class ItemInfo: ItemInfo{};
 	};
-	class H_bandana_red: H_bandana_brown
+	class H_Bandana_red: H_Bandana_brown
 	{
 	author = "ASCZ";
 	displayName = "$STR_ASCZ_Bandana_Red";
-	picture = "\ascz_headgear\data\UI\icon_bandana_red.paa";
+	picture = "\ascz_headgear\data\UI\icon_Bandana_red.paa";
 	
-	    hiddenSelectionsTextures[] = {"\ascz_headgear\data\bandana_red_co.paa"};
+	    hiddenSelectionsTextures[] = {"\ascz_headgear\data\Bandana_red_co.paa"};
 	    class ItemInfo: ItemInfo{};
 	};
-	class H_bandana_olive: H_bandana_red
+	class H_Bandana_olive: H_Bandana_red
 	{
 	author = "ASCZ";
 	displayName = "$STR_ASCZ_Bandana_Olive";
-	picture = "\ascz_headgear\data\UI\icon_bandana_olive.paa";
+	picture = "\ascz_headgear\data\UI\icon_Bandana_olive.paa";
 	
-	    hiddenSelectionsTextures[] = {"\ascz_headgear\data\bandana_olive_co.paa"};
+	    hiddenSelectionsTextures[] = {"\ascz_headgear\data\Bandana_olive_co.paa"};
 	    class ItemInfo: ItemInfo{};
+	};
+	class H_CowboyHat_brown: H_Bandana_olive //CowboyHat
+	{
+		author = "ASCZ";
+		displayName = "$STR_ASCZ_CowboyHat_Brown";
+		picture = "\ascz_headgear\data\UI\icon_Bandana_khaki.paa";
+
+		model = "\ascz_headgear\CowboyHat.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ascz_headgear\data\CowboyHat_brown_co.paa"};
+        class ItemInfo: ItemInfo{
+			uniformModel = "\ascz_headgear\CowboyHat.p3d";
+		};
 	};
 };

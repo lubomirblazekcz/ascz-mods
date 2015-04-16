@@ -61,5 +61,17 @@
             <Russian>Бандана (оливковый)</Russian>
             <Spanish>Panuelo (oliva)</Spanish>
           </Key>
+          <Key ID="STR_ASCZ_CowboyHat_Brown">
+            <Original>Cowboy Hat (Brown)</Original>
+            <English>Cowboy Hat (Brown)</English>
+            <Czech>Cowbojský klobouk (hnědý)</Czech>
+            <French>Chapeau De Cowboy (marron)</French>
+            <German>Cowboyhut (braun)</German>
+            <Italian>Cappello da cowboy (marrone)</Italian>
+            <Polish>Cowboy Hat (brązowy)</Polish>
+            <Portuguese>Chapéu de vaqueiro (marrom)</Portuguese>
+            <Russian>Ковбойская Шляпа (коричневая)</Russian>
+            <Spanish>Sombrero De Vaquero (marrón)</Spanish>
+          </Key>
     </Package>
 </Project>
