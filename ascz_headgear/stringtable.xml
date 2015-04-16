@@ -73,5 +73,41 @@
             <Russian>Ковбойская Шляпа (коричневая)</Russian>
             <Spanish>Sombrero De Vaquero (marrón)</Spanish>
           </Key>
+          <Key ID="STR_ASCZ_CowboyHat_Black">
+            <Original>Cowboy Hat (Black)</Original>
+            <English>Cowboy Hat (Black)</English>
+            <Czech>Cowbojský klobouk (černý)</Czech>
+            <French>Chapeau De Cowboy (noir)</French>
+            <German>Cowboyhut (schwarz)</German>
+            <Italian>Cappello da cowboy (nera)</Italian>
+            <Polish>Cowboy Hat (czarny)</Polish>
+            <Portuguese>Chapéu de vaqueiro (preta)</Portuguese>
+            <Russian>Ковбойская Шляпа (черная)</Russian>
+            <Spanish>Sombrero De Vaquero (negro)</Spanish>
+          </Key>
+          <Key ID="STR_ASCZ_CowboyHat_Green">
+            <Original>Cowboy Hat (Green)</Original>
+            <English>Cowboy Hat (Green)</English>
+            <Czech>Cowbojský klobouk (zelený)</Czech>
+            <French>Chapeau De Cowboy (olive)</French>
+            <German>Cowboyhut (Oliv)</German>
+            <Italian>Cappello da cowboy (olivova)</Italian>
+            <Polish>Cowboy Hat (oliwkowa)</Polish>
+            <Portuguese>Chapéu de vaqueiro (verde-oliva)</Portuguese>
+            <Russian>Ковбойская Шляпа (оливковый)</Russian>
+            <Spanish>Sombrero De Vaquero (oliva)</Spanish>
+          </Key>
+          <Key ID="STR_ASCZ_CowboyHat_White">
+            <Original>Cowboy Hat (White)</Original>
+            <English>Cowboy Hat (White)</English>
+            <Czech>Cowbojský klobouk (bílý)</Czech>
+            <French>Chapeau De Cowboy (blanc)</French>
+            <German>Cowboyhut (weiß)</German>
+            <Italian>Cappello da cowboy (bianco)</Italian>
+            <Polish>Cowboy Hat (biały)</Polish>
+            <Portuguese>Chapéu de vaqueiro (branco)</Portuguese>
+            <Russian>Ковбойская Шляпа (белый)</Russian>
+            <Spanish>Sombrero De Vaquero (blanco)</Spanish>
+          </Key>
     </Package>
 </Project>
