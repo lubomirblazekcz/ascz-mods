@@ -2,8 +2,9 @@ class CfgVehicles
 {
     // AFRF
     // Infantry
-	class SoldierEB;
-	class rhs_infantry_msv_base: SoldierEB
+	class SoldierGB;
+	class SoldierWB;
+	class rhs_infantry_msv_base: SoldierGB
     {
         faction = "ascz_rhs_faction_ru";
         vehicleClass = "rhs_vehclass_infantry_msv";
@@ -612,6 +613,23 @@ class CfgVehicles
 		faction = "ascz_rhs_faction_ru";
 		vehicleclass = "Car";
     };
+	class RHS_Ural_Flat_MSV_01: RHS_Ural_MSV_Base {};
+	class RHS_Ural_Flat_VDV_01: RHS_Ural_Flat_MSV_01
+	{
+		faction = "ascz_rhs_faction_ru";
+		vehicleclass = "Car";
+	};
+	class RHS_Ural_Flat_VMF_01: RHS_Ural_Flat_MSV_01
+	{
+		faction = "ascz_rhs_faction_ru";
+		vehicleclass = "Car";
+	};
+	class RHS_Ural_Flat_VV_01: RHS_Ural_Flat_MSV_01
+	{
+		faction = "ascz_rhs_faction_ru";
+		vehicleclass = "Car";
+	};
+
 	class RHS_Ural_VDV_01: RHS_Ural_MSV_Base
     {
 		faction = "ascz_rhs_faction_ru";
@@ -632,6 +650,23 @@ class CfgVehicles
     };
 		
 	class RHS_Ural_Open_MSV_01: RHS_Ural_MSV_Base {};
+    class RHS_Ural_Open_Flat_MSV_01: RHS_Ural_Open_MSV_01 {};
+
+    class RHS_Ural_Open_Flat_VDV_01: RHS_Ural_Open_Flat_MSV_01
+    {
+		faction = "ascz_rhs_faction_ru";
+		vehicleclass = "Car";
+    };
+    class RHS_Ural_Open_Flat_VMF_01: RHS_Ural_Open_Flat_MSV_01
+    {
+		faction = "ascz_rhs_faction_ru";
+		vehicleclass = "Car";
+    };
+    class RHS_Ural_Open_Flat_VV_01: RHS_Ural_Open_Flat_MSV_01
+    {
+		faction = "ascz_rhs_faction_ru";
+		vehicleclass = "Car";
+    };
 	class RHS_Ural_Open_VDV_01: RHS_Ural_Open_MSV_01
     {
 		faction = "ascz_rhs_faction_ru";
@@ -1157,6 +1192,27 @@ class CfgVehicles
 		displayName = "GAZ-66 (VMF)";
 		vehicleclass = "Car";
 	};
+	class rhs_gaz66_flat_vmf: rhs_gaz66_vmf
+	{
+		faction = "ascz_rhs_faction_ru";
+		vehicleclass = "Car";
+	};
+	class rhs_gaz66_flat_vv: rhs_gaz66_flat_vmf
+	{
+		faction = "ascz_rhs_faction_ru";
+		vehicleclass = "Car";
+	};
+
+	class rhs_gaz66_flat_vdv: rhs_gaz66_flat_vmf
+	{
+		faction = "ascz_rhs_faction_ru";
+		vehicleclass = "Car";
+	};
+	class rhs_gaz66_flat_msv: rhs_gaz66_flat_vmf
+	{
+		faction = "ascz_rhs_faction_ru";
+		vehicleclass = "Car";
+	};
 	class rhs_gaz66_vdv: rhs_gaz66_vmf
     {
 		faction = "ascz_rhs_faction_ru";
@@ -1167,6 +1223,26 @@ class CfgVehicles
 	class rhs_gaz66o_vmf: rhs_gaz66_vmf
 	{
 		displayName = "GAZ-66 Open (VMF)";
+		vehicleclass = "Car";
+	};
+	class rhs_gaz66o_flat_vmf: rhs_gaz66o_vmf
+	{
+		faction = "ascz_rhs_faction_ru";
+		vehicleclass = "Car";
+	};
+	class rhs_gaz66o_flat_vv: rhs_gaz66o_flat_vmf
+	{
+		faction = "ascz_rhs_faction_ru";
+		vehicleclass = "Car";
+	};
+	class rhs_gaz66o_flat_msv: rhs_gaz66o_flat_vmf
+	{
+		faction = "ascz_rhs_faction_ru";
+		vehicleclass = "Car";
+	};
+	class rhs_gaz66o_flat_vdv: rhs_gaz66o_flat_vmf
+	{
+		faction = "ascz_rhs_faction_ru";
 		vehicleclass = "Car";
 	};
 	class rhs_gaz66o_vdv: rhs_gaz66o_vmf
@@ -1305,12 +1381,38 @@ class CfgVehicles
     };
 
     // Infantry
-	class rhsusf_infantry_army_base: SoldierEB
+	class rhsusf_infantry_army_base: SoldierWB
 	{
         faction = "ascz_rhs_faction_usarmy";
         vehicleClass = "rhs_vehclass_infantry_ocp";
         modelsides[] = {6};
 	};
+	class rhsusf_infantry_army_1stcav: rhsusf_infantry_army_base {
+        faction = "ascz_rhs_faction_usarmy";
+        vehicleClass = "rhs_vehclass_infantry_ocp";
+        modelsides[] = {6};
+	};
+	class rhsusf_infantry_army_82nd: rhsusf_infantry_army_base {
+        faction = "ascz_rhs_faction_usarmy";
+        vehicleClass = "rhs_vehclass_infantry_ocp";
+        modelsides[] = {6};
+	};
+	class rhsusf_infantry_army_101st: rhsusf_infantry_army_base {
+        faction = "ascz_rhs_faction_usarmy";
+        vehicleClass = "rhs_vehclass_infantry_ocp";
+        modelsides[] = {6};
+	};
+	class rhsusf_infantry_army_10th: rhsusf_infantry_army_base {
+        faction = "ascz_rhs_faction_usarmy";
+        vehicleClass = "rhs_vehclass_infantry_ocp";
+        modelsides[] = {6};
+	};
+	class rhsusf_army_ocp_rifleman_82nd: rhsusf_infantry_army_82nd {};
+	class rhsusf_army_ocp_rifleman_101st: rhsusf_infantry_army_101st {};
+	class rhsusf_army_ocp_rifleman_10th: rhsusf_infantry_army_10th {};
+	class rhsusf_army_ocp_rifleman_1stcav: rhsusf_infantry_army_1stcav {};
+	class rhsusf_army_ocp_rifleman: rhsusf_infantry_army_base {};
+	class rhsusf_army_ocp_explosives: rhsusf_army_ocp_rifleman {};
 	class rhsusf_army_ocp_autorifleman;
 	class rhsusf_army_ocp_autoriflemana;
 	class rhsusf_army_ocp_machinegunner;
@@ -1323,7 +1425,6 @@ class CfgVehicles
 	class rhsusf_army_ocp_grenadier;
 	class rhsusf_army_ocp_marksman;
 	class rhsusf_army_ocp_medic;
-	class rhsusf_army_ocp_rifleman;
 	class rhsusf_army_ocp_rifleman_m16;
 	class rhsusf_army_ocp_riflemanl;
 	class rhsusf_army_ocp_riflemanat;
@@ -1333,11 +1434,16 @@ class CfgVehicles
 	class rhsusf_army_ocp_teamleader;
 	class rhsusf_army_ocp_helipilot;
 	class rhsusf_army_ocp_helicrew;
-	class rhsusf_army_ocp_rifleman_82nd;
-	class rhsusf_army_ocp_rifleman_101st;
-	class rhsusf_army_ocp_rifleman_10th;
-    class rhsusf_army_ocp_jfo;
-    class rhsusf_army_ocp_fso;
+    class rhsusf_army_ocp_jfo: rhsusf_infantry_army_base {
+        faction = "ascz_rhs_faction_usarmy";
+        vehicleClass = "rhs_vehclass_infantry_ocp";
+        modelsides[] = {6};
+    };
+    class rhsusf_army_ocp_fso: rhsusf_army_ocp_jfo {
+        faction = "ascz_rhs_faction_usarmy";
+        vehicleClass = "rhs_vehclass_infantry_ocp";
+        modelsides[] = {6};
+    };
     class rhsusf_army_ocp_officer;
     class rhsusf_army_ocp_rifleman_m4;
     class rhsusf_army_ocp_rifleman_m590;
@@ -1407,6 +1513,11 @@ class CfgVehicles
         faction = "ascz_rhs_faction_usarmy";
         vehicleClass = "rhs_vehclass_infantry_ucp";
 	};
+    class rhsusf_army_ucp_explosives: rhsusf_army_ocp_explosives
+    {
+        faction = "ascz_rhs_faction_usarmy";
+        vehicleClass = "rhs_vehclass_infantry_ucp";
+    };
 	class rhsusf_army_ucp_rifleman_m16: rhsusf_army_ocp_rifleman_m16
     {
         faction = "ascz_rhs_faction_usarmy";
@@ -1470,6 +1581,11 @@ class CfgVehicles
         faction = "ascz_rhs_faction_usarmy";
         vehicleClass = "rhs_vehclass_infantry_ucp";
     };
+    class rhsusf_army_ucp_rifleman_1stcav : rhsusf_army_ocp_rifleman_1stcav
+    {
+        faction = "ascz_rhs_faction_usarmy";
+        vehicleClass = "rhs_vehclass_infantry_ucp";
+    };
 	class rhsusf_army_ucp_jfo: rhsusf_army_ocp_jfo
 	{
         faction = "ascz_rhs_faction_usarmy";
@@ -1515,6 +1631,7 @@ class CfgVehicles
     };
 
     class rhsusf_usmc_marpat_wd_rifleman;
+    class rhsusf_usmc_marpat_wd_explosives;
     class rhsusf_usmc_marpat_wd_rifleman_light;
     class rhsusf_usmc_marpat_wd_rifleman_m4;
     class rhsusf_usmc_marpat_wd_riflemanat;
@@ -1544,6 +1661,10 @@ class CfgVehicles
     class rhsusf_usmc_marpat_wd_helicrew;
     class rhsusf_usmc_marpat_d_rifleman: rhsusf_usmc_marpat_wd_rifleman
     {
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "rhs_vehclass_infantry_usmc_d";
+    };
+    class rhsusf_usmc_marpat_d_explosives: rhsusf_usmc_marpat_wd_explosives {
         faction = "ascz_rhs_faction_usmc";
         vehicleClass = "rhs_vehclass_infantry_usmc_d";
     };
@@ -1855,6 +1976,12 @@ class CfgVehicles
         vehicleClass = "Air";
 		displayName = "CH-47 (Desert)";
 	};
+    class RHS_CH_47F_10: RHS_CH_47F
+    {
+        faction = "ascz_rhs_faction_usarmy";
+        vehicleClass = "Air";
+        displayName = "CH-47 (Desert)";
+    };
 
     class RHS_UH60M_US_base;
     class RHS_UH60M: RHS_UH60M_US_base
@@ -1888,6 +2015,157 @@ class CfgVehicles
 	{
         faction = "ascz_rhs_faction_usarmy";
         vehicleClass = "Air";
+	};
+
+    class RHS_AH1Z_base: Heli_Attack_01_base_F {
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+    };
+    class RHS_AH1Z: RHS_AH1Z_base {
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+    };
+	class RHS_AH1Z_GS: RHS_AH1Z
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+	};
+	class RHS_AH1Z_CS: RHS_AH1Z
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+	};
+	class RHS_AH1Z_wd: RHS_AH1Z
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+	};
+	class RHS_AH1Z_wd_GS: RHS_AH1Z_wd
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+	};
+	class RHS_AH1Z_wd_CS: RHS_AH1Z_wd
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+	};
+	class RHS_AH1Z_10: RHS_AH1Z
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+        scope = 1;
+        scopeCurator = 0;
+	};
+	class RHS_AH1Z_GS_10: RHS_AH1Z_GS
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+        scope = 1;
+        scopeCurator = 0;
+	};
+	class RHS_AH1Z_CS_10: RHS_AH1Z_CS
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+        scope = 1;
+        scopeCurator = 0;
+	};
+	class RHS_AH1Z_wd_10: RHS_AH1Z_wd
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+        scope = 1;
+        scopeCurator = 0;
+	};
+	class RHS_AH1Z_wd_GS_10: RHS_AH1Z_wd_GS
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+        scope = 1;
+        scopeCurator = 0;
+	};
+	class RHS_AH1Z_wd_CS_10: RHS_AH1Z_wd_CS
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+        scope = 1;
+        scopeCurator = 0;
+	};
+
+    class Heli_Light_03_base_F;
+	class RHS_UH1_Base: Heli_Light_03_base_F {};
+    class RHS_UH1Y_base: RHS_UH1_Base {};
+	class RHS_UH1Y_US_base: RHS_UH1Y_base {};
+    class RHS_UH1Y: RHS_UH1Y_US_base
+    {
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+    };
+    class RHS_UH1Y_d: RHS_UH1Y {
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+    };
+    class RHS_UH1Y_FFAR: RHS_UH1Y {
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+    };
+	class RHS_UH1Y_FFAR_d: RHS_UH1Y_FFAR
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+	};
+	class RHS_UH1Y_UNARMED: RHS_UH1Y_FFAR
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+	};
+	class RHS_UH1Y_UNARMED_d: RHS_UH1Y_UNARMED
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+	};
+	class RHS_UH1Y_10: RHS_UH1Y
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+        scope = 1;
+        scopeCurator = 0;
+	};
+	class RHS_UH1Y_FFAR_10: RHS_UH1Y_FFAR
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+        scope = 1;
+        scopeCurator = 0;
+	};
+	class RHS_UH1Y_UNARMED_10: RHS_UH1Y_UNARMED
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+        scope = 1;
+        scopeCurator = 0;
+	};
+	class RHS_UH1Y_d_10: RHS_UH1Y_d
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+        scope = 1;
+        scopeCurator = 0;
+	};
+	class RHS_UH1Y_FFAR_d_10: RHS_UH1Y_FFAR_d
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+        scope = 1;
+        scopeCurator = 0;
+	};
+	class RHS_UH1Y_UNARMED_d_10: RHS_UH1Y_UNARMED_d
+	{
+        faction = "ascz_rhs_faction_usmc";
+        vehicleClass = "Air";
+        scope = 1;
+        scopeCurator = 0;
 	};
 
     class RHS_M2A2_Base;
@@ -2089,7 +2367,7 @@ class CfgVehicles
         faction = "ascz_rhs_faction_usmc";
         vehicleClass = "Car";
 	};
-    class rhsusf_m1025_d_s: rhsusf_m1025_w
+    class rhsusf_m1025_d_s: rhsusf_m1025_w_s
 	{
         faction = "ascz_rhs_faction_usmc";
         vehicleClass = "Car";
@@ -2109,7 +2387,7 @@ class CfgVehicles
         faction = "ascz_rhs_faction_usmc";
         vehicleClass = "Car";
     };
-    class rhsusf_m1025_d_s_m2: rhsusf_m1025_w_m2
+    class rhsusf_m1025_d_s_m2: rhsusf_m1025_w_s_m2
     {
         faction = "ascz_rhs_faction_usmc";
         vehicleClass = "Car";
@@ -2129,7 +2407,7 @@ class CfgVehicles
         faction = "ascz_rhs_faction_usmc";
         vehicleClass = "Car";
     };
-    class rhsusf_m1025_d_s_Mk19: rhsusf_m1025_w_Mk19
+    class rhsusf_m1025_d_s_Mk19: rhsusf_m1025_w_s_Mk19
     {
         faction = "ascz_rhs_faction_usmc";
         vehicleClass = "Car";
@@ -2193,6 +2471,16 @@ class CfgVehicles
         faction = "ascz_rhs_faction_usarmy";
         vehicleClass = "Armored";
 	};
+    class rhsusf_m1a2sep1tuskiiwd_usarmy: rhsusf_m1a2sep1tuskid_usarmy
+    {
+        faction = "ascz_rhs_faction_usarmy";
+        vehicleClass = "Armored";
+    };
+    class rhsusf_m1a2sep1tuskiid_usarmy: rhsusf_m1a2sep1tuskid_usarmy
+    {
+        faction = "ascz_rhs_faction_usarmy";
+        vehicleClass = "Armored";
+    };
 
     class rhsusf_m109tank_base;
     class rhsusf_m109_usarmy: rhsusf_m109tank_base
@@ -2299,6 +2587,24 @@ class CfgVehicles
         faction = "ascz_rhs_faction_usarmy";
         vehicleClass = "car";
     };
+
+    class rhsusf_M1078A1P2_B_M2_wd_fmtv_usarmy: rhsusf_M1078A1P2_B_wd_fmtv_usarmy {};
+    class rhsusf_M1078A1P2_B_M2_d_fmtv_usarmy: rhsusf_M1078A1P2_B_M2_wd_fmtv_usarmy {
+            faction = "ascz_rhs_faction_usarmy";
+            vehicleClass = "car";
+    };
+    class rhsusf_M1078A1P2_B_M2_d_open_fmtv_usarmy: rhsusf_M1078A1P2_B_M2_d_fmtv_usarmy {};
+	class rhsusf_M1078A1P2_B_M2_d_flatbed_fmtv_usarmy: rhsusf_M1078A1P2_B_M2_d_open_fmtv_usarmy {};
+
+    class rhsusf_M1083A1P2_B_M2_wd_fmtv_usarmy: rhsusf_M1078A1P2_B_M2_wd_fmtv_usarmy {};
+    class rhsusf_M1083A1P2_B_M2_d_fmtv_usarmy: rhsusf_M1083A1P2_B_M2_wd_fmtv_usarmy
+    {
+            faction = "ascz_rhs_faction_usarmy";
+            vehicleClass = "car";
+    };
+    class rhsusf_M1083A1P2_B_M2_d_open_fmtv_usarmy: rhsusf_M1083A1P2_B_M2_d_fmtv_usarmy {};
+    class rhsusf_M1083A1P2_B_M2_d_flatbed_fmtv_usarmy: rhsusf_M1083A1P2_B_M2_d_open_fmtv_usarmy {};
+
     class rhsusf_HEMTT_A2_base;
     class rhsusf_M977A2_usarmy_wd: rhsusf_HEMTT_A2_base
     {

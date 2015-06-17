@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {"ascz_arsenal_box"};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"rhs_c_radio","AGM_Core","AGM_Movement"};
+		requiredAddons[] = {"rhs_c_radio","ace_common","ace_movement"};
 		version = "1.0";
 		author[] = {"EvroMalarkey"};
 	};
@@ -307,83 +307,12 @@ class cfgVehicles {
 		supplyRadius = 1.4;
         class TransportMagazines {};
         class TransportWeapons {};
-        class TransportItems {
-            class _xx_AGM_Bandage
-            {
-                name = "AGM_Bandage";
-                count = 50;
-            };
-            class _xx_AGM_Morphine
-            {
-                name = "AGM_Morphine";
-                count = 50;
-            };
-            class _xx_AGM_Epipen
-            {
-                name = "AGM_Epipen";
-                count = 50;
-            };
-            class _xx_AGM_Bloodbag
-            {
-                name = "AGM_Bloodbag";
-                count = 10;
-            };
-            class _xx_AGM_SpareBarrel
-            {
-                name = "AGM_SpareBarrel";
-                count = 10;
-            };
-            class _xx_AGM_EarBuds
-            {
-                name = "AGM_EarBuds";
-                count = 50;
-            };
-            class _xx_AGM_ItemKestrel
-            {
-                name = "AGM_ItemKestrel";
-                count = 10;
-            };
-            class _xx_AGM_MapTools
-            {
-                name = "AGM_MapTools";
-                count = 10;
-            };
-            class _xx_AGM_UAVBattery
-            {
-                name = "AGM_UAVBattery";
-                count = 10;
-            };
-            class _xx_AGM_Clacker
-            {
-                name = "AGM_Clacker";
-                count = 10;
-            };
-            class _xx_AGM_DefusalKit
-            {
-                name = "AGM_DefusalKit";
-                count = 10;
-            };
-            class _xx_AGM_AGM_M26_Clacker
-            {
-                name = "AGM_M26_Clacker";
-                count = 10;
-            };
-            class _xx_AGM_CableTie
-            {
-                name = "AGM_CableTie";
-                count = 10;
-            };
-            class _xx_AGM_IR_Strobe_Item
-            {
-                name = "AGM_IR_Strobe_Item";
-                count = 10;
-            };
-        };
+        class TransportItems {};
     };
 
     class ascz_arsenal_box: Land_PaperBox_open_full_F
     {
-            displayName = "[AGM] Arsenal";
+            displayName = "[ACE] Arsenal";
             vehicleClass = "Ammo";
             class eventHandlers
             {
