@@ -74,3 +74,4 @@ class cfgWeapons
 			uniformModel = "\ascz_headgear\CowboyHat.p3d";
 	    };
 	};
+};
