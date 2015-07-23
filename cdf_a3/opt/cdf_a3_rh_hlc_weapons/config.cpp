@@ -231,13 +231,13 @@ class CfgVehicles
 
     class B_CDF_A3_Soldier_MG: B_CDF_A3_Soldier_Base
     {
-        weapons[]={"rhs_weap_pkp_bipod","Throw","Put"};
+        weapons[]={"rhs_weap_pkm","Throw","Put"};
         magazines[]=
         {
             "rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR",
             "rhs_100Rnd_762x54mmR"
         };
-        respawnWeapons[]={"rhs_weap_pkp_bipod","Throw","Put"};
+        respawnWeapons[]={"rhs_weap_pkm","Throw","Put"};
         respawnMagazines[]={"rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR"};
     };
 

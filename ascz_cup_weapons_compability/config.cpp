@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class CUP_Weapons_ASCZ_Compability
+	class ascz_cup_weapons_compability
 	{
 		units[] = {};
 		weapons[] = {};
@@ -17,40 +17,19 @@ class CfgWeapons
     class CUP_lmg_M60A4: hlc_lmg_M60E4 {
         scope = 1;
     };
-    class LMG_Mk200_F;
-    class rhs_M249_base : LMG_Mk200_F
-    {
-        magazines[] += {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE1_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Green_Tracer_556x45_M249","CUP_100Rnd_TE4_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1"};
-    };
-    class CUP_lmg_M249_para: Rifle_Long_Base_F
-    {
-        magazines[] += {"rhsusf_100Rnd_556x45_soft_pouch"};
-        scope = 1;
-    };
-    class CUP_lmg_M249: CUP_lmg_M249_para
-    {
-        scope = 2;
-    };
-	class CUP_lmg_PKM: Rifle_Long_Base_F
-	{
-		magazines[] +=
-		{
-			"rhs_100Rnd_762x54mmR",
-			"rhs_100Rnd_762x54mmR_green"
-		};
-	};
-	class CUP_lmg_Pecheneg: CUP_lmg_PKM
-	{
-	    scope = 1;
-	};
-	class rhs_pkp_base: Rifle_Long_Base_F
-	{
-		magazines[] += {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
-	};
     class RH_vz61;
     class CUP_hgun_SA61: RH_vz61 {
         scope = 1;
         magazines[] += {"CUP_20Rnd_B_765x17_Ball_M"};
+    };
+    class Pistol;
+    class Pistol_Base_F: Pistol
+    {
+        class WeaponSlotsInfo;
+    };
+    class CUP_hgun_M9: Pistol_Base_F
+    {
+        scope = 1;
     };
 
     // Opticts

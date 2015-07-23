@@ -17,7 +17,7 @@ class CfgFactionClasses {
 		primarylanguage = "ACR_CZ";
 	};
 	class LOP_CDF {
-		displayName = "CDF 2014";
+		displayName = "CDF (2014)";
 		priority = 1;
 	};
 	class LOP_PMC {
@@ -73,7 +73,7 @@ class CfgGroups
 	{
 		class LOP_CDF
 		{
-			name = "CDF 2014";
+			name = "CDF (2014)";
         };
         class LOP_IA
         {

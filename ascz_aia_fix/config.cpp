@@ -80,10 +80,70 @@ class CfgWorlds
     class Chernarus: CAWorld
     {
 		cutscenes[] = {"ChernarusIntro"};
+        class clutter
+        {
+            class GrassCrooked: DefaultClutter
+            {
+                scaleMin = 0.4;
+                scaleMax = 0.7;
+            };
+            class GrassCrookedGreen: DefaultClutter
+            {
+                scaleMin = 0.4;
+                scaleMax = 0.6;
+            };
+            class GrassCrookedForest: DefaultClutter
+            {
+                scaleMin = 0.4;
+                scaleMax = 0.6;
+            };
+            class FernAutumn: DefaultClutter
+            {
+                scaleMax = 0.7;
+            };
+            class FernAutumnTall: DefaultClutter
+            {
+                scaleMin = 0.3;
+                scaleMax = 0.5;
+            };
+        };
     };
     class Bootcamp_ACR: CAWorld
     {
 		cutscenes[] = {"Bootcamp_ACRIntro"};
+        class clutter
+        {
+            class GrassCrookedSmall: DefaultClutter
+            {
+                scaleMin = 0.4;
+                scaleMax = 0.6;
+            };
+            class GrassCrookedGreen: DefaultClutter
+            {
+                scaleMin = 0.5;
+                scaleMax = 0.7;
+            };
+            class GrassCrookedGreenSmall: DefaultClutter
+            {
+                scaleMin = 0.4;
+                scaleMax = 0.6;
+            };
+            class GrassCrookedForest: DefaultClutter
+            {
+                scaleMin = 0.4;
+                scaleMax = 0.6;
+            };
+            class FernAutumn: DefaultClutter
+            {
+                scaleMin = 0.4;
+                scaleMax = 0.7;
+            };
+            class FernAutumnTall: DefaultClutter
+            {
+                scaleMin = 0.3;
+                scaleMax = 0.6;
+            };
+        };
     };
     class Desert_E: CAWorld
     {
@@ -216,6 +276,34 @@ class CfgWorlds
     class Woodland_ACR: CAWorld
     {
 		cutscenes[] = {"Woodland_ACRIntro"};
+        class clutter
+        {
+            class GrassCrooked: DefaultClutter
+            {
+                scaleMin = 0.5;
+                scaleMax = 0.7;
+            };
+            class GrassCrookedGreen: DefaultClutter
+            {
+                scaleMin = 0.4;
+                scaleMax = 0.6;
+            };
+            class GrassCrookedForest: DefaultClutter
+            {
+                scaleMin = 0.4;
+                scaleMax = 0.6;
+            };
+            class FernAutumn: DefaultClutter
+            {
+                scaleMin = 0.3;
+                scaleMax = 0.5;
+            };
+            class FernAutumnTall: DefaultClutter
+            {
+                scaleMin = 0.4;
+                scaleMax = 0.6;
+            };
+        };
     };
     class Zargabad: CAWorld
     {

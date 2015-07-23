@@ -173,9 +173,12 @@ class CfgVehicles
         faction = "LOP_AM_O";
     };
 
-    class rhs_t72ba_tv { class EventHandlers; };
-    class rhsusf_m113_usarmy { class EventHandlers; };
-    class rhs_btr60_msv { class EventHandlers; };
+    class rhs_a3t72tank_base;
+    class rhs_t72ba_tv: rhs_a3t72tank_base {};
+    class rhsusf_m113tank_base;
+    class rhsusf_m113_usarmy: rhsusf_m113tank_base {};
+    class rhs_btr60_vmf;
+    class rhs_btr60_msv: rhs_btr60_vmf {};
 
     class LOP_AM_BTR60: rhs_btr60_msv {};
     class LOP_AM_BTR60_O: LOP_AM_BTR60 {

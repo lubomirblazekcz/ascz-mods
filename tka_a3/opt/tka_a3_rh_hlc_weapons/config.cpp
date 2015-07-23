@@ -273,13 +273,13 @@ class CfgVehicles
 
     class B_TKA_A3_Soldier_MG: B_TKA_A3_Soldier_Base
     {
-        weapons[]={"rhs_weap_pkp_bipod","Throw","Put"};
+        weapons[]={"rhs_weap_pkm","Throw","Put"};
         magazines[]=
         {
             "rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR",
             "rhs_100Rnd_762x54mmR"
         };
-        respawnWeapons[]={"rhs_weap_pkp_bipod","Throw","Put"};
+        respawnWeapons[]={"rhs_weap_pkm","Throw","Put"};
         respawnMagazines[]={"rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR"};
     };
 
@@ -569,14 +569,14 @@ class CfgVehicles
 
     class B_TKA_A3_Special_Forces_MG: B_TKA_A3_Special_Forces
     {
-        weapons[]={"rhs_weap_pkp_bipod","Binocular","Throw","Put","RH_mak"};
+        weapons[]={"rhs_weap_pkm","Binocular","Throw","Put","RH_mak"};
         magazines[]=
         {
             "rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR",
             "HandGrenade", "HandGrenade","SmokeShell","SmokeShellBlue",
             "RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak","RH_8Rnd_9x18_Mak"
         };
-        respawnWeapons[]={"rhs_weap_pkp_bipod","Binocular","Throw","Put","RH_mak"};
+        respawnWeapons[]={"rhs_weap_pkm","Binocular","Throw","Put","RH_mak"};
         respawnMagazines[]=
         {
             "rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR",

@@ -20,10 +20,10 @@ class CfgFactionClasses
     };
     class rhs_faction_usn {
         displayName = "USN";
-        priority = -2;
+        priority = -6;
     };
     class rhs_faction_socom {
         displayName = "SOCOM";
-        priority = -1;
+        priority = -7;
     };
 };
