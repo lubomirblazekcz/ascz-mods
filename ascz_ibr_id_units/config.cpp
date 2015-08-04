@@ -272,7 +272,7 @@ class cfgVehicles
             };
             class _xx_ibr_100Rnd_762x54
             {
-                magazine = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
+                magazine = "rhs_100Rnd_762x54mmR";
                 count = 8;
             };
             class _xx_chemlight_green
@@ -345,7 +345,7 @@ class cfgVehicles
             };
             class _xx_ibr_pkm_F
             {
-                weapon = "CUP_lmg_PKM";
+                weapon = "rhs_weap_pkm";
                 count = 2;
             };
             class _xx_ibr_rpk_F
@@ -396,7 +396,7 @@ class cfgVehicles
             };
             class _xx_ibr_100Rnd_762x54
             {
-                magazine = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
+                magazine = "rhs_100Rnd_762x54mmR";
                 count = 8;
             };
             class _xx_chemlight_green
@@ -469,7 +469,7 @@ class cfgVehicles
             };
             class _xx_ibr_pkm_F
             {
-                weapon = "CUP_lmg_PKM";
+                weapon = "rhs_weap_pkm";
                 count = 2;
             };
             class _xx_ibr_rpk_F
@@ -545,10 +545,10 @@ class cfgVehicles
     class ibr_afr_soldier_mg: ibr_afr_soldier
     {
         backpack = "ibr_backpack";
-        weapons[] = {"CUP_lmg_PKM","Throw","Put"};
-        magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","HandGrenade","HandGrenade","Chemlight_green"};
-        respawnweapons[] = {"CUP_lmg_PKM","Throw","Put"};
-        respawnmagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","HandGrenade","HandGrenade","Chemlight_green"};
+        weapons[] = {"rhs_weap_pkm","Throw","Put"};
+        magazines[] = {"rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","HandGrenade","HandGrenade","Chemlight_green"};
+        respawnweapons[] = {"rhs_weap_pkm","Throw","Put"};
+        respawnmagazines[] = {"rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","HandGrenade","HandGrenade","Chemlight_green"};
     };
     class ibr_afr_soldier_medic: ibr_afr_soldier
     {
@@ -651,10 +651,10 @@ class cfgVehicles
     class ibr_afr_90s_soldier_mg: ibr_afr_90s_soldier
     {
         backpack = "ibr_backpack";
-        weapons[] = {"CUP_lmg_PKM","Throw","Put"};
-        magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","HandGrenade","HandGrenade","Chemlight_green"};
-        respawnweapons[] = {"CUP_lmg_PKM","Throw","Put"};
-        respawnmagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","HandGrenade","HandGrenade","Chemlight_green"};
+        weapons[] = {"rhs_weap_pkm","Throw","Put"};
+        magazines[] = {"rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","HandGrenade","HandGrenade","Chemlight_green"};
+        respawnweapons[] = {"rhs_weap_pkm","Throw","Put"};
+        respawnmagazines[] = {"rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","HandGrenade","HandGrenade","Chemlight_green"};
     };
     class ibr_afr_90s_soldier_medic: ibr_afr_90s_soldier
     {
@@ -765,10 +765,10 @@ class cfgVehicles
     class ibr_mol_soldier_mg: ibr_mol_soldier
     {
         backpack = "ibr_backpack";
-        weapons[] = {"CUP_lmg_PKM","Throw","Put"};
-        magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","HandGrenade","HandGrenade","Chemlight_green"};
-        respawnweapons[] = {"CUP_lmg_PKM","Throw","Put"};
-        respawnmagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","HandGrenade","HandGrenade","Chemlight_green"};
+        weapons[] = {"rhs_weap_pkm","Throw","Put"};
+        magazines[] = {"rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","HandGrenade","HandGrenade","Chemlight_green"};
+        respawnweapons[] = {"rhs_weap_pkm","Throw","Put"};
+        respawnmagazines[] = {"rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","rhs_100Rnd_762x54mmR","HandGrenade","HandGrenade","Chemlight_green"};
     };
     class ibr_mol_soldier_medic: ibr_mol_soldier
     {
