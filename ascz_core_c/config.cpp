@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {"ascz_arsenal_box"};
 		weapons[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"ace_common","ace_movement","ascz_rhs_fix","ascz_lop_replacement","acr_a3_main","rhs_c_radio","UK3CB_BAF_Units_MTP"};
+		requiredAddons[] = {"ace_common","ace_movement","ascz_lop_replacement","acr_a3_main","rhs_c_radio","UK3CB_BAF_Units_MTP","CUP_BaseConfigs"};
 		version = "1.0";
 		author[] = {"EvroMalarkey"};
 	};
@@ -18,6 +18,12 @@ class CfgPatches
         author[] = {"EvroMalarkey"};
         version = "1.0";
     };
+	class CUP_Creatures_Military_USMC {
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[]={};
+	};
 };
 class CfgVoice
 {
@@ -324,159 +330,166 @@ class cfgVehicles {
                 init = "_this select 0 addAction [""<img image='\A3\Ui_f\data\Logos\arsenal_1024_ca.paa' size='1.8' shadow=0.1 />"", { [""Open"", true] call BIS_fnc_arsenal; }, """", 6];";
             };
     };
-    class StaticMGWeapon;
-    class UK3CB_BAF_Static_MG_Base: StaticMGWeapon {
-        faction = "UK3CB_BAF_Faction";
-    };
-    class Mortar_01_base_F;
-    class UK3CB_BAF_Static_Mortar_Base: Mortar_01_base_F {
-        faction = "UK3CB_BAF_Faction";
-    };
+//    class StaticMGWeapon;
+//    class UK3CB_BAF_Static_MG_Base: StaticMGWeapon {
+//        faction = "UK3CB_BAF_Faction";
+//    };
+//    class Mortar_01_base_F;
+//    class UK3CB_BAF_Static_Mortar_Base: Mortar_01_base_F {
+//        faction = "UK3CB_BAF_Faction";
+//    };
 };
 
 class CfgFactionClasses
 {
     // BLUFOR
-	class ACR_A3
-	{
-		priority = -1000;
-	};
-	class rhs_faction_usarmy_d;
-	class ascz_rhs_faction_usarmy: rhs_faction_usarmy_d
-	{
-		priority = -999;
-	};
-	class rhs_faction_usmc_d;
-	class ascz_rhs_faction_usmc: rhs_faction_usmc_d
-	{
-		priority = -998;
-	};
-	class rhs_faction_socom
-	{
-		priority = -997;
-	};
-	class rhs_faction_usn
-	{
-		priority = -996;
-	};
-	class UK3CB_BAF_Faction
-	{
-		priority = -995;
-	};
-	class CDF_A3
-	{
-		priority = -994;
-	};
-	class LOP_CDF
-	{
-		priority = -993;
-	};
-	class BLU_F
-	{
-		priority = -992;
-	};
-	class BLU_G_F
-	{
-		priority = -991;
-	};
-	class AFR_army
-	{
-		priority = -990;
-	};
-	class LOP_AA
-	{
-		displayName = "Afghan Army";
-		priority = -989;
-	};
-	class LOP_IA
-	{
-		priority = -988;
-	};
-
-	//IND
-	class rhs_faction_insurgents
-	{
-		priority = -9;
-	};
-	class LOP_RACS
-	{
-		priority = -8;
-	};
-	class IND_F
-	{
-		priority = -7;
-	};
-	class LOP_PMC
-	{
-		priority = -6;
-	};
-	class LOP_ISTS
-	{
-		priority = -5;
-	};
-	class LOP_AM
-	{
-		priority = -4;
-	};
-	class LOP_AFR
-	{
-		priority = -3;
-	};
-	class LOP_UA
-	{
-		priority = -2;
-	};
-
-    //OPFOR
-	class rhs_faction_msv;
-	class ascz_rhs_faction_ru: rhs_faction_msv
-	{
-		priority = -9;
-	};
-	class LOP_ChDKZ
-	{
-		priority = -8;
-	};
-	class LOP_SLA
-	{
-		priority = -7;
-	};
-	class OPF_F
-	{
-		priority = -6;
-	};
-	class TKA_A3
-	{
-		priority = -5;
-	};
-	class LOP_AM_O
-	{
-		priority = -4;
-	};
-	class LOP_US
-	{
-		priority = -3;
-	};
-	class MOL_army
-	{
-		priority = -2;
-	};
-
-	//CIV
-	class CIV_F
-	{
-		priority = 1;
-	};
-	class rds_rus_civ
-	{
-		priority = 2;
-	};
-	class LOP_TAK_Civ
-	{
-		priority = 3;
-	};
-	class LOP_AFR_Civ
-	{
-		priority = 4;
-	};
+//	class ACR_A3
+//	{
+//		priority = -1000;
+//	};
+//	class rhs_faction_usarmy_d;
+//	class ascz_rhs_faction_usarmy: rhs_faction_usarmy_d
+//	{
+//		priority = -999;
+//	};
+//	class rhs_faction_usmc_d;
+//	class ascz_rhs_faction_usmc: rhs_faction_usmc_d
+//	{
+//		priority = -998;
+//	};
+    class CUP_B_USMC
+    {
+        displayName = "USMC (CUP)";
+    };
+    class LOP_TKA {
+    	displayName = "Russia (80s)";
+    };
+//	class rhs_faction_socom
+//	{
+//		priority = -997;
+//	};
+//	class rhs_faction_usn
+//	{
+//		priority = -996;
+//	};
+//	class UK3CB_BAF_Faction
+//	{
+//		priority = -995;
+//	};
+//	class CDF_A3
+//	{
+//		priority = -994;
+//	};
+//	class LOP_CDF
+//	{
+//		priority = -993;
+//	};
+//	class BLU_F
+//	{
+//		priority = -992;
+//	};
+//	class BLU_G_F
+//	{
+//		priority = -991;
+//	};
+//	class AFR_army
+//	{
+//		priority = -990;
+//	};
+//	class LOP_AA
+//	{
+//		displayName = "Afghan Army";
+//		priority = -989;
+//	};
+//	class LOP_IA
+//	{
+//		priority = -988;
+//	};
+//
+//	//IND
+//	class rhs_faction_insurgents
+//	{
+//		priority = -9;
+//	};
+//	class LOP_RACS
+//	{
+//		priority = -8;
+//	};
+//	class IND_F
+//	{
+//		priority = -7;
+//	};
+//	class LOP_PMC
+//	{
+//		priority = -6;
+//	};
+//	class LOP_ISTS
+//	{
+//		priority = -5;
+//	};
+//	class LOP_AM
+//	{
+//		priority = -4;
+//	};
+//	class LOP_AFR
+//	{
+//		priority = -3;
+//	};
+//	class LOP_UA
+//	{
+//		priority = -2;
+//	};
+//
+//    //OPFOR
+//	class rhs_faction_msv;
+//	class ascz_rhs_faction_ru: rhs_faction_msv
+//	{
+//		priority = -9;
+//	};
+//	class LOP_ChDKZ
+//	{
+//		priority = -8;
+//	};
+//	class LOP_SLA
+//	{
+//		priority = -7;
+//	};
+//	class OPF_F
+//	{
+//		priority = -6;
+//	};
+//	class TKA_A3
+//	{
+//		priority = -5;
+//	};
+//	class LOP_AM_O
+//	{
+//		priority = -4;
+//	};
+//	class LOP_US
+//	{
+//		priority = -3;
+//	};
+//	class MOL_army
+//	{
+//		priority = -2;
+//	};
+//
+//	//CIV
+//	class CIV_F
+//	{
+//		priority = 1;
+//	};
+//	class rds_rus_civ
+//	{
+//		priority = 2;
+//	};
+//	class LOP_TAK_Civ
+//	{
+//		priority = 3;
+//	};
+//	class LOP_AFR_Civ
+//	{
+//		priority = 4;
+//	};
 };

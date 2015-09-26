@@ -12,7 +12,6 @@ class CfgPatches
 class DefaultEventhandlers;
 class UniformSlotInfo;
 
-
 class CfgVehicles
 {
 	class Man;

@@ -129,7 +129,7 @@ class CfgWeapons
 	// Scooe 2
 	class CUP_optic_SUSAT: ItemCore
 	{
-		scope = 2;
+		scope = 1;
 	};
 	class CUP_optic_SB_3_12x50_PMII: ItemCore
 	{

@@ -54,16 +54,18 @@ class Car;
 
 	class CUP_I_Datsun_PK: CUP_Datsun_PK_Base
 	{
-		crew = "CUP_I_GUE_Soldier_AKSU";
-		faction = "rhs_faction_insurgents";
-		typicalCargo[] = {"CUP_I_GUE_Soldier_AKSU", "CUP_I_GUE_Soldier_AKSU", "CUP_I_GUE_Soldier_AT"};
+		crew = "LOP_NAPA_Infantry_Rifleman";
+		faction = "LOP_NAPA";
+		vehicleClass = "LOP_Wheeled";
+		typicalCargo[] = {"LOP_NAPA_Infantry_Rifleman", "LOP_NAPA_Infantry_Rifleman", "LOP_NAPA_Infantry_Rifleman"};
 	};
 
 	class CUP_I_Datsun_PK_Random: CUP_Datsun_PK_Base
 	{
-		crew = "CUP_I_GUE_Soldier_AKSU";
-		faction = "rhs_faction_insurgents";
-		typicalCargo[] = {"CUP_I_GUE_Soldier_AKSU", "CUP_I_GUE_Soldier_AKSU", "CUP_I_GUE_Soldier_AT"};
+		crew = "LOP_NAPA_Infantry_Rifleman";
+		faction = "LOP_NAPA";
+		vehicleClass = "LOP_Wheeled";
+		typicalCargo[] = {"LOP_NAPA_Infantry_Rifleman", "LOP_NAPA_Infantry_Rifleman", "LOP_NAPA_Infantry_Rifleman"};
 	};
 
 

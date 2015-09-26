@@ -10,7 +10,7 @@ class CfgPatches
 };
 
 class CfgFactionClasses {
-	class rhs_faction_insurgents
+	class LOP_NAPA
 	{
 		displayName = "NAPA";
 		icon = "\ASCZ_lop_replacement\napa\icon_napa_co.paa";
@@ -69,35 +69,39 @@ class CfgFactionClasses {
 
 class CfgGroups
 {
-	class West
-	{
-		class LOP_CDF
-		{
-			name = "CDF (2014)";
-        };
-        class LOP_IA
-        {
-            class Mechanized
-            {
-                class LOP_IA_Mech_squad_BMP2
-                {
-                    class Unit6
-                    {
-                        vehicle = "LOP_IA_BMP2";
-                    };
-                };
-                class LOP_IA_Mech_squad_BMP1
-                {
-                    class Unit6
-                    {
-                        vehicle = "LOP_IA_BMP1";
-                    };
-                };
-            };
-        };
-    };
+//	class West
+//	{
+//		class LOP_CDF
+//		{
+//			name = "CDF (2014)";
+//        };
+//        class LOP_IA
+//        {
+//            class Mechanized
+//            {
+//                class LOP_IA_Mech_squad_BMP2
+//                {
+//                    class Unit6
+//                    {
+//                        vehicle = "LOP_IA_BMP2";
+//                    };
+//                };
+//                class LOP_IA_Mech_squad_BMP1
+//                {
+//                    class Unit6
+//                    {
+//                        vehicle = "LOP_IA_BMP1";
+//                    };
+//                };
+//            };
+//        };
+//    };
 	class EAST
 	{
+		class LOP_TKA
+		{
+			name = "Russia (80s)";
+		};
 		class LOP_AM_O
 		{
 			name = "Takistani Militia";
@@ -436,48 +440,48 @@ class CfgGroups
         {
             name = "PMC";
         };
-        class rhs_faction_insurgents
-        {
-            name = "NAPA";
-            delete rhs_group_indp_ins_bmd2;
-            delete rhs_group_indp_ins_btr70;
-			class rhs_group_indp_ins_72
-			{
-				name = "T-72 Groups";
-				aliveCategory="Armored";
-
-
-				class RHS_T72BBPlatoon
-				{
-					name = "T-72 g.1984 Platoon";
-					side = 2;
-					faction = "rhs_faction_insurgents";
-					class Unit0
-					{
-						side = 2;
-						vehicle = "ascz_rhs_T72BB";
-						rank = "LIEUTENANT";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 2;
-						vehicle = "ascz_rhs_T72BB";
-						rank = "SERGEANT";
-						position[] = {-20,-30,3};
-					};
-					class Unit2
-					{
-						side = 2;
-						vehicle = "ascz_rhs_T72BB";
-						rank = "SERGEANT";
-						position[] = {20,-30,3};
-					};
-				};
-				delete RHS_T72BBPlatoon_AA;
-				delete RHS_T72BBSection;
-			};
-        };
+//        class rhs_faction_insurgents
+//        {
+//            name = "NAPA";
+//            delete rhs_group_indp_ins_bmd2;
+//            delete rhs_group_indp_ins_btr70;
+//			class rhs_group_indp_ins_72
+//			{
+//				name = "T-72 Groups";
+//				aliveCategory="Armored";
+//
+//
+//				class RHS_T72BBPlatoon
+//				{
+//					name = "T-72 g.1984 Platoon";
+//					side = 2;
+//					faction = "rhs_faction_insurgents";
+//					class Unit0
+//					{
+//						side = 2;
+//						vehicle = "ascz_rhs_T72BB";
+//						rank = "LIEUTENANT";
+//						position[] = {0,0,0};
+//					};
+//					class Unit1
+//					{
+//						side = 2;
+//						vehicle = "ascz_rhs_T72BB";
+//						rank = "SERGEANT";
+//						position[] = {-20,-30,3};
+//					};
+//					class Unit2
+//					{
+//						side = 2;
+//						vehicle = "ascz_rhs_T72BB";
+//						rank = "SERGEANT";
+//						position[] = {20,-30,3};
+//					};
+//				};
+//				delete RHS_T72BBPlatoon_AA;
+//				delete RHS_T72BBSection;
+//			};
+//        };
 		class LOP_AM
 		{
 			name = "Takistani Local";

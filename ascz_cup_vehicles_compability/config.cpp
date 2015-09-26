@@ -13,6 +13,7 @@ class DefaultEventhandlers;
 class CfgVehicles
 {
 	#include "av8.hpp"
+	#include "mv22.hpp"
 	#include "avv.hpp"
 	#include "datsun.hpp"
 };

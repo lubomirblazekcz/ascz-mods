@@ -35,8 +35,9 @@ class LandVehicle;
 	class CUP_AAV_Base:  APC_Tracked_02_base_F {};
 
 
-	class CUP_B_AAV: CUP_AAV_Base {
-		crew = "B_crew_F";
-		faction = "ascz_rhs_faction_usmc";
-		typicalCargo[] = {"B_crew_F"};
+	class CUP_B_AAV_USMC: CUP_AAV_Base {
+		vehicleClass = "Armored";
+		crew = "rhsusf_usmc_marpat_wd_crewman";
+		faction = "rhs_faction_usmc_wd";
+		typicalCargo[] = {"rhsusf_usmc_marpat_wd_crewman","rhsusf_usmc_marpat_wd_crewman","rhsusf_usmc_marpat_wd_crewman"};
 	};
