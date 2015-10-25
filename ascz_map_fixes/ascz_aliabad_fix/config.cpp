@@ -23,7 +23,20 @@ class CfgWorlds
 		description = "Aliabad";
 		pictureMap = "\ascz_aliabad_fix\Data\Aliabad_ca.paa";
 		pictureShot = "\ascz_aliabad_fix\Data\ui_aliabad_ca.paa";
-
+		
+		class OutsideTerrain
+		{
+			satellite = "MCN\MCN_Aliabad\data\ali_satout_co.paa";
+			enableTerrainSynth = 0;
+			class Layers
+			{
+				class Layer0
+				{
+					nopx = "MCN\MCN_Aliabad\data\ali_hlina_nopx.paa";
+					texture = "MCN\MCN_Aliabad\data\ali_hlina_co.paa";
+				};
+			};
+		};
         class Clutter
         {
             class sm_GrassCrooked: DefaultClutter

@@ -30,7 +30,20 @@ class CfgWorlds
 		description = "Celle";
 		pictureMap = "\ascz_celle_fix\Data\Celle_ca.paa";
 		pictureShot = "\ascz_celle_fix\Data\ui_celle_ca.paa";
-
+		
+		class OutsideTerrain
+		{
+			satellite = "ca\CHERNARUS\data\s_satout_co.paa";
+			enableTerrainSynth = 0;
+			class Layers
+			{
+				class Layer0
+				{
+					nopx = "ca\CHERNARUS\data\cr_trava1_detail_nopx.paa";
+					texture = "ca\CHERNARUS\data\cr_trava1_detail_co.paa";
+				};
+			};
+		};
         class Clutter
         {
             class mbg_celle2_grass_green_long: DefaultClutter
