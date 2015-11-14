@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {"CUP_I_GUE_Soldier_AKSU","CUP_I_GUE_Soldier_AKM"};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"CUP_Creatures_Military_USMC", "CUP_Creatures_Military_Napa_Soldier"};
+		requiredAddons[] = {"CUP_Creatures_Military_USMC"};
 	};
 };
 
@@ -27,5 +27,5 @@ class CfgVehicles
 	};
 	class SoldierWB: CAManBase{};
 	#include "usmc.hpp"
-	#include "napa.hpp"
+//	#include "napa.hpp"
 };
